@@ -20,22 +20,22 @@ const d = t(lang);
 ---
 
 <BaseLayout lang={lang} title={pub.title} nav="publications" path={`/publications/${pub.id}/`} hasAlternate={!pub.lang}>
-  <div class="my-[10px]"><PubBadge lang={lang} type={pub.type} /></div>
+  <div class="page-meta"><PubBadge lang={lang} type={pub.type} /></div>
   <PageTitle variant="pub">{pub.title}</PageTitle>
   <div class="page-content">
     <p>{pub.citation}</p>
     <PubLinks pub={pub} />
     {pub.tags.length > 0 && (
-      <ul class="mt-[15px] text-right text-[13px] tracking-[1px]">
+      <ul class="pub-tags">
         {pub.tags.map((tag) => (
-          <li class="inline-block ml-[10px] first:ml-0">
+          <li>
             <a class="pub-tag" href={localePath(lang, `/publications/tag/${tag}/`)}>{tagLabel(lang, tag)}</a>
           </li>
         ))}
       </ul>
     )}
   </div>
-  <div class="mt-[20px] text-[14px]">
+  <div class="page-back">
     <a href={localePath(lang, '/publications/')}><i class="fa fa-angle-double-left" aria-hidden="true"></i> {d.backToList}</a>
   </div>
 </BaseLayout>

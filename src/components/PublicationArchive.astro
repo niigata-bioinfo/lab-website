@@ -29,9 +29,9 @@ const pagePath = page.current === 1 ? path : `${path}page/${page.current}/`;
 <BaseLayout lang={lang} title={heading ?? d.publications.title} nav="publications" path={pagePath}>
   <PageTitle>{d.publications.title}</PageTitle>
   <PublicationFilter lang={lang} years={years} tags={tags} selectedType={selectedType} selectedYear={selectedYear} selectedTag={selectedTag} />
-  {heading && <h2 class="mb-[15px] text-brown text-[16px] font-bold tracking-[1px]">{heading}</h2>}
+  {heading && <h2 class="section-heading">{heading}</h2>}
   {page.items.length === 0 ? (
-    <p class="my-[30px] mx-[20px] text-[16px]">{d.publications.empty}</p>
+    <p class="empty-note">{d.publications.empty}</p>
   ) : (
     <ul class="archive-list">
       {page.items.map((pub) => <PublicationItem lang={lang} pub={pub} />)}

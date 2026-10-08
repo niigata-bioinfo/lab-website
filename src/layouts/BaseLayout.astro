@@ -3,8 +3,10 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Sidebar from '../components/Sidebar.astro';
+import ThemeSwitcher from '../components/ThemeSwitcher.astro';
 import { t, localePath, otherLang, type Lang } from '../lib/i18n';
 import { site } from '../data/site';
+import { themes, defaultTheme, THEME_STORAGE_KEY } from '../data/themes';
 
 export type NavKey = 'home' | 'news' | 'introduction' | 'members' | 'publications' | 'access' | 'links';
 
@@ -29,10 +31,11 @@ const pageTitle = title ? `${title} – ${d.siteTitle}` : d.metaTitle;
 const other = otherLang(lang);
 const altPath = localePath(other, hasAlternate ? path : '/');
 const canonical = new URL(localePath(lang, path), site.url).href;
+const themeIds = themes.map((th) => th.id);
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={lang} data-theme={defaultTheme}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -44,27 +47,32 @@ const canonical = new URL(localePath(lang, path), site.url).href;
     <link rel="alternate" hreflang={lang} href={canonical} />
     <link rel="icon" href="/icon.png" sizes="192x192" />
     <link rel="apple-touch-icon" sizes="180x180" href="/icon.png" />
+    <!-- 保存済みのテーマを描画前に反映する (ちらつき防止) -->
+    <script is:inline define:vars={{ themeIds, key: THEME_STORAGE_KEY }}>
+      try {
+        const saved = localStorage.getItem(key);
+        if (saved && themeIds.includes(saved)) document.documentElement.dataset.theme = saved;
+      } catch {}
+    </script>
   </head>
-  <body class="min-w-full lg:min-w-[1020px]">
+  <body>
     <Header lang={lang} nav={nav} altPath={altPath} />
-    {top && <div class="index-bg relative hidden lg:block h-[180px] bg-[url('/images/top_bg.jpg')] bg-no-repeat bg-[length:100%_auto] shadow-[inset_0_5px_10px_-5px_rgba(0,0,0,.5),inset_0_-5px_10px_-5px_rgba(0,0,0,.5)] -z-10"></div>}
-    {top ? (
-      <div class="site-w mt-[10px] lg:my-[30px] min-h-[600px]">
-        <slot />
-      </div>
-    ) : (
-      <div class="site-w mt-[10px] lg:my-[30px] min-h-[600px] lg:flex lg:justify-between">
-        <main class="w-full lg:w-[690px]">
-          <slot />
-        </main>
-        <Sidebar lang={lang} />
-      </div>
-    )}
+    {top && <div class="hero-bg"></div>}
+    <div class={`site-w site-main ${top ? 'site-main--top' : ''}`}>
+      {top ? <slot /> : (
+        <>
+          <main class="content"><slot /></main>
+          <Sidebar lang={lang} />
+        </>
+      )}
+    </div>
     <Footer lang={lang} />
+    <ThemeSwitcher lang={lang} />
+    <script src="../scripts/theme-effects.ts"></script>
     {top && (
       <script>
-        // トップページ背景のパララックス (旧テーマ common.js と同じ挙動)
-        const bg = document.querySelector<HTMLElement>('.index-bg');
+        // legacy テーマのトップページ背景のパララックス (旧テーマ common.js と同じ挙動)
+        const bg = document.querySelector<HTMLElement>('.hero-bg');
         if (bg) {
           const onScroll = () => {
             const s = window.scrollY;

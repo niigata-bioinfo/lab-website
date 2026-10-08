@@ -16,65 +16,61 @@ const intro = await getEntry('pages', `${lang}/home`);
 if (!intro) throw new Error(`src/content/pages/${lang}/home.md がありません`);
 const { Content } = await render(intro);
 const pubs = (await publicationsFor(lang)).slice(0, site.topPublications);
+const news = (await newsFor(lang)).slice(0, site.topNews);
 /** 旧サイトの抜粋と同じく 50 語で切り、切った場合はリンクを出さない */
 function excerpt(text: string): { text: string; truncated: boolean } {
   const words = text.split(/\s+/);
   if (words.length <= 50) return { text, truncated: false };
   return { text: words.slice(0, 50).join(' ') + ' …', truncated: true };
 }
-const news = (await newsFor(lang)).slice(0, site.topNews);
 ---
 
 <BaseLayout lang={lang} nav="home" path="/" top>
   {d.top.recruitment && (
-    <p class="text-[18px] font-bold"><a href={localePath(lang, '/recruitment/')}>{d.top.recruitment}</a></p>
+    <p><a class="special-link" href={localePath(lang, '/recruitment/')}>{d.top.recruitment}</a></p>
   )}
 
-  <section class="my-[25px] lg:my-[50px] lg:flex lg:justify-between lg:items-start">
-    <div class="lg:w-full">
-      <h2 class="page-title">{d.top.about}</h2>
-      <div class="lg:flex lg:justify-between">
-        <div class="top-intro-text lg:w-[630px]"><Content /></div>
-        <img class="hidden lg:block" src="/images/top_papers.png" width="300" height="350" alt="" />
-      </div>
+  <section class="top-section">
+    <h2 class="page-title">{d.top.about}</h2>
+    <div class="top-intro">
+      <div class="top-intro__text"><Content /></div>
+      <img class="top-intro__img" src="/images/top_papers.png" width="300" height="350" alt="" />
     </div>
   </section>
 
-  <section class="my-[25px] lg:my-[50px]">
+  <section class="top-section">
     <h2 class="page-title">{d.top.latestPublications}</h2>
-    <ul class="lg:flex lg:flex-wrap lg:-mx-[10px]">
+    <ul class="pub-cards">
       {pubs.map((p) => { const ex = excerpt(p.citation); return (
-        <li class="mb-[10px] lg:w-1/3 lg:h-[300px] lg:mb-[20px] lg:px-[10px] box-border">
-          <div class="relative h-full bg-white text-ink shadow-card overflow-hidden">
-            <a class="block h-full p-[10px] pb-[35px] lg:p-[20px] lg:pb-[50px] text-ink hover:no-underline hover:opacity-80" href={localePath(lang, `/publications/${p.id}/`)}>
-              <div class="text-[12px] leading-[1.7] lg:text-[13px] lg:leading-[1.8]">
+        <li class="pub-card">
+          <div class="pub-card__inner">
+            <a class="pub-card__link" href={localePath(lang, `/publications/${p.id}/`)}>
+              <div class="pub-card__text">
                 <p>{ex.text}</p>
-                {!ex.truncated && <PubLinks pub={p} class="mt-[5px]" plain />}
+                {!ex.truncated && <PubLinks pub={p} class="pub-card__links" plain />}
               </div>
             </a>
-            <PubBadge lang={lang} type={p.type} class="absolute bottom-0 right-0 min-w-[100px] lg:min-w-[120px] text-[12px] lg:text-[14px] p-[5px] lg:px-[10px]" />
+            <PubBadge lang={lang} type={p.type} class="pub-card__badge" />
           </div>
         </li>
       ); })}
     </ul>
-    <div class="mt-[5px] lg:mt-[10px] text-[12px] lg:text-[14px] font-bold text-right">
+    <div class="more-link">
       <a href={localePath(lang, '/publications/')}><i class="fa fa-angle-double-right" aria-hidden="true"></i> {d.top.publicationsList}</a>
     </div>
   </section>
 
-  <section class="my-[25px] lg:my-[50px]">
+  <section class="top-section">
     <h2 class="page-title">{d.top.news}</h2>
-    <ul class="mt-[15px] lg:mt-[50px] space-y-[10px] lg:space-y-[20px]">
+    <ul class="top-news">
       {news.map((n) => (
         <li>
-          <p class="text-[12px] lg:text-[13px] text-gold font-bold">{formatDate(n.data.date)}{d.top.updated}</p>
-          <p class="mt-[3px] lg:mt-[5px] text-[12px] lg:text-[16px] leading-[1.7] lg:leading-[1.8]">
-            <a class="text-ink hover:text-accent" href={localePath(lang, `/news/${newsSlug(n)}/`)}>{newsTitle(n, lang)}</a>
-          </p>
+          <p class="top-news__date">{formatDate(n.data.date)}{d.top.updated}</p>
+          <p class="top-news__item"><a href={localePath(lang, `/news/${newsSlug(n)}/`)}>{newsTitle(n, lang)}</a></p>
         </li>
       ))}
     </ul>
-    <div class="mt-[5px] lg:mt-[10px] text-[12px] lg:text-[14px] font-bold text-right">
+    <div class="more-link">
       <a href={localePath(lang, '/news/')}><i class="fa fa-angle-double-right" aria-hidden="true"></i> {d.top.newsList}</a>
     </div>
   </section>

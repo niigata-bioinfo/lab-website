@@ -1,6 +1,6 @@
 ---
 interface Props { variant?: 'left' | 'pub' | 'center' }
 const { variant = 'left' } = Astro.props;
-const cls = variant === 'pub' ? 'page-title-pub' : variant === 'left' ? 'page-title-left' : '';
+const cls = variant === 'pub' ? 'page-title--pub' : variant === 'left' ? 'page-title--left' : '';
 ---
 <h1 class={`page-title ${cls}`}><slot /></h1>

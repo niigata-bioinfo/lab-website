@@ -22,12 +22,10 @@ const hasAlternate = lang === 'ja' ? Boolean(entry.data.titleEn) : true;
 ---
 
 <BaseLayout lang={lang} title={title} nav="news" path={`/news/${newsSlug(entry)}/`} hasAlternate={hasAlternate}>
-  <div class="my-[10px] text-muted text-[14px] font-bold tracking-[1px]">
-    <p class="archive-date inline-block align-middle">{formatDate(entry.data.date)}</p>
-  </div>
+  <div class="page-meta"><p class="archive-date">{formatDate(entry.data.date)}</p></div>
   <PageTitle>{title}</PageTitle>
-  <div class="page-content page-content-news"><Content /></div>
-  <div class="mt-[20px] text-[14px]">
+  <div class="page-content"><Content /></div>
+  <div class="page-back">
     <a href={localePath(lang, '/news/')}><i class="fa fa-angle-double-left" aria-hidden="true"></i> {d.backToList}</a>
   </div>
 </BaseLayout>

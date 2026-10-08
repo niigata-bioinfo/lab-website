@@ -17,12 +17,10 @@ const { lang, pub } = Astro.props;
     <PubLinks pub={pub} />
   </div>
   {pub.tags.length > 0 && (
-    <div class="mt-[15px] pt-[10px] border-t border-dotted border-brand-600">
-      <ul class="text-right text-[13px] tracking-[1px]">
+    <div class="archive-misc">
+      <ul class="pub-tags">
         {pub.tags.map((tag) => (
-          <li class="inline-block ml-[10px] first:ml-0">
-            <a class="pub-tag" href={localePath(lang, `/publications/tag/${tag}/`)}>{tagLabel(lang, tag)}</a>
-          </li>
+          <li><a class="pub-tag" href={localePath(lang, `/publications/tag/${tag}/`)}>{tagLabel(lang, tag)}</a></li>
         ))}
       </ul>
     </div>

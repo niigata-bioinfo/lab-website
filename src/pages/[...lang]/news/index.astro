@@ -16,12 +16,12 @@ const rendered = await Promise.all(news.map(async (n) => ({ n, Content: (await r
 <BaseLayout lang={lang} title={d.news.title} nav="news" path="/news/">
   <PageTitle>{d.news.title}</PageTitle>
   {rendered.length === 0 ? (
-    <p class="my-[30px] mx-[20px] text-[16px]">{d.news.empty}</p>
+    <p class="empty-note">{d.news.empty}</p>
   ) : (
     <ul class="archive-list">
       {rendered.map(({ n, Content }) => (
         <li>
-          <div class="archive-meta"><p class="archive-date inline-block align-middle">{formatDate(n.data.date)}</p></div>
+          <div class="archive-meta"><p class="archive-date">{formatDate(n.data.date)}</p></div>
           <p class="archive-title"><a href={localePath(lang, `/news/${newsSlug(n)}/`)}>{newsTitle(n, lang)}</a></p>
           <div class="archive-text"><Content /></div>
         </li>

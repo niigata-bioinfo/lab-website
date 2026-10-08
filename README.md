@@ -73,8 +73,28 @@ faculty:
 |---|---|
 | 住所・電話・メール・地図 | `src/data/site.ts` |
 | 画面の文言 (見出し、ボタン、種別名、タグ名) | `src/i18n/ja.json`, `src/i18n/en.json` |
-| 配色・フォント | `src/styles/global.css` の `@theme` |
+| 配色・フォント | `src/styles/global.css` の `@theme` と `src/styles/themes/*.css` |
 | 1 ページあたりの業績件数、トップの表示件数 | `src/data/site.ts` |
+
+## テーマ (見た目の切り替え)
+
+画面右下のセレクトボックスでテーマを切り替えられます。選択は `localStorage` に保存され、次回以降も維持されます。
+HTML は全テーマで共通で、`<html data-theme="...">` の値に応じて CSS が切り替わる仕組みです。
+
+| テーマ | 内容 |
+|---|---|
+| `legacy` (既定) | 旧 WordPress テーマの見た目をそのまま再現 |
+| `helix` | 暗い背景に WebGL (Three.js) の DNA 二重らせんが回る、ガラス質のカード UI |
+
+テーマを追加するには次の 3 か所を触ります。
+
+1. `src/data/themes.ts` の配列に `{ id, label }` を 1 行足す。
+2. `src/styles/themes/<id>.css` を作り、`[data-theme="<id>"]` スコープで各クラスのスタイルを書く
+   (`legacy.css` にあるクラス一覧がそのまま雛形になります)。`global.css` で import する。
+3. 背景アニメーションなど JS が必要なら `src/scripts/theme-effects.ts` に動的 import を登録する。
+   登録したコードは、そのテーマが選ばれたときだけ読み込まれます (`helix` の Three.js は約 540KB、gzip で約 130KB)。
+
+`helix` の 3D 背景は `prefers-reduced-motion` が有効なら静止画になり、タブが非表示の間は描画を止めます。
 
 ## 構成
 

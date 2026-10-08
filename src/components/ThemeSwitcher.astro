@@ -1,0 +1,27 @@
+---
+import { themes, defaultTheme, THEME_STORAGE_KEY } from '../data/themes';
+import { t, type Lang } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const d = t(lang);
+---
+
+<div class="theme-switcher">
+  <label for="theme-select">{d.theme.label}</label>
+  <select id="theme-select" data-default={defaultTheme} data-key={THEME_STORAGE_KEY}>
+    {themes.map((th) => <option value={th.id}>{th.label[lang]}</option>)}
+  </select>
+</div>
+
+<script>
+  const sel = document.getElementById('theme-select') as HTMLSelectElement | null;
+  if (sel) {
+    const key = sel.dataset.key!;
+    sel.value = document.documentElement.dataset.theme ?? sel.dataset.default!;
+    sel.addEventListener('change', () => {
+      document.documentElement.dataset.theme = sel.value;
+      try { localStorage.setItem(key, sel.value); } catch {}
+      window.dispatchEvent(new CustomEvent('themechange', { detail: sel.value }));
+    });
+  }
+</script>

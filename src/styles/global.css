@@ -1,28 +1,44 @@
 @import "tailwindcss";
+@import "./themes/legacy.css";
+@import "./themes/helix.css";
 
 /*
- * デザイントークン。旧テーマ (bioinfo_wp/style.css) の配色・フォントをそのまま移した。
- * 色を変えたいときはここを書き換える。
+ * 共通のデザイントークン。各テーマはこの名前の色・フォントを使う。
+ * テーマごとの見た目は src/styles/themes/<id>.css に [data-theme="<id>"] スコープで書く。
  */
 @theme {
   --font-sans: Arial, Helvetica, sans-serif;
+  --font-modern: "Inter", "Helvetica Neue", system-ui, -apple-system, "Segoe UI", sans-serif;
   --breakpoint-lg: 992px; /* 旧テーマのモバイル境界 (max-width: 991px) に合わせる */
 
-  --color-brand-950: #00352f; /* ヘッダー・フッター背景 */
-  --color-brand-700: #236a62; /* 一覧タイトルの点線 */
-  --color-brand-600: #42847d; /* 論文バッジ、ホバー */
-  --color-brand-400: #6a9e99; /* ナビの罫線、ホバー背景 */
-  --color-accent: #cf686f;    /* リンク、口頭発表バッジ、ページャ */
-  --color-gold: #d4af6a;      /* 日付、ポスターバッジ */
-  --color-brown: #805a15;     /* 見出し */
+  /* legacy: 旧 WordPress テーマの配色 */
+  --color-brand-950: #00352f;
+  --color-brand-700: #236a62;
+  --color-brand-600: #42847d;
+  --color-brand-400: #6a9e99;
+  --color-accent: #cf686f;
+  --color-gold: #d4af6a;
+  --color-brown: #805a15;
   --color-brown-dark: #553700;
-  --color-steel: #6a829e;     /* 講演バッジ */
+  --color-steel: #6a829e;
   --color-cream: #ffe1aa;
-  --color-ink: #333333;       /* 本文 */
+  --color-ink: #333333;
   --color-muted: #999999;
   --color-silver: #aaaaaa;
   --color-line: #cccccc;
   --color-panel: #eeeeee;
+
+  /* helix: 暗い背景に発光色 */
+  --color-night-950: #050b14;
+  --color-night-900: #0a1424;
+  --color-night-800: #12203a;
+  --color-glow-cyan: #22d3ee;
+  --color-glow-teal: #5eead4;
+  --color-glow-violet: #a78bfa;
+  --color-glow-pink: #f472b6;
+  --color-glow-amber: #fbbf24;
+  --color-frost: #d7e3f0;
+  --color-frost-dim: #8fa3bd;
 
   --shadow-card: 1px 1px 4px 1px rgb(0 0 0 / 0.2);
 }
@@ -38,10 +54,7 @@
 
 @layer base {
   html { font-size: 12px; }
-  body { @apply bg-white text-ink font-sans; }
   h1, h2, h3, h4, h5, h6 { line-height: 1; }
-  a { @apply text-accent no-underline; }
-  a:hover { @apply underline; }
   .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -67,96 +80,9 @@
   .fa-caret-right::before { content: "\f0da"; }
 }
 
+/* テーマに依らない骨格 */
 @layer components {
-  /* 1000px 固定幅のコンテナ。モバイルでは全幅 + 10px 余白 */
   .site-w { @apply w-full px-[10px] lg:w-[1000px] lg:px-0 lg:mx-auto; }
-
-  /* ページ見出し (旧 .commonTitle01) */
-  .page-title {
-    @apply mb-[10px] p-[5px] border-b border-current text-brown text-[18px] font-normal tracking-[1px] text-center
-           lg:mb-[15px] lg:pt-[40px] lg:pr-[10px] lg:pb-[10px] lg:pl-[13px] lg:text-[26px] lg:tracking-[3px];
-  }
-  .page-title-left { @apply text-left lg:pt-[10px] lg:pr-0 lg:pb-[5px] lg:pl-[2px]; }
-  .page-title-pub { @apply text-left leading-[1.6] lg:py-[10px] lg:px-0 lg:text-[22px] lg:tracking-[1px]; }
-
-  /* 外部リンクのアイコン付きリンク (業績の PubMed / 雑誌リンク) */
-  .ext-link { @apply inline-block ml-[10px]; }
-  .ext-link::before {
-    content: "\f14c";
-    font-family: FontAwesome;
-    @apply inline-block mr-[5px] mb-[2px] text-[14px] leading-none font-normal align-middle;
-  }
-
-  /* Markdown から生成した本文 (旧 .pageContent) */
-  .page-content { @apply mt-[30px] pb-[30px] border-b border-brown; }
-  .page-content p, .page-content dl { @apply mt-[1.6em] text-[14px] leading-[1.7] text-left lg:text-[16px] lg:leading-[1.8]; }
-  .page-content ul, .page-content ol { @apply my-[1.6em] pl-[25px] text-[14px] leading-[1.7] text-left lg:text-[16px] lg:leading-[1.8]; }
-  .page-content ul { @apply list-disc; }
-  .page-content ol { @apply list-decimal; }
-  .page-content h3 { @apply mt-[35px] pb-[5px] border-b border-dotted border-current text-brown text-[18px] font-bold tracking-[1px]; }
-  .page-content h4 { @apply mt-[25px] text-brown text-[15px] font-bold tracking-[1px]; }
-  .page-content hr { @apply my-[15px] border-0 border-t border-brown; }
-  .page-content dl > dt { @apply font-bold; }
-  .page-content dl > dd + dt { @apply mt-[10px]; }
-  .page-content table { @apply w-full border border-line border-collapse text-[14px]; }
-  .page-content th { @apply p-[5px] border border-line bg-panel text-center align-top; }
-  .page-content td { @apply p-[5px] border border-line align-top; }
-  .page-content pre { @apply p-[10px] bg-panel; }
-  .page-content img { @apply max-w-full h-auto; }
-  .page-content a { word-break: break-all; }
-  .page-content-news p { @apply mt-[1.6em]; }
-
-  /* トップページ「研究室について」の本文 */
-  .top-intro-text { @apply text-[14px] leading-[1.7] text-left lg:text-[16px] lg:leading-[1.8]; }
-  .top-intro-text p + p { @apply mt-[1.5em] lg:mt-[1.8em]; }
-  .top-intro-text h3 { @apply mb-[20px] text-[16px] font-bold; }
-  .top-intro-text h4 { @apply mt-[20px] mb-[10px] text-[14px] font-bold; }
-  .top-intro-text ul { @apply pl-[25px] list-disc; }
-  .top-intro-text ol { @apply pl-[25px] list-decimal; }
-
-  /* お知らせ・業績の一覧カード (旧 .archiveList) */
-  .archive-list > li { @apply p-[15px] shadow-card lg:p-[20px]; }
-  .archive-list > li + li { @apply mt-[15px] lg:mt-[30px]; }
-  .archive-meta { @apply text-muted text-[12px] font-bold tracking-[1px]; }
-  .archive-date::before {
-    content: "\f073";
-    font-family: FontAwesome;
-    @apply inline-block mr-[5px] mb-[4px] text-gold text-[16px] leading-none font-normal align-middle;
-  }
-  .archive-title { @apply mt-[10px] pb-[5px] border-b border-dotted border-brand-700 text-[16px] font-bold; }
-  .archive-title a { @apply text-inherit; }
-  .archive-text { @apply mt-[15px] text-[14px] leading-[1.6]; }
-  .archive-text p + p { @apply mt-[10px]; }
-  .archive-text ul, .archive-text ol { @apply pl-[25px]; }
-  .archive-text ul { @apply list-disc; }
-  .archive-text ol { @apply list-decimal; }
-
-  /* 業績の種別バッジ (旧 .pubCategory_li) */
-  .pub-badge { @apply inline-block min-w-[90px] p-[3px] text-white bg-silver text-[12px] tracking-[1px] text-center align-top lg:p-[5px] lg:text-[13px]; }
-  .pub-badge-poster { @apply bg-gold; }
-  .pub-badge-paper { @apply bg-brand-600; }
-  .pub-badge-talk { @apply bg-accent; }
-  .pub-badge-lecture { @apply bg-steel; }
-
-  /* 業績のタグ (旧 .pubTags) */
-  .pub-tag::before {
-    content: "\f02b";
-    font-family: FontAwesome;
-    @apply inline-block mr-[5px] mb-[2px] text-[14px] leading-none font-normal align-middle;
-  }
-
-  /* ページャ (旧 .archivePager) */
-  .pager li { @apply inline-block w-[30px] h-[30px] mx-[1px] text-[13px] font-bold leading-[28px] text-center align-middle lg:w-[35px] lg:h-[35px] lg:mx-[2px] lg:text-[16px] lg:leading-[33px]; }
-  .pager li > a, .pager li > span { @apply block h-full border border-accent bg-white; }
-  .pager li > a:hover { @apply bg-accent text-white no-underline; }
-  .pager li > span.current { @apply bg-accent text-white; }
-  .pager li > span.dots { @apply border-white text-silver; }
-
-  /* サイドバーのお知らせ */
-  .side-list > li { @apply relative pl-[12px]; }
-  .side-list > li::before {
-    content: "\f105";
-    font-family: FontAwesome;
-    @apply absolute left-[2px] text-line;
-  }
+  .theme-switcher { @apply fixed bottom-[12px] right-[12px] z-50 flex items-center gap-[6px] text-[12px]; }
+  .theme-switcher select { @apply h-[28px] px-[6px] text-[12px]; }
 }

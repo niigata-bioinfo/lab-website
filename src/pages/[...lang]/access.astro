@@ -24,9 +24,9 @@ const c = site.contact[lang];
       <dd>{c.tel}</dd>
     </dl>
   </div>
-  <div class="my-[30px]">
-    <iframe src={site.mapEmbedUrl} class="w-full h-[450px] border-0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps"></iframe>
-    <p class="mt-[50px] text-brown text-[16px] font-bold">{d.access.campusMap}</p>
-    <img class="block mt-[10px] max-w-full h-auto" src={c.campusMap} width="624" height="684" alt="Campus Map" />
+  <div class="access-map">
+    <iframe src={site.mapEmbedUrl} allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps"></iframe>
+    <p class="campus-map__title">{d.access.campusMap}</p>
+    <img class="campus-map__img" src={c.campusMap} width="624" height="684" alt="Campus Map" />
   </div>
 </BaseLayout>

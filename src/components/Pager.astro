@@ -16,7 +16,7 @@ if (total > 1) {
 }
 ---
 {total > 1 && (
-  <nav class="pager my-[25px] lg:my-[40px] text-center" aria-label="pagination">
+  <nav class="pager" aria-label="pagination">
     <ul>
       {current > 1 && <li><a href={href(current - 1)} aria-label="previous"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a></li>}
       {cells.map((c) =>
