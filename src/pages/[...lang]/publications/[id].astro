@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageTitle from '../../../components/PageTitle.astro';
+import PubBadge from '../../../components/PubBadge.astro';
+import PubLinks from '../../../components/PubLinks.astro';
+import { t, localePath, tagLabel, langs, langParam, type Lang } from '../../../lib/i18n';
+import { publicationsFor, type Publication } from '../../../lib/publications';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const lang of langs) {
+    for (const pub of await publicationsFor(lang)) {
+      paths.push({ params: { lang: langParam(lang), id: String(pub.id) }, props: { lang, pub } });
+    }
+  }
+  return paths;
+}
+const { lang, pub } = Astro.props as { lang: Lang; pub: Publication };
+const d = t(lang);
+---
+
+<BaseLayout lang={lang} title={pub.title} nav="publications" path={`/publications/${pub.id}/`} hasAlternate={!pub.lang}>
+  <div class="my-[10px]"><PubBadge lang={lang} type={pub.type} /></div>
+  <PageTitle variant="pub">{pub.title}</PageTitle>
+  <div class="page-content">
+    <p>{pub.citation}</p>
+    <PubLinks pub={pub} />
+    {pub.tags.length > 0 && (
+      <ul class="mt-[15px] text-right text-[13px] tracking-[1px]">
+        {pub.tags.map((tag) => (
+          <li class="inline-block ml-[10px] first:ml-0">
+            <a class="pub-tag" href={localePath(lang, `/publications/tag/${tag}/`)}>{tagLabel(lang, tag)}</a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </div>
+  <div class="mt-[20px] text-[14px]">
+    <a href={localePath(lang, '/publications/')}><i class="fa fa-angle-double-left" aria-hidden="true"></i> {d.backToList}</a>
+  </div>
+</BaseLayout>

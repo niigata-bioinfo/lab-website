@@ -1,0 +1,368 @@
+- id: 2605
+  type: paper
+  date: "2022-12-31"
+  title: Elucidating the multiple genetic alterations involved in the malignant transformation of a KRAS mutant neurenteric cyst. A case report.
+  citation: "Saito, S., Natsumeda, M., Sainouchi, M., Takino, T., Shibuya, K., On, J., Kanemaru, Y., Ogura, R., Okada, M., Oishi, M., Shimada, Y., Wakai, T., Okuda, S., Ajioka,Y., kakita, A., Fujii, Y. Elucidating the multiple genetic alterations involved in the malignant transformation of a KRAS mutant neurenteric cyst. A case report. Neuropathology 42(6):519-525 (2022)."
+  pmid: 36146951
+  doi: 10.1111/neup.12822
+  links:
+    - label: Neuropathology
+      url: "https://onlinelibrary.wiley.com/doi/10.1111/neup.12822"
+- id: 2614
+  type: paper
+  date: "2022-12-07"
+  title: Deep learning classification of urinary sediment crystals with optimal parameter tuning.
+  citation: "Nagai, T., Onodera, O., Okuda, S. Deep learning classification of urinary sediment crystals with optimal parameter tuning. Sci. Rep. 12(1):21178(2022)."
+  pmid: 36477082
+  links:
+    - label: Scientific Reports
+      url: "https://www.nature.com/articles/s41598-022-25385-x"
+- id: 2673
+  type: poster
+  date: "2022-12-06"
+  title: Copy number alteration is an independent prognostic biomarker in triple-negative breast cancer patients.
+  citation: "Nagahashi, M., Ling, Y., Toshikawa, C., Hayashida, T., Kitagawa, Y., Futamura, M., Kuwayama, T., Nakamura, S., Yamauchi, H., Yamauchi, T., Kaneko, K., Kanbayashi, C., Sato, N., Tsuchida, J., Moro, K., Nakajima, M., Shimada, Y., Ichikawa, H., Lyle, S., Miyoshi, Y., Takabe, K., Okuda, S., Wakai, T. Copy number alteration is an independent prognostic biomarker in triple-negative breast cancer patients. SABCS2022, San Antonio (2022/12/6)."
+  tags:
+    - cancer-genome
+- id: 2674
+  type: poster
+  date: "2022-12-05"
+  title: A Novel Approach to Construct Variant Protein Sequences for Precision Medical Proteogenomics.
+  citation: "Yiwei, Ling., Okuda, S. A Novel Approach to Construct Variant Protein Sequences for Precision Medical Proteogenomics. HUPO2022, Cancun (2022/12/5)."
+- id: 2795
+  type: lecture
+  date: "2022-12-04"
+  title: 情報科学が拓く癌研究
+  citation: 日本薬学会関西支部 市民講座講演、「情報科学が拓く癌研究」、グランフロント大阪(2022/12/4).
+  lang: ja
+- id: 2675
+  type: poster
+  date: "2022-12-02"
+  title: 近緑種のゲノム情報活用による未知生物のアミノ酸配列予測によるメタプロテオミクスを強力に支援するタンパク質配列データベース構築法
+  citation: 三浦信明、石濱泰、奥田修二郎、「近緑種のゲノム情報活用による未知生物のアミノ酸配列予測によるメタプロテオミクスを強力に支援するタンパク質配列データベース構築法」、第45回日本分子生物学会年会、千葉 (2022/12/2).
+  tags:
+    - db
+  lang: ja
+- id: 2589
+  type: paper
+  date: "2022-11-30"
+  title: NKp44-based chimeric antigen receptor effectively redirects primary T cells against synovial sarcoma.
+  citation: "Murayama,Y., Kasahara, Y., Kubo, N., Shin, C., Imamura,M., Oike, N., Ariizumi, T., Saitoh, A., Baba, M., Miyazaki, T., Suzuki, Y., Ling, Y., Okuda, S., Mihara, K., Ogose, A., Kawashima, H., Imai, C. NKp44-based chimeric antigen receptor effectively redirects primary T cells against synovial sarcoma. Transl. Oncol. 25:101521(2022)."
+  pmid: 35998437
+  links:
+    - label: Translational Oncology
+      url: "https://www.sciencedirect.com/science/article/pii/S1936523322001802?via%3Dihub"
+- id: 2680
+  type: talk
+  date: "2022-11-18"
+  title: がんと細菌叢のバイオインフォマティクス解析
+  citation: 奥田修二郎、「がんと細菌叢のバイオインフォマティクス解析」、2022年度中部乳酸菌研究会、ANAクラウンプラザホテル新潟 (2022/11/18).
+  tags:
+    - cancer-genome
+    - gut-microbiome
+  lang: ja
+- id: 2796
+  type: lecture
+  date: "2022-11-16"
+  title: 癌ゲノムとマイクロバイオーム
+  citation: がん研有明病院NST勉強会、「癌ゲノムとマイクロバイオーム」、オンライン(2022/11/16).
+  lang: ja
+- id: 2617
+  type: paper
+  date: "2022-11-15"
+  title: Elevated bile acid metabolism and microbiome are associated with suppressed cell proliferation and better survival in breast cancer.
+  citation: "Wu, R., Yu, I., Tokumaru, Y., Asaoka, M., Oshi, M., Yan, L., Okuda, S., Ishikawa, T., Takabe, K. Elevated bile acid metabolism and microbiome are associated with suppressed cell proliferation and better survival in breast cancer. Am. J. Cancer Res. 12(11):5271-5285(2022)."
+  pmid: 36504906
+  links:
+    - label: American Journal of Cancer Research
+      url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9729904/"
+- id: 2677
+  type: poster
+  date: "2022-11-09"
+  title: 発酵食品に由来するポリアミン高産生菌Staphylococcus epidermidis FB146のポリアミン関連遺伝子の同定
+  citation: 白澤秀斗、西山知里、平野里佳、小栁喬、奥田修二郎、高木宏樹、栗原新、「発酵食品に由来するポリアミン高産生菌Staphylococcus epidermidis FB146のポリアミン関連遺伝子の同定」第95回日本生化学会大会、名古屋 (2022/11/9).
+  lang: ja
+- id: 2676
+  type: poster
+  date: "2022-11-09"
+  title: 腸内細菌に由来するポリアミンによる宿主の寿命延伸効果
+  citation: 下川ひろみ、堀亜紀、瀧原速仁、門口響、紺谷優季、平野里佳、松本光晴、奥田修二郎、倉石貴透、栗原新、「腸内細菌に由来するポリアミンによる宿主の寿命延伸効果」第95回日本生化学会大会、名古屋 (2022/11/9).
+  tags:
+    - gut-microbiome
+  lang: ja
+- id: 2678
+  type: poster
+  date: "2022-11-02"
+  title: 様々な背景を持つヒト腸内メタゲノムを糖鎖関連遺伝子の分布を用いて比較する
+  citation: 瀧原速仁、木下聖子、奥田修二郎、「様々な背景を持つヒト腸内メタゲノムを糖鎖関連遺伝子の分布を用いて比較する」、日本微生物生態学会第35回大会、札幌 (2022/11/2).
+  tags:
+    - metagenome
+    - glycan
+  lang: ja
+- id: 2603
+  type: paper
+  date: "2022-10-28"
+  title: Differential analysis of microbiomes in mucus and tissues obtained from colorectal cancer patients.
+  citation: "Tajima, Y., Okuda, S., Hanai, T., Hiro, J., Masumori, K., Koide, Y., Kamiya, T., Cheong, Y., Inaguma, G., Shimada, Y., Wakai, T., Takihara, H., Akimoto, S., Matsuoka, H., Uyama, I., Suda, K. Differential analysis of microbiomes in mucus and tissues obtained from colorectal cancer patients. Sci. Rep. 12(1)18193(2022)."
+  pmid: 36307456
+  links:
+    - label: Scientific Reports
+      url: "https://www.nature.com/articles/s41598-022-21928-4"
+- id: 2615
+  type: paper
+  date: "2022-10-25"
+  title: Gene panel testing detects important genetic alterations in ulcerative colitis-associated colorectal neoplasia.
+  citation: "Shimada, Y., Nakano, M., Mizuno, K. I., Yokoyama, J., Matsumoto, A., Tanaka, K., Oyanagi, H., Nakano, M., Hirose, Y., Ichikawa, H., Sakata, J., Kameyama, H., Takii, Y., Sugi, M., Ling, Y., Takeuchi, S., Okuda, S., Terai, S., Ajioka, Y., Wakai, T. Gene panel testing detects important genetic alterations in ulcerative colitis-associated colorectal neoplasia. Oncol. Lett. 24(6):442(2022)."
+  pmid: 36420076
+  links:
+    - label: Oncology Letters
+      url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9641802/"
+  tags:
+    - cancer-genome
+- id: 2840
+  type: others
+  date: "2022-10-20"
+  title: パスウェイ解析 8. BioCyc-ゲノムデータとパスウェイネットワークから総合的に生物を理解する-
+  citation: "奥田修二郎、「パスウェイ解析 8. BioCyc-ゲノムデータとパスウェイネットワークから総合的に生物を理解する-」、実験医学増刊-バイオDBとウェブツール ラボで使える最新70選-、Vol.40 No.17:188-190 (2022)."
+  lang: ja
+- id: 2841
+  type: others
+  date: "2022-10-20"
+  title: パスウェイ解析 9. Reactome-パスウェイデータを自由自在に活用し研究の幅を拡張する-
+  citation: "奥田修二郎、「パスウェイ解析 9. Reactome-パスウェイデータを自由自在に活用し研究の幅を拡張する-」、実験医学増刊-バイオDBとウェブツール ラボで使える最新70選-、Vol.40 No.17:191-193 (2022)."
+  lang: ja
+- id: 2679
+  type: poster
+  date: "2022-10-05"
+  title: jPOST：「コミュニティ・ベース論文調査」によるメタデータキュレーションの加速
+  citation: "吉沢 明康、守屋 勇樹、小林 大樹、Chih-Hsiang Chang、奥田 修二郎、田畑 剛、河野 信、幡野 敦、高見 知代、松本 雅記、山ノ内 祥訓、荒木 令江、岩崎 未央、杉山 直幸、福島 敦史、田中 聡、五斗 進、石濱 泰、「jPOST:「コミュニティ・ベース論文調査」によるメタデータキュレーションの加速」、トーゴーの日シンポジウム2022、オンライン (2022/10/5)."
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 2830
+  type: others
+  date: "2022-09-22"
+  title: メディカルAIの最前線
+  citation: "奥田修二郎、「メディカルAIの最前線」、新潟医学会雑誌、136(9):275-278 (2022)."
+  tags:
+    - ai
+  lang: ja
+- id: 2682
+  type: lecture
+  date: "2022-09-13"
+  title: 精密医療に向けたプロテオームデータベースの対応
+  citation: 第11回生命医薬情報学連合大会（IIBMP2022）、「精密医療に向けたプロテオームデータベースの対応」、千里ライフサイエンスセンター (2022/9/13).
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 2588
+  type: paper
+  date: "2022-09-01"
+  title: Brown adipose tissue dysfunction promotes heart failure via a trimethylamine N-oxide-dependent mechanism.
+  citation: "Yoshida, Y., Shimizu, I., Shimada, A., Nakahara, K., Yanagisawa, S., Kubo, M., Fukuda, S., Ishii, C., Yamamoto, H., Ishikawa, T., Kano, K., Aoki, J., Katsuumi, G., Suda, M., Ozaki, K., Yoshida, Y., Okuda, S., Ohta, S., Okamoto, S., Minokoshi, Y., Oda, K., Sasaoka, T., Abe, M., Sakimura, K., Kubota, Y., Yoshimura, N., Kajimura, S., Zuriaga, M., Walsh, K., Soga, T., Minamino, T. Brown adipose tissue dysfunction promotes heart failure via a trimethylamine N-oxide-dependent mechanism. Sci. Rep. 12(1):14883(2022)."
+  pmid: 36050466
+  links:
+    - label: Scientific Reports
+      url: "https://www.nature.com/articles/s41598-022-19245-x"
+- id: 2829
+  type: others
+  date: "2022-08-30"
+  title: プログラムが開く新しい世界
+  citation: "奥田修二郎、「プログラムが開く新しい世界」、新潟市医師会報、617号:1 (2022)."
+  lang: ja
+- id: 2850
+  type: others
+  date: "2022-08-15"
+  title: やってみようバイオインフォマティクス-エンリッチメント解析編-
+  citation: "凌一葦、永井貴大、奥田修二郎、「やってみようバイオインフォマティクス-エンリッチメント解析編-」、医学のあゆみ、282巻7号:767-774 (2022)."
+  lang: ja
+- id: 2578
+  type: paper
+  date: "2022-08-09"
+  title: Isoform-specific mutation in Dystonin-b gene causes late-onset protein aggregate myopathy and cardiomyopathy.
+  citation: "Yoshioka, N., Kurose, M., Yano, M., Tran, D. M., Okuda, S., Mori-Ochiai, Y., Horie, M., Nagai, T., Nishino, I., Shibata, S., Takebayashi, H. Isoform-specific mutation in Dystonin-b gene causes late-onset protein aggregate myopathy and cardiomyopathy. Elife 11:e78419(2022)."
+  pmid: 35942699
+  links:
+    - label: eLife
+      url: "https://elifesciences.org/articles/78419"
+- id: 2797
+  type: lecture
+  date: "2022-08-04"
+  title: バイオインフォマティクスを活用したゲノム解析
+  citation: ヒトゲノム解析セミナー、「バイオインフォマティクスを活用したゲノム解析」、オンライン(2022/8/4).
+  lang: ja
+- id: 2831
+  type: others
+  date: "2022-07-31"
+  title: 潰瘍性大腸炎術後回腸嚢炎とスフィンゴシン-1-リン酸の関連
+  citation: "亀山仁史、永橋昌幸、田島陽介、小柳英人、廣瀬雄己、中野麻恵、中野雅人、島田能史、竹内志穂、奥田修二郎、若井俊文、「潰瘍性大腸炎術後回腸嚢炎とスフィンゴシン-1-リン酸の関連 」、新潟医学会雑誌 、136(7):219-224 (2022)."
+  lang: ja
+- id: 2852
+  type: others
+  date: "2022-07-25"
+  title: やってみようバイオインフォマティクス-メタ16S解析編-
+  citation: "瀧原速仁、奥田修二郎、「やってみようバイオインフォマティクス-メタ16S解析編-」、医学のあゆみ、282巻4号:296-303 (2022)."
+  lang: ja
+- id: 2853
+  type: others
+  date: "2022-07-16"
+  title: やってみようバイオインフォマティクス-RNAseq解析編-
+  citation: "永井貴大、凌一葦、奥田修二郎、「やってみようバイオインフォマティクス-RNAseq解析編-」、医学のあゆみ、282巻3号:228-235 (2022)."
+  lang: ja
+- id: 2855
+  type: others
+  date: "2022-07-11"
+  title: やってみようバイオインフォマティクス-SNP解析編-
+  citation: "永井貴大、凌一葦、奥田修二郎、「やってみようバイオインフォマティクス-SNP解析編-」、医学のあゆみ、282巻2号:158-168 (2022)."
+  lang: ja
+- id: 2562
+  type: paper
+  date: "2022-06-07"
+  title: Coagulation factors promote brown adipose tissue dysfunction and abnormal systemic metabolism in obesity.
+  citation: "Hayashi, Y., Shimizu, I., Yoshida, Y., Ikegami, R., Suda, M., Katsuumi, G., Fujiki, S., Ozaki, K., Abe, M., Sakimura, K., Okuda, S., Hayano, T., Nakamura, K., Walsh, K., Jespersen, N. Z., Nielsen, S., Scheele, C., Minamino, T. Coagulation factors promote brown adipose tissue dysfunction and abnormal systemic metabolism in obesity. iScience 25(7):104547(2022)."
+  pmid: 35754738
+  links:
+    - label: iScience
+      url: "https://www.sciencedirect.com/science/article/pii/S2589004222008197?via%3Dihub"
+- id: 2828
+  type: others
+  date: "2022-05-30"
+  title: jPOSTリポジトリとJPDMデータジャーナルの活用
+  citation: "奥田修二郎、「jPOSTリポジトリとJPDMデータジャーナルの活用 」、日本プロテオーム学会誌：Proteome Letters、7(1):1-7 (2022)."
+  lang: ja
+- id: 2559
+  type: paper
+  date: "2022-05-24"
+  title: Unveiling microbiome profiles in human inner body fluids and tumor tissues with pancreatic or biliary tract cancer.
+  citation: "Okuda, S., Hirose, Y., Takihara, H., Okuda, A., Ling, Y., Tajima, Y., Shimada, Y., Ichikawa, H., Takizawa, K., Sakata, J., Wakai, T. Unveiling microbiome profiles in human inner body fluids and tumor tissues with pancreatic or biliary tract cancer. Sci. Rep. 12(1):8766(2022)."
+  pmid: 35610303
+  links:
+    - label: Scientific Reports
+      url: "https://www.nature.com/articles/s41598-022-12658-8"
+- id: 2857
+  type: others
+  date: "2022-05-16"
+  title: バイオインフォマティクスの根幹を担うデータベース
+  citation: "奥田修二郎、「バイオインフォマティクスの根幹を担うデータベース」、医学のあゆみ、281巻7号:784-789 (2022)."
+  tags:
+    - db
+  lang: ja
+- id: 2472
+  type: paper
+  date: "2022-04-30"
+  title: Efficacy of BRAF inhibitor and anti-EGFR antibody in colorectal neuroendocrine carcinoma.
+  citation: "Nakano, M., Shimada, Y., Matsumoto, Y., Saiki, T., Zhou, Q., Sasaki, K., Moriyama, M., Yoshihara, K., Natsumeda, M., Kuriyama, Y., Takii, Y., Watanabe, G., Umezu, H., Okuda, S., Ikeuchi, T., Wakai, T., Saijo, Y. Efficacy of BRAF inhibitor and anti-EGFR antibody in colorectal neuroendocrine carcinoma. Clin. J. Gastroenterol. 15(2):413-418(2022)."
+  pmid: 35133626
+  links:
+    - label: Clinical Journal of Gastroenterology
+      url: "https://link.springer.com/article/10.1007/s12328-022-01599-4"
+- id: 2489
+  type: paper
+  date: "2022-04-20"
+  title: Glycoprotein nonmetastatic melanoma protein B regulates lysosomal integrity and lifespan of senescent cells.
+  citation: "Suda, M., Shimizu, I., Katsuumi, G., Hsiao, C. L., Yoshida, Y., Matsumoto, N., Yoshida, Y., Katayama, A., Wada, J., Seki, M., Suzuki, Y., Okuda, S., Ozaki, K., Nakanishi-Matsui, M., Minamino, T. Glycoprotein nonmetastatic melanoma protein B regulates lysosomal integrity and lifespan of senescent cells. Sci. Rep. 12(1):6522(2022)."
+  pmid: 35444208
+  links:
+    - label: Scientific Reports
+      url: "https://www.nature.com/articles/s41598-022-10522-3"
+- id: 2515
+  type: paper
+  date: "2022-04-18"
+  title: Differing impact of phosphoglycerate mutase 1-deficiency on brown and white adipose tissue.
+  citation: "Yoshida, Y., Shimizu, I., Hsiao, Y. T., Suda, M., Katsuumi, G., Seki, M., Suzuki, Y., Okuda, S., Soga, T., Minamino, T. Differing impact of phosphoglycerate mutase 1-deficiency on brown and white adipose tissue. iScience 25(5):104268(2022)."
+  pmid: 35521515
+  links:
+    - label: iScience
+      url: "https://www.sciencedirect.com/science/article/pii/S2589004222005387?via%3Dihub"
+- id: 2681
+  type: talk
+  date: "2022-04-16"
+  title: Tumor mutational burden-High 大腸癌を予測する人工知能の開発
+  citation: 島田能史、奥田修二郎、中野麻恵、松本瑛生、田島陽介、中野雅人、石川博補、臼井賢司、加納陽介、三浦宏平、市川寛、羽入隆晃、滝沢一泰、石川卓、坂田純、小林隆、野上仁、丸山聡、瀧井康公、若井俊文、「Tumor mutational burden-High 大腸癌を予測する人工知能の開発」、第 122 回日本外科学会定期学術集会、熊本城ホール (2022/4/16).
+  tags:
+    - ai
+    - cancer-genome
+  lang: ja
+- id: 2497
+  type: paper
+  date: "2022-03-24"
+  title: Putrescine Production by Latilactobacillus curvatus KP 3-4 Isolated from Fermented Foods.
+  citation: "Hirano, R., Kume, A., Nishiyama, C., Honda, R., Shirasawa, H., Ling, Y., Sugiyama, Y., Nara, M., Shimokawa, H., Kawada, H., Koyanagi, T., Ashida, H., Okuda, S., Matsumoto, M., Takagi, H., Kurihara, S. Putrescine Production by Latilactobacillus curvatus KP 3-4 Isolated from Fermented Foods. Microorganisms 10(4):697(2022)."
+  pmid: 35456748
+  links:
+    - label: Microorganisms
+      url: "https://www.mdpi.com/2076-2607/10/4/697"
+- id: 2548
+  type: talk
+  date: "2022-03-18"
+  title: プトレッシンを産生する新規プロバイオティクス候補乳酸菌Latilactobacillus curvatus KP 3-4の分離と解析
+  citation: 平野里佳、久米愛子、西山知里、本田涼将、白澤秀斗、凌一葦、杉山友太、奈良未沙希、下川ひろみ、河田明輝、小栁喬、芦田久、奥田修二郎、松本光晴、高木宏樹、栗原新、「プトレッシンを産生する新規プロバイオティクス候補乳酸菌Latilactobacillus curvatus KP 3-4の分離と解析」、日本農芸化学会2022年度大会、オンライン (2022.3.18).
+  lang: ja
+- id: 2550
+  type: talk
+  date: "2022-03-16"
+  title: 発酵食品に由来するポリアミン高産生菌Staphylococcus epidermidis FB146のポリアミン関連遺伝子の同定
+  citation: 白澤秀斗、西山知里、平野里佳、小栁喬、奥田修二郎、高木宏樹、栗原新、「発酵食品に由来するポリアミン高産生菌Staphylococcus epidermidis FB146のポリアミン関連遺伝子の同定」、日本農芸化学会2022年度大会、オンライン (2022.3.16).
+  lang: ja
+- id: 2482
+  type: paper
+  date: "2022-03-12"
+  title: Monitoring IgG against Mycobacterium tuberculosis proteins in an Asian elephant cured of tuberculosis that developed from long-term latency.
+  citation: "Ishikawa, S., Ozeki, Y., Suga, S., Mukai, Y., Kobayashi, H., Inouchi, E., Kaboso, S. A., Gebretsadik, G., Dewi, D. N. S. S., Nishiyama, A., Tateishi, Y., Takihara, H., Okuda, S., Yoshida, S., Misawa, N., Matsumoto, S. Monitoring IgG against Mycobacterium tuberculosis proteins in an Asian elephant cured of tuberculosis that developed from long-term latency. Sci. Rep. 12(1):4310(2022)."
+  pmid: 35279668
+  links:
+    - label: Scientific Reports
+      url: "https://www.nature.com/articles/s41598-022-08228-7"
+- id: 2827
+  type: others
+  date: "2022-03-12"
+  title: ゲノム解析におけるバイオインフォマティクスの役割
+  citation: "奥田修二郎、「ゲノム解析におけるバイオインフォマティクスの役割」、医学のあゆみ、280巻11号:1189-1194（2022）"
+  lang: ja
+- id: 2891
+  type: others
+  date: "2022-03-12"
+  title: はじめに
+  citation: "奥田修二郎、「はじめに」、医学のあゆみ、280巻11号:1188 (2022)."
+  lang: ja
+- id: 2811
+  type: lecture
+  date: "2022-03-07"
+  title: コンピュータで医学データを読み解く：バイオインフォマティクスの世界
+  citation: Cardiovascular-Metabolism-Aging Research Seminar、「コンピュータで医学データを読み解く：バイオインフォマティクスの世界」 、オンライン(2022/3/7).
+  lang: ja
+- id: 2490
+  type: lecture
+  date: "2022-02-25"
+  title: バイオインフォマティクスによる大規模データ解析
+  citation: FIBER核酸化学ユニバース9、「バイオインフォマティクスによる大規模データ解析」、オンライン(2022/2/25).
+  lang: ja
+- id: 2523
+  type: poster
+  date: "2022-02-17"
+  title: 当院におけるがん遺伝子パネル検査の現状
+  citation: 中野麻恵、島田能史、吉原弘祐、棗田学、松本吉史、齋木琢郎、土田純子、松本瑛生、栗山洋子、入月浩美、西野幸治、関根正幸、今井千速、川島寛之、梅津哉、木下義晶、西條康夫、奥田修二郎、池内健、若井俊文、「当院におけるがん遺伝子パネル検査の現状」、第19回日本臨床腫瘍学会学術集会、京都/ハイブリッド (2022/2/17).
+  tags:
+    - cancer-genome
+  lang: ja
+- id: 2477
+  type: paper
+  date: "2022-02-06"
+  title: Cyclin D1 Binding Protein 1 Responds to DNA Damage through the ATM-CHK2 Pathway.
+  citation: "Niwa, Y., Kamimura, K., Ogawa, K., Oda, C., Tanaka, Y., Horigome, R., Ohtsuka, M., Miura, H., Fujisawa, K., Yamamoto, N., Takami, T., Okuda, S., Ko, M., Owaki, T., Kimura, A., Shibata, O., Morita, S., Sakai, N., Abe, H., Yokoo, T., Sakamaki, A., Kamimura, H., Terai, S. Cyclin D1 Binding Protein 1 Responds to DNA Damage through the ATM-CHK2 Pathway. J. Clin. Med. 11(3):851(2022)."
+  pmid: 35160302
+  links:
+    - label: Journal of Clinical Medicine
+      url: "https://www.mdpi.com/2077-0383/11/3/851"
+- id: 2441
+  type: paper
+  date: "2022-01-20"
+  title: Loss of Atg2b and Gskip Impairs the Maintenance of the Hematopoietic Stem Cell Pool Size.
+  citation: "Sakai, S. S., Hasegawa, A., Ishimura, R., Tamura, N., Kageyama, S., Komatsu-Hirota, S., Abe, M., Ling, Y., Okuda, S., Funayama, M., Kikkawa, M., Miura, Y., Sakimura, K., Narita, I., Waguri, S., Shimizu, R., Komatsu, M. Loss of Atg2b and Gskip Impairs the Maintenance of the Hematopoietic Stem Cell Pool Size. Mol. Cell. Biol. 42(1):e0002421(2022)."
+  pmid: 34748402
+  doi: 10.1128/MCB.00024-21
+  links:
+    - label: Molecular and Cellular Biology
+      url: "https://journals.asm.org/doi/10.1128/MCB.00024-21?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed"

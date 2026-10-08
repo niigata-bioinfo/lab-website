@@ -1,0 +1,98 @@
+{
+  "siteTitle": "メディカルAIセンター / バイオインフォマティクス分野",
+  "siteSubtitle": "新潟大学医学部 / 新潟大学大学院医歯学総合研究科",
+  "metaTitle": "新潟大学医学部メディカルAIセンター/新潟大学大学院医歯学総合研究科バイオインフォマティクス分野 - Medical AI Center/Bioinformatics laboratory",
+  "metaDescription": "新潟大学医学部メディカルAIセンター（バイオインフォマティクス分野）の研究室です。",
+  "lang": {
+    "ja": "Japanese",
+    "en": "English"
+  },
+  "menu": "MENU",
+  "nav": {
+    "home": "HOME",
+    "news": "お知らせ",
+    "introduction": "研究内容",
+    "members": "メンバー",
+    "publications": "研究業績",
+    "access": "アクセス",
+    "links": "リンク"
+  },
+  "top": {
+    "recruitment": "人材募集のお知らせ »",
+    "about": "研究室について",
+    "latestPublications": "最新の研究業績",
+    "publicationsList": "研究業績一覧",
+    "news": "お知らせ",
+    "newsList": "お知らせ一覧",
+    "updated": "更新"
+  },
+  "sidebar": {
+    "news": "お知らせ",
+    "newsArchives": "お知らせ一覧"
+  },
+  "backToList": "一覧へ戻る",
+  "news": {
+    "title": "お知らせ",
+    "empty": "お知らせはありません。"
+  },
+  "introduction": {
+    "title": "研究内容"
+  },
+  "members": {
+    "title": "メンバー",
+    "alumni": "過去のメンバー"
+  },
+  "publications": {
+    "title": "研究業績",
+    "category": "カテゴリー",
+    "all": "すべて",
+    "year": "年",
+    "allYears": "すべて",
+    "tags": "タグ",
+    "typeHeading": "{type} の一覧",
+    "yearHeading": "{year} 年の研究業績",
+    "tagHeading": "タグ: {tag}",
+    "empty": "該当する業績はありません。"
+  },
+  "types": {
+    "paper": "論文",
+    "poster": "ポスター",
+    "talk": "口頭発表",
+    "lecture": "講習会、講演",
+    "others": "その他"
+  },
+  "tags": {
+    "db": "データベース",
+    "proteome": "プロテオーム",
+    "cancer-genome": "がんゲノム",
+    "glycan": "糖鎖",
+    "gut-microbiome": "腸内細菌叢",
+    "genome": "比較ゲノム",
+    "metagenome": "メタゲノム",
+    "ai": "AI",
+    "operon": "オペロン",
+    "server": "ウェブサーバー"
+  },
+  "access": {
+    "title": "アクセス",
+    "address": "所在地",
+    "email": "E-mail",
+    "tel": "Tel",
+    "campusMap": "Campus map"
+  },
+  "links": {
+    "title": "リンク"
+  },
+  "recruitment": {
+    "title": "人材募集"
+  },
+  "footer": {
+    "copyright": "Bioinformatics Laboratory",
+    "org": "Niigata University Graduate School of Medical and Dental Sciences"
+  },
+  "notFound": {
+    "title": "ページが見つかりません",
+    "body": "お探しのページは移動または削除された可能性があります。",
+    "home": "トップページへ"
+  }
+}

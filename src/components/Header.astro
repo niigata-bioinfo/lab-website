@@ -1,0 +1,81 @@
+---
+import { t, localePath, otherLang, type Lang } from '../lib/i18n';
+import type { NavKey } from '../layouts/BaseLayout.astro';
+
+interface Props {
+  lang: Lang;
+  nav: NavKey;
+  altPath: string;
+}
+const { lang, nav, altPath } = Astro.props;
+const d = t(lang);
+const other = otherLang(lang);
+
+const items: { key: NavKey; icon: string; path: string }[] = [
+  { key: 'home', icon: 'fa-home', path: '/' },
+  { key: 'news', icon: 'fa-info', path: '/news/' },
+  { key: 'introduction', icon: 'fa-bar-chart', path: '/introduction/' },
+  { key: 'members', icon: 'fa-user', path: '/members/' },
+  { key: 'publications', icon: 'fa-file-text', path: '/publications/' },
+  { key: 'access', icon: 'fa-map-marker', path: '/access/' },
+  { key: 'links', icon: 'fa-link', path: '/links/' },
+];
+
+const langs: Lang[] = ['ja', 'en'];
+---
+
+<header class="relative w-full box-border bg-brand-950 text-white pt-[10px] px-[10px] lg:pt-[25px] lg:px-0">
+  <div class="site-w lg:flex lg:justify-between lg:items-start">
+    <div class="text-center lg:text-left">
+      <h1 class="text-[18px] lg:text-[26px] font-bold tracking-[1px]">
+        <a href={localePath(lang, '/')} class="inline-block lg:block text-white hover:no-underline">{d.siteTitle}</a>
+      </h1>
+      <h2 class="my-[5px] lg:mt-[10px] lg:mb-0 text-[11px] lg:text-[14px] font-normal">{d.siteSubtitle}</h2>
+    </div>
+    <div class="text-left lg:text-right">
+      <ul class="block h-[30px] py-[10px] pr-[100px] leading-[1.2] lg:inline-block lg:h-auto lg:p-0">
+        {langs.map((l) => (
+          <li class={`relative inline-block align-middle p-[5px] text-[12px] font-bold lg:align-top lg:p-0 lg:text-[14px] lg:ml-[20px] first:lg:ml-0 ${l === lang ? 'is-current' : ''}`}>
+            {l === lang ? (
+              <>
+                <i class="fa fa-caret-right inline-block mr-[4px] align-middle font-normal lg:hidden" aria-hidden="true"></i>
+                <span>{d.lang[l]}</span>
+                <i class="fa fa-caret-up hidden lg:block absolute w-full left-0 -bottom-[14px] text-center font-normal" aria-hidden="true"></i>
+              </>
+            ) : (
+              <a href={altPath} class="text-white">{d.lang[l]}</a>
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+  <button type="button" class="nav-toggle absolute bottom-[10px] right-[10px] px-[8px] py-[4px] bg-white text-brand-950 text-[14px] leading-[1.5] font-bold lg:hidden" aria-controls="site-nav" aria-expanded="false">
+    <i class="fa fa-bars" aria-hidden="true"></i> {d.menu}
+  </button>
+  <nav id="site-nav" class="site-nav hidden absolute left-0 w-full border-t border-brand-400 shadow-[0_3px_8px_1px_rgba(100,100,100,.4)] z-20 lg:static lg:block lg:mt-[40px] lg:border-b lg:shadow-none">
+    <ul class="w-full bg-brand-950 lg:flex lg:w-[1000px] lg:h-[40px] lg:mx-auto">
+      {items.map((it, i) => (
+        <li class={`block border-t border-brand-400 first:border-t-0 text-[14px] font-bold text-left lg:border-t-0 lg:border-l lg:first:border-l-0 lg:text-[16px] lg:text-center ${i === 0 ? 'lg:w-[80px]' : 'lg:flex-1'}`}>
+          <a
+            href={localePath(lang, it.path)}
+            aria-current={it.key === nav ? 'page' : undefined}
+            class={`relative flex items-center h-auto pl-[45px] pr-[15px] py-[10px] text-white hover:no-underline hover:bg-brand-400 lg:justify-center lg:h-full lg:p-0 ${it.key === nav ? 'bg-brand-400 pointer-events-none' : ''}`}
+          >
+            <i class={`fa ${it.icon} absolute left-[10px] w-[30px] text-center text-[1.2em] font-normal lg:static lg:w-auto lg:mx-[5px] lg:ml-[10px]`} aria-hidden="true"></i>
+            <span class={i === 0 ? 'lg:hidden' : ''}>{d.nav[it.key]}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+</header>
+
+<script>
+  const btn = document.querySelector<HTMLButtonElement>('.nav-toggle');
+  const nav = document.querySelector<HTMLElement>('.site-nav');
+  btn?.addEventListener('click', () => {
+    const open = nav?.classList.toggle('hidden') === false;
+    btn.setAttribute('aria-expanded', String(open));
+  });
+</script>

@@ -1,0 +1,8 @@
+---
+import { t, type Lang } from '../lib/i18n';
+interface Props { lang: Lang; type: string; class?: string }
+const { lang, type, class: extra = '' } = Astro.props;
+const d = t(lang);
+const label = (d.types as Record<string, string>)[type] ?? type;
+---
+<span class={`pub-badge pub-badge-${type} ${extra}`}>{label}</span>

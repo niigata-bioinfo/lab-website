@@ -1,0 +1,80 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Sidebar from '../components/Sidebar.astro';
+import { t, localePath, otherLang, type Lang } from '../lib/i18n';
+import { site } from '../data/site';
+
+export type NavKey = 'home' | 'news' | 'introduction' | 'members' | 'publications' | 'access' | 'links';
+
+interface Props {
+  lang: Lang;
+  /** ページ固有のタイトル。トップページでは省略。 */
+  title?: string;
+  description?: string;
+  /** ナビゲーションで強調する項目 */
+  nav: NavKey;
+  /** 言語に依存しないパス (例: "/news/")。言語切替リンクに使う。 */
+  path: string;
+  /** 他言語版が無いページは false にすると、切替リンクがトップへ向く。 */
+  hasAlternate?: boolean;
+  /** トップページのレイアウト (サイドバー無し・背景画像あり) */
+  top?: boolean;
+}
+
+const { lang, title, description, nav, path, hasAlternate = true, top = false } = Astro.props;
+const d = t(lang);
+const pageTitle = title ? `${title} – ${d.siteTitle}` : d.metaTitle;
+const other = otherLang(lang);
+const altPath = localePath(other, hasAlternate ? path : '/');
+const canonical = new URL(localePath(lang, path), site.url).href;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description ?? d.metaDescription} />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="canonical" href={canonical} />
+    {hasAlternate && <link rel="alternate" hreflang={other} href={new URL(altPath, site.url).href} />}
+    <link rel="alternate" hreflang={lang} href={canonical} />
+    <link rel="icon" href="/icon.png" sizes="192x192" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon.png" />
+  </head>
+  <body class="min-w-full lg:min-w-[1020px]">
+    <Header lang={lang} nav={nav} altPath={altPath} />
+    {top && <div class="index-bg relative hidden lg:block h-[180px] bg-[url('/images/top_bg.jpg')] bg-no-repeat bg-[length:100%_auto] shadow-[inset_0_5px_10px_-5px_rgba(0,0,0,.5),inset_0_-5px_10px_-5px_rgba(0,0,0,.5)] -z-10"></div>}
+    {top ? (
+      <div class="site-w mt-[10px] lg:my-[30px] min-h-[600px]">
+        <slot />
+      </div>
+    ) : (
+      <div class="site-w mt-[10px] lg:my-[30px] min-h-[600px] lg:flex lg:justify-between">
+        <main class="w-full lg:w-[690px]">
+          <slot />
+        </main>
+        <Sidebar lang={lang} />
+      </div>
+    )}
+    <Footer lang={lang} />
+    {top && (
+      <script>
+        // トップページ背景のパララックス (旧テーマ common.js と同じ挙動)
+        const bg = document.querySelector<HTMLElement>('.index-bg');
+        if (bg) {
+          const onScroll = () => {
+            const s = window.scrollY;
+            bg.style.height = s > 300 ? '90px' : `${180 - s * 0.3}px`;
+            bg.style.backgroundPosition = `0 ${s > 300 ? -30 : -s * 0.1}px`;
+          };
+          window.addEventListener('scroll', onScroll, { passive: true });
+          onScroll();
+        }
+      </script>
+    )}
+  </body>
+</html>

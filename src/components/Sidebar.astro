@@ -1,0 +1,23 @@
+---
+import { t, localePath, type Lang } from '../lib/i18n';
+import { newsFor, newsTitle, newsSlug } from '../lib/news';
+import { site } from '../data/site';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const d = t(lang);
+const news = (await newsFor(lang)).slice(0, site.topNews);
+---
+
+<aside class="hidden lg:block w-[250px]">
+  <section>
+    <h3 class="mb-[10px] px-[2px] pb-[5px] border-b border-brand-400 text-brand-950 text-[16px] font-bold">{d.sidebar.news}</h3>
+    <ul class="side-list mt-[10px] text-[12px] space-y-[10px]">
+      {news.map((n) => (
+        <li><a href={localePath(lang, `/news/${newsSlug(n)}/`)}>{newsTitle(n, lang)}</a></li>
+      ))}
+    </ul>
+    <div class="mt-[15px] text-right">
+      <a href={localePath(lang, '/news/')}><i class="fa fa-angle-double-right" aria-hidden="true"></i> {d.sidebar.newsArchives}</a>
+    </div>
+  </section>
+</aside>

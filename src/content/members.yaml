@@ -1,0 +1,252 @@
+faculty:
+  - name:
+      ja: 奥田　修二郎
+      en: Shujiro Okuda
+    title:
+      ja: 新潟大学医学部メディカルAIセンター　教授（センター長）
+      en: Professor
+    degree: Ph.D.
+    affiliation:
+      en: |
+        Medical AI Center, School of Medicine, Niigata University
+        Niigata University Graduate School of Medical and Dental Sciences
+    bio:
+      ja:
+        - heading: 経歴
+          items:
+            - 2021年4月〜現在　新潟大学医学部メディカルAIセンター　教授
+            - 2021年4月〜現在　新潟大学病院ゲノム医療部ゲノム情報管理センター　センター長
+            - 2018年1月〜2021年3月　新潟大学医歯学総合病院ゲノム医療センター　副部長
+            - 2017年4月〜2021年3月　新潟大学大学院医歯学総合研究科　准教授
+            - 2016年10月〜2021年3月　新潟大学研究推進機構　研究教授
+            - 2013年2月～2017年3月 　新潟大学大学院医歯学総合研究科　テニュア・トラック准教授
+            - 2010年4月～2010年9月 　ベルギー・ブリュッセル自由大学　客員研究員
+            - 2008年4月～2013年1月 　立命館大学生命科学部生命情報学科 助教
+            - 2007年6月～2008年3月 　京都大学化学研究所バイオインフォマティクスセンター 博士研究員
+            - 2006年4月～2007年5月 　京都大学化学研究所バイオインフォマティクスセンター 教務補佐員
+        - heading: 学歴
+          items:
+            - 2007年5月　京都大学　博士(理学)
+            - 2006年3月　京都大学大学院理学研究科 博士課程研究指導認定退学
+            - 2003年3月　京都大学大学院理学研究科 修士課程修了
+            - 2001年3月　立命館大学理工学部生物工学科 卒業
+  - name:
+      ja: 吉沢　明康
+      en: Akiyasu C. Yoshizawa
+    title:
+      ja: 特任准教授
+      en: Associate professor
+  - name:
+      ja: 凌　一葦
+      en: Yiwei Ling
+    title:
+      ja: 助教
+      en: Assistant professor
+  - name:
+      ja: 高橋　悠志
+      en: Yushi Takahashi
+    title:
+      ja: 特任助教（ひと脳研究資源イニシアチブ推進センター兼務）
+      en: Assistant professor
+  - name:
+      ja: 永井　貴大
+      en: Takahiro Nagai
+    title:
+      ja: 特任助教（ゲノム情報管理センター）
+      en: Assistant professor
+  - name:
+      ja: 瀧原　速仁
+      en: Hayato Takihara
+    title:
+      ja: 特任助教
+      en: Assistant professor
+  - name:
+      ja: 白井　福寿
+      en: Fukutoshi Shirai
+    title:
+      ja: 特任助教
+      en: Assistant professor
+staff:
+  - name:
+      ja: 瀬野　瑛
+      en: Akira Seno
+    title:
+      ja: 特任助手
+      en: Research assistant
+  - name:
+      ja: 谷　かおり
+      en: Kaori Tani
+    title:
+      ja: 研究員
+      en: Research associate
+  - name:
+      ja: 三浦　信明
+      en: Nobuaki Miura
+    title:
+      ja: 客員研究員（富山国際大学教授）
+      en: Visiting researcher (Toyama University of International Studies)
+  - name:
+      ja: 劉　鈺婷
+      en: Yuting Liu
+    title:
+      ja: 客員研究員（奈良先端大学院大学助教）
+      en: Visiting researcher (Nara Institute of Science and Technology)
+  - name:
+      ja: 飛松　未沙子
+      en: Misako Tobimatsu
+    title:
+      ja: 技術補佐員
+      en: Research assistant
+  - name:
+      ja: 藤木　梢
+      en: Kozue Fujiki
+    title:
+      ja: 技術補佐員
+      en: Research assistant
+students:
+  - name:
+      ja: 深澤　真楠
+      en: Makusu Fukasawa
+    title:
+      ja: 博士課程大学院生（社会人）
+      en: PhD student
+  - name:
+      ja: 石野　公基
+      en: Koki Ishino
+    title:
+      ja: 博士課程大学院生（社会人）
+      en: PhD student
+  - name:
+      ja: 喬　曠園
+      en: Kuangyuan Qiao
+    title:
+      ja: 博士課程大学院生
+      en: PhD student
+  - name:
+      ja: Henda　Rasena
+      en: Henda Rasena
+    title:
+      ja: 博士課程大学院生
+      en: PhD student
+  - name:
+      ja: 王　澤坤
+      en: Zekun Wang
+    title:
+      ja: 博士課程大学院生
+      en: PhD student
+  - name:
+      ja: Andika Dwi Mahendra
+      en: Andika Dwi Mahendra
+    title:
+      ja: 博士課程大学院生
+      en: PhD student
+  - name:
+      ja: 孙　富韬
+      en: Futao Sun
+    title:
+      ja: 博士課程大学院生
+      en: PhD student
+  - name:
+      ja: Eminov Ravshanjon Ikromjon Ugli
+      en: Eminov Ravshanjon Ikromjon Ugli
+    title:
+      ja: 博士課程大学院生
+      en: PhD student
+  - name:
+      ja: 馬　暁偉
+      en: Xiaowei Ma
+    title:
+      ja: 研究生
+      en: Research student
+  - name:
+      ja: 木内　貴仁
+      en: Takato Kiuchi
+    title:
+      ja: 医学科5年生
+      en: Medical student
+  - name:
+      ja: 金崎　礼生
+      en: Reo Kanasaki
+    title:
+      ja: 医学科4年生
+      en: Medical student
+  - name:
+      ja: 野口　竜一
+      en: Ryoichi Noguchi
+    title:
+      ja: 医学科3年生
+      en: Medical student
+collaborators:
+  - name:
+      ja: 大石　章寛
+      en: Akihiro Oishi
+    title:
+      ja: 共同研究者（新潟大学歯学部顎顔面口腔外科学）
+      en: "Research collaborator (Niigata University, Division of Oral and Maxillofacial Surgery)"
+  - name:
+      ja: 金井　爽海
+      en: Soumi Kanai
+    title:
+      ja: 共同研究者（新潟大学歯学部顎顔面口腔外科学）
+      en: "Research collaborator (Niigata University, Division of Oral and Maxillofacial Surgery)"
+  - name:
+      ja: 中根　孝文
+      en: Takafumi Nakane
+    title:
+      ja: 共同研究者（株式会社 DNAチップ研究所）
+      en: Research collaborator (DNA Chip Research Inc.)
+  - name:
+      ja: 薄田　芳裕
+      en: Yoshihiro Usuda
+    title:
+      ja: 研究協力者（新潟大学医学部精神医学教室 医員、医学研究実習生 2016年度）
+      en: "Research collaborator (Clinical fellow, Medical research training 2016)"
+alumni:
+  - name:
+      ja: 兒玉 啓輔
+      en: Keisuke Kodama
+    detail:
+      ja: "（医歯学総合研究科博士課程）2021年4月-2025年9月"
+      en: "(PhD student) 2021-2025"
+  - name:
+      ja: 佐野 美華
+      en: Mika Sano
+    detail:
+      ja: "（技術補佐員）2023年5月−2024年8月、（特任助手）2024年9月−2025年6月"
+      en: "(Research assistant) 2023-2025"
+  - name:
+      ja: 姜 瀚
+      en: Jiang Han
+    detail:
+      ja: "（医歯学総合研究科修士課程）2023−2025年度"
+      en: "(Medical graduate student) 2023-2024"
+  - name:
+      ja: 竹内 志穂
+      en: Shiho Takeuchi
+    detail:
+      ja: "（特任准教授）2018-2020年度、（客員研究員）2021-2023年度"
+      en: "(Associate professor) 2018-2020, (Visiting researcher) 2021-2023"
+  - name:
+      ja: 田村 元美
+      en: Motomi Tamura
+    detail:
+      ja: "（研究スタッフ）2015-2022年度"
+      en: "(Research staff) 2015-2022"
+  - name:
+      ja: 渡邉 由
+      en: Yu Watanabe
+    detail:
+      ja: "（研究スタッフ）　2013-2020年度"
+      en: "(Research staff) 2013-2020"
+  - name:
+      ja: 中川 祐吾
+      en: Yugo Nakagawa
+    detail:
+      ja: "（医歯学総合研究科修士課程）2018-2019年度"
+      en: "(Medical graduate student) 2018-2019"
+  - name:
+      ja: 稲葉 亮介
+      en: Ryosuke Inaba
+    detail:
+      ja: "（医歯学総合研究科修士課程）2017年度"
+      en: "(Medical graduate student) 2017"

@@ -1,0 +1,30 @@
+---
+/** basePath は末尾スラッシュ付き。2 ページ目以降は `${basePath}page/${n}/`。 */
+interface Props { current: number; total: number; basePath: string }
+const { current, total, basePath } = Astro.props;
+const href = (n: number) => (n === 1 ? basePath : `${basePath}page/${n}/`);
+const cells: (number | 'dots')[] = [];
+if (total > 1) {
+  const want = new Set<number>([1, 2, 3, total, current - 1, current, current + 1]);
+  let prev = 0;
+  for (let n = 1; n <= total; n++) {
+    if (!want.has(n)) continue;
+    if (n - prev > 1) cells.push('dots');
+    cells.push(n);
+    prev = n;
+  }
+}
+---
+{total > 1 && (
+  <nav class="pager my-[25px] lg:my-[40px] text-center" aria-label="pagination">
+    <ul>
+      {current > 1 && <li><a href={href(current - 1)} aria-label="previous"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a></li>}
+      {cells.map((c) =>
+        c === 'dots' ? <li><span class="dots">&hellip;</span></li>
+        : c === current ? <li><span class="current" aria-current="page">{c}</span></li>
+        : <li><a href={href(c)}>{c}</a></li>
+      )}
+      {current < total && <li><a href={href(current + 1)} aria-label="next"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>}
+    </ul>
+  </nav>
+)}

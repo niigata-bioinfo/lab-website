@@ -1,0 +1,24 @@
+---
+import PublicationArchive from '../../../../../components/PublicationArchive.astro';
+import { t, fill, tagLabel, langs, langParam } from '../../../../../lib/i18n';
+import { publicationsFor, paginate, collectTags } from '../../../../../lib/publications';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const lang of langs) {
+    const all = await publicationsFor(lang);
+    for (const { slug } of collectTags(all)) {
+      for (const page of paginate(all.filter((p) => p.tags.includes(slug)))) {
+        paths.push({
+          params: { lang: langParam(lang), tag: slug, page: page.current === 1 ? undefined : `page/${page.current}` },
+          props: { lang, tag: slug, page },
+        });
+      }
+    }
+  }
+  return paths;
+}
+const { lang, tag, page } = Astro.props;
+const heading = fill(t(lang).publications.tagHeading, { tag: tagLabel(lang, tag) });
+---
+<PublicationArchive lang={lang} page={page} path={`/publications/tag/${tag}/`} heading={heading} selectedTag={tag} />

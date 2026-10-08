@@ -1,0 +1,33 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageTitle from '../../../components/PageTitle.astro';
+import { t, localePath, formatDate, langs, langParam, type Lang } from '../../../lib/i18n';
+import { newsFor, newsTitle, newsSlug, type NewsEntry } from '../../../lib/news';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const lang of langs) {
+    for (const n of await newsFor(lang)) {
+      paths.push({ params: { lang: langParam(lang), slug: newsSlug(n) }, props: { lang, entry: n } });
+    }
+  }
+  return paths;
+}
+const { lang, entry } = Astro.props as { lang: Lang; entry: NewsEntry };
+const d = t(lang);
+const { Content } = await render(entry);
+const title = newsTitle(entry, lang);
+const hasAlternate = lang === 'ja' ? Boolean(entry.data.titleEn) : true;
+---
+
+<BaseLayout lang={lang} title={title} nav="news" path={`/news/${newsSlug(entry)}/`} hasAlternate={hasAlternate}>
+  <div class="my-[10px] text-muted text-[14px] font-bold tracking-[1px]">
+    <p class="archive-date inline-block align-middle">{formatDate(entry.data.date)}</p>
+  </div>
+  <PageTitle>{title}</PageTitle>
+  <div class="page-content page-content-news"><Content /></div>
+  <div class="mt-[20px] text-[14px]">
+    <a href={localePath(lang, '/news/')}><i class="fa fa-angle-double-left" aria-hidden="true"></i> {d.backToList}</a>
+  </div>
+</BaseLayout>

@@ -1,0 +1,105 @@
+- id: 382
+  type: poster
+  date: "2008-12-11"
+  title: Investigation of paralogs in the horse genome
+  citation: 戸崎晃明、奥田修二郎、廣田桂一、長谷川晃久、「Investigation of paralogs in the horse genome」、第31回日本分子生物学会、神戸 (2008/12).
+  lang: ja
+- id: 381
+  type: poster
+  date: "2008-12-11"
+  title: 医薬品添付文書に基づく薬物相互作用の網羅的解析
+  citation: 財部 将孝、奥田修二郎、伊藤真純、時松敏明、五斗進、金久實、「医薬品添付文書に基づく薬物相互作用の網羅的解析」、第31回日本分子生物学会、神戸 (2008/12).
+  lang: ja
+- id: 380
+  type: poster
+  date: "2008-12-11"
+  title: "KEGG OC: 全生物種ゲノムにおけるオーソログ遺伝子のバリエーションと高速検索技術"
+  citation: "片山俊明、伊藤真純、奥田修二郎、川島秀一、田中道廣、時松敏明、中谷明弘、平糠和志、守屋勇樹、山西芳裕、吉沢明康、金久實、「KEGG OC: 全生物種ゲノムにおけるオーソログ遺伝子のバリエーションと高速検索技術」、第31回日本分子生物学会、神戸 (2008/12)."
+  lang: ja
+- id: 379
+  type: poster
+  date: "2008-12-11"
+  title: "KEGG OC: 網羅的なオーソログクラスターの自動生成"
+  citation: "中谷明弘、伊藤真純、奥田修二郎、川島秀一、田中道廣、時松敏明、 片山 俊明、平糠和志、守屋勇樹、山西芳裕、吉沢明康、金久實、「KEGG OC: 網羅的なオーソログクラスターの自動生成」、第31回日本分子生物学会、神戸 (2008/12)."
+  lang: ja
+- id: 378
+  type: poster
+  date: "2008-12-11"
+  title: "KEGG OC: オーソログクラスターのマニュアルアノテーション"
+  citation: "川島秀一、伊藤真純、奥田修二郎、片山 俊明、田中道廣、時松敏明、中谷明弘、平糠和志、守屋勇樹、山西芳裕、吉沢明康、金久實、「KEGG OC: オーソログクラスターのマニュアルアノテーション」、第31回日本分子生物学会、神戸 (2008/12)."
+  lang: ja
+- id: 296
+  type: talk
+  date: "2008-12-02"
+  title: "KEGG OC: 全生物種ゲノムにおけるオーソログ遺伝子のバリエーションと高速検索技術"
+  citation: "片山 俊明、伊藤真純、奥田修二郎、川島秀一、田中道廣、時松敏明、中谷明弘、平糠和志、守屋勇樹、山西芳裕、吉沢明康、金久實「KEGG OC: 全生物種ゲノムにおけるオーソログ遺伝子のバリエーションと高速検索技術」、第31回日本分子生物学会、神戸ポートアイランド (2008/12)."
+  tags:
+    - db
+  lang: ja
+- id: 212
+  type: paper
+  date: "2008-08-20"
+  title: Network analysis of adverse drug interactions.
+  citation: "Takarabe, M., Okuda, S., Itoh, M., Tokimatsu, T., Goto S., Kanehisa, M. Network analysis of adverse drug interactions. Genome Inform. 20:252-9 (2008)."
+  pmid: 19425139
+  doi: 10.1142/9781848163003_0022
+  links:
+    - label: Genome Informatics
+      url: "http://www.worldscientific.com/doi/10.1142/9781848163003_0022"
+- id: 294
+  type: talk
+  date: "2008-08-02"
+  title: A systems biology approach to elucidating mechanisms underlying smog-induced airway inflammation.
+  citation: "Wheelock, A. M., Wheelock, C. E., Okuda, S., and Goto, S.; A systems biology approach to elucidating mechanisms underlying smog-induced airway inflammation. 8th Siena Meeting, Siena (2008/8)."
+- id: 211
+  type: paper
+  date: "2008-07-01"
+  title: KEGG Atlas mapping for global analysis of metabolic pathways.
+  citation: "Okuda, S., Yamada, T., Hamajima, M., Itoh, M., Katayama, T., Bork, P., Goto, S., Kanehisa, M. KEGG Atlas mapping for global analysis of metabolic pathways. Nucleic Acids Res. 36:W423-6 (2008)."
+  pmid: 18477636
+  links:
+    - label: Nucleic Acids Research
+      url: "http://nar.oxfordjournals.org/content/36/suppl_2/W423.long"
+  tags:
+    - server
+- id: 293
+  type: talk
+  date: "2008-06-02"
+  title: Network analysis of adverse drug interactions.
+  citation: "Takarabe, M., Okuda, S., Itoh, M., Tokimatsu, T., Goto S., and Kanehisa, M.; Network analysis of adverse drug interactions. IBSB 2008, Berlin (2008/6)."
+- id: 295
+  type: talk
+  date: "2008-02-02"
+  title: KEGGグローバルパスウェイマップの開発
+  citation: 奥田修二郎、「KEGGグローバルパスウェイマップの開発」、第4回 21世紀COE若手研究者研究討論会、京都大学薬学部 (2008/2/21).
+  tags:
+    - server
+  lang: ja
+- id: 283
+  type: lecture
+  date: "2008-01-30"
+  title: 医薬品データベース
+  citation: ゲノムネットデータベース利用講習会、「医薬品データベース」、東大医科研 (2008/1/30).
+  lang: ja
+- id: 209
+  type: paper
+  date: "2008-01-20"
+  title: The repertoire of desaturases and elongases reveals fatty acid variations in 56 eukaryotic genomes.
+  citation: "Hashimoto, K., Yoshizawa, A. C., Okuda, S., Kuma, K., Goto, S., Kanehisa, M. The repertoire of desaturases and elongases reveals fatty acid variations in 56 eukaryotic genomes. J. Lipid Res. 49(1):183-91 (2008)."
+  pmid: 17921532
+  links:
+    - label: Journal of Lipid Research
+      url: "http://www.jlr.org/content/49/1/183.long"
+  tags:
+    - genome
+- id: 210
+  type: paper
+  date: "2008-01-01"
+  title: KEGG for linking genomes to life and the environment.
+  citation: "Kanehisa, M., Araki, M., Goto, S., Hattori, M., Hirakawa, M., Itoh, M., Katayama, T., Kawashima, S., Okuda, S., Tokimatsu, T., Yamanishi, Y. KEGG for linking genomes to life and the environment. Nucleic Acids Res. 36:D480-4 (2008)."
+  pmid: 18077471
+  links:
+    - label: Nucleic Acids Research
+      url: "http://nar.oxfordjournals.org/content/36/suppl_1/D480.long"
+  tags:
+    - db

@@ -1,0 +1,22 @@
+---
+import type { Publication } from '../lib/publications';
+import { pubmedUrl, doiUrl } from '../lib/publications';
+interface Props {
+  pub: Publication;
+  class?: string;
+  /** true のとき <a> ではなく文字列として出す。カード全体がリンクのトップページ用 (a の入れ子を避ける)。 */
+  plain?: boolean;
+}
+const { pub, class: extra = '', plain = false } = Astro.props;
+const links: { label: string; url: string }[] = [];
+if (pub.pmid) links.push({ label: 'PubMed', url: pubmedUrl(pub.pmid) });
+links.push(...pub.links);
+if (pub.doi && pub.links.length === 0) links.push({ label: 'DOI', url: doiUrl(pub.doi) });
+---
+{links.length > 0 && (
+  <p class={extra}>
+    {links.map((l) =>
+      plain ? <span class="ext-link">{l.label}</span> : <a class="ext-link" href={l.url} target="_blank" rel="noopener">{l.label}</a>
+    )}
+  </p>
+)}

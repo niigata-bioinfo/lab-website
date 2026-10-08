@@ -1,0 +1,90 @@
+- id: 172
+  type: poster
+  date: "2012-12-14"
+  title: "KEGG OC: 系統関係に基づいた大規模オーソログクラスタの自動生成"
+  citation: "守屋勇樹、中谷明弘、片山俊明、伊藤真純、平糠和志、川島秀一、奥田修二郎、田中道廣、時松敏明、山西芳裕、吉沢明康、金久實、五斗進、「KEGG OC: 系統関係に基づいた大規模オーソログクラスタの自動生成」、第35回日本分子生物学会年会、福岡 (2012/12)."
+  tags:
+    - db
+    - genome
+  lang: ja
+- id: 222
+  type: paper
+  date: "2012-11-13"
+  title: Virtual metagenome reconstruction from 16S rRNA gene sequences.
+  citation: "Okuda, S., Tsuchiya, T., Kiriyama, C., Itoh, M., Morisaki H. Virtual metagenome reconstruction from 16S rRNA gene sequences. Nat. Commun. 3:1203 (2012)."
+  pmid: 23149747
+  links:
+    - label: Nature Communications
+      url: "http://www.nature.com/ncomms/journal/v3/n11/full/ncomms2203.html"
+  tags:
+    - metagenome
+    - genome
+- id: 173
+  type: lecture
+  date: "2012-11-06"
+  title: メタゲノムワイド関連解析によって明らかにされる2型糖尿病患者の腸内細菌叢
+  citation: 東北大学インシリコ・メガバンク研究会、「メタゲノムワイド関連解析によって明らかにされる2型糖尿病患者の腸内細菌叢」、東北大学医学部 (2012/11/16).
+  tags:
+    - metagenome
+    - genome
+  lang: ja
+- id: 2545
+  type: poster
+  date: "2012-10-05"
+  title: 日本糖鎖科学コンソーシアム・データベース（JCGGDB）
+  citation: 鹿内俊秀、梶裕之、鈴木芳典、藤田典昭、前田真砂子、文紅玲、石崎円、澤木弘道、奥田修二郎、鴨さおり、中尾広美、石水毅、川嵜伸子、川嵜敏祐、山田一作、本庄秀之、森昌子、弘瀬友理子、水野真盛、加藤雅樹、菅秋次、山口芳樹、木下聖子、河野信、成松久、「日本糖鎖科学コンソーシアム・データベース（JCGGDB）」、トーゴーの日シンポジウム2012、東京 (2012/10/5).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 221
+  type: paper
+  date: "2012-10-04"
+  title: A metagenome-wide association study of gut microbiota in type 2 diabetes.
+  citation: "Qin, J., Li, Y., Cai, Z., Li, S., Zhu, J., Zhang, F., Liang, S., Zhang, W., Guan, Y., Shen, D., Peng, Y., Zhang, D., Jie, Z., Wu, W., Qin, Y., Xue, W., Li, J., Han, L., Lu, D., Wu, P., Dai, Y., Sun, X., Li, Z., Tang, A., Zhong, S., Li, X., Chen, W., Xu, R., Wang, M., Feng, Q., Gong, M., Yu, J., Zhang, Y., Zhang, M., Hansen, T., Sanchez, G., Raes, J., Falony, G., Okuda, S., Almeida, M., LeChatelier, E., Renault, P., Pons, N., Batto, J. M., Zhang, Z., Chen, H., Yang, R., Zheng, W., Li, S., Yang, H., Wang, J., Ehrlich, S. D., Nielsen, R., Pedersen, O., Kristiansen, K., Wang, J. A metagenome-wide association study of gut microbiota in type 2 diabetes. Nature 490(7418):55-60 (2012)."
+  pmid: 23023125
+  links:
+    - label: Nature
+      url: "http://www.nature.com/nature/journal/v490/n7418/full/nature11450.html"
+  tags:
+    - metagenome
+    - genome
+- id: 357
+  type: talk
+  date: "2012-09-18"
+  title: JCGGDBの活動報告
+  citation: 鹿内俊秀、梶裕之、鈴木芳典、藤田典昭、前田真砂子、文紅玲、石崎円、澤木弘道、奥田修二郎、鴨さおり、中尾広美、石水毅、川嵜伸子、川嵜敏祐、山田一作、本庄秀之、森昌子、弘瀬友理子、水野真盛、加藤雅樹、菅秋次、山口芳樹、木下フローラ 聖子、河野信、成松久、「JCGGDBの活動報告」、第31回日本糖質学会年会、鹿児島市民文化ホール (2012/9/18).
+  tags:
+    - glycan
+  lang: ja
+- id: 423
+  type: poster
+  date: "2012-08-11"
+  title: "Meta-transcriptomic analysis of microbial community associated with a soda lake in Khovsgol, Mongolia."
+  citation: "Hamamura, N., Huang, H., Okuda, S., Damdinsuren, N. Meta-transcriptomic analysis of microbial community associated with a soda lake in Khovsgol, Mongolia. ISME14, Copenhagen (2012/8)."
+- id: 422
+  type: poster
+  date: "2012-08-11"
+  title: Reconstruction of metagenomes from 16S rRNA gene sequence in biofilm formation process.
+  citation: "Okuda, S., Tsuchiya, Y., Kiriyama, C., Itoh, M., Morisaki, H. Reconstruction of metagenomes from 16S rRNA gene sequence in biofilm formation process. ISME14, Copenhagen (2012/8)."
+- id: 279
+  type: lecture
+  date: "2012-06-26"
+  title: メタオミクス時代に向けてのバイオインフォマティクス
+  citation: 日本大学生物資源科学部分子生態学特講、「メタオミクス時代に向けてのバイオインフォマティクス」、日本大学 (2012/6/26).
+  tags:
+    - metagenome
+    - genome
+  lang: ja
+- id: 398
+  type: poster
+  date: "2012-03-11"
+  title: ヒ素含有塩湖における微生物ヒ素代謝及び遺伝子発現応答の網羅的解析
+  citation: 濱村奈津子、奥田修二郎、「ヒ素含有塩湖における微生物ヒ素代謝及び遺伝子発現応答の網羅的解析」、第6回日本ゲノム微生物学会年会、東京 (2012/3).
+  lang: ja
+- id: 305
+  type: talk
+  date: "2012-03-02"
+  title: ヒ素含有塩湖における微生物ヒ素代謝及び遺伝子発現応答の網羅的解析
+  citation: 濱村奈津子、奥田修二郎、「ヒ素含有塩湖における微生物ヒ素代謝及び遺伝子発現応答の網羅的解析」、第6回日本ゲノム微生物学会、立教大学池袋キャンパス (2012/3).
+  lang: ja

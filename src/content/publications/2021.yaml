@@ -1,0 +1,396 @@
+- id: 2845
+  type: others
+  date: "2021-12-31"
+  title: 腫瘍外科と融合したPrecision Cancer Medicine
+  citation: "若井俊文、市川寛、島田能史、栗山洋子、中野麻恵、土田純子、棗田学、平野秀和、中村健一、坂田純、奥田修二郎、冨田善彦、「腫瘍外科と融合したPrecision Cancer Medicine」、癌の臨床 、67巻6号:249-256 (2021)."
+  lang: ja
+- id: 2466
+  type: paper
+  date: "2021-12-31"
+  title: Senolytic vaccination improves normal and pathological age-related phenotypes and increases lifespan in progeroid mice.
+  citation: "Suda, M., Shimizu, I., Katsuumi, G., Yoshida, Y., Hayashi, Y., Ikegami, R., Matsumoto, N., Yoshida, Y., Mikawa, R., Katayama, A., Wada, J., Seki, M., Suzuki, Y., Iwama, A., Nakagami, H., Nagasawa, A., Morishita, R., Sugimoto, M., Okuda, S., Tsuchida, M., Ozaki, K., Nakanishi-Matsui, M., Minamino, T. Senolytic vaccination improves normal and pathological age-related phenotypes and increases lifespan in progeroid mice. Nat. aging 1(12):1117-1126(2021)."
+  pmid: 37117524
+  links:
+    - label: Nature aging
+      url: "https://www.nature.com/articles/s43587-021-00151-2"
+- id: 2465
+  type: lecture
+  date: "2021-12-23"
+  title: 精密医療を加速する癌ゲノム解析と人工知能の応用
+  citation: 第1回I-DeAセミナー にいがた医工連携研究会2021、「精密医療を加速する癌ゲノム解析と人工知能の応用」、オンライン (2021/12/23).
+  tags:
+    - ai
+    - cancer-genome
+  lang: ja
+- id: 2552
+  type: talk
+  date: "2021-12-18"
+  title: 発酵食品に由来するポリアミン高産生菌Staphylococcus epidermidis FB146の分離と全ゲノム解析
+  citation: 白澤秀斗、西山知里、平野里佳、小栁喬、奥田修二郎、高木宏樹、栗原新、「発酵食品に由来するポリアミン高産生菌Staphylococcus epidermidis FB146の分離と全ゲノム解析」、日本ポリアミン学会第12回年会、オンライン (2021.12.18).
+  lang: ja
+- id: 2551
+  type: talk
+  date: "2021-12-18"
+  title: 発酵食品由来乳酸菌Latilactobacillus curvatus KP 3-4はオルニチンデカルボキシラーゼを介してプトレッシンを合成する
+  citation: 平野里佳、久米愛子、西山知里、本田涼将、白澤秀斗、凌一葦、杉山友太、奈良未沙希、下川ひろみ、河田明輝、小栁喬、芦田久、奥田修二郎、松本光晴、高木宏樹、栗原新、「発酵食品由来乳酸菌Latilactobacillus curvatus KP 3-4はオルニチンデカルボキシラーゼを介してプトレッシンを合成する」、日本ポリアミン学会第12回年会、オンライン (2021.12.18).
+  lang: ja
+- id: 2467
+  type: paper
+  date: "2021-12-13"
+  title: Plasma Sphingosine-1-Phosphate Levels Are Associated with Progression of Estrogen Receptor-Positive Breast Cancer.
+  citation: "Ikarashi, M., Tsuchida, J., Nagahashi, M., Takeuchi, S., Moro, K., Toshikawa, C., Abe, S., Ichikawa, H., Shimada, Y., Sakata, J., Koyama, Y., Sato, N., Hait, N. C., Ling, Y., Okuda, S., Takabe, K., Wakai, T. Plasma Sphingosine-1-Phosphate Levels Are Associated with Progression of Estrogen Receptor-Positive Breast Cancer. Int. J. Mol. Sci. 22(24):13367(2021)."
+  pmid: 34948163
+  links:
+    - label: International Journal of Molecular Sciences
+      url: "https://www.mdpi.com/1422-0067/22/24/13367"
+- id: 2843
+  type: others
+  date: "2021-12-05"
+  title: プレシジョン・メディシン実現のためのゲノム解析と病理画像への応用
+  citation: "奥田修二郎、「プレシジョン・メディシン実現のためのゲノム解析と病理画像への応用」、医用画像情報学会雑誌、Vol.38 No.4:143-146 (2021)."
+  lang: ja
+- id: 2447
+  type: poster
+  date: "2021-12-01"
+  title: メタプロテオミクスを強力に支援するタンパク質配列データベース構築法の研究
+  citation: 三浦信明、石濱泰、奥田修二郎、「メタプロテオミクスを強力に支援するタンパク質配列データベース構築法の研究」、第44回日本分子生物学会年会、横浜 (2021/12/1).
+  tags:
+    - db
+  lang: ja
+- id: 2424
+  type: paper
+  date: "2021-11-30"
+  title: Proposing a molecular classification associated with hypercoagulation in ovarian clear cell carcinoma.
+  citation: "Tamura, R., Yoshihara, K., Matsuo, K., Yachida, N., Miyoshi, A., Takahashi, K., Sugino, K., Yamaguchi, M., Mori, Y., Suda, K., Ishiguro, T., Okuda, S., Motoyama, T., Nakaoka, H., Kikuchi, A., Ueda, Y., Inoue, I., Enomoto, T. Proposing a molecular classification associated with hypercoagulation in ovarian clear cell carcinoma. Gynecol. Oncol. 163(2):327-333(2021)."
+  pmid: 34452748
+  links:
+    - label: Gynecologic Oncology
+      url: "https://www.sciencedirect.com/science/article/pii/S009082582101307X?via%3Dihub"
+- id: 2449
+  type: talk
+  date: "2021-11-26"
+  title: 大腸癌における宿主の遺伝子変異と腫瘍内細菌叢のプロファイリング
+  citation: 若井俊文、奥田修二郎、島田能史、田島陽介、廣瀬雄己、市川寛、凌一葦、三浦信明、須貝美佳、渡辺由、竹内志穂、坂田純、「大腸癌における宿主の遺伝子変異と腫瘍内細菌叢のプロファイリング」、第 32 回日本消化器癌発生学会総会、オンライン (2021/11/26).
+  tags:
+    - cancer-genome
+    - gut-microbiome
+  lang: ja
+- id: 2453
+  type: talk
+  date: "2021-11-19"
+  title: がんと細菌叢のバイオインフォマティクス解析
+  citation: 奥田修二郎、「がんと細菌叢のバイオインフォマティクス解析」、中部乳酸菌研究会、オンライン (2021/11/19).
+  tags:
+    - cancer-genome
+    - gut-microbiome
+  lang: ja
+- id: 2458
+  type: poster
+  date: "2021-11-18"
+  title: New method to construct a reference amino acid sequence database for metaproteome analysis.
+  citation: "Miura, N., Ishihama, Y., Okuda, S. New method to construct a reference amino acid sequence database for metaproteome analysis. HUPO2021, Stockholm/Hybrid (2021/11/18)."
+  tags:
+    - db
+    - proteome
+- id: 2457
+  type: poster
+  date: "2021-11-05"
+  title: Construction of amino acid sequence database for metaproteome analysis using genomes of closely related species.
+  citation: "Miura, N., Ishihama, Y., Okuda, S. Construction of amino acid sequence database for metaproteome analysis using genomes of closely related species. ASMS2021, Philadelphia/Hybrid (2021/10/31)."
+  tags:
+    - db
+    - proteome
+- id: 2446
+  type: poster
+  date: "2021-10-30"
+  title: 環境メタゲノムから糖鎖関連遺伝子を同定し、環境中の分布を比較
+  citation: 瀧原速仁、三浦信明、木下聖子、奥田修二郎、「環境メタゲノムから糖鎖関連遺伝子を同定し、環境中の分布を比較」、日本微生物生態学会第34回大会、オンライン (2021/10/30).
+  tags:
+    - metagenome
+    - glycan
+  lang: ja
+- id: 2452
+  type: talk
+  date: "2021-10-27"
+  title: 糖鎖科学ポータルGlyCosmos 2021
+  citation: 山田一作、塩田正明、高橋悠志、新町大輔、小野多美子、土屋伸一郎、松原正陽、木村直貴、瀬野瑛、細田正恵、藤田昌大、金進東、藤田典昭、安形清彦、梶裕之、成松久、奥田修二郎、木下聖子、「糖鎖科学ポータルGlyCosmos 2021」、第40回日本糖質学会年会、鹿児島県民交流センター (2021/10/29).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 2423
+  type: paper
+  date: "2021-10-19"
+  title: Development of Novel PCR Assays for Improved Detection of Enterovirus D68.
+  citation: "Ikuse, T., Aizawa, Y., Takihara, H., Okuda, S., Watanabe, K., Saitoh, A. Development of Novel PCR Assays for Improved Detection of Enterovirus D68. J. Clin. Microbiol. 59(11):e0115121(2021)."
+  pmid: 34432489
+  doi: 10.1128/JCM.01151-21
+  links:
+    - label: Journal of Clinical Microbiology
+      url: "https://journals.asm.org/doi/10.1128/JCM.01151-21?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed"
+- id: 2438
+  type: paper
+  date: "2021-10-18"
+  title: Functional glyco-metagenomics elucidates the role of glycan-related genes in environments.
+  citation: "Takihara, H., Miura, N., Aoki-Kinoshita, K. F., Okuda, S. Functional glyco-metagenomics elucidates the role of glycan-related genes in environments. BMC Bioinformatics 22(1):505(2021)."
+  pmid: 34663219
+  links:
+    - label: BMC Bioinformatics
+      url: "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04425-9"
+  tags:
+    - metagenome
+    - glycan
+- id: 2440
+  type: paper
+  date: "2021-10-11"
+  title: Oral Pathobiont-Induced Changes in Gut Microbiota Aggravate the Pathology of Nonalcoholic Fatty Liver Disease in Mice.
+  citation: "Yamazaki, K., Kato, T., Tsuboi, Y., Miyauchi, E., Suda, W., Sato, K., Nakajima, M., Yokoji-Takeuchi, M., Yamada-Hara, M., Tsuzuno, T., Matsugishi, A., Takahashi, N., Tabeta, K., Miura, N., Okuda, S., Kikuchi, J., Ohno, H., Yamazaki, K. Oral Pathobiont-Induced Changes in Gut Microbiota Aggravate the Pathology of Nonalcoholic Fatty Liver Disease in Mice. Front. Immunol. 12:766170(2021)."
+  pmid: 34707622
+  links:
+    - label: Frontiers in Immunology
+      url: "https://www.frontiersin.org/articles/10.3389/fimmu.2021.766170/full"
+  tags:
+    - gut-microbiome
+- id: 2443
+  type: lecture
+  date: "2021-10-09"
+  title: プレシジョン・メディスン実現のためのゲノム解析と病理画像への応用
+  citation: 医用画像情報学会第191回大会、「プレシジョン・メディスン実現のためのゲノム解析と病理画像への応用」、オンライン (2021/10/9).
+  tags:
+    - cancer-genome
+  lang: ja
+- id: 2455
+  type: poster
+  date: "2021-10-05"
+  title: 糖鎖科学ポータルGlyCosmosの利便性向上
+  citation: 細田正恵、山田一作、塩田正明、高橋悠志、新町大輔、小野多美子、土屋伸一郎、松原正陽、木村直貴、瀬野瑛、藤田昌大、金進東、岡谷千晶、久野敦、藤田典昭、安形清彦、梶裕之、成松久、奥田修二郎、木下聖子、「糖鎖科学ポータルGlyCosmosの利便性向上」、トーゴーの日シンポジウム2021、オンライン (2021/10/5).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 2456
+  type: poster
+  date: "2021-10-05"
+  title: "jPOSTdb: COVID-19データベースの構築"
+  citation: "吉沢明康、守屋勇樹、小林大樹、張智翔、奥田修二郎、田畑剛、河野信、幡野敦、高見知代、松本雅記、山ノ内祥訓、荒木令江、岩崎未央、杉山直幸、福島敦史、田中聡、五斗進、石濱泰、「jPOSTdb: COVID-19データベースの構築」、トーゴーの日シンポジウム2021、オンライン (2021/10/5)."
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 2327
+  type: paper
+  date: "2021-09-30"
+  title: Activin a Receptor Type 2A Mutation Affects the Tumor Biology of Microsatellite Instability-High Gastric Cancer.
+  citation: "Yuza, K., Nagahashi, M., Ichikawa, H., Hanyu, T., Nakajima, M., Shimada, Y., Ishikawa, T., Sakata, J., Takeuchi, S., Okuda, S., Matsuda, Y., Abe, M., Sakimura, K., Takabe, K., Wakai, T. Activin a Receptor Type 2A Mutation Affects the Tumor Biology of Microsatellite Instability-High Gastric Cancer. J. Gastrointest. Surg. 25(9):2231-2241(2021)."
+  pmid: 33420656
+  links:
+    - label: Journal of Gastrointestinal Surgery
+      url: "https://link.springer.com/article/10.1007/s11605-020-04889-9"
+  tags:
+    - cancer-genome
+- id: 2448
+  type: poster
+  date: "2021-09-28"
+  title: ヒト腸内細菌の代謝反応データベースの構築とその応用
+  citation: "Hirotsugu Shiroma, Youssef Darzi, Etsuko Terajima, Zenichi Nakagawa, Hirotaka Tsuchikura, Yuki Moriya, Shujiro Okuda, Susumu Goto, Takuji Yamada,「ヒト腸内細菌の代謝反応データベースの構築とその応用」、IIBMP2021、オンライン (2021/9/28)."
+  tags:
+    - db
+    - gut-microbiome
+  lang: ja
+- id: 2451
+  type: poster
+  date: "2021-09-16"
+  title: フシナシミドロにおける葉緑体光定位運動の再解析と新奇光受容体の関与について
+  citation: 高橋文雄，稲葉隆太，朝田康暉，奥田修二郎，笠原賢洋、「フシナシミドロにおける葉緑体光定位運動の再解析と新奇光受容体の関与について」、日本植物学会第85回大会、オンライン (2021/9/16).
+  lang: ja
+- id: 2432
+  type: paper
+  date: "2021-09-15"
+  title: Empagliflozin maintains capillarization and improves cardiac function in a murine model of left ventricular pressure overload.
+  citation: "Nakao, M., Shimizu, I., Katsuumi, G., Yoshida, Y., Suda, M., Hayashi, Y., Ikegami, R., Hsiao, Y. T., Okuda, S., Soga, T., Minamino, T. Empagliflozin maintains capillarization and improves cardiac function in a murine model of left ventricular pressure overload. Sci. Rep. 11(1):18384(2021)."
+  pmid: 34526601
+  links:
+    - label: Scientific Reports
+      url: "https://www.nature.com/articles/s41598-021-97787-2"
+- id: 2437
+  type: paper
+  date: "2021-09-11"
+  title: Altered microbiota by a high-fat diet accelerates lethal myeloid hematopoiesis associated with systemic SOCS3 deficiency.
+  citation: "Cho, K., Ushiki, T., Ishiguro, H., Tamura, S., Araki, M., Suwabe, T., Katagiri, T., Watanabe, M., Fujimoto, Y., Ohashi, R., Ajioka, Y., Shimizu, I., Okuda, S., Masuko, M., Nakagawa, Y., Hirai, H., Alexander, W. S., Shimano, H., Sone, H. Altered microbiota by a high-fat diet accelerates lethal myeloid hematopoiesis associated with systemic SOCS3 deficiency. iScience 24(10):103117(2021)."
+  pmid: 34611611
+  links:
+    - label: iScience
+      url: "https://www.sciencedirect.com/science/article/pii/S2589004221010853?via%3Dihub"
+- id: 2444
+  type: lecture
+  date: "2021-08-20"
+  title: バイオインフォマティクスとがんゲノム医療
+  citation: 第17回日本病理学会カンファレンス、「バイオインフォマティクスとがんゲノム医療」、オンライン (2021/8/20).
+  tags:
+    - cancer-genome
+  lang: ja
+- id: 2524
+  type: poster
+  date: "2021-07-30"
+  title: 視覚野における翻訳制御依存的皮質局所回路の形成
+  citation: 侯旭濱、凌一葦、崎村建司、奥田修二郎、杉山清佳、「視覚野における翻訳制御依存的皮質局所回路の形成」、第44回日本神経科学大会、神戸/ハイブリッド (2021/7/30).
+  lang: ja
+- id: 2445
+  type: lecture
+  date: "2021-07-19"
+  title: jPOSTリポジトリとJPDMデータジャーナルの活用
+  citation: 日本プロテオーム学会2021年大会教育セミナー、「jPOSTリポジトリとJPDMデータジャーナルの活用」、オンライン (2021/7/19).
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 2450
+  type: talk
+  date: "2021-07-09"
+  title: かぶらずし由来 Latilactobacillus curvatus KP 3-4 のプトレッシン産生機構の解明を目的 とした全ゲノム解析
+  citation: 平野里佳、本田涼将、西山知里、白澤秀斗、下川ひろみ、河田明輝、凌一葦、小栁喬、芦田久、奥田修二郎、高木宏樹、栗原新、「かぶらずし由来 Latilactobacillus curvatus KP 3-4 のプトレッシン産生機構の解明を目的 とした全ゲノム解析」、日本乳酸菌学会2021年大会、オンライン (2021/7/9).
+  lang: ja
+- id: 2429
+  type: lecture
+  date: "2021-07-01"
+  title: The jPOST project promoting FAIR data principles in proteomics
+  citation: "AOHUPO2021, “The jPOST project promoting FAIR data principles in proteomics”, Online (2021/7/1)."
+  tags:
+    - db
+    - proteome
+- id: 2398
+  type: paper
+  date: "2021-06-30"
+  title: Histopathological characteristics and artificial intelligence for predicting tumor mutational burden-high colorectal cancer.
+  citation: "Shimada, Y., Okuda, S., Watanabe, Y., Tajima, Y., Nagahashi, M., Ichikawa, H., Nakano, M., Sakata, J., Takii, Y., Kawasaki, T., Homma, K. I., Kamori, T., Oki, E., Ling, Y., Takeuchi, S., Wakai, T. Histopathological characteristics and artificial intelligence for predicting tumor mutational burden-high colorectal cancer. J. Gastroenterol. 56(6):547-559(2021)."
+  pmid: 33909150
+  links:
+    - label: Journal of Gastroenterology
+      url: "https://link.springer.com/article/10.1007%2Fs00535-021-01789-w"
+  tags:
+    - cancer-genome
+- id: 2409
+  type: paper
+  date: "2021-06-29"
+  title: Obesity-Related Gut Microbiota Aggravates Alveolar Bone Destruction in Experimental Periodontitis through Elevation of Uric Acid.
+  citation: "Sato, K., Yamazaki, K., Kato, T., Nakanishi, Y., Tsuzuno, T., Yokoji-Takeuchi, M., Yamada-Hara, M., Miura, N., Okuda, S., Ohno, H., Yamazaki, K. Obesity-Related Gut Microbiota Aggravates Alveolar Bone Destruction in Experimental Periodontitis through Elevation of Uric Acid. mBio 12(3):e0077121(2021)."
+  pmid: 34061595
+  doi: 10.1128/mBio.00771-21
+  links:
+    - label: mBio
+      url: "https://journals.asm.org/doi/10.1128/mBio.00771-21"
+- id: 2411
+  type: paper
+  date: "2021-06-04"
+  title: Profiling of host genetic alterations and intra-tumor microbiomes in colorectral cancer.
+  citation: "Okuda, S., Shimada, Y., Tajima, Y., Yuza, K., Hirose, Y., Ichikawa, H., Nagahashi, M., Sakata, J., Ling, Y., Miura, N., Sugai, M., Watanabe, Y., Takeuchi, S., Wakai, T. Profiling of host genetic alterations and intra-tumor microbiomes in colorectal cancer. Comput. Struct. Biotechnol. J. 19:3330-3338(2021)."
+  pmid: 34188781
+  links:
+    - label: Computational and Structural Biotechnology Journal
+      url: "https://www.sciencedirect.com/science/article/pii/S2001037021002336?via%3Dihub"
+  tags:
+    - cancer-genome
+- id: 2404
+  type: paper
+  date: "2021-05-26"
+  title: Extracellular DNA of slow growers of mycobacteria and its contribution to biofilm formation and drug tolerance.
+  citation: "IIinov, A., Nishiyama, A., Namba, H., Fukushima, Y., Takihara, H., Nakajima, C., Savitskaya, A., Gebretsadik, G., Hakamata, M., Ozeki, Y., Tateishi, Y., Okuda, S., Suzuki, Y., Vinnik, Y. S., Matsumoto, S. Extracellular DNA of slow growers of mycobacteria and its contribution to biofilm formation and drug tolerance. Sci. Rep. 11(1):10953(2021)."
+  pmid: 34040029
+  links:
+    - label: Scientific Reports
+      url: "https://www.nature.com/articles/s41598-021-90156-z"
+- id: 2383
+  type: paper
+  date: "2021-04-23"
+  title: Three-dimensional understanding of the morphological complexity of the human uterine endometrium.
+  citation: "Yamaguchi, M., Yoshihara, K., Suda, K., Nakaoka, H., Yachida, N., Ueda,H., Sugino, K., Mori, Y., Yamawaki, K., Tamura, R., Ishiguro, T., Motoyama, T., Watanabe, Y., Okuda, S., Tainaka, K., Enomoto, T. Three-dimensional understanding of the morphological complexity of the human uterine endometrium. iScience 24(4):102258(2021)."
+  pmid: 33796844
+  links:
+    - label: iScience
+      url: "https://www.sciencedirect.com/science/article/pii/S2589004221002261?via%3Dihub"
+- id: 2890
+  type: others
+  date: "2021-03-31"
+  title: The jPOST repository as a public data repository for shotgun proteomics.
+  citation: "Watanabe, Y., Yoshizawa, A. C., Ishihama, Y., Okuda, S. The jPOST repository as a public data repository for shotgun proteomics. Methods Mol. Biol. 2259:309-322 (2021). ISBN:978-1-0716-1177-7"
+- id: 2491
+  type: lecture
+  date: "2021-03-26"
+  title: Understanding the Human Gut Microbiome from Large-scale Metagenomic Analysis
+  citation: 第85回日本循環器学会学術集会、「Understanding the Human Gut Microbiome from Large-scale Metagenomic Analysis」、パシフィコ横浜/ハイブリッド (2021/3/27).
+  tags:
+    - metagenome
+    - gut-microbiome
+  lang: ja
+- id: 2351
+  type: paper
+  date: "2021-03-18"
+  title: Adipose most abundant 2 protein is a predictive marker for cisplatin sensitivity in cancers.
+  citation: "Kamimura, K., Suda, T., Fukuhara, Y., Okuda, S., Watanabe, Y., Yokoo, T., Osaki, A., Waguri, N., Ishikawa, T., Sato, T., Aoyagi, Y., Takamura, M., Wakai, T., Terai, S. Adipose most abundant 2 protein is a predictive marker for cisplatin sensitivity in cancers. Sci. Rep. 11(1):6255(2021)."
+  pmid: 33737617
+  links:
+    - label: Scientific Reports
+      url: "https://www.nature.com/articles/s41598-021-85498-7"
+  tags:
+    - cancer-genome
+- id: 2348
+  type: paper
+  date: "2021-03-10"
+  title: The jPOST Repository as a Public Data Repository for Shotgun Proteomics.
+  citation: "Watanabe, Y., Yoshizawa, A. C., Ishihama, Y., Okuda, S. The jPOST Repository as a Public Data Repository for Shotgun Proteomics. Methods Mol. Biol. 2259:309-322(2021)."
+  pmid: 33687724
+  links:
+    - label: Methods in molecular biology
+      url: "https://link.springer.com/protocol/10.1007%2F978-1-0716-1178-4_20"
+  tags:
+    - db
+    - proteome
+- id: 2349
+  type: paper
+  date: "2021-02-28"
+  title: Mutational signatures in squamous cell carcinoma of the lung.
+  citation: "Osoegawa, A., Takada, K., Okamoto, T., Sato, S., Nagahashi, M., Tagawa, T., Tsuchida, M., Oki, E., Okuda, S., Wakai, T., Mori, M. Mutational signatures in squamous cell carcinoma of the lung. J. Thorac. Dis. 13(2):1075-1082(2021)."
+  pmid: 33717580
+  links:
+    - label: Journal of Thoracic Disease
+      url: "https://jtd.amegroups.com/article/view/48088/html"
+  tags:
+    - cancer-genome
+- id: 2844
+  type: others
+  date: "2021-02-10"
+  title: 胆道癌のゲノム医療
+  citation: "若井俊文、島田能史、奥田修二郎、栗山洋子、須貝美佳、中野麻恵、松本瑛生、廣瀬雄己、三浦宏平、滝沢一泰、市川寛、坂田純、「胆道癌のゲノム医療」、消化器外科 、44巻2号:207-212 (2021)."
+  tags:
+    - cancer-genome
+  lang: ja
+- id: 2799
+  type: lecture
+  date: "2021-01-20"
+  title: 人工知能によるデジタル医療革命の最前線
+  citation: まちきゃん医療見聞録2021、「人工知能によるデジタル医療革命の最前線」、まちなかキャンパス長岡 (2021/1/20).
+  tags:
+    - ai
+  lang: ja
+- id: 2313
+  type: paper
+  date: "2021-01-08"
+  title: GlycoPOST realizes FAIR principles for glycomics mass spectrometry data.
+  citation: "Watanabe, Y., Aoki-Kinoshita, K. F., Ishihama, Y., Okuda, S. GlycoPOST realizes FAIR principles for glycomics mass spectrometry data. Nucleic Acids Res. 49(D1):D1523-D1528(2021)."
+  pmid: 33174597
+  doi: 10.1093/nar/gkaa1012/5974088
+  links:
+    - label: Nucleic Acids Research
+      url: "https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa1012/5974088"
+  tags:
+    - db
+    - glycan
+- id: 2326
+  type: paper
+  date: "2021-01-04"
+  title: p62/SQSTM1-droplet serves as a platform for autophagosome formation and anti-oxidative stress response.
+  citation: "Kageyama, S., Gudmundsson, S. R., Sou, Y-S., Ichimura, Y., Tamura, N., Kazuno, S., Ueno, T., Miura, Y., Noshiro, D., Abe, M., Mizushima, T., Miura, N., Okuda, S., Motohashi, H., Lee, J-A., Sakimura, K., Ohe, T., Noda, N. N., Waguri, S., Eskelinen, E-L., Komatsu, M. p62/SQSTM1-droplet serves as a platform for autophagosome formation and anti-oxidative stress response. Nat. commun. 12(1):16(2021)."
+  pmid: 33397898
+  links:
+    - label: Nature Communications
+      url: "https://www.nature.com/articles/s41467-020-20185-1"

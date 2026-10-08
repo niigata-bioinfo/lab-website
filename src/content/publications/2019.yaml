@@ -1,0 +1,372 @@
+- id: 2221
+  type: poster
+  date: "2019-12-04"
+  title: 神経成長円錐のタンパク質リン酸化に関する進化のバイオインフォマティクス解析
+  citation: 五十嵐道弘、奥田修二郎、「神経成長円錐のタンパク質リン酸化に関する進化のバイオインフォマティクス解析」、第42回日本分子生物学会年会、福岡 (2019/12/4).
+  lang: ja
+- id: 2220
+  type: poster
+  date: "2019-12-04"
+  title: ディープラーニングによる尿沈渣結晶の分類
+  citation: 中川祐吾、奥田修二郎、「ディープラーニングによる尿沈渣結晶の分類」、第42回日本分子生物学会年会、福岡 (2019/12/4).
+  lang: ja
+- id: 2241
+  type: paper
+  date: "2019-12-02"
+  title: Rice Endosperm Protein Administration to Juvenile Mice Regulates Gut Microbiota and Suppresses the Development of High-Fat Diet-Induced Obesity and Related Disorders in Adulthood.
+  citation: "Higuchi, Y., Hosojima, M., Kabasawa, H., Kuwahara, S., Goto, S., Toba, K., Kaseda, R., Tanaka, T., Kitamura, N., Takihara, H., Okuda, S., Taniguchi, M., Arao, H., Narita, I., Saito, A. Rice Endosperm Protein Administration to Juvenile Mice Regulates Gut Microbiota and Suppresses the Development of High-Fat Diet-Induced Obesity and Related Disorders in Adulthood. Nutrients 11(12): 2919 (2019)."
+  links:
+    - label: PubMed
+      url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=Rice+Endosperm+Protein+Administration+to+Juvenile+Mice+Regulates+Gut+Microbiota+and+Suppresses+the+Development+of+High-Fat+Diet-Induced+Obesity+and+Related+Disorders+in+Adulthood."
+    - label: Nutrients
+      url: "https://www.mdpi.com/2072-6643/11/12/2919"
+- id: 2210
+  type: talk
+  date: "2019-11-22"
+  title: ヒト腸内マイクロバイオームのバイオインフォマティクス研究
+  citation: 奥田修二郎、「ヒト腸内マイクロバイオームのバイオインフォマティクス研究」、中部乳酸菌研究会、ホテルブエナビスタ (2019/11/22).
+  tags:
+    - gut-microbiome
+  lang: ja
+- id: 2228
+  type: lecture
+  date: "2019-11-09"
+  title: バイオインフォマティクスが解く大規模オミクスデータの世界
+  citation: 生化学若い研究者の会北陸支部主催秋の研究セミナー2019、「バイオインフォマティクスが解く大規模オミクスデータの世界」、まちなかキャンパス長岡 (2019/11/9).
+  lang: ja
+- id: 2192
+  type: paper
+  date: "2019-11-01"
+  title: "Open Agile text mining for bioinformatics: the PubAnnotation ecosystem."
+  citation: "Kim, J. D., Wang, Y., Fujiwara, T., Okuda, S., Callahan, T. J., Cohen, K. B. Open Agile text mining for bioinformatics: the PubAnnotation ecosystem. Bioinformatics 1;35(21): 4372-4380 (2019)."
+  pmid: 30937439
+  links:
+    - label: Bioinformatics
+      url: "https://academic.oup.com/bioinformatics/article/35/21/4372/5425327"
+- id: 2212
+  type: talk
+  date: "2019-10-26"
+  title: 早期発症者と長期潜伏後発症者より分離した結核菌北京株のゲノム変異についての解析
+  citation: 袴田真理子、瀧原速仁、岩本朋忠、田丸亜貴、尾関百合子、西山晃史、立石善隆、菊地利明、奥田修二郎、松本壮吉、「早期発症者と長期潜伏後発症者より分離した結核菌北京株のゲノム変異についての解析」、第56回日本細菌学会中部支部総会、名古屋大学 (2019/10/26).
+  lang: ja
+- id: 2229
+  type: lecture
+  date: "2019-10-25"
+  title: Precision Medicine実現に向けたバイオインフォマティクスの役割
+  citation: 第57回日本癌治療学会学術集会ワークショップ【ゲノム医療に向けたチームでの取り組み】、「Precision Medicine実現に向けたバイオインフォマティクスの役割」、マリンメッセ福岡 (2019/10/25).
+  tags:
+    - cancer-genome
+  lang: ja
+- id: 2213
+  type: talk
+  date: "2019-10-25"
+  title: 固形癌における包括的ゲノム解析に基づくPrecision Medicine
+  citation: 若井俊文、島田能史、永橋昌幸、市川寛、油座築、根本万里子、中野麻恵、廣瀬雄己、滝沢一泰、坂田純、亀山仁史、小林隆、棗田学、吉原弘祐、奥田修二郎、「固形癌における包括的ゲノム解析に基づくPrecision Medicine」 、第57回日本癌治療学会学術集会ASCO/JSCOジョイントシンポジウム、福岡国際会議場 (2019/10/25).
+  tags:
+    - cancer-genome
+  lang: ja
+- id: 2224
+  type: poster
+  date: "2019-10-16"
+  title: Mutational signatures and clinicopathological relationship extracted from clinical sequence data of 201 caseswith colorectal cancer.
+  citation: "Takeuchi, S., Ling, Y., Watanabe, Y., Shimada, Y., Wakai, T., Okuda, S. Mutational signatures and clinicopathological relationship extracted from clinical sequence data of 201 caseswith colorectal cancer. ASHG2019, Houston (2019/10/16)."
+  tags:
+    - cancer-genome
+- id: 2519
+  type: poster
+  date: "2019-10-05"
+  title: GlyCosmos Repositories
+  citation: 木下聖子、青木ポール信行、新町大輔、奥田修二郎、渡辺由、土屋伸一郎、藤田晶大、塩田正明、山田一作、「GlyCosmos Repositories」、トーゴーの日シンポジウム2019、東京 (2019/10/5).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 2518
+  type: poster
+  date: "2019-10-05"
+  title: jPOST統合環境の機能深化と連携基盤強化
+  citation: 守屋勇樹、河野信、奥田修二郎、渡辺由、松本雅記、高見知代、小林大樹、山ノ内祥訓、荒木令江、吉沢明康、田畑剛、岩崎未央、杉山直幸、田中聡、五斗進、石濱泰、「jPOST統合環境の機能深化と連携基盤強化」、トーゴーの日シンポジウム2019、東京 (2019/10/5).
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 2214
+  type: talk
+  date: "2019-09-28"
+  title: 次世代シークエンサーを用いた遺伝子検査とゲノム解析データベース 構築
+  citation: 永橋昌幸、若井俊文、島田能史、市川寛、羽入隆晃、滝沢一泰、石川卓、坂田純、小林隆、亀山仁史、竹内志穂、奥田修二郎、「次世代シークエンサーを用いた遺伝子検査とゲノム解析データベース 構築」、第78回日本癌学会学術総会、国立京都国際会館 (2019/9/28).
+  tags:
+    - cancer-genome
+    - db
+  lang: ja
+- id: 2247
+  type: paper
+  date: "2019-09-23"
+  title: "BioHackathon series in 2013 and 2014: improvements of semantic interoperability in life science data and services."
+  citation: "Katayama, T., Kawashima, S., Micklem, S., Kawano, S., Kim, J-D., Kocbek, S., Okamoto, S., Wang, Y., Wu, H., Yamaguchi, A., Yamamoto, Y., Antezana, E., Aoki-Kinoshita, K. F., Arakawa, K., Banno, M., Baran, J., Bolleman, J. T., Bonnal, R. J. P., Bono, H., Fernández-Breis, J. T., Buels, R., Campbell, M. P., Chiba, H., Cock, P. J. A., Cohen, K. B., Dumontier, M., Fujisawa, T., Fujiwara, T., Garcia, L., Gaudet, P., Hattori, E., Hoehndorf, R., Itaya, K., Ito, M., Jamieson, D., Jupp, S., Juty, N., Kalderimis, A., Kato, F., Kawaji, H., Kawashima, T., Kinjo, A. R., Komiyama, Y., Kotera, M., Kushida, T., Malone, J., Matsubara, M., Mizuno, S., Mizutani, S., Mori, H., Moriya, Y., Murakami, K., Nakazato, T., Nishide, H., Nishimura, Y., Ogishima, S., Ohta, T., Okuda, S., Ono, H., Perez-Riverol, Y., Shinmachi, D., Splendiani, A., Strozzi, F., Suzuki, S., Takehara, J., Thompson, M., Tokimatsu, T., Uchiyama, I., Verspoor, K., Wilkinson, M. D., Wimalaratne, S., Yamada, I., Yamamoto, N., Yarimizu, M., Kawamoto, S., Takagi, T. BioHackathon series in 2013 and 2014: improvements of semantic interoperability in life science data and services. F1000Research 8:1677 (2019)."
+  links:
+    - label: F1000Research
+      url: "https://f1000research.com/articles/8-1677"
+  tags:
+    - db
+- id: 2225
+  type: poster
+  date: "2019-09-17"
+  title: Network analysis of proteogenomics data in lung cancer cell lines.
+  citation: "Watanabe, Y., Ling, Y., Uemura, H., Yoshizawa, A. C., Ishihama, Y., Okuda, S. Network analysis of proteogenomics data in lung cancer cell lines. HUPO2019, Adelaide (2019/9/17)."
+  tags:
+    - proteome
+- id: 2226
+  type: poster
+  date: "2019-09-16"
+  title: Promotion of proteomic data sharing through a specialized data journal.
+  citation: "Kawano, S., Okuda, S., Matsumoto, M., Ishihama, Y. Promotion of proteomic data sharing through a specialized data journal. HUPO2019, Adelaide (2019/9/16)."
+  tags:
+    - proteome
+- id: 2222
+  type: poster
+  date: "2019-09-16"
+  title: 褐藻アカモクの季節集団間に見られる遺伝的分化について
+  citation: 本間由莉、奥田修二郎、笠原賢洋、高橋文雄、吉川伸哉、上井進也、「褐藻アカモクの季節集団間に見られる遺伝的分化について」、日本植物学会第83回大会、仙台 (2019/9/16).
+  lang: ja
+- id: 2223
+  type: poster
+  date: "2019-09-12"
+  title: プロテオゲノミクスのための解析プラットフォーム開発
+  citation: 上村駿人、吉沢明康、杉山直幸、奥田修二郎、石濱泰、「プロテオゲノミクスのための解析プラットフォーム開発」、日本分析化学会第68年会、千葉大学 (2019/9/12).
+  tags:
+    - proteome
+  lang: ja
+- id: 2230
+  type: lecture
+  date: "2019-09-10"
+  title: Precision medicine実現に向けたがんゲノムインフォマティクス
+  citation: IIBMP2019BoF【臨床検体を用いたメディカルゲノム解析 ～疾患関連遺伝子同定から発症予測解析まで～】、「Precision medicine実現に向けたがんゲノムインフォマティクス」、東京工業大学 (2019/9/10).
+  tags:
+    - cancer-genome
+  lang: ja
+- id: 2231
+  type: lecture
+  date: "2019-09-09"
+  title: 糖鎖関連の質量分析データリポジトリGlycoPOST
+  citation: IIBMP2019BoF【質量分析データベース・リポジトリの最前線】、「糖鎖関連の質量分析データリポジトリGlycoPOST」、東京工業大学 (2019/9/9).
+  tags:
+    - db
+    - proteome
+    - glycan
+  lang: ja
+- id: 2232
+  type: lecture
+  date: "2019-08-19"
+  title: 糖鎖・糖タンパク質用質量分析リポジトリGlycoPOSTの開発
+  citation: "第38回日本糖質学会年会ワークショップ【日本の糖鎖科学データベース:糖質科学の飛躍のための意見交換会 】、「糖鎖・糖タンパク質用質量分析リポジトリGlycoPOSTの開発」、名古屋大学 (2019/8/19)."
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 2233
+  type: lecture
+  date: "2019-08-08"
+  title: がんゲノム医療とインフォマティクス
+  citation: 第5回バイオインフォマティクスアゴラ、「がんゲノム医療とインフォマティクス」、京都大学iPS細胞研究所 CiRA（サイラ）(2019/8/8).
+  tags:
+    - cancer-genome
+  lang: ja
+- id: 2196
+  type: paper
+  date: "2019-07-29"
+  title: The Human Gut Microbiome is Structured to Optimize Molecular Interaction Networks.
+  citation: "Ling, Y., Watanabe, Y., Okuda, S. The Human Gut Microbiome is Structured to Optimize Molecular Interaction Networks. Comput. Struct. Biotechnol. J. 17:1040-1046 (2019)."
+  pmid: 31452856
+  links:
+    - label: Computational and Structural Biotechnology Journal
+      url: "https://www.sciencedirect.com/science/article/pii/S2001037019300704"
+  tags:
+    - gut-microbiome
+- id: 2235
+  type: lecture
+  date: "2019-07-26"
+  title: Precision medicine を目指すがんゲノムインフォマティクス
+  citation: JPrOS2019/JES2019 、「Precision medicine を目指すがんゲノムインフォマティクス 」、シーガイア (2019/7/26).
+  tags:
+    - cancer-genome
+    - proteome
+  lang: ja
+- id: 2227
+  type: poster
+  date: "2019-07-23"
+  title: Genome-wide analysis of mutational impact on post translational modification.
+  citation: "Ling, Y., Yoshizaki, H., Okuda, S. Genome-wide analysis of mutational impact on post translational modification. ISMB2019, Bazel (2019/7/23)."
+- id: 2194
+  type: paper
+  date: "2019-07-22"
+  title: Towards a standardized bioinformatics infrastructure for N- and O- glycomics.
+  citation: "Rojas-Macias, M. A., Mariethoz, J., Andersson, P., Jin, C., Venkatakrishnan, V., Aoki, N. P., Shinmachi, D., Ashwood, C., Madunic, K., Zhang, T., Miller, R. L., Horlacher, O., Struwe, W. B., Watanabe, Y., Okuda, S., Levander, F., Kolarich, D., Rudd, P. M., Wuhrer, M., Kettner, C., Packer, N. H., Aoki-Kinoshita, K. F., Lisacek, F., Karlsson, N. G. Towards a standardized bioinformatics infrastructure for N- and O- glycomics. Nat. commun. 10(1):3275 (2019)."
+  pmid: 31332201
+  links:
+    - label: Nature Communications
+      url: "https://www.nature.com/articles/s41467-019-11131-x"
+  tags:
+    - glycan
+- id: 2236
+  type: lecture
+  date: "2019-07-06"
+  title: プレシジョンメディスン実現に向けたがんゲノムインフォマティクスとマイクロバイオームへの応用
+  citation: 第18回日本婦人科がん分子標的研究会、「プレシジョンメディスン実現に向けたがんゲノムインフォマティクスとマイクロバイオームへの応用」、朱鷺メッセ (2019/7/6).
+  tags:
+    - cancer-genome
+  lang: ja
+- id: 2215
+  type: talk
+  date: "2019-06-15"
+  title: トリプルネガティブ乳癌における遺伝性疾患関連遺伝子異常
+  citation: 永橋昌幸、島田能史、市川寛、土田純子、諸和樹、利川千絵、五十嵐麻由子、廣瀬雄己、田島陽介、滝沢一泰、坂田純、小林隆、亀山仁史、奥田修二郎、若井俊文、「トリプルネガティブ乳癌における遺伝性疾患関連遺伝子異常」、第25回日本家族性腫瘍学会学術集会、コングレスクエア日本橋 (2019/6/15).
+  tags:
+    - cancer-genome
+  lang: ja
+- id: 2237
+  type: lecture
+  date: "2019-06-05"
+  title: 相互作用・パスウェイ( KEGG pathway、他）
+  citation: AJACS徳島、「相互作用・パスウェイ( KEGG pathway、他）」、大塚製薬徳島研究所 (2019/6/5).
+  tags:
+    - db
+  lang: ja
+- id: 2149
+  type: paper
+  date: "2019-05-31"
+  title: SMAD4 alteration associates with invasive-front pathological markers and poor prognosis in colorectal cancer.
+  citation: "Oyanagi, H., Shimada, Y., Nagahashi, M., Ichikawa, H., Tajima, Y., Abe, K., Nakano, M., Kameyama, H., Takii, Y., Kawasaki, T., Homma, K. I., Ling, Y., Okuda, S., Takabe, K., Wakai, T. SMAD4 alteration associates with invasive-front pathological markers and poor prognosis in colorectal cancer. Histopathology 74(6):873-882 (2019)."
+  doi: 10.1111/his.13805
+  links:
+    - label: PubMed
+      url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=30636020"
+    - label: Histopathology
+      url: "https://onlinelibrary.wiley.com/doi/full/10.1111/his.13805"
+  tags:
+    - cancer-genome
+- id: 2150
+  type: paper
+  date: "2019-05-31"
+  title: Evolutionary analysis of proline-directed phosphorylation sites in the mammalian growth cone identified using phosphoproteomics.
+  citation: "Igarashi, M., Okuda, S. Evolutionary analysis of proline-directed phosphorylation sites in the mammalian growth cone identified using phosphoproteomics. Mol. Brain 12(1):53 (2019)."
+  links:
+    - label: PubMed
+      url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=Evolutionary+analysis+of+proline-directed+phosphorylation+sites+in+the+mammalian+growth+cone%2C+identified+using+phosphoproteomics."
+    - label: Molecular Brain
+      url: "https://molecularbrain.biomedcentral.com/articles/10.1186/s13041-019-0476-x"
+- id: 2216
+  type: talk
+  date: "2019-05-17"
+  title: プロテオームおよび糖鎖関連の質量分析データリポジトリの開発
+  citation: 渡辺由、木下聖子、石濱泰、奥田修二郎、「プロテオームおよび糖鎖関連の質量分析データリポジトリの開発」、第67回質量分析総合討論会、つくば国際会議場 エポカルつくば (2019/5/17).
+  tags:
+    - db
+    - proteome
+    - glycan
+  lang: ja
+- id: 2140
+  type: paper
+  date: "2019-04-05"
+  title: Autophagy regulates lipid metabolism through selective turnover of NCoR1.
+  citation: "Saito, T., Kuma, A., Sugiura, Y., Ichimura, Y., Obata, M., Kitamura, H., Okuda, S., Lee, H. C., Ikeda, K., Kanegae, Y., Saito, I., Auwerx, J., Motohashi, H., Suematsu, M., Soga, T., Yokomizo, T., Waguri, S., Mizushima, N., Komatsu, M. Autophagy regulates lipid metabolism through selective turnover of NCoR1. Nat. Commun. 10(1):1567(2019)."
+  links:
+    - label: PubMed
+      url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=30952864"
+    - label: Nature Communications
+      url: "https://www.nature.com/articles/s41467-019-08829-3"
+- id: 2057
+  type: talk
+  date: "2019-03-19"
+  title: 糖鎖・糖タンパク質用質量分析リポジトリGlycoPOSTの公開
+  citation: 木下聖子、渡辺由、奥田修二郎、「糖鎖・糖タンパク質用質量分析リポジトリGlycoPOSTの公開」、第4回質量分析インフォマティクス研究会ワークショップ、JST東京本部別館（K’s五番町ビル）(2019/3/19).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 2077
+  type: poster
+  date: "2019-03-16"
+  title: 新潟県沿岸のアカモクにおける季節集団間の遺伝的分化の解析
+  citation: 本間由莉、奥田修二郎、笠原賢洋、高橋文雄、吉川伸哉、上井進也、「新潟県沿岸のアカモクにおける季節集団間の遺伝的分化の解析」、日本藻類学会第43回大会、京都 (2019/3/16).
+  lang: ja
+- id: 2061
+  type: lecture
+  date: "2019-03-09"
+  title: がんゲノムインフォマティクスからプロテオゲノミクスへ
+  citation: Meta-Omics Workshop in Kyoto 2019、「がんゲノムインフォマティクスからプロテオゲノミクスへ」、京都大学薬学部藤多記念ホール (2019/3/9).
+  tags:
+    - cancer-genome
+    - proteome
+  lang: ja
+- id: 2120
+  type: paper
+  date: "2019-02-28"
+  title: Knowledge base toward understanding actionable alterations and realizing precision oncology.
+  citation: "Takeuchi, S., Okuda, S. Knowledge base toward understanding actionable alterations and realizing precision oncology. Int. J. Clin. Oncol. 24(2):123-130 (2019)."
+  links:
+    - label: PubMed
+      url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=30542800"
+    - label: International Journal of Clinical Oncology
+      url: "https://link.springer.com/article/10.1007%2Fs10147-018-1378-0"
+  tags:
+    - cancer-genome
+- id: 2118
+  type: paper
+  date: "2019-02-21"
+  title: BRAF V600E and SRC mutations as molecular markers for predicting prognosis and conversion surgery in Stage IV colorectal cancer.
+  citation: "Shimada, Y., Muneoka, Y., Nagahashi, M., Ichikawa, H., Tajima, Y., Hirose, Y., Ando, T., Nakano, M., Sakata, J., Kameyama, H., Takii, Y., Ling, Y., Okuda, S., Takabe, K., Wakai, T. BRAF V600E and SRC mutations as molecular markers for predicting prognosis and conversion surgery in Stage IV colorectal cancer. Sci. Rep. 9(1):2466 (2019)."
+  links:
+    - label: PubMed
+      url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=30792536"
+    - label: Scientific Reports
+      url: "https://www.nature.com/articles/s41598-019-39328-6"
+  tags:
+    - cancer-genome
+- id: 2119
+  type: paper
+  date: "2019-02-07"
+  title: Characterisation of N-glycans in the epithelial-like tissue of the rat cochlea.
+  citation: "Nonomura, Y., Sawamura, S., Hanzawa, K., Nishikaze, T., Sekiya, S., Higuchi, T., Nin, F., Uetsuka, S., Inohara, H., Okuda, S., Miyoshi, E., Horii, A., Takahashi, S., Natsuka, S., Hibino, H. Characterisation of N-glycans in the epithelial-like tissue of the rat cochlea. Sci. Rep. 9(1):1551 (2019)."
+  links:
+    - label: PubMed
+      url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=30733536"
+    - label: Scientific Reports
+      url: "https://www.nature.com/articles/s41598-018-38079-0"
+- id: 2125
+  type: paper
+  date: "2019-01-31"
+  title: Identification of TRA-1-60-positive cells as a potent refractory population in follicular lymphomas.
+  citation: "Takata, K., Saito, K., Maruyama, S., Miyata-Takata, T., Iioka, H., Okuda, S., Ling, Y., Karube, K., Miki, Y., Maeda, Y., Yoshino, T., Steidl, C., Kondo, E. Identification of TRA-1-60-positive cells as a potent refractory population in follicular lymphomas. Cancer Sci. 110(1):443-457 (2019)."
+  doi: 10.1111/cas.13870
+  links:
+    - label: PubMed
+      url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=30417470"
+    - label: Cancer Science
+      url: "https://onlinelibrary.wiley.com/doi/full/10.1111/cas.13870"
+- id: 2126
+  type: paper
+  date: "2019-01-31"
+  title: Next generation sequencing-based gene panel tests for the management of solid tumors.
+  citation: "Nagahashi, M., Shimada, Y., Ichikawa, H., Kameyama, H., Takabe, K., Okuda, S., Wakai, T. Next generation sequencing-based gene panel tests for the management of solid tumors. Cancer Sci. 110(1):6-15 (2019)."
+  doi: 10.1111/cas.13837
+  links:
+    - label: PubMed
+      url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=30338623"
+    - label: Cancer Science
+      url: "https://onlinelibrary.wiley.com/doi/full/10.1111/cas.13837"
+  tags:
+    - cancer-genome
+- id: 2127
+  type: paper
+  date: "2019-01-08"
+  title: "The jPOST environment: an integrated proteomics data repository and database."
+  citation: "Moriya, Y., Kawano, S., Okuda, S., Watanabe, Y., Matsumoto, M., Takami, T., Kobayashi, D., Yamanouchi, Y., Araki, N., Yoshizawa, A. C., Tabata, T., Iwasaki, M., Sugiyama, N., Tanaka, S., Goto, S., Ishihama, Y. The jPOST environment: an integrated proteomics data repository and database. Nucleic Acids Res. 47(D1):D1218-D1224 (2019)."
+  links:
+    - label: PubMed
+      url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=30295851"
+    - label: Nucleic Acids Research
+      url: "https://academic.oup.com/nar/article/47/D1/D1218/5123397"
+  tags:
+    - db
+    - proteome

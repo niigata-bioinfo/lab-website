@@ -1,0 +1,61 @@
+{
+  "siteTitle": "Medical AI Center / Bioinformatics Laboratory",
+  "siteSubtitle": "Niigata University School of Medicine / Niigata University Graduate School of Medical and Dental Sciences",
+  "metaTitle": "Medical AI center, Niigata University School of Medicine/Niigata University Graduate School of Medical and Dental Sciences - Medical AI Center/Bioinformatics laboratory",
+  "metaDescription": "Medical AI Center / Bioinformatics Laboratory, Niigata University School of Medicine.",
+  "lang": { "ja": "Japanese", "en": "English" },
+  "menu": "MENU",
+  "nav": {
+    "home": "HOME",
+    "news": "News",
+    "introduction": "Introduction",
+    "members": "Members",
+    "publications": "Publications",
+    "access": "Access",
+    "links": "Links"
+  },
+  "top": {
+    "recruitment": "",
+    "about": "About us",
+    "latestPublications": "Latest publications",
+    "publicationsList": "Publications list",
+    "news": "News",
+    "newsList": "News archives",
+    "updated": ""
+  },
+  "sidebar": { "news": "News", "newsArchives": "News archives" },
+  "backToList": "Back to list",
+  "news": { "title": "INFORMATION", "empty": "" },
+  "introduction": { "title": "Introduction" },
+  "members": { "title": "Members", "alumni": "Alumni" },
+  "publications": {
+    "title": "Publications",
+    "category": "Category",
+    "all": "All",
+    "year": "Year",
+    "allYears": "All",
+    "tags": "Tags",
+    "typeHeading": "{type}",
+    "yearHeading": "Publications in {year}",
+    "tagHeading": "Tag: {tag}",
+    "empty": "No publications found."
+  },
+  "types": { "paper": "Paper", "poster": "Poster", "talk": "Talk", "lecture": "Lecture", "others": "Others" },
+  "tags": {
+    "db": "Database",
+    "proteome": "Proteome",
+    "cancer-genome": "Cancer genome",
+    "glycan": "Glycan",
+    "gut-microbiome": "Gut microbiome",
+    "genome": "Comparative genome",
+    "metagenome": "Metagenome",
+    "ai": "AI",
+    "operon": "Operon",
+    "server": "Web server"
+  },
+  "access": { "title": "Access", "address": "Address", "email": "E-mail", "tel": "Tel", "campusMap": "Campus map" },
+  "links": { "title": "Links" },
+  "recruitment": { "title": "Recruitment" },
+  "footer": { "copyright": "Bioinformatics Laboratory", "org": "Niigata University Graduate School of Medical and Dental Sciences" },
+  "notFound": { "title": "Page not found", "body": "The page you are looking for may have been moved or removed.", "home": "Go to top page" }
+}

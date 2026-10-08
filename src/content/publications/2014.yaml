@@ -1,0 +1,264 @@
+- id: 2885
+  type: others
+  date: "2014-12-20"
+  title: 腸内細菌マイクロバイオームの遺伝子間相互作用ネットワークの比較解析
+  citation: "奥田修二郎、「腸内細菌マイクロバイオームの遺伝子間相互作用ネットワークの比較解析」、 IFO Research Communications、 28:142-143 (2014)."
+  tags:
+    - gut-microbiome
+  lang: ja
+- id: 1180
+  type: paper
+  date: "2014-12-09"
+  title: Enhanced translocation and growth of Rhodococcus erythropolis PR4 in the alkane phase of aqueous-alkane two phase cultures were mediated by GroEL2 overexpression.
+  citation: "Takihara, H., Ogihara, J., Yoshida, T., Okuda, S., Nakajima, M., Iwabuchi, N., Sunairi, M. Enhanced translocation and growth of Rhodococcus erythropolis PR4 in the alkane phase of aqueous-alkane two phase cultures were mediated by GroEL2 over expression. Microbes Environ. 29(4):346-52 (2014)."
+  links:
+    - label: PubMed
+      url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=25311591"
+    - label: Microbes and Environments
+      url: "https://www.jstage.jst.go.jp/article/jsme2/29/4/29_ME13158/_article"
+- id: 1144
+  type: lecture
+  date: "2014-12-03"
+  title: 糖尿病に関連した腸内細菌叢におけるバイオインフォマティクスについて
+  citation: Scientific Exchange Meeting in 新潟､「糖尿病に関連した腸内細菌叢におけるバイオインフォマティクスについて」、ホテルオークラ新潟 (2014/12/3).
+  lang: ja
+- id: 1137
+  type: poster
+  date: "2014-12-02"
+  title: Large-scale analysis of the evolutionary history of phosphorylation motifs.
+  citation: "Okuda, S., Yoshizaki, H. Large-scale analysis of the evolutionary history of phosphorylation motifs. ASCB/IFCB2014, Philadelphia (2014/12)."
+  tags:
+    - proteome
+    - genome
+- id: 748
+  type: talk
+  date: "2014-11-27"
+  title: ヒト腸内細菌叢解析のためのパスウェイデータベース構築
+  citation: 奥田修二郎、佃直紀、山本希、西本悠一郎、高橋知紀、森宙史、黒川顕、守屋勇樹、五斗進、山田拓司、「ヒト腸内細菌叢解析のためのパスウェイデータベース構築」、第37回日本分子生物学会年会、パシフィコ横浜 (2014/11/27).
+  tags:
+    - db
+    - metagenome
+  lang: ja
+- id: 699
+  type: poster
+  date: "2014-11-27"
+  title: ヒト腸内細菌叢解析のためのパスウェイデータベース構築
+  citation: 奥田修二郎、佃直紀、山本希、西本悠一郎、高橋知紀、森宙史、黒川顕、守屋勇樹、五斗進、山田拓司、「ヒト腸内細菌叢解析のためのパスウェイデータベース構築」、第37回日本分子生物学会年会、横浜 (2014/11/27).
+  tags:
+    - db
+    - metagenome
+  lang: ja
+- id: 721
+  type: poster
+  date: "2014-11-26"
+  title: 進化的に拡張されたシグナルネットワークをリン酸化モチーフの比較進化解析で明らかにする
+  citation: 吉崎尚良、奥田修二郎、「進化的に拡張されたシグナルネットワークをリン酸化モチーフの比較進化解析で明らかにする」、第37回日本分子生物学会年会、横浜 (2014/11/26).
+  tags:
+    - genome
+  lang: ja
+- id: 695
+  type: talk
+  date: "2014-11-19"
+  title: Development of an International Glycan Structure Repository.
+  citation: "Aoki-Kinoshita, K., Agravat, S., Aoki, N. P., Arpinar, S., Cummings, R. D., Fujita, A., Fujita, N., Hart, G. M., Haslam, S., Kawasaki, T., Matsubara, M., Moreman, K. W., Narimatsu, H., Okuda, S., Pierce, J. P., Ranzinger, R., Shinmachi, D., Solovieva, E., Suzuki, Y., Tsuchiya, S., Yamada, York, W. S., Zaia. J. Development of an International Glycan Structure Repository. SFG&JSCR2014, Honolulu (2014/11/19)."
+  tags:
+    - db
+    - glycan
+- id: 1143
+  type: lecture
+  date: "2014-11-01"
+  title: 比較（メタ）ゲノム解析による機能推定
+  citation: 第27回新潟プロテオミクス・フォーラム、「比較（メタ）ゲノム解析による機能推定」、新潟大学(2014/11/1).
+  tags:
+    - metagenome
+    - genome
+  lang: ja
+- id: 2848
+  type: others
+  date: "2014-10-31"
+  title: 大量配列情報からの知識抽出
+  citation: "奥田修二郎、「大量配列情報からの知識抽出」、新潟医学会雑誌、128(10):487-491 (2014)."
+  lang: ja
+- id: 731
+  type: poster
+  date: "2014-10-24"
+  title: アルカン相内で生育する有機溶媒耐性菌 Rhodococcus erythropolis PR4 のタンパク質発現プロファイルの解析
+  citation: 岩淵範之、瀧原速仁、奥田修二郎、荻原淳、砂入道夫、「アルカン相内で生育する有機溶媒耐性菌 Rhodococcus erythropolis PR4 のタンパク質発現プロファイルの解析」、環境微生物系学会合同大会2014、浜松 (2014/10/23).
+  lang: ja
+- id: 2887
+  type: others
+  date: "2014-10-20"
+  title: "GlycoEpitope: A Database for Carbohydrate Antigen and Antibody."
+  citation: "Shujiro Okuda, Hiromi Nakao and Toshisuke Kawasaki GlycoEpitope: A Database for Carbohydrate Antigen and Antibody. Glycoscience: Biology and Medicine、 267-273 (2014). (ISBN 978-4-431-54840-9)"
+  tags:
+    - db
+- id: 703
+  type: poster
+  date: "2014-10-08"
+  title: Concept of Japan Proteome Standard repository/database (jPOST).
+  citation: "Kawano, S., Ishihama, Y., Yamamoto, T., Okuda, S., Tomonaga, T., Matsumoto, M., Nakagami, H., Kondo, T., Ono, M., Ohtsuki, S., Araki, N. Concept of Japan Proteome Standard repository/database (jPOST). HUPO2014, Madrid (2014/10)."
+  tags:
+    - db
+- id: 2543
+  type: poster
+  date: "2014-10-05"
+  title: 国際標準化糖鎖線形表記法～国際糖鎖構造データリポジトリへ向けて～
+  citation: 山田一作、木下聖子、松原正陽、土屋伸一郎、新町大輔、藤田晶大、青木信幸、鹿内俊秀、鈴木芳典、ソロビヨワ・イェレナ、藤田典昭、奥田修二郎、川嵜敏祐、成松久、「国際標準化糖鎖線形表記法～国際糖鎖構造データリポジトリへ向けて～」、トーゴーの日シンポジウム2014、東京 (2014/10/5).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 2542
+  type: poster
+  date: "2014-10-05"
+  title: 国際糖鎖構造リポジトリの開発
+  citation: 新町大輔、木下聖子、山田一作、藤田晶大、土屋伸一郎、青木ポール信幸、松原正陽、藤田典昭、鈴木芳典、イェレナ・ソロビヨワ、鹿内俊秀、奥田修二郎、川嵜敏祐、成松久、「国際糖鎖構造リポジトリの開発」、トーゴーの日シンポジウム2014、東京 (2014/10/5).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 698
+  type: poster
+  date: "2014-10-03"
+  title: 国際糖鎖構造リポジトリGlyTouCanの協同開発
+  citation: 木下聖子、青木 ポール信行、新町大輔、藤田晶大、土屋伸一郎、松原正陽、山田一作、藤田典昭、鈴木芳典、イェレナ・ソロビヨワ、鹿内俊秀、奥田修二郎、川㟢敏祐、成松久、「国際糖鎖構造リポジトリGlyTouCanの協同開発」、JSBi2014 、仙台 (2014/10/3)
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 694
+  type: talk
+  date: "2014-09-20"
+  title: 有害渦鞭毛藻Karenia mikimotoiの網羅的遺伝子発現解析に基づく毒関連遺伝子の探索
+  citation: 木村圭、奥田修二郎、仲山慶、高橋文雄、山口晴生、紫加田知幸、坂本節子、山口峰生、外丸裕司、「有害渦鞭毛藻Karenia mikimotoiの網羅的遺伝子発現解析に基づく毒関連遺伝子の探索」、平成26年度公益社団法人日本水産学会秋季大会、九州大学 (2014/9/20).
+  lang: ja
+- id: 702
+  type: poster
+  date: "2014-09-12"
+  title: Transcriptome changes for Vaucheria frigida in response to various light conditions.
+  citation: "Takahashi, F., Okuda, S., Kasahara, M. Transcriptome changes for Vaucheria frigida in response to various light conditions. Photobiology2014, Córdoba Argentina (2014/9)."
+- id: 701
+  type: poster
+  date: "2014-09-03"
+  title: A web tool to infer metagenomic contents from16S rRNA sequences.
+  citation: "Okuda, S., Watanabe, Y. A web tool to infer metagenomic contents from16S rRNA sequences. ISME2014, Seoul (2014/8)."
+  tags:
+    - metagenome
+    - genome
+- id: 700
+  type: poster
+  date: "2014-09-03"
+  title: Characterizatoin of protein phosphorylation in the context of evolution.
+  citation: "Okuda, S., Yoshizaki, H. Characterizatoin of protein phosphorylation in the context of evolution. ISMB2014, Boston (2014/7)."
+  tags:
+    - genome
+- id: 693
+  type: talk
+  date: "2014-08-12"
+  title: 国際糖鎖構造リポジトリの開発
+  citation: 木下聖子、山田 一作、藤田晶大、土屋伸一郎、松原正陽、藤田典昭、鈴木芳典、イェレナ ソロビヨワ、鹿内俊秀、奥田修二郎、川㟢敏祐、成松久、「国際糖鎖構造リポジトリの開発」、第33回日本糖質学会年会、名古屋大学 (2014/8/12).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 697
+  type: poster
+  date: "2014-08-10"
+  title: "GlycoRDF : 糖鎖オントロジーを用いた糖鎖関連データのRDF化"
+  citation: "Rene Ranzinger、木下聖子、Matthew P. Campbell、河野信、 Thomas Lütteke、奥田修二郎、新町大輔、鹿内俊秀、澤木弘道、Philip Toukach、松原正陽、山田 一作、成松久、「GlycoRDF : 糖鎖オントロジーを用いた糖鎖関連データのRDF化」、第33回日本糖質学会年会、名古屋 (2014/8/10)."
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 692
+  type: talk
+  date: "2014-07-17"
+  title: JCGGDBおよび国際糖鎖構造リポジトリの開発
+  citation: 木下聖子、新町大輔、藤田晶大、土屋伸一郎、藤田典昭、鈴木芳典、ソロビヨワイェレナ、松原正陽、山田一作、鹿内俊秀、奥田修二郎、川㟢敏祐、成松久、「JCGGDBおよび国際糖鎖構造リポジトリの開発」、日本プロテオーム学会2014年会 、つくば国際会議場 (2014/7/17).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 657
+  type: paper
+  date: "2014-06-27"
+  title: Elucidation of the evolutionary expansion of phosphorylation signaling networks using comparative phosphomotif analysis.
+  citation: "Yoshizaki, H., Okuda S. Elucidation of the evolutionary expansion of phosphorylation signaling networks using comparative phosphomotif analysis. BMC Genomics 15:546 (2014)."
+  pmid: 24981518
+  links:
+    - label: BMC Genomics
+      url: "http://www.biomedcentral.com/1471-2164/15/546"
+  tags:
+    - genome
+- id: 691
+  type: talk
+  date: "2014-06-11"
+  title: ヒト腸内細菌叢代謝経路データベース
+  citation: 山田拓司、佃直紀、高橋知紀、森宙史、黒川顕、守屋勇樹、奥田修二郎、五斗 進、「ヒト腸内細菌叢代謝経路データベース」、第18回腸内細菌学会、東京大学 (2014/6/11).
+  tags:
+    - db
+    - metagenome
+  lang: ja
+- id: 696
+  type: poster
+  date: "2014-06-05"
+  title: 腸内細菌マイクロバイオームの遺伝子間相互作用ネットワークの比較解析
+  citation: 奥田修二郎、「腸内細菌マイクロバイオームの遺伝子間相互作用ネットワークの比較解析」、公益財団法人発酵研究所第8回助成研究報告会、大阪 (2014/6/5).
+  tags:
+    - gut-microbiome
+  lang: ja
+- id: 498
+  type: lecture
+  date: "2014-03-14"
+  title: 糖鎖データベース開発と環境微生物解析
+  citation: 立命館大学糖鎖工学研究センター１０周年記念シンポジウム、「糖鎖データベース開発と環境微生物解析」、立命館大学BKCクリエイションコア101 (2014/3/14).
+  tags:
+    - db
+    - metagenome
+    - glycan
+  lang: ja
+- id: 495
+  type: poster
+  date: "2014-03-07"
+  title: LOV-HTHによる光に応答した遺伝子発現制御の解析
+  citation: 田郷寿樹、冨川直樹、奥田修二郎、高橋文雄、笠原賢洋、「LOV-HTHによる光に応答した遺伝子発現制御の解析」、第8回ゲノム微生物学会年会、東京 (2014/3/7)
+  lang: ja
+- id: 499
+  type: lecture
+  date: "2014-03-06"
+  title: 大規模配列データからの知識抽出
+  citation: NGS統合データ研究会、「大規模配列データからの知識抽出」、東京工業大学 (2014/3/6).
+  tags:
+    - metagenome
+    - genome
+  lang: ja
+- id: 497
+  type: lecture
+  date: "2014-02-23"
+  title: 環境微生物の動態解明に向けたモジュール解析
+  citation: NGiME (Next Generation in Microbial Ecology) 勉強会、「環境微生物の動態解明に向けたモジュール解析」、松山KKR道後ゆづき (2014/2/23).
+  tags:
+    - metagenome
+    - genome
+  lang: ja
+- id: 494
+  type: paper
+  date: "2014-02-17"
+  title: "BioHackathon series in 2011 and 2012: penetration of ontology and linked data in life science domains."
+  citation: "Katayama, T., Wilkinson M. D., Aoki-Kinoshita, K. F., Kawashima, S., Yamamoto, Y., Yamaguchi, A., Okamoto, S., Kawano, S., Kim, J. D., Wang, Y., Wu, H., Kano, Y., Ono, H., Bono, H., Kocbek, S., Aerts, J., Akune, Y., Antezana, E., Arakawa, K., Aranda, B., Baran, J., Bolleman, J., Bonnal, R. J., Buttigieg, P. L., Campbell, M. P., Chen, Y. A., Chiba, H., Cock, P. J., Cohen, K. B., Constantin, A., Duck, G., Dumontier, M., Fujisawa, T., Fujiwara, T., Goto, N., Hoehndorf, R., Igarashi, Y., Itaya, H., Ito, M., Iwasaki, W., Kalaš, M., Katoda, T., Kim, T., Kokubu, A., Komiyama, Y., Kotera, M., Laibe, C., Lapp, H., Lütteke, T., Marshall, M. S., Mori, T., Mori, H., Morita, M., Murakami, K., Nakao, M., Narimatsu, H., Nishide, H., Nishimura, Y., Nystrom-Persson, J., Ogishima, S., Okamura, Y., Okuda, S., Oshita, K., Packer, N. H., Prins, P., Ranzinger, R., Rocca-Serra, P., Sansone, S., Sawaki, H., Shin, S. H., Splendiani, A., Strozzi, F., Tadaka, S., Toukach, P., Uchiyama, I., Umezaki, M., Vos, R., Whetzel, P. L., Yamada, I., Yamasaki, C., Yamashita, R., York, W. S., Zmasek, C. M., Kawamoto, S., Takagi, T. BioHackathon series in 2011 and 2012: penetration of ontology and linked data in life science domains. J. Biomed. Semantics 5(1):5 (2014)."
+  pmid: 24495517
+  links:
+    - label: Journal of Biomedical Semantics
+      url: "http://www.jbiomedsem.com/content/5/1/5"
+  tags:
+    - db
+    - glycan
+- id: 496
+  type: lecture
+  date: "2014-01-16"
+  title: 大規模遺伝子配列と腸内細菌叢解析
+  citation: 第9回新潟大学研究推進セミナー、「大規模遺伝子配列と腸内細菌叢解析」、新潟大学(五十嵐キャンパス) ベンチャー・ビジネス・ラボラトリー大会議室 (2014/1/16).
+  tags:
+    - metagenome
+    - genome
+  lang: ja

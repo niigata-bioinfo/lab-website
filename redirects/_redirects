@@ -1,0 +1,18 @@
+# Cloudflare Pages / Netlify 用のリダイレクト表 (nginx を使わない場合に public/ へコピーする)。
+# クエリ ?lang=en の判定はこの形式では難しいため、英語版の固定ページのみ /en/ へ送る。
+/intro-ja        /introduction/      301
+/members-ja      /members/           301
+/access-ja       /access/            301
+/link-ja         /links/             301
+/introduction    /en/introduction/   301
+/members         /en/members/        301
+/access          /en/access/         301
+/link            /en/links/          301
+/news-en         /en/news/           301
+/archives/news-en /en/news/          301
+/archives/publications /publications/ 301
+/archives/publications-cat/:type /publications/type/:type/ 301
+/archives/publications/:id /publications/:id/ 301
+/archives/news   /news/              301
+/archives/news/:id /news/:id/        301
+/publications/page/:n /publications/page/:n/ 301

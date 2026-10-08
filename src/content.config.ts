@@ -1,0 +1,93 @@
+import { defineCollection } from 'astro:content';
+import { z } from 'astro/zod';
+import { glob } from 'astro/loaders';
+
+/** 研究業績の種別。表示色と絞り込みに使う。 */
+export const publicationTypes = ['paper', 'poster', 'talk', 'lecture', 'others'] as const;
+
+const tagSlug = z
+  .string()
+  .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'tags は小文字英数字とハイフンのみ (例: gut-microbiome)');
+
+/** 1 件の研究業績。 */
+export const publicationSchema = z.object({
+  /** 業績の通し番号。個別ページの URL (/publications/<id>/) になる。既存分は旧 WordPress の投稿 ID。新規は `npm run pub:add` が最大値+1 を採番する。 */
+  id: z.number().int().positive(),
+  type: z.enum(publicationTypes),
+  /** 並び順に使う日付。年ファイルの年と一致していること。 */
+  date: z.coerce.date(),
+  title: z.string().min(1),
+  /** 整形済みの引用文字列。1 行で書く。 */
+  citation: z.string().min(1),
+  pmid: z.number().int().positive().optional(),
+  doi: z.string().regex(/^10\.\d{4,9}\/\S+$/, 'doi は 10. で始まる識別子のみ (URL ではない)').optional(),
+  /** PubMed / DOI 以外の外部リンク。label がそのままリンク文字列になる。 */
+  links: z.array(z.object({ label: z.string().min(1), url: z.url() })).default([]),
+  tags: z.array(tagSlug).default([]),
+  /** 省略時は日英両方に表示。`ja` なら英語ページから除外する。 */
+  lang: z.enum(['ja', 'en']).optional(),
+});
+
+/** 年ごとの YAML ファイル (src/content/publications/2024.yaml) が 1 エントリ。中身は業績の配列。 */
+const publications = defineCollection({
+  loader: glob({ pattern: '*.yaml', base: './src/content/publications' }),
+  schema: z.array(publicationSchema),
+});
+
+const news = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/news' }),
+  schema: z.object({
+    /** 旧 WordPress の投稿 ID。省略可。 */
+    id: z.number().int().positive().optional(),
+    title: z.string().min(1),
+    date: z.coerce.date(),
+    /** 英語版サイトにも載せる場合は en のタイトルを書く。本文は共通。 */
+    titleEn: z.string().optional(),
+  }),
+});
+
+/** 固定ページ。src/content/pages/<lang>/<slug>.md */
+const pages = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/pages' }),
+  schema: z.object({
+    title: z.string().min(1),
+  }),
+});
+
+const localized = z.object({ ja: z.string().min(1), en: z.string().min(1) });
+const localizedOptional = z.object({ ja: z.string().optional(), en: z.string().optional() });
+
+/** 経歴・学歴などの見出し付き箇条書き。 */
+const bioSection = z.object({ heading: z.string().min(1), items: z.array(z.string().min(1)) });
+
+const memberSchema = z.object({
+  name: localized,
+  /** 役職。括弧書きの所属などもここに含めてよい。 */
+  title: localized,
+  /** 学位 (Ph.D. など)。書いた場合は英語ページで役職の前に表示。 */
+  degree: z.string().optional(),
+  /** 所属。複数行可 (YAML の `|` ブロック)。 */
+  affiliation: localizedOptional.optional(),
+  /** 経歴などの補足。言語ごとに見出し付きリストの配列。 */
+  bio: z.object({ ja: z.array(bioSection).optional(), en: z.array(bioSection).optional() }).optional(),
+});
+
+/** 過去のメンバー。名前の後ろに続ける文字列 (役職と在籍期間) をそのまま書く。 */
+const alumnusSchema = z.object({
+  name: localized,
+  detail: localized,
+});
+
+/** src/content/members.yaml 1 ファイルのみ。トップレベルのキーが表示グループ。 */
+const members = defineCollection({
+  loader: glob({ pattern: 'members.yaml', base: './src/content' }),
+  schema: z.object({
+    faculty: z.array(memberSchema),
+    staff: z.array(memberSchema),
+    students: z.array(memberSchema),
+    collaborators: z.array(memberSchema),
+    alumni: z.array(alumnusSchema),
+  }),
+});
+
+export const collections = { publications, news, pages, members };

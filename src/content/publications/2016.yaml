@@ -1,0 +1,389 @@
+- id: 1472
+  type: paper
+  date: "2016-12-22"
+  title: "Genomic landscape of colorectal cancer in Japan: clinical implications of comprehensive genomic sequencing for precision medicine."
+  citation: "Nagahashi, M., Wakai, T., Shimada, Y., Ichikawa, H., Kameyama, H., Kobayashi, T., Sakata, J., Yagi, R., Sato, N., Kitagawa, Y., Uetake, H., Yoshida, K., Oki, E., Kudo, S.E., Izutsu, H., Kodama, K., Nakada, M., Tse, J., Russell, M., Heyer, J., Powers, W., Sun, R., Ring, J. E., Takabe, K., Protopopov, A., Ling, Y., Okuda, S., Lyle, S. Genomic landscape of colorectal cancer in Japan: clinical implications of comprehensive genomic sequencing for precision medicine. Genome Med. 8(1):136 (2016)."
+  pmid: 28007036
+  links:
+    - label: Genome Medicine
+      url: "https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-016-0387-8"
+  tags:
+    - cancer-genome
+- id: 1471
+  type: paper
+  date: "2016-12-16"
+  title: An adenylyl cyclase with a phosphodiesterase domain in basal plants with a motile sperm system.
+  citation: "Kasahara, M., Suetsugu, N., Urano, Y., Yamamoto, C., Ohmori, M., Takada, Y., Okuda, S., Nishiyama, T., Sakayama, H., Kohchi, T., Takahashi, F. An adenylyl cyclase with a phosphodiesterase domain in basal plants with a motile sperm system. Sci. Rep. 6:39232 (2016)."
+  pmid: 27982074
+  links:
+    - label: Scientific Reports
+      url: "http://www.nature.com/articles/srep39232"
+- id: 2877
+  type: others
+  date: "2016-12-15"
+  title: メタゲノム解析におけるデータベースの現状と課題
+  citation: "奥田修二郎、「メタゲノム解析におけるデータベースの現状と課題」、実験医学-メタゲノム解析実験プロトコール-、第5章-1:200-205 (2016)."
+  tags:
+    - metagenome
+  lang: ja
+- id: 2886
+  type: others
+  date: "2016-12-07"
+  title: "GlycoEpitope: A Practical Guide to Using Glycomics Databases."
+  citation: "Shujiro Okuda, Hiromi Nakao and Toshisuke Kawasaki GlycoEpitope: A Practical Guide to Using Glycomics Databases. 227-245 (2016). (ISBN: 978-4-431-56452-2)"
+  tags:
+    - db
+- id: 1253
+  type: poster
+  date: "2016-12-02"
+  title: "プロテオーム統合データベースjPOST:再解析プロトコルの開発"
+  citation: "吉沢明康、田畑剛、守屋勇樹、河野信、奥田修二郎、渡辺由、山本格、松本雅記、高見知代、小林大樹、荒木令江、杉山直幸、五斗進、石濱泰、「プロテオーム統合データベースjPOST:再解析プロトコルの開発」、第39回日本分子生物学会年会、横浜 (2016/12/1)."
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 1252
+  type: poster
+  date: "2016-12-02"
+  title: プロテオーム統合データベースjPOST：プロテオームデータベースプロジェクト
+  citation: 守屋勇樹、河野信、奥田修二郎、渡辺由、山本格、松本雅記、高見知代、小林大樹、荒木令江、吉沢明康、田畑剛、杉山直幸、五斗進、石濱泰、「プロテオーム統合データベースjPOST：プロテオームデータベースプロジェクト」、第39回日本分子生物学会年会、横浜 (2016/12/1).
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 1251
+  type: poster
+  date: "2016-12-02"
+  title: "プロテオーム統合データベースjPOST:質量分析データ・リポジトリの公開"
+  citation: "奥田修二郎、渡辺由、守屋勇樹、河野信、山本格、松本雅記、高見知代、小林大樹、荒木令江、吉沢明康、田畑剛、杉山直幸、五斗進、石濱泰、「プロテオーム統合データベースjPOST:質量分析データ・リポジトリの公開」、第39回日本分子生物学会年会、横浜 (2016/12/1)."
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 1467
+  type: talk
+  date: "2016-11-30"
+  title: プロテオーム統合データベースjPOST：質量分析データ・リポジトリの公開
+  citation: 奥田修二郎、渡辺由、守屋勇樹、河野信、山本格、松本雅記、高見知代、小林大樹、荒木令江、吉沢明康、田畑剛、杉山直幸、五斗進、石濱泰、「プロテオーム統合データベースjPOST：質量分析データ・リポジトリの公開」、第39回日本分子生物学会年会、パシフィコ横浜 (2016/11/30).
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 1462
+  type: poster
+  date: "2016-11-25"
+  title: 腸内細菌マイクロバイオーム解析のためのバイオインフォマティクス
+  citation: 瀧原速仁、奥田修二郎、「腸内細菌マイクロバイオーム解析のためのバイオインフォマティクス」、FSCシーズプレゼンテーション、新潟大学 (2016/11/25).
+  tags:
+    - gut-microbiome
+  lang: ja
+- id: 2883
+  type: others
+  date: "2016-11-15"
+  title: がん遺伝子変異解析パネル（CancerPlex®）を用いた新たな進行大腸癌分類
+  citation: "亀山仁史、島田能史、市川寛、永橋昌幸、坂田純、小林隆、野上仁、丸山聡、瀧井康公、奥田修二郎、凌一葦、井筒浩、兒玉啓輔、中田光隆、若井俊文、「がん遺伝子変異解析パネル（CancerPlex®）を用いた新たな進行大腸癌分類」、癌と化学療法、 43(11):1361-1365 (2016)."
+  tags:
+    - cancer-genome
+  lang: ja
+- id: 1264
+  type: poster
+  date: "2016-10-31"
+  title: Development of a long indel detection method using the realignment of the misaligned reads.
+  citation: "Shigemizu, D., Miya, F., Fujimoto, A., Boroevich, K. A., Okuda, S., Tsunoda, T. Development of a long indel detection method using the realignment of the misaligned reads. ASHG2016, Vancouver (2016/10)."
+- id: 2100
+  type: poster
+  date: "2016-10-23"
+  title: 大腸菌の persister 形成を誘導する多様な経路
+  citation: 河合祐人、一色理乃、山本尚輝、松本慎也、奥田修二郎、常田聡、「大腸菌の persister 形成を誘導する多様な経路」、日本微生物生態学会第31回大会、横須賀 (2016/10/23).
+  lang: ja
+- id: 2143
+  type: paper
+  date: "2016-10-15"
+  title: Mutations in SDR9C7 gene encoding an enzyme for vitamin A metabolism underlie autosomal recessive congenital ichthyosis.
+  citation: "Shigehara, Y., Okuda, S., Nemer, G., Chedraoui, A., Hayashi, R., Bitar, F., Nakai, H., Abbas, O., Daou, L., Abe, R., Sleiman, M. B., Kibbi, A. G., Kurban, M., Shimomura, Y. Mutations in SDR9C7 gene encoding an enzyme for vitamin A metabolism underlie autosomal recessive congenital ichthyosis. Hum. Mol. Genet. 25(20):4484-4493 (2016)."
+  links:
+    - label: PubMed
+      url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=28173123"
+    - label: Human Molecular Genetics
+      url: "https://academic.oup.com/hmg/article/25/20/4484/2525886"
+- id: 2096
+  type: poster
+  date: "2016-10-13"
+  title: "New Filtering Functionality in GlyTouCan, The Glycan Repository."
+  citation: "Aoki, N. P., Aoki-Kinoshita, K. F., Shinmachi, D., Yamada, I., Tsuchiya, S., Matsubara, M., Okuda, S., Fujita, N., Suzuki, Y., Fujita, A., Solovieva, E., Shikanai, T., Kawasaki, T., Narimatsu, H. New Filtering Functionality in GlyTouCan, The Glycan Repository. ACGG2016 (2016/10/13)."
+  tags:
+    - db
+    - glycan
+- id: 2097
+  type: poster
+  date: "2016-10-13"
+  title: Integrating Life Science Database with Semantic Web Technologies.
+  citation: "Shinmachi, D., Aoki-Kinoshita, K. F., Aoki, N. P., Yamada, I., Tsuchiya, S., Matsubara, M., Okuda, S., Fujita, N., Suzuki, Y., Fujita, A., Solovieva, E., Shikanai, T., Kawasaki, T., Narimatsu, H. Integrating Life Science Database with Semantic Web Technologies. ACGG2016 (2016/10/13)."
+  tags:
+    - db
+    - glycan
+- id: 1469
+  type: lecture
+  date: "2016-10-07"
+  title: "プロテオーム統合データベースjPOST:リポジトリの開発と今後"
+  citation: "第1回質量分析インフォマティクス研究会ワークショップ、「プロテオーム統合データベースjPOST:リポジトリの開発と今後」、JST東京本部（サイエンスプラザ）地下1階大会議室 (2016/10/7)."
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 2537
+  type: poster
+  date: "2016-10-05"
+  title: 国際糖鎖構造リポジトリの”Enrichment cycle”
+  citation: 新町大輔、木下聖子、青木ポール信行、土屋伸一郎、山田一作、松原正陽、藤田典昭、 鈴木芳典、ソロビヨワ・イェレナ、鹿内俊秀、奥田修二郎、川嵜敏祐、成松久、「国際糖鎖構造リポジトリの”Enrichment cycle”」、トーゴーの日シンポジウム2016、東京大学 (2016/10/5).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 2539
+  type: poster
+  date: "2016-10-05"
+  title: "jPOST: 再解析考え中です"
+  citation: "吉沢明康、田畑剛、守屋勇樹、河野信、奥田修二郎、渡辺由、山本格、松本雅記、高見知代、 小林大樹、荒木令江、杉山直幸、五斗進、石濱泰、「jPOST: 再解析考え中です」、トーゴーの日シンポジウム2016、東京大学 (2016/10/5)."
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 2536
+  type: poster
+  date: "2016-10-05"
+  title: GlycoTM - 糖鎖情報マイニングの為の文献アノテーションデータベースの構築
+  citation: 金進東、鹿内俊秀、奥田修二郎、河野信、成松久、「GlycoTM - 糖鎖情報マイニングの為の文献アノテーションデータベースの構築」、トーゴーの日シンポジウム2016、東京大学 (2016/10/5).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 2535
+  type: poster
+  date: "2016-10-05"
+  title: "jPOST:リポジトリ始めました"
+  citation: "奥田修二郎、渡辺由、守屋勇樹、河野信、山本格、松本雅記、高見知代、小林大樹、荒木令江、吉沢明康、田畑剛、杉山直幸、五斗進、石濱泰、「jPOST:リポジトリ始めました」、トーゴーの日シンポジウム2016、東京大学 (2016/10/5)."
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 2538
+  type: poster
+  date: "2016-10-05"
+  title: "jPOST:今こんな感じです"
+  citation: "守屋勇樹、河野信、奥田修二郎、山本格、松本雅記、小林大樹、荒木令江、吉沢明康、五斗進、 田畑剛、杉山直幸、石濱泰、「jPOST:今こんな感じです」、トーゴーの日シンポジウム2016、東京大学 (2016/10/5)."
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 1124
+  type: paper
+  date: "2016-09-30"
+  title: "Rare UNC13B variations and risk of schizophrenia: Whole-exome sequencing in a multiplex family and follow-up resequencing and a case-control study."
+  citation: "Egawa, J., Hoya, S., Watanabe, Y., Nunokawa, A., Shibuya, M., Ikeda, M., Inoue, E., Okuda, S., Kondo, K., Saito, T., Kaneko, N., Muratake, T., Igeta, H., Iwata, N., Someya, T. Rare UNC13B variations and risk of schizophrenia: Whole-exome sequencing in a multiplex family and follow-up resequencing and a case-control study. Am. J. Med. Genet. B. Neuropsychiatr. Genet. 171(6):797-805 (2016)"
+  pmid: 26990377
+  doi: 10.1002/ajmg.b.32444/abstract
+  links:
+    - label: American Journal of Medical Genetics Part B Neuropsychiatric Genetics
+      url: "http://onlinelibrary.wiley.com/doi/10.1002/ajmg.b.32444/abstract?userIsAuthenticated=false&deniedAccessCustomisedMessage="
+- id: 1263
+  type: poster
+  date: "2016-09-30"
+  title: "jPOST for Asia and Oceania: Re-analysis Protocol."
+  citation: "Yoshizawa, A. C., Tabata, T., Moriya, Y., Kawano, S., Okuda, S., Watanabe, Y., Yamamoto, T., Matsumoto, M., Takami, T., Kobayashi, D., Araki, N., Sugiyama, N., Goto, S., Ishihama, Y. jPOST for Asia and Oceania: Re-analysis Protocol. AOHUPO2016, Taiwan (2016/9)."
+  tags:
+    - db
+    - proteome
+- id: 1262
+  type: poster
+  date: "2016-09-30"
+  title: "jPOST for Asia and Oceania: Current Status in 2016."
+  citation: "Moriya, Y., Kawano, S., Okuda, S., Watanabe, Y., Yamamoto, T., Matsumoto, M., Takami, T., Kobayashi, D., Araki, N., Yoshizawa, A. C., Tabata, T., Sugiyama, N., Goto, S., Ishihama, Y. jPOST for Asia and Oceania: Current Status in 2016. AOHUPO2016, Taiwan (2016/9)."
+  tags:
+    - db
+    - proteome
+- id: 1261
+  type: poster
+  date: "2016-09-30"
+  title: "jPOST for Asia and Oceania: repository opened."
+  citation: "Okuda, S., Watanabe, Y., Moriya, Y., Kawano, S., Yamamoto, T., Matsumoto, M., Takami, T., Kobayashi, D., Araki, N., Yoshizawa, A. C., Tabata, T., Sugiyama, N., Goto, S., Ishihama, Y. jPOST for Asia and Oceania: repository opened. AOHUPO2016, Taiwan (2016/9)."
+  tags:
+    - db
+    - proteome
+- id: 1259
+  type: poster
+  date: "2016-09-30"
+  title: "jPOST: Re-analysis Protocol."
+  citation: "Yoshizawa, A. C., Tabata, T., Moriya, Y., Kawano, S., Okuda, S., Watanabe, Y., Yamamoto, T., Matsumoto, M., Takami, T., Kobayashi, D., Araki, N., Sugiyama, N., Goto, S., Ishihama, Y. jPOST: Re-analysis Protocol. HUPO2016, Taiwan (2016/9)."
+  tags:
+    - db
+    - proteome
+- id: 1258
+  type: poster
+  date: "2016-09-30"
+  title: "jPOST: Current Status in 2016."
+  citation: "Moriya, Y., Kawano, S., Okuda, S., Watanabe, Y., Yamamoto, T., Matsumoto, M., Takami, T., Kobayashi, D., Araki, N., Yoshizawa, A. C., Tabata, T., Sugiyama, N., Goto, S., Ishihama, Y. jPOST: Current Status in 2016. HUPO2016, Taiwan (2016/9)."
+  tags:
+    - db
+    - proteome
+- id: 1257
+  type: poster
+  date: "2016-09-30"
+  title: "jPOST: repository opened."
+  citation: "Okuda, S., Watanabe, Y., Moriya, Y., Kawano, S., Yamamoto, T., Matsumoto, M., Takami, T., Kobayashi, D., Araki, N., Yoshizawa, A. C., Tabata, T., Sugiyama, N., Goto, S., Ishihama, Y. jPOST: repository opened. HUPO2016, Taiwan (2016/9)."
+  tags:
+    - db
+    - proteome
+- id: 1255
+  type: poster
+  date: "2016-09-30"
+  title: Resequencing and association analysis of CLN8 with autism spectrum disorder in a Japanese population.
+  citation: "Egawa, J., Watanabe, Y., Inoue, E., Xing, J., Kushima, I., Okuda, S., Hoya, S., Okada, T., Uno, Y., Ishizuka, K., Sugimoto, A., Igeta, H., Nunokawa, A., Sugiyama, T., Ozaki, N., Someya, T. Resequencing and association analysis of CLN8 with autism spectrum disorder in a Japanese population. IACAPAP2016, Alberta, Canada (2016/9)."
+- id: 1466
+  type: talk
+  date: "2016-09-23"
+  title: "jPOST for Asia and Oceania: repository opened."
+  citation: "Okuda, S., Watanabe, Y., Moriya, Y., Kawano, S., Yamamoto, T., Matsumoto, M., Takami, T., Kobayashi, D., Araki, N., Yoshizawa, A. C., Tabata, T., Sugiyama, N., Goto, S., Ishihama, Y. jPOST for Asia and Oceania: repository opened. AOHUPO2016, Taiwan (2016/9/23)."
+  tags:
+    - db
+    - proteome
+- id: 2102
+  type: poster
+  date: "2016-09-21"
+  title: Characterization of a large-scale phosphorylation motifs in human proteome.
+  citation: "Ling, Y., Yoshizaki, H., Okuda, S. Characterization of a large-scale phosphorylation motifs in human proteome. HUPO2016, Taiwan (2016/9)."
+  tags:
+    - proteome
+- id: 1250
+  type: poster
+  date: "2016-09-16"
+  title: 褐藻アカモクの生殖器官形成に関わる分子機構の解明
+  citation: 吉川伸哉、細川真実、上井進也、奥田修二郎、笠原賢洋、高橋文雄、「褐藻アカモクの生殖器官形成に関わる分子機構の解明」、日本植物学会第80回大会、沖縄 (2016/9/16).
+  lang: ja
+- id: 1249
+  type: poster
+  date: "2016-09-09"
+  title: UNC13B遺伝子の稀な変異と統合失調症の発症リスク
+  citation: 渡部雄一郎、江川純、保谷智史、布川綾子、澁谷雅子、池田匡志、井上絵美子、奥田修二郎、近藤健治、齊藤竹生、金子尚史、村竹辰之、井桁裕文、岩田仲生、染矢俊幸、「UNC13B遺伝子の稀な変異と統合失調症の発症リスク」、第38回日本生物学的精神医学会・第59回日本神経化学会大会、福岡 (2016/9/8).
+  lang: ja
+- id: 1254
+  type: poster
+  date: "2016-07-30"
+  title: Proteome-wide human phosphomotif analysis.
+  citation: "Okuda, S., Ling, Y., Yoshizaki, H. Proteome-wide human phosphomotif analysis. ISMB2016, Florida (2016/7)."
+  tags:
+    - proteome
+- id: 1266
+  type: talk
+  date: "2016-07-29"
+  title: プロテオーム統合データベースjPOSTの開発
+  citation: 五斗進、奥田修二郎、渡辺由、守屋勇樹、河野信、山本格、松本雅記、高見知代、小林大樹、荒木令江、吉沢明康、田畑剛、杉山直幸、石濱泰、「プロテオーム統合データベースjPOSTの開発」、日本プロテオーム学会2016年大会、北里大学薬学部 白金キャンパス (2016/7/29).
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 1247
+  type: poster
+  date: "2016-07-29"
+  title: プロテオーム統合データベースjPOST：再解析プロトコルの開発
+  citation: 吉沢明康、田畑剛、守屋勇樹、河野信、奥田修二郎、渡辺由、山本格、松本雅記、高見知代、小林大樹、荒木令江、杉山直幸、五斗進、石濱泰、「プロテオーム統合データベースjPOST：再解析プロトコルの開発」、日本プロテオーム学会2016年大会、東京 (2016/7/28).
+  tags:
+    - proteome
+  lang: ja
+- id: 1272
+  type: paper
+  date: "2016-06-27"
+  title: p62/Sqstm1 promotes malignancy of HCV-positive hepatocellular carcinoma through Nrf2-dependent metabolic reprogramming.
+  citation: "Saito, T., Ichimura, Y., Taguchi, K., Suzuki, T., Mizushima, T., Takagi, K., Hirose, Y., Nagahashi, M., Iso, T., Fukutomi, T., Ohishi, M., Endo, K., Uemura, T., Nishito, Y., Okuda, S., Obata, M., Kouno, T., Imamura, R., Tada, Y., Obata. R., Yasuda, D., Takahashi, K., Fujimura, T., Pi, J., Lee, M. S., Ueno, T., Ohe, T., Mashino, T., Wakai, T., Kojima, H., Okabe, T., Nagano, T., Motohashi, H., Waguri, S., Soga, T., Yamamoto, M., Tanaka, K., Komatsu, M. p62/Sqstm1 promotes malignancy of HCV-positive hepatocellular carcinoma through Nrf2-dependent metabolic reprogramming. Nat. Commun. 7:12030 (2016)."
+  pmid: 27345495
+  links:
+    - label: Nature Communications
+      url: "http://www.nature.com/ncomms/2016/160627/ncomms12030/full/ncomms12030.html"
+- id: 1246
+  type: poster
+  date: "2016-06-26"
+  title: プロテオームワイドなヒトリン酸化モチーフ解析
+  citation: 凌一葦，吉崎尚良、奥田修二郎、「プロテオームワイドなヒトリン酸化モチーフ解析」、第57回新潟生化学懇話会、新潟 (2016/6/25).
+  tags:
+    - proteome
+  lang: ja
+- id: 1270
+  type: paper
+  date: "2016-06-13"
+  title: Species-function relationships shape ecological properties of the human gut microbiome.
+  citation: "Vieira-Silva, S., Falony, G., Darzi, Y., Lima-Mendez, G., Garcia, Yunta, R., Okuda, S., Vandeputte, D., Valles-Colomer, M., Hildebrand, F., Chaffron, S., Raes, J. Species-function relationships shape ecological properties of the human gut microbiome. Nat. Microbiol. 1(8):16088 (2016)."
+  links:
+    - label: PubMed
+      url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=27573110"
+    - label: Nature Microbiology
+      url: "http://www.nature.com/articles/nmicrobiol201688"
+  tags:
+    - gut-microbiome
+- id: 1245
+  type: poster
+  date: "2016-05-19"
+  title: 質量スペクトルはデータベース検索“グレーゾーン”を明瞭化するか
+  citation: 吉沢明康、田畑剛、守屋勇樹、河野信、奥田修二郎、渡辺由、山本格、松本雅記、高見知代、小林大樹、荒木令江、杉山直幸、五斗進、石濱泰、「質量スペクトルはデータベース検索“グレーゾーン”を明瞭化するか」、第64回質量分析総合討論会、大阪 (2016/5/18).
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 1468
+  type: lecture
+  date: "2016-05-16"
+  title: 腸内細菌叢解析のためのバイオインフォマティクス
+  citation: 第6回腸内細菌共生機構学第特別セミナー、「腸内細菌叢解析のためのバイオインフォマティクス」、石川県立大学 (2016/5/16).
+  tags:
+    - gut-microbiome
+  lang: ja
+- id: 2098
+  type: poster
+  date: "2016-04-14"
+  title: Collecting Text Mining Resources for Glycobiology - an Application Case of PubAnnotation and PubDictionaries.
+  citation: "Kim, J-D., Shikanai, T., Okuda, S., Kawano, S. Collecting Text Mining Resources for Glycobiology - an Application Case of PubAnnotation and PubDictionaries. Biocuration 2016, Geneva (Switzerland) (2016/4)."
+  tags:
+    - db
+    - glycan
+- id: 1125
+  type: paper
+  date: "2016-03-28"
+  title: Identification of Enzyme Genes Using Chemical Structure Alignments of Substrate-Product Pairs.
+  citation: "Moriya, Y., Yamada, T., Okuda, S., Nakagawa, Z., Kotera, M., Tokimatsu, T., Kanehisa, M., Goto, S. Identification of Enzyme Genes Using Chemical Structure Alignments of Substrate-Product Pairs. J. Chem. Inf. Model. 56(3):510-6 (2016)"
+  pmid: 26822930
+  doi: 10.1021/acs.jcim.5b00216
+  links:
+    - label: Journal of Chemical Information and Modeling
+      url: "http://pubs.acs.org/doi/abs/10.1021/acs.jcim.5b00216"
+- id: 2099
+  type: poster
+  date: "2016-03-23"
+  title: ストレス環境が誘導する大腸菌休止化経路の解析
+  citation: 河合祐人、一色理乃、奥田修二郎、松本 慎也、常田 聡、「ストレス環境が誘導する大腸菌休止化経路の解析」、第89回日本細菌学会総会、大阪 (2016/3/23).
+  lang: ja
+- id: 2881
+  type: others
+  date: "2016-03-10"
+  title: 次世代シーケンサーによる遺伝子変異解析におけるホルマリン固定パラフィン包埋サンプル作製方法および微小検体からのDNA抽出に関する検討
+  citation: "島田能史、永橋昌幸、市川寛、亀山仁史、坂田純、小林隆、若井俊文、奥田修二郎、井筒浩、兒玉啓輔、中田光隆、「次世代シーケンサーによる遺伝子変異解析におけるホルマリン固定パラフィン包埋サンプル作製方法および微小検体からのDNA抽出に関する検討」、新潟医学会誌、 130(3):191-202 (2016)."
+  lang: ja
+- id: 1142
+  type: poster
+  date: "2016-03-05"
+  title: ヒト腸内細菌の代謝反応データベース構築
+  citation: 佃直紀、山本希、東光一、入江満、五斗進、奥田修二郎、守屋勇樹、森宙史、黒川顕、山田拓司、「ヒト腸内細菌の代謝反応データベース構築」、第10回日本ゲノム微生物学会年会、東京 (2016/3/4).
+  tags:
+    - db
+    - gut-microbiome
+  lang: ja
+- id: 1129
+  type: paper
+  date: "2016-01-04"
+  title: GlyTouCan 1.0–The international glycan structure repository.
+  citation: "Aoki-Kinoshita, K., Agravat, S., Aoki, N. P., Arpinar, S., Cummings, R.D., Fujita, A., Fujita, N., Hart G. M., Haslam, S. M., Kawasaki, T., Matsubara, M., Moreman, K. W., Okuda, S., Pierce, M., Ranzinger, R., Shikanai, T., Shinmachi, D., Solovieva, E., Suzuki, Y., Tsuchiya, S., Yamada, I., York, W. S., Zaia, J., Narimatsu, H. GlyTouCan 1.0–The international glycan structure repository. Nucleic Acids Res. 44:D1237-42 (2016)."
+  pmid: 26476458
+  links:
+    - label: Nucleic Acids Research
+      url: "http://nar.oxfordjournals.org/content/44/D1/D1237.short"
+  tags:
+    - db
+    - glycan

@@ -1,0 +1,30 @@
+---
+import { localePath, tagLabel, type Lang } from '../lib/i18n';
+import type { Publication } from '../lib/publications';
+import PubBadge from './PubBadge.astro';
+import PubLinks from './PubLinks.astro';
+interface Props { lang: Lang; pub: Publication }
+const { lang, pub } = Astro.props;
+---
+
+<li id={`p-${pub.id}`}>
+  <div class="archive-meta">
+    <PubBadge lang={lang} type={pub.type} />
+  </div>
+  <p class="archive-title"><a href={localePath(lang, `/publications/${pub.id}/`)}>{pub.title}</a></p>
+  <div class="archive-text">
+    <p>{pub.citation}</p>
+    <PubLinks pub={pub} />
+  </div>
+  {pub.tags.length > 0 && (
+    <div class="mt-[15px] pt-[10px] border-t border-dotted border-brand-600">
+      <ul class="text-right text-[13px] tracking-[1px]">
+        {pub.tags.map((tag) => (
+          <li class="inline-block ml-[10px] first:ml-0">
+            <a class="pub-tag" href={localePath(lang, `/publications/tag/${tag}/`)}>{tagLabel(lang, tag)}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+</li>

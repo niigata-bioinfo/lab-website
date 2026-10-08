@@ -1,0 +1,416 @@
+- id: 2846
+  type: others
+  date: "2017-12-26"
+  title: プロテオームデータの統合化とバイオインフォマティクス解析
+  citation: "奥田修二郎、「プロテオームデータの統合化とバイオインフォマティクス解析」、日本プロテオーム学会誌、2(2):67-73 (2017)."
+  tags:
+    - proteome
+  lang: ja
+- id: 1750
+  type: paper
+  date: "2017-12-19"
+  title: "Comprehensive analysis of polyamine transport and biosynthesis in the dominant human gut bacteria: Potential presence of novel polyamine metabolism and transport genes."
+  citation: "Sugiyama, Y., Nara, M., Sakanaka, M., Gotoh, A., Kitakata, A., Okuda, S., Kurihara, S. Comprehensive analysis of polyamine transport and biosynthesis in the dominant human gut bacteria: Potential presence of novel polyamine metabolism and transport genes. Int. J. Biochem. Cell Biol. 93:52-61 (2017)."
+  pmid: 29102547
+  links:
+    - label: "The International Journal of Biochemistry & Cell Biology"
+      url: "https://www.sciencedirect.com/science/article/pii/S1357272517302820?via%3Dihub"
+  tags:
+    - gut-microbiome
+- id: 1755
+  type: poster
+  date: "2017-12-06"
+  title: ポリ（ADP-リボース）合成酵素阻害剤による神経幹細胞の増殖能の抑制とp53シグナル経路の活性化
+  citation: 奥田明子、黒川優、竹橋正則、中瀬朋夏、奥田修二郎、上田國寛、田中 静吾、「ポリ（ADP-リボース）合成酵素阻害剤による神経幹細胞の増殖能の抑制とp53シグナル経路の活性化」、2017年度生命科学系学会合同年次大会、神戸 (2017/12/6).
+  lang: ja
+- id: 1754
+  type: poster
+  date: "2017-12-06"
+  title: "神経幹細胞の増殖維持におけるポリ(ADP-リボース)合成酵素の役割: ATM,ATRのPAR化とp53 signal経路の不活化"
+  citation: "黒川優、奥田明子、竹橋正則、中瀬朋夏、奥田修二郎、上田國寛、田中 静吾、「神経幹細胞の増殖維持におけるポリ(ADP-リボース)合成酵素の役割: ATM,ATRのPAR化とp53 signal経路の不活化」、2017年度生命科学系学会合同年次大会、神戸 (2017/12/6)."
+  lang: ja
+- id: 1651
+  type: poster
+  date: "2017-12-06"
+  title: ヒト母乳オリゴ糖とヒト乳脂肪から考えるビフィズス菌とヒトの共進化
+  citation: 後藤愛那、岸野重信、岡田奈津実、廣瀬潤子、栗原新、加藤紀彦、奥田修二郎、片山高嶺、小川順、「ヒト母乳オリゴ糖とヒト乳脂肪から考えるビフィズス菌とヒトの共進化」、2017年度生命科学系学会合同年次大会、神戸 (2017/12/6).
+  tags:
+    - gut-microbiome
+  lang: ja
+- id: 1650
+  type: poster
+  date: "2017-12-06"
+  title: jPOST：プロテオーム統合データベースプロジェクト
+  citation: 奥田修二郎、渡辺由、守屋勇樹、河野信、山本格、松本雅記、高見知代、小林大樹、荒木令江、吉沢明康、田畑剛、杉山直幸、田中聡、五斗進、石濱泰、「jPOST：プロテオーム統合データベースプロジェクト」、2017年度生命科学系学会合同年次大会、神戸 (2017/12/6).
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 1649
+  type: poster
+  date: "2017-12-06"
+  title: jPOST：プロテオームデータベースの開発
+  citation: 守屋勇樹、河野信、奥田修二郎、渡辺由、山本格、松本雅記、高見知代、小林大樹、荒木令江、吉沢明康、田畑剛、杉山直幸、田中聡、五斗進、石濱泰、「jPOST：プロテオームデータベースの開発」、2017年度生命科学系学会合同年次大会、神戸 (2017/12/6).
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 1648
+  type: poster
+  date: "2017-12-06"
+  title: "jPOST: 同定結果のFDR改善を目指す再解析プロトコルの開発"
+  citation: "吉沢明康、田畑剛、守屋勇樹、河野信、奥田修二郎、渡辺由、山本格、松本雅記、高見知代、小林大樹、荒木令江、杉山直幸、田中聡、五斗進、石濱泰、「jPOST: 同定結果のFDR改善を目指す再解析プロトコルの開発」、2017年度生命科学系学会合同年次大会、神戸 (2017/12/6)."
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 2142
+  type: paper
+  date: "2017-11-30"
+  title: Rare PDCD11 variations are not associated with risk of schizophrenia in Japan.
+  citation: "Hoya, S., Watanabe, Y., Hishimoto, A., Nunokawa, A., Kaneko, N., Muratake, T., Shinmyo, N., Otsuka, I., Okuda, S., Inoue, E., Igeta, H., Shibuya, M., Egawa, J., Orime, N., Sora, I., Someya, T. Rare PDCD11 variations are not associated with risk of schizophrenia in Japan. Psychiatry Clin. Neurosci. 71(11): 780-788 (2017)."
+  doi: 10.1111/pcn.12549
+  links:
+    - label: PubMed
+      url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=28657695"
+    - label: Psychiatry and Clinical Neurosciences
+      url: "https://onlinelibrary.wiley.com/doi/full/10.1111/pcn.12549"
+- id: 1748
+  type: paper
+  date: "2017-10-31"
+  title: Actionable gene-based classification toward precision medicine in gastric cancer.
+  citation: "Ichikawa, H., Nagahashi, M., Shimada, Y., Hanyu, T., Ishikawa, T., Kameyama, H., Kobayashi, T., Sakata, J., Yabusaki, H., Nakagawa, S., Sato, N., Hirata, Y., Kitagawa, Y., Tanahashi, T., Yoshida, K., Nakanishi, R., Oki, E., Vuzman, D., Lyle, S., Takabe, K., Ling, Y., Okuda, S., Akazawa, K., Wakai, T. Actionable gene-based classification toward precision medicine in gastric cancer. Genome Med. 9(1):93 (2017)."
+  pmid: 29089060
+  links:
+    - label: Genome Medicine
+      url: "https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-017-0484-3"
+  tags:
+    - cancer-genome
+- id: 1658
+  type: paper
+  date: "2017-10-31"
+  title: Use of Gifu Anaerobic Medium for culturing  32 dominant species of human gut microbes and its evaluation based on short-chain fatty acids fermentation profiles.
+  citation: "Gotoh, A., Nara, M., Sugiyama, Y., Sakanaka, M., Yachi, H., Kitakata, A., Nakagawa, A., Minami, H., Okuda, S., Katoh, T., Katayama, T., Kurihara, S. Use of Gifu Anaerobic Medium for culturing 32 dominant species of human gut microbes and its evaluation based on short-chain fatty acids fermentation profiles. Biosci. Biotechnol. Biochem. 81(10):2009-2017."
+  pmid: 28782454
+  doi: 10.1080/09168451.2017.1359486
+  links:
+    - label: "Bioscience, Biotechnology, and Biochemistry"
+      url: "http://www.tandfonline.com/doi/full/10.1080/09168451.2017.1359486"
+  tags:
+    - gut-microbiome
+- id: 1626
+  type: poster
+  date: "2017-10-10"
+  title: Molecular analysis of receptacle formation in Sargassum horneri.
+  citation: "Yoshikawa, S., Hosokawa, M., Uwai, S., Okuda, S., Kasahara, M., Takahashi, F. Molecular analysis of receptacle formation in Sargassum horneri. APPF2017, Kuala Lumpur (2017/10/10)."
+- id: 2530
+  type: poster
+  date: "2017-10-05"
+  title: "jPOST: メタデータのキュレーション"
+  citation: "小林大樹、荒木令江、奥田修二郎、渡辺由、守屋勇樹、河野信、山本格、松本雅記、高見知代、 吉沢明康、田畑剛、杉山直幸、田中聡、五斗進、石濱泰、「jPOST: メタデータのキュレーション」、トーゴーの日シンポジウム2017、東京大学 (2017/10/5)."
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 2531
+  type: poster
+  date: "2017-10-05"
+  title: jPOST：再解析プロトコルによる同定結果の質的向上
+  citation: 吉沢明康、田畑剛、守屋勇樹、河野信、奥田修二郎、渡辺由、山本格、松本雅記、高見知代、小林大樹、荒木令江、 杉山直幸、田中聡、五斗進、石濱泰、「jPOST：再解析プロトコルによる同定結果の質的向上」、トーゴーの日シンポジウム2017、東京大学 (2017/10/5).
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 2533
+  type: poster
+  date: "2017-10-05"
+  title: "jPOST: タンパク質発現絶対量sliceの開発"
+  citation: "松本雅記、高見知代、守屋勇樹、河野信、奥田修二郎、渡辺由、山本格、小林大樹、荒木令江、 吉沢明康、田畑剛、杉山直幸、田中聡、五斗進、石濱泰、「jPOST: タンパク質発現絶対量sliceの開発」、トーゴーの日シンポジウム2017、東京大学 (2017/10/5)."
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 2527
+  type: poster
+  date: "2017-10-05"
+  title: 国際糖鎖構造リポジトリと糖鎖関連データベースとの連携
+  citation: 新町大輔、青木ポール信行、渡辺由、奥田修二郎、山田一作、木下聖子、「国際糖鎖構造リポジトリと糖鎖関連データベースとの連携」、トーゴーの日シンポジウム2017、東京大学 (2017/10/5).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 2532
+  type: poster
+  date: "2017-10-05"
+  title: jPOST データベースの開発
+  citation: 守屋勇樹、河野信、奥田修二郎、渡辺由、山本格、松本雅記、高見知代、小林大樹、荒木令江、 吉沢明康、田畑剛、杉山直幸、田中聡、五斗進、石濱泰、「jPOST データベースの開発」、トーゴーの日シンポジウム2017、東京大学 (2017/10/5).
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 2529
+  type: poster
+  date: "2017-10-05"
+  title: jPOST：プロテオーム統合データベースプロジェクト
+  citation: 奥田修二郎、渡辺由、守屋勇樹、河野信、山本格、松本雅記、高見知代、小林大樹、荒木令江、 吉沢明康、田畑剛、杉山直幸、田中聡、五斗進、石濱泰、「jPOST：プロテオーム統合データベースプロジェクト」、トーゴーの日シンポジウム2017、東京大学 (2017/10/5).
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 2528
+  type: poster
+  date: "2017-10-05"
+  title: 糖鎖構造に対する自動アノテーションシステムの開発
+  citation: 奥田修二郎、金進東、渡辺由、新町大輔、青木ポール信行、山田一作、木下聖子、「糖鎖構造に対する自動アノテーションシステムの開発」、トーゴーの日シンポジウム2017、東京大学 (2017/10/5).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 1625
+  type: poster
+  date: "2017-09-29"
+  title: 遺伝子の稀な変異と統合失調症の発症リスク： 罹患同胞対家系の全エクソーム解析、ターゲットリシーケンス、および症例・対照研究
+  citation: 保谷智史、渡部雄一郎、菱本明豊、布川綾子、金子尚史、村竹辰之、新名尚史、大塚郁夫、奥田修二郎、井上絵美子、井桁裕文、澁谷雅子、江川純、折目直樹、曽良一郎、染矢俊幸、「遺伝子の稀な変異と統合失調症の発症リスク： 罹患同胞対家系の全エクソーム解析、ターゲットリシーケンス、および症例・対照研究」、第39回日本生物学的精神医学会、札幌 (2017/9/29).
+  lang: ja
+- id: 1756
+  type: talk
+  date: "2017-09-26"
+  title: Development of an accurate intermediate-size indel detection tool for discovery of mutations associated with human disease.
+  citation: "Shigemizu, D., Miya, F., Akiyama, S., Okuda, S., Boroevich, K. A., Fujimoto, A., Nakagawa, H., Ozaki, K., Niiga, S., Kanemura, Y., Okamoto, N., Saitoh, S., Kato, M., Yamasaki, M., Matsunaga, T., Mutai, H., Kosaki, K., Tsunoda, T. Development of an accurate intermediate-size indel detection tool for discovery of mutations associated with human disease. IIBMP2017 (2017/9/27)."
+- id: 1652
+  type: poster
+  date: "2017-09-26"
+  title: "jPOST: Integrated database for proteome."
+  citation: "Okuda, S., Watanabe, Y., Moriya, Y., Kawano, S., Yamamoto, T., Matsumoto, M., Takami, T., Kobayashi, D., Araki, N., Yoshizawa, A. C., Tabata, T., Sugiyama, N., Tanaka, S., Goto, S., Ishihama, Y. jPOST: Integrated database for proteome. IIBMP2017, 札幌 (2017/9/26)."
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 1629
+  type: poster
+  date: "2017-09-17"
+  title: jPOST provides a global public data repository for a wide variety of proteomics experiments.
+  citation: "Okuda, S., Watanabe, Y., Moriya, Y., Kawano, S., Yamamoto, T., Matsumoto, M., Takami, T., Kobayashi, D., Araki, N., Yoshizawa, A. C., Tabata, T., Sugiyama, N., Tanaka, S., Goto, S., Ishihama, Y. jPOST provides a global public data repository for a wide variety of proteomics experiments. HUPO2017, Dublin (2017/9/17)."
+  tags:
+    - proteome
+- id: 1628
+  type: poster
+  date: "2017-09-17"
+  title: "Development of integrated proteomics database: jPOST."
+  citation: "Moriya, Y., Kawano, S., Okuda, S., Watanabe, Y., Yamamoto, T., Matsumoto, M., Takami, T., Kobayashi, D., Araki, N., Yoshizawa, A. C., Tabata, T., Sugiyama, N., Tanaka, S., Goto, S., Ishihama, Y. Development of integrated proteomics database: jPOST. HUPO2017, Dublin (2017/9/17)."
+  tags:
+    - proteome
+- id: 1627
+  type: poster
+  date: "2017-09-17"
+  title: Reducing false positive identifications for proteome datasets accumulated in jPOST repository.
+  citation: "Yoshizawa, A. C., Tabata, T., Moriya, Y., Kawano, S., Okuda, S., Watanabe, Y., Yamamoto, T., Matsumoto, M., Takami, T., Kobayashi, D., Araki, N., Sugiyama, N., Tanaka, S., Goto, S., Ishihama, Y. Reducing false positive identifications for proteome datasets accumulated in jPOST repository. HUPO2017, Dublin (2017/9/17)."
+  tags:
+    - proteome
+- id: 1624
+  type: lecture
+  date: "2017-08-31"
+  title: マルチオミックスを利用した機能ゲノム解析
+  citation: 第２回環境微生物系学会合同大会2017、「マルチオミックスを利用した機能ゲノム解析」、東北大学(2017/8/31).
+  tags:
+    - metagenome
+    - gut-microbiome
+  lang: ja
+- id: 1553
+  type: paper
+  date: "2017-08-31"
+  title: Utility of comprehensive genomic sequencing for detecting HER2-positive colorectal cancer.
+  citation: "Shimada, Y., Yagi, R., Kameyama, H., Nagahashi, M., Ichikawa, H., Tajima, Y., Okamura, T., Nakano, M., Nakano, M., Sato, Y., Matsuzawa, T., Sakata, J., Kobayashi, T., Nogami, H., Maruyama, S., Takii, Y., Kawasaki, T., Homma, K. I., Izutsu, H., Kodama, K., Ring, J. E., Protopopov, A., Lyle, S., Okuda, S., Akazawa, K., Wakai, T. Utility of comprehensive genomic sequencing for detecting HER2-positive colorectal cancer. Hum. Pathol. 66:1-9(2017)."
+  pmid: 28235632
+  links:
+    - label: Human Pathology
+      url: "http://www.sciencedirect.com/science/article/pii/S0046817717300515"
+  tags:
+    - cancer-genome
+- id: 1751
+  type: paper
+  date: "2017-08-24"
+  title: Comprehensive genomic sequencing detects important genetic differences between right-sided and left-sided colorectal cancer.
+  citation: "Shimada, Y., Kameyama, H., Nagahashi, M., Ichikawa, H., Muneoka, Y., Yagi, R., Tajima, Y., Okamura, T., Nakano, M., Sakata, J., Kobayashi, T., Nogami, H., Maruyama, S., Takii, Y., Hayashida, T., Takaishi, H., Kitagawa, Y., Oki, E., Konishi, T., Ishida, F., Kudo, S. E., Ring, J. E., Protopopov, A., Lyle, S., Ling, Y., Okuda, S., Ishikawa, T., Akazawa, K., Takabe, K., Wakai, T. Comprehensive genomic sequencing detects important genetic differences between right-sided and left-sided colorectal cancer. Oncotarget 8(55):93567-93579 (2017)."
+  pmid: 29212173
+  links:
+    - label: Oncotarget
+      url: "http://www.oncotarget.com/index.php?journal=oncotarget&page=article&op=view&path[]=20510&pubmed-linkout=1"
+  tags:
+    - cancer-genome
+- id: 1659
+  type: paper
+  date: "2017-08-03"
+  title: Inhibition of dipeptidyl peptidase-4 ameliorates cardiac ischemia and systolic dysfunction by up-regulating the FGF-2/EGR-1 pathway.
+  citation: "Suda, M., Shimizu, I., Yoshida, Y., Hayashi, Y., Ikegami, R., Katsuumi, G., Wakasugi, T., Yoshida, Y., Okuda, S., Soga, T., Minamino, T. Inhibition of dipeptidyl peptidase-4 ameliorates cardiac ischemia and systolic dysfunction by up-regulating the FGF-2/EGR-1 pathway. PLoS One 12(8):e0182422 (2017)."
+  pmid: 28771625
+  links:
+    - label: PLOS ONE
+      url: "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0182422"
+- id: 1623
+  type: lecture
+  date: "2017-07-28"
+  title: プロテオームデータの統合化とバイオインフォマティクス解析
+  citation: 日本プロテオーム学会2017年大会 奨励賞講演、「プロテオームデータの統合化とバイオインフォマティクス解析」、ホテル阪急エキスポパーク(2017/7/28).
+  tags:
+    - db
+    - proteome
+  lang: ja
+- id: 1622
+  type: talk
+  date: "2017-07-27"
+  title: jPOST再解析プロトコル：偽陽性と偽陰性の同時減少を目指す
+  citation: 吉沢明康、田畑剛、守屋勇樹、河野信、奥田修二郎、渡辺由、山本格、松本雅記、高見知代、小林大樹、荒木令江、杉山直幸、田中聡、五斗進、石濱泰、「jPOST再解析プロトコル：偽陽性と偽陰性の同時減少を目指す」、日本プロテオーム学会2017年大会、ホテル阪急エキスポパーク (2017/7/27).
+  tags:
+    - proteome
+  lang: ja
+- id: 1618
+  type: poster
+  date: "2017-07-27"
+  title: プロテオーム統合データベースjPOST：質量分析データ・リポジトリ
+  citation: 奥田修二郎、渡辺由、守屋勇樹、河野信、山本格、松本雅記、高見知代、小林大樹、荒木令江、吉沢明康、田畑剛、杉山直幸、田中聡、五斗進、石濱泰、「プロテオーム統合データベースjPOST：質量分析データ・リポジトリ」、日本プロテオーム学会2017年大会、大阪 (2017/7/27).
+  tags:
+    - proteome
+  lang: ja
+- id: 1617
+  type: poster
+  date: "2017-07-27"
+  title: jPOST：プロテオーム統合データベースの開発
+  citation: 守屋勇樹、河野信、奥田修二郎、渡辺由、山本格、松本雅記、高見知代、小林大樹、荒木令江、吉沢明康、田畑剛、杉山直幸、田中聡、五斗進、石濱泰、「jPOST：プロテオーム統合データベースの開発」、日本プロテオーム学会2017年大会、大阪 (2017/7/27).
+  tags:
+    - proteome
+  lang: ja
+- id: 1615
+  type: poster
+  date: "2017-07-25"
+  title: Inference of microbial interactions from human gut meta genome data.
+  citation: "Watanabe, Y., Ling, Y., Okuda, S. Inference of microbial interactions from human gut meta genome data. ISMB/ECCB2017, Plague (2017/7/25)."
+  tags:
+    - metagenome
+    - gut-microbiome
+- id: 1613
+  type: paper
+  date: "2017-07-16"
+  title: Cost-effectiveness analysis of the use of comprehensive molecular profiling before initiating monoclonal antibody therapy against metastatic colorectal cancer in Japan.
+  citation: "Saito, S., Kameyama, H., Muneoka, Y., Okuda, S., Wakai, T., Akazawa, K. Cost-effectiveness analysis of the use of comprehensive molecular profiling before initiating monoclonal antibody therapy against metastatic colorectal cancer in Japan. J. Cancer Policy 12:61-66 (2017)."
+  links:
+    - label: Journal of Cancer Policy
+      url: "http://www.sciencedirect.com/science/article/pii/S2213538317300073"
+  tags:
+    - cancer-genome
+- id: 1620
+  type: poster
+  date: "2017-06-11"
+  title: 成熟時期の異なるアカモク集団の遺伝的分化の解析
+  citation: 本間由莉、奥田修二郎、笠原賢洋、高橋文雄、吉川伸哉、上井進也、「成熟時期の異なるアカモク集団の遺伝的分化の解析」、第７回北陸植物学会大会、新潟大学 (2017/6/11).
+  lang: ja
+- id: 1616
+  type: poster
+  date: "2017-06-05"
+  title: Controlling false discovery rate in accumulated public proteome dataset.
+  citation: "Yoshizawa, A. C., Tabata, T., Moriya, Y., Kawano, S., Okuda, S., Watanabe, Y., Yamamoto, T., Matsumoto, M., Takami, T., Kobayashi, D., Araki, N., Sugiyama, N., Tanaka, S., Goto, S., Ishihama, Y. Controlling false discovery rate in accumulated public proteome dataset. ASMS2017, Indianapolis (2017/6/5)."
+  tags:
+    - proteome
+- id: 1655
+  type: paper
+  date: "2017-05-31"
+  title: Genome-Wide Target Analyses of Otx2 Homeoprotein in Postnatal Cortex.
+  citation: "Sakai, A., Nakato, R., Ling, Y., Hou, X., Hara, N., Iijima, T., Yanagawa, Y., Kuwano, R., Okuda, S., Shirahige, K., and Sugiyama, S. Genome-Wide Target Analyses of Otx2 Homeoprotein in Postnatal Cortex. Front. Neurosci. 11:307 (2017)."
+  pmid: 28620275
+  links:
+    - label: Frontiers in Neuroscience
+      url: "http://journal.frontiersin.org/article/10.3389/fnins.2017.00307/full"
+- id: 1619
+  type: poster
+  date: "2017-05-18"
+  title: データベース検索エンジンを用いたタンパク質同定における特異性向上
+  citation: 吉沢明康、田畑剛、守屋勇樹、河野信、奥田修二郎、渡辺由、山本格、松本雅記、高見知代、小林大樹、荒木令江、杉山直幸、田中聡、五斗進、石濱泰、「データベース検索エンジンを用いたタンパク質同定における特異性向上」、第65回質量分析総合討論会、つくば (2017/5/18).
+  tags:
+    - proteome
+  lang: ja
+- id: 1554
+  type: paper
+  date: "2017-04-20"
+  title: Molecular Insight into Evolution of Symbiosis between Breast-Fed Infants and a Member of the Human Gut Microbiome Bifidobacterium longum.
+  citation: "Yamada, C., Gotoh, A., Sakanaka, M., Hattie, M., Stubbs, K. A., Katayama-Ikegami, A., Hirose, J., Kurihara, S., Arakawa, T., Kitaoka, M., Okuda, S., Katayama, T., Fushinobu, S. Molecular Insight into Evolution of Symbiosis between Breast-Fed Infants and a Member of the Human Gut Microbiome Bifidobacterium longum. Cell Chem. Biol. 24(4):515-524.e5 (2017)."
+  pmid: 28392148
+  links:
+    - label: Cell Chemical Biology
+      url: "http://www.sciencedirect.com/science/article/pii/S2451945617300958"
+  tags:
+    - gut-microbiome
+- id: 1465
+  type: poster
+  date: "2017-03-24"
+  title: 佐渡におけるアカモク集団の成熟時期の多型と遺伝的構造の関係について
+  citation: 本間由莉、奥田修二郎、笠原賢洋、高橋文雄、吉川伸哉、上井進也、「佐渡におけるアカモク集団の成熟時期の多型と遺伝的構造の関係について」、日本藻類学会第41回大会、高知大学 (2017/3/24).
+  lang: ja
+- id: 1470
+  type: lecture
+  date: "2017-03-23"
+  title: バイオインフォマティクスによる腸内細菌叢解析
+  citation: "JCHMワークショップ&研究会【ヒト腸内環境大規模研究の現場から】、「バイオインフォマティクスによる腸内細菌叢解析」、東京工業大学百年記念館3階フェライト会議室 (2017/3/23)."
+  tags:
+    - gut-microbiome
+  lang: ja
+- id: 1621
+  type: talk
+  date: "2017-03-20"
+  title: ldhA 遺伝子の確率的な発現による大腸菌の persister 形成
+  citation: 河合祐人、一色理乃、山本尚輝、凌一葦、奥田修二郎、松本慎也、常田聡、「ldhA 遺伝子の確率的な発現による大腸菌の persister 形成」、第90回日本細菌学会総会、仙台国際センター (2017/3/20).
+  lang: ja
+- id: 1464
+  type: poster
+  date: "2017-03-19"
+  title: GAM培地を用いたヒト腸内細菌最優勢32種の培養及び短鎖脂肪酸の生産能とその代謝経路のin silico予測
+  citation: 後藤 愛那、奈良未沙希、杉山友太、阪中幹祥、谷内寛之、北方彩、奥田修二郎、片山高嶺、栗原新、「GAM培地を用いたヒト腸内細菌最優勢32種の培養及び短鎖脂肪酸の生産能とその代謝経路のin silico予測」、日本農芸化学会2017年度大会、京都 (2017/3/19).
+  tags:
+    - gut-microbiome
+  lang: ja
+- id: 1463
+  type: poster
+  date: "2017-03-19"
+  title: ヒト腸内細菌最優勢種の菌体内および培養上清における生育段階別のポリアミン解析と新規ポリアミン合成・輸送系存在についてのin silico予測
+  citation: 奈良未沙希、杉山友太、阪中幹祥、奥田修二郎、片山高嶺、栗原新、「ヒト腸内細菌最優勢種の菌体内および培養上清における生育段階別のポリアミン解析と新規ポリアミン合成・輸送系存在についてのin silico予測」、日本農芸化学会2017年度大会、京都 (2017/3/19).
+  tags:
+    - gut-microbiome
+  lang: ja
+- id: 2876
+  type: others
+  date: "2017-03-10"
+  title: Precision medicine実現に向けたBioinformaticsの役割と提言
+  citation: "奥田修二郎、「Precision medicine実現に向けたBioinformaticsの役割と提言」、最新醫學-ゲノム解析に基づく固形がん個別化治療-、72巻3号:419-424 (2017)."
+  lang: ja
+- id: 1477
+  type: paper
+  date: "2017-01-17"
+  title: Poly(ADP-ribose) polymerase inhibitors activate the p53 signaling pathway in neural stem/progenitor cells.
+  citation: "Okuda, A., Kurokawa, S., Takehashi, M., Maeda, A., Fukuda, K., Kubo, Y., Nogusa, H., Takatani-Nakase, T., Okuda, S., Ueda, K., Tanaka, S. Poly(ADP-ribose) polymerase inhibitors activate the p53 signaling pathway in neural stem/progenitor cells. BMC Neurosci. 18(1):14 (2017)."
+  pmid: 28095779
+  links:
+    - label: BMC Neuroscience
+      url: "http://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-016-0333-0"
+- id: 1476
+  type: paper
+  date: "2017-01-04"
+  title: "jPOSTrepo: an international standard data repository for proteomes."
+  citation: "Okuda, S., Watanabe, Y., Moriya, Y., Kawano, S., Yamamoto, T., Matsumoto, M., Takami, T., Kobayashi, D., Araki, N., Yoshizawa, A. C., Tabata, T., Sugiyama, N., Goto, S., and Ishihama, Y. jPOSTrepo: an international standard data repository for proteomes. Nucleic Acids Res. 45:D1107-D1111 (2017)."
+  pmid: 27899654
+  links:
+    - label: Nucleic Acids Research
+      url: "https://academic.oup.com/nar/article/45/D1/D1107/2605695/"
+  tags:
+    - db
+    - proteome
+- id: 1475
+  type: paper
+  date: "2017-01-04"
+  title: "The ProteomeXchange consortium in 2017: supporting the cultural change in proteomics public data deposition."
+  citation: "Deutsch, E. W., Csordas, A., Sun, Z., Jarnuczak, A., Perez-Riverol, Y., Ternent, T., Campbell, D. S., Bernal-Llinares, M., Okuda, S., Kawano, S., Moritz, R. L., Carver, J. J., Wang, M., Ishihama, Y., Bandeira, N., Hermjakob, H., Vizcaíno, J. A. The ProteomeXchange consortium in 2017: supporting the cultural change in proteomics public data deposition. Nucleic Acids Res. 45:D1100-1106 (2017)."
+  pmid: 27924013
+  links:
+    - label: Nucleic Acids Research
+      url: "https://academic.oup.com/nar/article/45/D1/D1100/2290897/"
+  tags:
+    - db
+    - proteome

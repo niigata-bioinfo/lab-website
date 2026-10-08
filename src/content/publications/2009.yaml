@@ -1,0 +1,101 @@
+- id: 388
+  type: poster
+  date: "2009-12-11"
+  title: Genome-wide mapping and analysis of active promoters in horse organs
+  citation: 戸崎晃明、奥田修二郎、廣田桂一、長谷川晃久、「Genome-wide mapping and analysis of active promoters in horse organs」、第32回日本分子生物学会、横浜 (2009/12).
+  lang: ja
+- id: 387
+  type: poster
+  date: "2009-12-11"
+  title: 糖鎖抗原データベースGlycoEpitope
+  citation: 奥田修二郎、牧野龍介、北川朋樹、中尾広美、長野正道、川嵜敏祐、「糖鎖抗原データベースGlycoEpitope」、第32回日本分子生物学会、横浜 (2009/12).
+  lang: ja
+- id: 386
+  type: poster
+  date: "2009-12-11"
+  title: 環境ゲノムのパスウェイ解析
+  citation: 奥田修二郎「環境ゲノムのパスウェイ解析」、第25回日本微生物生態学会、広島 (2009/12).
+  lang: ja
+- id: 301
+  type: talk
+  date: "2009-12-02"
+  title: "ＪＣＧＧＤＢの公開したサービスと最終年度の計画"
+  citation: 鹿内俊秀、鈴木芳典、藤田典昭、新間陽一、梶裕之、佐藤隆、栂谷内晶、亀山昭彦、舘野浩章、平林淳、奥田修二郎、川嵜敏祐、高橋禮子、加藤晃一、古川鋼一、八杉悦子、西島正弘、木下聖子、西原祥子、山田一作、水野真盛、白井孝、加藤雅樹、山口芳樹、萩谷恵里子、吉田圭一、谷口直之、成松久「ＪＣＧＧＤＢの公開したサービスと最終年度の計画」、第7回糖鎖科学コンソーシアムシンポジウム、大阪 (2009/12).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 297
+  type: talk
+  date: "2009-11-02"
+  title: 環境ゲノムのパスウェイ解析
+  citation: 奥田修二郎、「環境ゲノムのパスウェイ解析」、第25回日本微生物生態学会、広島 (2009/11).
+  tags:
+    - metagenome
+  lang: ja
+- id: 300
+  type: talk
+  date: "2009-10-02"
+  title: Japan Consortium for Glycobiology and Glycotechnology DataBas (JCGGDB)
+  citation: 鹿内俊秀、鈴木芳典、藤田典昭、新間陽一、梶裕之、佐藤隆、栂谷内晶、亀山昭彦、舘野浩章、平林淳、奥田修二郎、川嵜敏祐、高橋禮子、加藤晃一、古川鋼一、八杉悦子、西島正弘、木下聖子、西原祥子、山田一作、水野真盛、白井孝、加藤雅樹、山口芳樹、萩谷恵里子、吉田圭一、谷口直之、成松久、「Japan Consortium for Glycobiology and Glycotechnology DataBas (JCGGDB)」、1st ACGG Conference (Asian Communications of Glycobiology and Glycotechnology)、つくば (2009/10).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 299
+  type: talk
+  date: "2009-10-02"
+  title: 日本糖鎖科学コンソーシアムのデータベース構築
+  citation: 鹿内俊秀、鈴木芳典、藤田典昭、新間陽一、梶裕之、佐藤隆、栂谷内晶、亀山昭彦、舘野浩章、平林淳、奥田修二郎、川嵜敏祐、高橋禮子、加藤晃一、古川鋼一、八杉悦子、西島正弘、木下聖子、西原祥子、山田一作、水野真盛、白井孝、加藤雅樹、山口芳樹、萩谷恵里子、吉田圭一、谷口直之、成松久、「日本糖鎖科学コンソーシアムのデータベース構築」、第82回日本生化学会大会、神戸ポートアイランド (2009/10).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 298
+  type: talk
+  date: "2009-10-02"
+  title: 日本糖鎖科学コンソーシアムのデータベース構築
+  citation: 鹿内俊秀、鈴木芳典、藤田典昭、新間陽一、梶裕之、佐藤隆、栂谷内晶、亀山昭彦、舘野浩章、平林淳、奥田修二郎、川嵜敏祐、高橋禮子、加藤晃一、古川鋼一、八杉悦子、西島正弘、木下聖子、西原祥子、山田一作、水野真盛、白井孝、加藤雅樹、山口芳樹、萩谷恵里子、吉田圭一、谷口直之、成松久、「日本糖鎖科学コンソーシアムのデータベース構築」、BioJapan2009、パシフィコ横浜 (2009/10).
+  tags:
+    - db
+    - glycan
+  lang: ja
+- id: 385
+  type: poster
+  date: "2009-09-11"
+  title: 日本糖鎖科学コンソーシアムのデータベース
+  citation: 鹿内俊秀､新間陽一､鈴木芳典､藤田典昭､梶裕之､佐藤隆､栂谷内晶､亀山昭彦､舘野浩章､平林淳､ 奥田修二郎､川嵜敏祐､高橋禮子､加藤晃一､古川鋼一､八杉悦子､西島正弘､ 木下聖子､西原祥子､ 山田一作､水野真盛､白井孝､加藤雅樹､山口芳樹､萩谷恵里子､吉田圭一､谷口直之､成松久、「日本糖鎖科学コンソーシアムのデータベース」、第29回日本糖質学会、飛騨 (2009/9).
+  lang: ja
+- id: 384
+  type: poster
+  date: "2009-06-13"
+  title: 日本糖鎖科学コンソーシアムデータベース～JCGGDB～
+  citation: 鹿内俊秀、新間陽一、鈴木芳典、藤田典昭、梶裕之、佐藤隆、栂谷内晶、亀山昭彦、舘野浩章、平林淳、奥田修二郎、川嵜敏祐、高橋禮子、加藤晃一、古川鋼一、八杉悦子、西島正弘、木下聖子、西原祥子、山田一作、水野真盛、白井孝、加藤雅樹、山口芳樹、萩谷恵里子、吉田圭一、谷口直之、成松久、「日本糖鎖科学コンソーシアムデータベース～JCGGDB～」、統合データベースプロジェクト シンポジウム2009、東京大学 (2009/6).
+  lang: ja
+- id: 213
+  type: paper
+  date: "2009-05-12"
+  title: Comprehensive analysis of glycosyltransferases in eukaryotic genomes for structural and functional characterization of glycans.
+  citation: "Hashimoto, K., Tokimatsu, T., Kawano, S., Yoshizawa, A. C., Okuda, S., Goto, S., Kanehisa, M. Comprehensive analysis of glycosyltransferases in eukaryotic genomes for structural and functional characterization of glycans. Carbohydr. Res. 344(7):881-7 (2009)."
+  pmid: 19327755
+  links:
+    - label: Carbohydrate Research
+      url: "http://www.sciencedirect.com/science/article/pii/S0008621509000846"
+  tags:
+    - genome
+- id: 214
+  type: paper
+  date: "2009-04-20"
+  title: Extraction and analysis of chemical modification patterns in drug development.
+  citation: "Shigemizu, D., Araki, M., Okuda, S., Goto, S., Kanehisa, M. Extraction and analysis of chemical modification patterns in drug development. J. Chem. Inf. Model. 49(4):1122-9 (2009)."
+  pmid: 19391632
+  doi: 10.1021/ci8003804
+  links:
+    - label: Journal of Chemical Information and Modeling
+      url: "http://pubs.acs.org/doi/abs/10.1021/ci8003804"
+- id: 383
+  type: poster
+  date: "2009-03-11"
+  title: "GlycoBiology@BioHackathon2009+α"
+  citation: "奥田修二郎、「GlycoBiology@BioHackathon2009+α」、第11回オープンバイオ研究会、北陸先端科学技術大学院大学 (2009/3)."
+  lang: ja

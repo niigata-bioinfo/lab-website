@@ -1,0 +1,26 @@
+---
+import PublicationArchive from '../../../../../components/PublicationArchive.astro';
+import { t, fill, langs, langParam } from '../../../../../lib/i18n';
+import { publicationTypes } from '../../../../../content.config';
+import { publicationsFor, paginate } from '../../../../../lib/publications';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const lang of langs) {
+    const all = await publicationsFor(lang);
+    for (const type of publicationTypes) {
+      for (const page of paginate(all.filter((p) => p.type === type))) {
+        paths.push({
+          params: { lang: langParam(lang), type, page: page.current === 1 ? undefined : `page/${page.current}` },
+          props: { lang, type, page },
+        });
+      }
+    }
+  }
+  return paths;
+}
+const { lang, type, page } = Astro.props;
+const d = t(lang);
+const heading = fill(d.publications.typeHeading, { type: d.types[type] });
+---
+<PublicationArchive lang={lang} page={page} path={`/publications/type/${type}/`} heading={heading} selectedType={type} />

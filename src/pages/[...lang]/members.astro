@@ -1,0 +1,45 @@
+---
+import { getEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageTitle from '../../components/PageTitle.astro';
+import { t, type Lang } from '../../lib/i18n';
+import { langPaths } from '../../lib/paths';
+
+export const getStaticPaths = langPaths;
+const { lang } = Astro.props as { lang: Lang };
+const d = t(lang);
+const entry = await getEntry('members', 'members');
+if (!entry) throw new Error('src/content/members.yaml がありません');
+const m = entry.data;
+/** 表示順。現行サイトと同じく見出し無しで連結し、最後に過去のメンバーを出す。 */
+const groups = [m.faculty, m.staff, m.students, m.collaborators];
+const members = groups.flat();
+---
+
+<BaseLayout lang={lang} title={d.members.title} nav="members" path="/members/">
+  <PageTitle>{d.members.title}</PageTitle>
+  <div class="page-content">
+    {members.map((p, i) => (
+      <>
+        {i > 0 && <hr />}
+        <h3>{p.name[lang]}</h3>
+        {lang === 'en' && p.degree && <p><strong>{p.degree}</strong></p>}
+        <p>{p.bio?.[lang] || (lang === 'en' && p.degree) ? <strong>{p.title[lang]}</strong> : p.title[lang]}</p>
+        {p.affiliation?.[lang] && (
+          <p set:html={p.affiliation[lang]!.trim().split('\n').map((s) => s.trim()).join('<br />')} />
+        )}
+        {p.bio?.[lang]?.map((sec) => (
+          <>
+            <h4>{sec.heading}</h4>
+            <p set:html={sec.items.join('<br />')} />
+          </>
+        ))}
+      </>
+    ))}
+    <hr />
+    <h3>{d.members.alumni}</h3>
+    {m.alumni.map((a) => (
+      <p>{a.name[lang]}{lang === 'ja' ? '' : ' '}{a.detail[lang]}</p>
+    ))}
+  </div>
+</BaseLayout>

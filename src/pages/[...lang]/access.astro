@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageTitle from '../../components/PageTitle.astro';
+import { t, type Lang } from '../../lib/i18n';
+import { langPaths } from '../../lib/paths';
+import { site } from '../../data/site';
+
+export const getStaticPaths = langPaths;
+const { lang } = Astro.props as { lang: Lang };
+const d = t(lang);
+const c = site.contact[lang];
+---
+
+<BaseLayout lang={lang} title={d.access.title} nav="access" path="/access/">
+  <PageTitle>{d.access.title}</PageTitle>
+  <div class="page-content">
+    <h3>{c.heading}</h3>
+    <dl>
+      <dt>{d.access.address}</dt>
+      <dd>{c.address}</dd>
+      <dt>{d.access.email}</dt>
+      <dd>{c.email}</dd>
+      <dt>{d.access.tel}</dt>
+      <dd>{c.tel}</dd>
+    </dl>
+  </div>
+  <div class="my-[30px]">
+    <iframe src={site.mapEmbedUrl} class="w-full h-[450px] border-0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps"></iframe>
+    <p class="mt-[50px] text-brown text-[16px] font-bold">{d.access.campusMap}</p>
+    <img class="block mt-[10px] max-w-full h-auto" src={c.campusMap} width="624" height="684" alt="Campus Map" />
+  </div>
+</BaseLayout>

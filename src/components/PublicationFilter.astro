@@ -1,0 +1,52 @@
+---
+import { t, localePath, tagLabel, type Lang } from '../lib/i18n';
+import { publicationTypes } from '../content.config';
+interface Props {
+  lang: Lang;
+  years: number[];
+  tags: { slug: string; count: number }[];
+  selectedType?: string;
+  selectedYear?: number;
+  selectedTag?: string;
+}
+const { lang, years, tags, selectedType, selectedYear, selectedTag } = Astro.props;
+const d = t(lang);
+const base = localePath(lang, '/publications/');
+---
+
+<nav class="pub-filter mt-[10px] mb-[20px] p-[15px] bg-panel">
+  <div class="flex flex-wrap items-center gap-y-[10px]">
+    <label class="mr-[10px] text-[14px] font-bold text-muted">{d.publications.category}</label>
+    <select class="pub-nav min-w-[150px] lg:min-w-[200px] h-[35px] lg:h-[30px] p-[5px] border border-[#ddd] rounded-none bg-white text-[16px] mr-[20px]">
+      <option value={base} selected={!selectedType}>{d.publications.all}</option>
+      {publicationTypes.map((ty) => (
+        <option value={localePath(lang, `/publications/type/${ty}/`)} selected={ty === selectedType}>{d.types[ty]}</option>
+      ))}
+    </select>
+    <label class="mr-[10px] text-[14px] font-bold text-muted">{d.publications.year}</label>
+    <select class="pub-nav min-w-[120px] h-[35px] lg:h-[30px] p-[5px] border border-[#ddd] rounded-none bg-white text-[16px]">
+      <option value={base} selected={!selectedYear}>{d.publications.allYears}</option>
+      {years.map((y) => (
+        <option value={localePath(lang, `/publications/year/${y}/`)} selected={y === selectedYear}>{y}</option>
+      ))}
+    </select>
+  </div>
+  {tags.length > 0 && (
+    <div class="mt-[10px] text-[13px] tracking-[1px]">
+      <span class="mr-[10px] text-[14px] font-bold text-muted">{d.publications.tags}</span>
+      <ul class="inline">
+        {tags.map((tag) => (
+          <li class="inline-block mr-[12px]">
+            <a class={`pub-tag ${tag.slug === selectedTag ? 'font-bold underline' : ''}`} href={localePath(lang, `/publications/tag/${tag.slug}/`)}>{tagLabel(lang, tag.slug)} ({tag.count})</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+</nav>
+
+<script>
+  document.querySelectorAll<HTMLSelectElement>('.pub-nav').forEach((sel) => {
+    sel.addEventListener('change', () => { window.location.href = sel.value; });
+  });
+</script>

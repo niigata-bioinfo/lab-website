@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageTitle from './PageTitle.astro';
+import PublicationFilter from './PublicationFilter.astro';
+import PublicationItem from './PublicationItem.astro';
+import Pager from './Pager.astro';
+import { t, localePath, type Lang } from '../lib/i18n';
+import { publicationsFor, collectTags, collectYears, type Page, type Publication } from '../lib/publications';
+
+interface Props {
+  lang: Lang;
+  /** h1 に出す見出し。省略時は「研究業績」 */
+  heading?: string;
+  page: Page<Publication>;
+  /** 言語プレフィックス無しのパス (例: "/publications/type/paper/")。ページャと言語切替に使う。 */
+  path: string;
+  selectedType?: string;
+  selectedYear?: number;
+  selectedTag?: string;
+}
+const { lang, heading, page, path, selectedType, selectedYear, selectedTag } = Astro.props;
+const d = t(lang);
+const all = await publicationsFor(lang);
+const years = collectYears(all);
+const tags = collectTags(all);
+const pagePath = page.current === 1 ? path : `${path}page/${page.current}/`;
+---
+
+<BaseLayout lang={lang} title={heading ?? d.publications.title} nav="publications" path={pagePath}>
+  <PageTitle>{d.publications.title}</PageTitle>
+  <PublicationFilter lang={lang} years={years} tags={tags} selectedType={selectedType} selectedYear={selectedYear} selectedTag={selectedTag} />
+  {heading && <h2 class="mb-[15px] text-brown text-[16px] font-bold tracking-[1px]">{heading}</h2>}
+  {page.items.length === 0 ? (
+    <p class="my-[30px] mx-[20px] text-[16px]">{d.publications.empty}</p>
+  ) : (
+    <ul class="archive-list">
+      {page.items.map((pub) => <PublicationItem lang={lang} pub={pub} />)}
+    </ul>
+  )}
+  <Pager current={page.current} total={page.total} basePath={localePath(lang, path)} />
+</BaseLayout>

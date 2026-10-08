@@ -1,0 +1,16 @@
+---
+import PublicationArchive from '../../../components/PublicationArchive.astro';
+import { langs, langParam } from '../../../lib/i18n';
+import { publicationsFor, paginate } from '../../../lib/publications';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const lang of langs) {
+    const [first] = paginate(await publicationsFor(lang));
+    paths.push({ params: { lang: langParam(lang) }, props: { lang, page: first } });
+  }
+  return paths;
+}
+const { lang, page } = Astro.props;
+---
+<PublicationArchive lang={lang} page={page} path="/publications/" />

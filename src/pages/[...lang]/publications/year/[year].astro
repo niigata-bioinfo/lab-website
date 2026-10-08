@@ -1,0 +1,20 @@
+---
+import PublicationArchive from '../../../../components/PublicationArchive.astro';
+import { t, fill, langs, langParam } from '../../../../lib/i18n';
+import { publicationsFor, collectYears } from '../../../../lib/publications';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const lang of langs) {
+    const all = await publicationsFor(lang);
+    for (const year of collectYears(all)) {
+      const items = all.filter((p) => p.year === year);
+      paths.push({ params: { lang: langParam(lang), year: String(year) }, props: { lang, year, page: { items, current: 1, total: 1 } } });
+    }
+  }
+  return paths;
+}
+const { lang, year, page } = Astro.props;
+const heading = fill(t(lang).publications.yearHeading, { year });
+---
+<PublicationArchive lang={lang} page={page} path={`/publications/year/${year}/`} heading={heading} selectedYear={year} />

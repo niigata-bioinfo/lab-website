@@ -1,0 +1,11 @@
+- id: 401
+  type: poster
+  date: "2002-12-11"
+  title: Database of operons in Bacillus subtilis.
+  citation: "Okuda, S., Kawashima, S., Kanehisa, M. Database of operons in Bacillus subtilis. Genome Informatics 13, 496-497 (2002/12)."
+- id: 366
+  type: poster
+  date: "2002-12-11"
+  title: 枯草菌マイクロアレイデータを用いた転写単位の解析
+  citation: 奥田修二郎、川島秀一、金久實、「枯草菌マイクロアレイデータを用いた転写単位の解析」第25回日本分子生物学会、横浜 (2002/12).
+  lang: ja

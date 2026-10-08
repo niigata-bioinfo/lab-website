@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+npm-debug.log*
+# WordPress export used for the one-time migration (contains members-only posts)
+migration/*.xml
