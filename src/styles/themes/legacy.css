@@ -32,7 +32,10 @@
     .site-nav__item--home .site-nav__text { @apply lg:hidden; }
 
     /* ---- レイアウト ---- */
-    .hero-bg { @apply relative hidden lg:block h-[180px] bg-[url('/images/top_bg.jpg')] bg-no-repeat bg-[length:100%_auto] shadow-[inset_0_5px_10px_-5px_rgba(0,0,0,.5),inset_0_-5px_10px_-5px_rgba(0,0,0,.5)] -z-10; }
+    .hero-bg {
+      @apply relative hidden lg:block h-[180px] bg-no-repeat bg-[length:100%_auto] shadow-[inset_0_5px_10px_-5px_rgba(0,0,0,.5),inset_0_-5px_10px_-5px_rgba(0,0,0,.5)] -z-10;
+      background-image: url("../../assets/images/top_bg.jpg");
+    }
     .site-main { @apply mt-[10px] lg:my-[30px] min-h-[600px] lg:flex lg:justify-between; }
     .site-main--top { @apply lg:block; }
     .content { @apply w-full lg:w-[690px]; }

@@ -46,7 +46,7 @@
 /* 旧テーマが使っていた Font Awesome 4.7 のうち、必要なグリフだけを自前配信する */
 @font-face {
   font-family: "FontAwesome";
-  src: url("/fonts/fontawesome-webfont.woff2") format("woff2");
+  src: url("../assets/fonts/fontawesome-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: block;

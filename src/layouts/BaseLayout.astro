@@ -4,7 +4,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Sidebar from '../components/Sidebar.astro';
 import ThemeSwitcher from '../components/ThemeSwitcher.astro';
-import { t, localePath, otherLang, type Lang } from '../lib/i18n';
+import { t, localePath, otherLang, withBase, type Lang } from '../lib/i18n';
 import { site } from '../data/site';
 import { themes, defaultTheme, THEME_STORAGE_KEY } from '../data/themes';
 
@@ -30,7 +30,8 @@ const d = t(lang);
 const pageTitle = title ? `${title} – ${d.siteTitle}` : d.metaTitle;
 const other = otherLang(lang);
 const altPath = localePath(other, hasAlternate ? path : '/');
-const canonical = new URL(localePath(lang, path), site.url).href;
+const origin = Astro.site ?? new URL(site.url);
+const canonical = new URL(localePath(lang, path), origin).href;
 const themeIds = themes.map((th) => th.id);
 ---
 
@@ -43,10 +44,10 @@ const themeIds = themes.map((th) => th.id);
     <meta name="description" content={description ?? d.metaDescription} />
     <meta name="format-detection" content="telephone=no" />
     <link rel="canonical" href={canonical} />
-    {hasAlternate && <link rel="alternate" hreflang={other} href={new URL(altPath, site.url).href} />}
+    {hasAlternate && <link rel="alternate" hreflang={other} href={new URL(altPath, origin).href} />}
     <link rel="alternate" hreflang={lang} href={canonical} />
-    <link rel="icon" href="/icon.png" sizes="192x192" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/icon.png" />
+    <link rel="icon" href={withBase("/icon.png")} sizes="192x192" />
+    <link rel="apple-touch-icon" sizes="180x180" href={withBase("/icon.png")} />
     <!-- 保存済みのテーマを描画前に反映する (ちらつき防止) -->
     <script is:inline define:vars={{ themeIds, key: THEME_STORAGE_KEY }}>
       try {

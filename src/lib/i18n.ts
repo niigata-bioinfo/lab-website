@@ -12,10 +12,19 @@ export function t(lang: Lang): Dict {
   return dict[lang] as Dict;
 }
 
-/** 言語に応じたパスを返す。日本語はプレフィックス無し、英語は /en/。 */
+/** サイトのベースパス ("/" または "/niigata-bioinfo" など。末尾スラッシュ無し)。astro.config の base から来る。 */
+export const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+/** ルート相対パスにベースパスを付ける。サブパス配下 (GitHub Pages など) でもリンクが壊れないようにする。 */
+export function withBase(path: string): string {
+  const p = path.startsWith('/') ? path : `/${path}`;
+  return `${basePath}${p}`;
+}
+
+/** 言語に応じたパスを返す (ベースパス込み)。日本語はプレフィックス無し、英語は /en/。 */
 export function localePath(lang: Lang, path: string): string {
   const p = path.startsWith('/') ? path : `/${path}`;
-  return lang === defaultLang ? p : `/en${p === '/' ? '/' : p}`;
+  return withBase(lang === defaultLang ? p : `/en${p === '/' ? '/' : p}`);
 }
 
 export function otherLang(lang: Lang): Lang {

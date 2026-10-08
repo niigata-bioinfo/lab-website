@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageTitle from '../../components/PageTitle.astro';
-import { t, type Lang } from '../../lib/i18n';
+import { t, withBase, type Lang } from '../../lib/i18n';
 import { langPaths } from '../../lib/paths';
 import { site } from '../../data/site';
 
@@ -27,6 +27,6 @@ const c = site.contact[lang];
   <div class="access-map">
     <iframe src={site.mapEmbedUrl} allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps"></iframe>
     <p class="campus-map__title">{d.access.campusMap}</p>
-    <img class="campus-map__img" src={c.campusMap} width="624" height="684" alt="Campus Map" />
+    <img class="campus-map__img" src={withBase(c.campusMap)} width="624" height="684" alt="Campus Map" />
   </div>
 </BaseLayout>

@@ -1,0 +1,55 @@
+# ============================================================================
+# 本番サーバー (nginx) へ rsync でデプロイするワークフロー。
+# まだテスト段階のため無効化している (全行コメント + 拡張子 .disabled)。
+# 有効にするときは、ファイル名を deploy.yml に戻し、各行の先頭の "# " を外し、
+# リポジトリの Secrets (DEPLOY_HOST など) を設定する。
+# 同時に pages.yml を止めるか、公開 URL が二重にならないよう注意すること。
+# ============================================================================
+# name: Deploy
+#
+# # main への push でサイト全体をビルドし、既存の nginx サーバーへ rsync で配置する。
+# # 必要な Secrets: DEPLOY_HOST, DEPLOY_USER, DEPLOY_SSH_KEY (秘密鍵), DEPLOY_PATH (例: /var/www/bioinfo)
+# # 任意の Secrets: DEPLOY_PORT (既定 22), DEPLOY_KNOWN_HOSTS (ssh-keyscan の出力)
+#
+# on:
+#   push:
+#     branches: [main]
+#   workflow_dispatch:
+#
+# concurrency:
+#   group: deploy
+#   cancel-in-progress: false
+#
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: actions/setup-node@v4
+#         with:
+#           node-version: 24
+#           cache: npm
+#       - run: npm ci
+#       - run: npm run check
+#       - run: npm run build
+#
+#       - name: Set up SSH
+#         env:
+#           SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+#           KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+#           HOST: ${{ secrets.DEPLOY_HOST }}
+#           PORT: ${{ secrets.DEPLOY_PORT }}
+#         run: |
+#           mkdir -p ~/.ssh
+#           printf '%s\n' "$SSH_KEY" > ~/.ssh/deploy_key
+#           chmod 600 ~/.ssh/deploy_key
+#           if [ -n "$KNOWN_HOSTS" ]; then printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts; else ssh-keyscan -p "${PORT:-22}" "$HOST" >> ~/.ssh/known_hosts; fi
+#
+#       - name: Upload with rsync
+#         env:
+#           HOST: ${{ secrets.DEPLOY_HOST }}
+#           USER: ${{ secrets.DEPLOY_USER }}
+#           PORT: ${{ secrets.DEPLOY_PORT }}
+#           DEST: ${{ secrets.DEPLOY_PATH }}
+#         run: |
+#           rsync -az --delete -e "ssh -i ~/.ssh/deploy_key -p ${PORT:-22}" dist/ "$USER@$HOST:$DEST/"

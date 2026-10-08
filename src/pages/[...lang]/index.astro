@@ -3,7 +3,7 @@ import { getEntry, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PubBadge from '../../components/PubBadge.astro';
 import PubLinks from '../../components/PubLinks.astro';
-import { t, localePath, formatDate, type Lang } from '../../lib/i18n';
+import { t, localePath, formatDate, withBase, type Lang } from '../../lib/i18n';
 import { langPaths } from '../../lib/paths';
 import { publicationsFor } from '../../lib/publications';
 import { newsFor, newsTitle, newsSlug } from '../../lib/news';
@@ -34,7 +34,7 @@ function excerpt(text: string): { text: string; truncated: boolean } {
     <h2 class="page-title">{d.top.about}</h2>
     <div class="top-intro">
       <div class="top-intro__text"><Content /></div>
-      <img class="top-intro__img" src="/images/top_papers.png" width="300" height="350" alt="" />
+      <img class="top-intro__img" src={withBase("/images/top_papers.png")} width="300" height="350" alt="" />
     </div>
   </section>
 

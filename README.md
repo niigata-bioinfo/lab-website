@@ -119,11 +119,29 @@ URL は日本語が `/news/`、英語が `/en/news/` のように対応します
 
 ## デプロイ
 
-`main` に push すると `.github/workflows/deploy.yml` が `dist/` を rsync で配信サーバーへ送ります。
-リポジトリの Secrets に次を設定してください。
+### テスト公開 (GitHub Pages、現在有効)
 
-- `DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_PATH` (配置先ディレクトリ), `DEPLOY_SSH_KEY` (秘密鍵)
-- 任意: `DEPLOY_PORT`, `DEPLOY_KNOWN_HOSTS`
+`main` に push すると `.github/workflows/pages.yml` がビルドして GitHub Pages に公開します。
+初回だけ、リポジトリの Settings → Pages → Build and deployment → Source を **GitHub Actions** にしてください。
+公開 URL は `https://<owner>.github.io/<repo>/` です。
+
+プロジェクトサイトはサブパス配下になるため、ワークフローは `BASE_PATH=/<repo>` と `SITE_URL=https://<owner>.github.io` を
+環境変数で渡してビルドしています。内部リンクは `localePath()` / `withBase()` 経由で生成しているので、
+`href="/..."` のようにルート相対パスを直接書かないでください。フォントや背景画像など CSS から参照するファイルは
+`src/assets/` に置き、相対パスで参照します (Vite がベースパスを付けます)。
+
+ローカルで Pages と同じ条件のビルドを確認するには次のようにします。
+
+```bash
+SITE_URL=https://annpin.github.io BASE_PATH=/niigata-bioinfo npm run build
+```
+
+### 本番公開 (rsync、現在は無効)
+
+本番サーバーへの rsync デプロイは `.github/workflows/deploy-rsync.yml.disabled` に全行コメントで残してあります。
+本番に切り替えるときは、ファイル名を `deploy.yml` に戻してコメントを外し、Secrets
+(`DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_PATH`, `DEPLOY_SSH_KEY`、任意で `DEPLOY_PORT`, `DEPLOY_KNOWN_HOSTS`) を設定します。
+その際 `pages.yml` は止めるか、テスト用ブランチに限定してください。
 
 旧 URL のリダイレクトは `redirects/nginx-redirects.conf` を nginx の `server` ブロックで include します。
 Cloudflare Pages / Netlify に置く場合は `redirects/_redirects` を `public/` にコピーしてください。
