@@ -78,14 +78,14 @@
     /* ---- トップページ ---- */
     .special-link { @apply text-[18px] font-bold; }
     .top-section { @apply my-[25px] lg:my-[50px]; }
-    .top-intro { @apply lg:flex lg:justify-between; }
+    .top-intro { @apply lg:flex lg:justify-between lg:items-start; }
     .top-intro__text { @apply text-[14px] leading-[1.7] text-left lg:w-[630px] lg:text-[16px] lg:leading-[1.8]; }
     .top-intro__text p + p { @apply mt-[1.5em] lg:mt-[1.8em]; }
     .top-intro__text h3 { @apply mb-[20px] text-[16px] font-bold; }
     .top-intro__text h4 { @apply mt-[20px] mb-[10px] text-[14px] font-bold; }
     .top-intro__text ul { @apply pl-[25px] list-disc; }
     .top-intro__text ol { @apply pl-[25px] list-decimal; }
-    .top-intro__img { @apply hidden lg:block; }
+    .top-intro__img { @apply hidden lg:block lg:shrink-0; }
     .pub-cards { @apply lg:flex lg:flex-wrap lg:-mx-[10px]; }
     .pub-card { @apply mb-[10px] lg:w-1/3 lg:h-[300px] lg:mb-[20px] lg:px-[10px] box-border; }
     .pub-card__inner { @apply relative h-full bg-white text-ink shadow-card overflow-hidden; }
