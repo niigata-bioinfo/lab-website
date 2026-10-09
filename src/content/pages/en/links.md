@@ -2,11 +2,11 @@
 title: Links
 ---
 
-[ODB](http://www.operondb.jp/): Operon DataBase
+[ODB](https://www.operondb.jp/): Operon DataBase
 
-[GlycoEpitope](http://www.glycoepitope.jp/) version 2
+[GlycoEpitope](https://www.glycoepitope.jp/) version 2
 
-[jPOST](http://jpostdb.org/): Japan ProteOme STandard repository/database
+[jPOST](https://jpostdb.org/): Japan ProteOme STandard repository/database
 
 [jPOST repository](https://repository.jpostdb.org): Japan ProteOme STandard repository
 
