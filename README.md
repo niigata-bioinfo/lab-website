@@ -150,6 +150,9 @@ SITE_URL=https://annpin.github.io BASE_PATH=/niigata-bioinfo npm run build
 Cloudflare Pages / Netlify に置く場合は `redirects/_redirects` と `_redirects.legacy-ids` を連結して `public/_redirects` に置いてください。
 対応表は ID を廃止した時点で 1 回だけ生成したもので、以後の保守は不要です。
 
+これらのリダイレクトは配信サーバー側の設定なので、開発サーバー (`npm run dev`) と GitHub Pages では動きません
+(旧 URL は 404 になります)。本番の nginx に載せた時点で有効になります。
+
 ## 移行について
 
 `migration/` の WordPress エクスポート (git 管理外) から 2026-10-08 に一括変換しました。
