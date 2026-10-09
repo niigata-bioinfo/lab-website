@@ -12,4 +12,4 @@ title: Links
 
 [jPOST database](https://globe.jpostdb.org): Japan ProteOme STandard database
 
-[GlycoPOST](https://glycopost.glycosmos.org):Mass spectrometry data repository for glycomics
+[GlycoPOST](https://glycopost.glycosmos.org): Mass spectrometry data repository for glycomics
