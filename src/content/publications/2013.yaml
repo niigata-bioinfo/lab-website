@@ -1,5 +1,4 @@
-- id: 356
-  type: paper
+- type: paper
   date: "2013-12-31"
   title: "The Fifth ACGG-DB Meeting Report: Towards an International Glycan Structure Repository."
   citation: "Aoki-Kinoshita, K. F., Sawaki, H., An, H. J., Campbell, M., Cao, Q., Cummings, R., Hsu, D. K., Kato, M., Kawasaki, T., Khoo, K. H., Kim, J., Kolarich, D., Li, X., Liu, M., Matsubara, M., Okuda, S., Packer, N. H., Ranzinger, R., Shen, H., Shikanai, T., Shinmachi, D., Toukach, P., Yamada, I., Yamaguchi, Y., Yang, P., Ying, W., Yoo, J. S., Zhang, Y., Zhang, Y., Narimatsu, H. The Fifth ACGG-DB Meeting Report: Towards an International Glycan Structure Repository. Glycobiology 23(12): 1422-1424 (2013)."
@@ -8,22 +7,19 @@
       url: "http://glycob.oxfordjournals.org/content/23/12/1422.long"
   tags:
     - glycan
-- id: 400
-  type: poster
+- type: poster
   date: "2013-12-03"
   title: Novosphingobium aromaticivoransのLOV-HTHの機能解析
   citation: 田郷寿樹、冨川直樹、奥田修二郎、高橋文雄、笠原賢洋、「Novosphingobium aromaticivoransのLOV-HTHの機能解析」、第36回日本分子生物学会年会、神戸 (2013/12).
   lang: ja
-- id: 439
-  type: poster
+- type: poster
   date: "2013-12-03"
   title: リン酸化モチーフの比較進化解析
   citation: 吉崎尚良、奥田修二郎、「リン酸化モチーフの比較進化解析」、第36回日本分子生物学会年会、神戸 (2013/12).
   tags:
     - genome
   lang: ja
-- id: 444
-  type: paper
+- type: paper
   date: "2013-11-29"
   title: Introducing glycomics data into the Semantic Web.
   citation: "Aoki-Kinoshita, K. F., Bolleman, J., Campbell, M. P., Kawano, S., Kim, J. D., Lütteke, T., Matsubara, M., Okuda, S., Ranzinger, R., Sawaki, H., Shikanai, T., Shinmachi, D., Suzuki, Y., Toukach, P., Yamada, I., Packer, N. H., Narimatsu, H. Introducing glycomics data into the Semantic Web. J. Biomed. Semantics 4(1):39 (2013)."
@@ -33,14 +29,12 @@
       url: "http://www.jbiomedsem.com/content/4/1/39"
   tags:
     - glycan
-- id: 359
-  type: talk
+- type: talk
   date: "2013-11-25"
   title: 海洋性芳香族炭化水素分解菌CycloclasticusのRNAおよびタンパク質レベルでの 遺伝子発現の網羅的解析
   citation: 岩淵範之、奥田修二郎、荻原淳、木村信忠、砂入道夫、「海洋性芳香族炭化水素分解菌CycloclasticusのRNAおよびタンパク質レベルでの 遺伝子発現の網羅的解析」、第29回日本微生物生態学会大会、鹿児島大学 (2013/11).
   lang: ja
-- id: 363
-  type: lecture
+- type: lecture
   date: "2013-11-16"
   title: 大規模配列情報からの知識抽出
   citation: 第694回新潟医学会例会、「大規模配列情報からの知識抽出」、新潟大学医学部有壬記念館(2013/11/16).
@@ -48,24 +42,21 @@
     - metagenome
     - genome
   lang: ja
-- id: 362
-  type: lecture
+- type: lecture
   date: "2013-11-13"
   title: ヒト腸内細菌叢のメタゲノム解析
   citation: バイオインフォマティクスセミナーin新潟、「ヒト腸内細菌叢のメタゲノム解析」、新潟大学ときめいと (2013/11/13).
   tags:
     - metagenome
   lang: ja
-- id: 361
-  type: lecture
+- type: lecture
   date: "2013-10-25"
   title: "GlycoPOD & GlycoEpitope"
   citation: "第2回糖鎖化学統合データベース講習会、「GlycoPOD & GlycoEpitope」、東北薬科大学 (2013/10/25)."
   tags:
     - glycan
   lang: ja
-- id: 2544
-  type: poster
+- type: poster
   date: "2013-10-05"
   title: GlycoScience Protocol Online Database
   citation: 川嵜敏祐、前田真砂子、鴨さおり、富永知子、石崎円、鹿内俊秀、伊東信、亀山昭彦、工藤崇、鈴木匡、千葉靖典、西原祥子、平林淳、渡辺秀人、渡辺里仁、奥田修二郎、文紅玲、鈴木芳典、藤田典昭、野村しのぶ、伏見美峰、成松久、「GlycoScience Protocol Online Database」、トーゴーの日シンポジウム2013、東京 (2013/10/5).
@@ -73,59 +64,51 @@
     - db
     - glycan
   lang: ja
-- id: 2068
-  type: talk
+- type: talk
   date: "2013-09-28"
   title: バクテリア存在下で誘導される、珪藻Chaetoceros tenuissimusのウイルス抵抗性
   citation: 木村圭、奥田修二郎、外丸裕司、「バクテリア存在下で誘導される、珪藻Chaetoceros tenuissimusのウイルス抵抗性」、2013年日本ベントス学会・日本プランクトン学会合同大会、東北大学農学部(2013/9/28).
   lang: ja
-- id: 399
-  type: poster
+- type: poster
   date: "2013-09-11"
   title: バクテリア存在下で誘導される，珪藻Chaetoceros tenuissimusのウイルス抵抗性
   citation: 木村圭、奥田修二郎、外丸裕司、「バクテリア存在下で誘導される，珪藻Chaetoceros tenuissimusのウイルス抵抗性」、2013年日本ベントス学会・日本プランクトン学会合同大会、仙台 (2013/9).
   lang: ja
-- id: 432
-  type: poster
+- type: poster
   date: "2013-09-04"
   title: ゲノム・メタゲノム情報を用いた機能解析
   citation: 奥田修二郎、「ゲノム・メタゲノム情報を用いた機能解析」、第2回 新潟大学医学系基礎・臨床研究交流会、新潟（2013/9）
   tags:
     - metagenome
   lang: ja
-- id: 360
-  type: lecture
+- type: lecture
   date: "2013-08-05"
   title: GlycoEpitope
   citation: 第32回日本糖質学会ワークショップ、「GlycoEpitope」、大阪国際交流センター (2013/8/5).
   tags:
     - glycan
   lang: ja
-- id: 456
-  type: lecture
+- type: lecture
   date: "2013-07-29"
   title: メタゲノム解析の医学応用
   citation: 新任テニュアトラック教員セミナー、「メタゲノム解析の医学応用」、新潟大学医学部第三講義室 (2013/7/29).
   tags:
     - metagenome
   lang: ja
-- id: 358
-  type: talk
+- type: talk
   date: "2013-06-28"
   title: Recent Efforts of Global Collaborations for Interconnecting Glycan-related Databases on the Semantic Web.
   citation: "Sawaki, M., Kinoshita-Aoki, K., Yamada, I., Kawano, S., Okuda, S., Katoh, M., and Narimatsu, H. Recent Efforts of Global Collaborations for Interconnecting Glycan-related Databases on the Semantic Web. Glyco22, Dalian (2013/6)."
   tags:
     - glycan
-- id: 225
-  type: paper
+- type: paper
   date: "2013-04-20"
   title: Analysis of bacterial growth at various distances from an antimicrobial surface.
   citation: "Nunose, S., Iwai, R., Okuda, S., Tsuchiya, Y., Morisaki, H. Analysis of bacterial growth at various distances from an antimicrobial surface. Adv. Biosci. Biotechnol. 4:563-569 (2013)."
   links:
     - label: Advances in Bioscience and Biotechnology
       url: "http://file.scirp.org/Html/9-7300534_29971.htm"
-- id: 224
-  type: paper
+- type: paper
   date: "2013-02-20"
   title: "The Third ACGG-DB Meeting Report: Towards an international collaborative infrastructure for glycobioinformatics."
   citation: "Aoki-Kinoshita, K. F., Sawaki, H., An, H. J., Cho, J. W., Hsu, D., Kato, M., Kawano, S., Kawasaki, T., Khoo, K. H., Kim, J., Kim, J. D., Li, X., Lütteke, T., Okuda, S., Packer, N. H., Paulson, J. C., Raman, R., Ranzinger, R., Shen, H., Shikanai, T., Yamada, I., Yang, P., Yamaguchi, Y., Ying, W., Yoo, J. S., Zhang, Y., Narimatsu, H. The Third ACGG-DB Meeting Report: Towards an international collaborative infrastructure for glycobioinformatics. Glycobiology 23(2):144-6 (2013)."
@@ -135,8 +118,7 @@
       url: "http://glycob.oxfordjournals.org/content/23/2/143.long"
   tags:
     - glycan
-- id: 223
-  type: paper
+- type: paper
   date: "2013-01-01"
   title: "KEGG OC: a large-scale automatic construction of taxonomy-based ortholog clusters."
   citation: "Nakaya, A., Katayama, T., Itoh, M., Hiranuka, K., Kawashima, S., Moriya, Y., Okuda, S., Tanaka, M., Tokimatsu, T., Yamanishi, Y., Yoshizawa, A. C., Kanehisa, M., Goto, S. KEGG OC: a large-scale automatic construction of taxonomy-based ortholog clusters. Nucleic Acids Res. 41: D353-7 (2013)."

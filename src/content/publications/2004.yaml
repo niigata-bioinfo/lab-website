@@ -1,42 +1,34 @@
-- id: 409
-  type: poster
+- type: poster
   date: "2004-12-11"
   title: Automatic generation of KEGG OC (Ortholog Cluster) and its assignment to draft genomes.
   citation: "Moriya, Y., Katayama, T., Nakaya, A., Itoh, M., Yoshizawa, A.C., Okuda, S., Kanehisa, M. Automatic generation of KEGG OC (Ortholog Cluster) and its assignment to draft genomes. GIW 2004 Poster Abstracts, P049 (2004/12)."
-- id: 408
-  type: poster
+- type: poster
   date: "2004-12-11"
   title: Functional categorization of multiple genomes using KEGG OC in the genome indices.
   citation: "Okuda, S., Yoshizawa, A.C., Moriya, Y., Itoh, M., Katayama, T., Goto, S., Kanehisa, M. Functional categorization of multiple genomes using KEGG OC in the genome indices. GIW 2004 Poster Abstracts, P050 (2004/12)."
-- id: 407
-  type: poster
+- type: poster
   date: "2004-12-11"
   title: Analysis of the bacterial sequences recognized by RNA-binding proteins and compounds.
   citation: "Muto, A., Yoshizawa, A.C., Okuda, S., Itoh, M., Hattori, M., Kanehisa, M. Analysis of the bacterial sequences recognized by RNA-binding proteins and compounds. GIW 2004 Poster Abstracts, P093 (2004/12)."
-- id: 406
-  type: poster
+- type: poster
   date: "2004-12-11"
   title: Functional classification of coiled-coil proteins in multiple genomes.
   citation: "Yoshizawa, A.C., Okuda, S., Moriya, Y., Itoh, M., Katayama, T., Kawano, S., Okamoto, S., Kawashima, S., Kanehisa, M. Functional classification of coiled-coil proteins in multiple genomes. GIW 2004 Poster Abstracts, P157 (2004/12)."
-- id: 368
-  type: poster
+- type: poster
   date: "2004-12-11"
   title: SNARE分子のパラログ数変化に基づく真核細胞内輸送経路の多様化の考察
   citation: 吉沢明康、奥田修二郎、伊藤真純、守屋勇樹、川島秀一、五斗進、金久實、「SNARE分子のパラログ数変化に基づく真核細胞内輸送経路の多様化の考察」第27回日本分子生物学会、神戸 (2004/12).
   lang: ja
-- id: 367
-  type: poster
+- type: poster
   date: "2004-12-11"
   title: ゲノムを特徴づける種々の指標のデータベース化とそれらによる生物種進化の考察
   citation: 奥田修二郎、吉沢明康、守屋勇樹、伊藤真純、五斗進、金久實、「ゲノムを特徴づける種々の指標のデータベース化とそれらによる生物種進化の考察」第27回日本分子生物学会、神戸 (2004/12).
   lang: ja
-- id: 405
-  type: poster
+- type: poster
   date: "2004-06-11"
   title: "Integration of biological features of multiple genomes: the construction of \"Genome Indices\" database."
   citation: "Okuda, S., Yoshizawa, A.C., Moriya, Y., Itoh, M., Goto, S., Kanehisa, M. Integration of biological features of multiple genomes: the construction of \"Genome Indices\" database. IBSB 2004 Poster Abstracts, 40-41 (2004/6)."
-- id: 404
-  type: poster
+- type: poster
   date: "2004-06-11"
   title: Prediction and Comparison of Coiled-Coil Proteins in Multiple Genomes.
   citation: "Yoshizawa, A.C., Okuda, S., Itoh, M., Katayama, T., Kawashima, S., Kanehisa, M. Prediction and Comparison of Coiled-Coil Proteins in Multiple Genomes. IBSB 2004 Poster Abstracts, 77-78 (2004/6)."

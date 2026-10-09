@@ -1,27 +1,22 @@
-- id: 421
-  type: poster
+- type: poster
   date: "2011-12-11"
   title: Evolutionary analysis of the phosphorylation signaling reveals functionally conserved motifs.
   citation: "Yoshizaki, H., Okuda, S. Evolutionary analysis of the phosphorylation signaling reveals functionally conserved motifs. ASCB annual meeting 2012, 2788, Denver (2011/12)."
-- id: 397
-  type: poster
+- type: poster
   date: "2011-12-11"
   title: "iPath2.0: interactive pathway explorer"
   citation: "山田卓司、Ivica Letunic、奥田修二郎、金久實、Peer Bork、「iPath2.0: interactive pathway explorer」、第34回日本分子生物学会年会、横浜 (2011/12)."
   lang: ja
-- id: 396
-  type: poster
+- type: poster
   date: "2011-12-11"
   title: 日本糖鎖科学コンソーシアム・データベース（ＪＣＧＧＤＢ）
   citation: 成松久、鹿内俊秀、澤木弘道、鈴木芳典、藤田典昭、前田真砂子、文紅玲、川嵜敏祐、奥田修二郎、山口芳樹、加藤雅樹、吉田圭一、水野真盛、山田一作、「日本糖鎖科学コンソーシアム・データベース（ＪＣＧＧＤＢ）」、第34回日本分子生物学会年会、横浜 (2011/12).
   lang: ja
-- id: 420
-  type: poster
+- type: poster
   date: "2011-11-11"
   title: Comparative analysis of functional diversity of environmental genomes.
   citation: "Okuda, S. Comparative analysis of functional diversity of environmental genomes. The 2011 Joint Conference of CBI & JSBi, 162, Kobe (2011/11)."
-- id: 218
-  type: paper
+- type: paper
   date: "2011-10-31"
   title: In silico study on the substrate binding manner in human myo-inositol monophosphatase 2.
   citation: "Fujita, S., Ohnishi, T., Okuda, S., Kobayashi, R., Fukuno, S., Furuta, D., Kikuchi, T., Yoshikawa, T., Fujita, N. In silico study on the substrate binding manner in human myo-inositol monophosphatase 2. J. Mol. Model. 17(10), 2559-67 (2011)."
@@ -29,26 +24,22 @@
   links:
     - label: Journal of Molecular Modeling
       url: "http://link.springer.com/article/10.1007%2Fs00894-010-0937-8"
-- id: 395
-  type: poster
+- type: poster
   date: "2011-10-11"
   title: 16S rDNA配列からのゲノム推定とパスウェイ解析
   citation: 奥田修二郎、土屋雄揮、桐山智帆、 伊藤真純、森崎久雄、「16S rDNA配列からのゲノム推定とパスウェイ解析」、第27回日本微生物生態学会大会、京都 (2011/10).
   lang: ja
-- id: 394
-  type: poster
+- type: poster
   date: "2011-10-11"
   title: バイオフィルムに生息する様々な大きさの細菌
   citation: 林田裕樹、吉水祐里、土屋雄揮、奥田修二郎、森崎久雄、「バイオフィルムに生息する様々な大きさの細菌 」、第27回日本微生物生態学会大会、京都 (2011/10).
   lang: ja
-- id: 304
-  type: talk
+- type: talk
   date: "2011-10-02"
   title: 北モンゴル炭酸塩湖のヒ素代謝に関与する微生物群集の機能ゲノミクス解析
   citation: "濱村奈津子, 板井啓明, 奥田 修二郎, Anna-Louise Reysenbach、「北モンゴル炭酸塩湖のヒ素代謝に関与する微生物群集の機能ゲノミクス解析」、第27回日本微生物生態学会大会、京都 (2011/10)."
   lang: ja
-- id: 280
-  type: lecture
+- type: lecture
   date: "2011-09-10"
   title: 環境中の微生物間相互作用-腸内細菌叢と食品との関連に向けて-
   citation: 機能性食品探索プロジェクトシンポジウム、「環境中の微生物間相互作用-腸内細菌叢と食品との関連に向けて-」、三宮研修センター (2011/9/10).
@@ -56,8 +47,7 @@
     - metagenome
     - genome
   lang: ja
-- id: 220
-  type: paper
+- type: paper
   date: "2011-08-02"
   title: "The 2nd DBCLS BioHackathon: interoperable bioinformatics Web services for integrated applications."
   citation: "Katayama, T., Wilkinson, M. D., Vos, R., Kawashima, T., Kawashima, S., Nakao, M., Yamamoto, Y., Chun, H. W., Yamaguchi, A., Kawano, S., Aerts, J., Aoki-Kinoshita, K. F., Arakawa, K., Aranda, B., Bonnal, R. J., Fernández, J. M., Fujisawa, T., Gordon, P. M., Goto, N., Haider, S., Harris, T., Hatakeyama, T., Ho, I., Itoh, M., Kasprzyk, A., Kido, N., Kim, Y. J., Kinjo, A. R., Konishi, F., Kovarskaya, Y., von, Kuster, G., Labarga, A., Limviphuvadh, V., McCarthy, L., Nakamura, Y., Nam, Y., Nishida, K., Nishimura, K., Nishizawa, T., Ogishima, S., Oinn, T., Okamoto, S., Okuda, S., Ono, K., Oshita, K., Park, K. J., Putnam, N., Senger, M., Severin, J., Shigemoto, Y., Sugawara, H., Taylor, J., Trelles, O., Yamasaki, C., Yamashita, R., Satoh, N., Takagi T. The 2nd DBCLS BioHackathon: interoperable bioinformatics Web services for integrated applications. J. Biomed. Semantics 2:4 (2011)."
@@ -68,8 +58,7 @@
       url: "http://www.jbiomedsem.com/content/2/1/4"
   tags:
     - server
-- id: 219
-  type: paper
+- type: paper
   date: "2011-07-01"
   title: "iPath2.0: interactive pathway explorer."
   citation: "Yamada, T., Letunic, I., Okuda, S., Kanehisa, M., Bork, P. iPath2.0: interactive pathway explorer. Nucleic Acids Res. 39:W412-5 (2011)."
@@ -79,33 +68,28 @@
       url: "http://nar.oxfordjournals.org/content/39/suppl_2/W412.long"
   tags:
     - server
-- id: 419
-  type: poster
+- type: poster
   date: "2011-03-11"
   title: "Computational Methods for the Interpretation of Clinical Meta­Omics Data: from a ‘Bag of Genes’ to Ecosystem Networks and Clinical Markers."
   citation: "Raes, J,. Darzi, Y., Falony, G., Faust, K., Hildebrand, F., Lima-Mendez, G., Okuda, S. Computational Methods for the Interpretation of Clinical Meta­Omics Data: from a ‘Bag of Genes’ to Ecosystem Networks and Clinical Markers. International Human microbiome Congress, 126 Vancouver (2011/3)."
-- id: 393
-  type: poster
+- type: poster
   date: "2011-03-11"
   title: 海洋における多環芳香族炭化水素(PAHs)分解複合微生物群集のプロテオーム解析
   citation: 岩淵範之、 ⽵⽯英伯、 奥⽥修二郎、砂入道夫、「海洋における多環芳香族炭化水素(PAHs)分解複合微生物群集のプロテオーム解析」、日本農芸化学会2011年度大会、京都 (2011/3).
   lang: ja
-- id: 392
-  type: poster
+- type: poster
   date: "2011-03-11"
   title: 海洋における多環芳⾹香族炭化⽔水素(PAHs)分解複合微⽣生物群集のメタゲノム、メタプロテオーム解析
   citation: 岩淵範之、奥⽥修二郎、荻原淳、⽵⽯英伯、⼤島健志朗、服部正平、砂入道夫、「海洋における多環芳⾹香族炭化⽔水素(PAHs)分解複合微⽣生物群集のメタゲノム、メタプロテオーム解析」、第5回日本ゲノム微生物学会、仙台 (2011/3).
   lang: ja
-- id: 303
-  type: talk
+- type: talk
   date: "2011-03-02"
   title: 海洋における多環芳⾹香族炭化⽔水素(PAHs)分解複合微⽣生物群集のメタゲノム、メタプロテオーム解析
   citation: 岩淵範之、奥⽥修二郎、⽵⽯英伯、⼤島健志朗、服部正平、砂入道夫「海洋における多環芳⾹香族炭化⽔水素(PAHs)分解複合微⽣生物群集のメタゲノム、メタプロテオーム解析」、第5回日本ゲノム微生物学会、東北学院大学土樋キャンパス (2011/3).
   tags:
     - metagenome
   lang: ja
-- id: 281
-  type: lecture
+- type: lecture
   date: "2011-02-25"
   title: GlycoEpitopeDB
   citation: 第１回糖鎖インフォマティクスシンポジウム、「GlycoEpitopeDB」、東大DBCLS (2011/2/25).
@@ -113,8 +97,7 @@
     - db
     - glycan
   lang: ja
-- id: 217
-  type: paper
+- type: paper
   date: "2011-01-01"
   title: "ODB: a database for operon organizations, 2011 update."
   citation: "Okuda, S., Yoshizawa, A. C. ODB: a database for operon organizations, 2011 update. Nucleic Acids Res. 39:D552-5 (2011)."

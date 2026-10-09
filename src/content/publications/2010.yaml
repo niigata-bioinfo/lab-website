@@ -1,5 +1,4 @@
-- id: 282
-  type: lecture
+- type: lecture
   date: "2010-11-23"
   title: コンピュータで見る微生物生態学-ベルギー留学経験を基に-
   citation: 微生物生態学会若手交流会、「コンピュータで見る微生物生態学-ベルギー留学経験を基に-」、筑波大学 (2010/11/23).
@@ -7,13 +6,11 @@
     - metagenome
     - genome
   lang: ja
-- id: 418
-  type: poster
+- type: poster
   date: "2010-09-11"
   title: "iPath: Interactive Pathways Explorer."
   citation: "Yamada, T., Letunic, I., Okuda, S., Bork, P. iPath: Interactive Pathways Explorer. ECCB 2010, Ghent, G-74 (2010/9)."
-- id: 216
-  type: paper
+- type: paper
   date: "2010-08-20"
   title: Direct observation and analysis of bacterial growth on an antimicrobial surface.
   citation: "Yamada, H., Takahashi, N., Okuda, S., Tsuchiya, Y., Morisaki, H. Direct observation and analysis of bacterial growth on an antimicrobial surface. Appl. Environ. Microbiol. 76(16):5409-14 (2010)."
@@ -21,35 +18,29 @@
   links:
     - label: Applied and Environmental Microbiology
       url: "http://aem.asm.org/content/76/16/5409.short"
-- id: 2103
-  type: poster
+- type: poster
   date: "2010-08-15"
   title: "iPath: Interactive Pathways Explorer."
   citation: "Yamada, T., Letunic, I., Okuda, S., Bork, P. iPath: Interactive Pathways Explorer. RECOMB2010, Portugal, B-63 (2010/8)."
-- id: 417
-  type: poster
+- type: poster
   date: "2010-08-11"
   title: "From Parts Lists to Ecosystem Networks: Development of a 2nd Generation Toolkit for Meta­Omics Analysis."
   citation: "Darzi, Y., Falony, G., Faust, K., Hildebrand, F., Lima-Mendez, G., Okuda, S., Raes, J. From Parts Lists to Ecosystem Networks: Development of a 2nd Generation Toolkit for Meta­Omics Analysis. Human Microbiome Research Conference, 85 St Louis, Missouri (2010/8)."
-- id: 302
-  type: talk
+- type: talk
   date: "2010-08-02"
   title: "From Parts Lists to Ecosystem Networks: Development of a 2nd Generation Toolkit for Meta­Omics Analysis."
   citation: "Darzi, Y., Falony, G., Faust, K., Hildebrand, F., Lima-Mendez, G., Okuda, S., and Raes, J. ; From Parts Lists to Ecosystem Networks: Development of a 2nd Generation Toolkit for Meta­Omics Analysis. Human Microbiome Research Conference, St. Louis (2010/8)."
-- id: 391
-  type: poster
+- type: poster
   date: "2010-03-11"
   title: イノシトールモノフォスファターゼ 2 における基質結合のインシリコ解析
   citation: 藤田靖介、大西哲生、奥田修二郎、小林亮、福野智司、菊地武司、吉川武男、藤田典久、「イノシトールモノフォスファターゼ 2 における基質結合のインシリコ解析」、日本薬学会第130年会、岡山 (2010/3).
   lang: ja
-- id: 390
-  type: poster
+- type: poster
   date: "2010-03-11"
   title: 海洋における多環芳香族炭化水素(PAHs)分解複合微生物群集のメタゲノム解析
   citation: 岩淵範之、砂入道夫、奥田修二郎、大島健志朗、服部正平、中嶋睦安、「海洋における多環芳香族炭化水素(PAHs)分解複合微生物群集のメタゲノム解析」、日本農芸化学会2010年度大会、東京 (2010/3).
   lang: ja
-- id: 389
-  type: poster
+- type: poster
   date: "2010-03-11"
   title: 海洋性多環芳香族炭化水素（PAHs）石油分解菌Cycloclasticusのプロテオーム解析
   citation: 岩淵範之、竹石英伯、荻原淳、奥田修二郎、石川淳、根本洋明、砂入道夫、服部正平、中嶋睦安、「海洋性多環芳香族炭化水素（PAHs）石油分解菌Cycloclasticusのプロテオーム解析」、第4回日本ゲノム微生物学会、博多 (2010/3).

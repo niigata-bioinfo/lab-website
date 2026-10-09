@@ -1,28 +1,23 @@
-- id: 412
-  type: poster
+- type: poster
   date: "2005-12-11"
   title: "KAAS: KEGG Automatic Annotation Server."
   citation: "Moriya, Y., Itoh, M., Okuda, S., Kanehisa, M. KAAS: KEGG Automatic Annotation Server. GIW 2005 Poster Abstracts, P005 (2005/12)."
-- id: 372
-  type: poster
+- type: poster
   date: "2005-12-11"
   title: 種々の生物種のオペロン構造のデータベース化
   citation: 奥田修二郎、片山俊明、川島秀一、五斗進、金久實、「種々の生物種のオペロン構造のデータベース化」第28回日本分子生物学会、福岡 (2005/12).
   lang: ja
-- id: 371
-  type: poster
+- type: poster
   date: "2005-12-11"
   title: 細胞内輸送関与蛋白質のパラログ数変化に基づく真核細胞内輸送経路の多様化の考察
   citation: 吉沢明康、奥田修二郎、守屋勇樹、伊藤真純、川島秀一、五斗進、金久實、「細胞内輸送関与蛋白質のパラログ数変化に基づく真核細胞内輸送経路の多様化の考察」第28回日本分子生物学会、福岡 (2005/12).
   lang: ja
-- id: 370
-  type: poster
+- type: poster
   date: "2005-12-11"
   title: 選択的スプライシングとタンパク質の機能の多様化の関連解析
   citation: 重水大智、奥田修二郎、吉沢明康、伊藤真純、服部正泰、五斗進、金久實、「選択的スプライシングとタンパク質の機能の多様化の関連解析」第28回日本分子生物学会、福岡 (2005/12).
   lang: ja
-- id: 288
-  type: lecture
+- type: lecture
   date: "2005-12-09"
   title: GBrowse ODBでの活用例
   citation: 第２回オープンバイオ研究会、「GBrowse ODBでの活用例」、パシフィコ横浜 (2005/12/9).
@@ -30,21 +25,18 @@
     - operon
     - db
   lang: ja
-- id: 411
-  type: poster
+- type: poster
   date: "2005-08-11"
   title: Analysis of the bacterial mRNAs recognized by RNA-binding proteins and compounds.
   citation: "Muto, A., Okuda, S., Hattori, M., Kanehisa, M. Analysis of the bacterial mRNAs recognized by RNA-binding proteins and compounds. IBSB 2005 Poster Abstracts, P14 (2005/8)."
-- id: 291
-  type: talk
+- type: talk
   date: "2005-08-02"
   title: "Conservation of gene co-regulation between two prokaryotes: Bacillus subtilis and Escherichia coli"
   citation: "Okuda, S., Kawashima, S., Goto, S., Kanehisa, M. Conservation of gene co-regulation between two prokaryotes: Bacillus subtilis and Escherichia coli. IBSB 2005, Berlin (2005/8)."
   tags:
     - operon
     - genome
-- id: 203
-  type: paper
+- type: paper
   date: "2005-07-20"
   title: "Conservation of gene co-regulation between two prokaryotes: Bacillus subtilis and Escherichia coli."
   citation: "Okuda, S., Kawashima, S., Goto, S., and Kanehisa, M.; Conservation of gene co-regulation between two prokaryotes: Bacillus subtilis and Escherichia coli. Genome Inform. 16(1): 116-24 (2005)."
@@ -55,13 +47,11 @@
   tags:
     - operon
     - genome
-- id: 410
-  type: poster
+- type: poster
   date: "2005-07-11"
   title: Determining the Evolutionary direction of Protein Domain-Fusion Using Genomic Fusion Flux.
   citation: "Hu, Z., Wu, J., Okuda, S., Niu, T., Shakhnovich, B., Delisi, C. Determining the Evolutionary direction of Protein Domain-Fusion Using Genomic Fusion Flux. ISMB 2005 Poster Abstracts, D-24 (2005/7)."
-- id: 369
-  type: poster
+- type: poster
   date: "2005-03-11"
   title: タンパク質及び代謝化合物により構造特異的に認識されるバクテリアmRNAのデータベース解析
   citation: 武藤愛、奥田修二郎、伊藤真純、服部正泰、金久實、「タンパク質及び代謝化合物により構造特異的に認識されるバクテリアmRNAのデータベース解析」統合ゲノム第7回ワークショップ「微生物ゲノムのフロンティア」、木更津 (2005/3).

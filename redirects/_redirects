@@ -12,7 +12,6 @@
 /archives/news-en /en/news/          301
 /archives/publications /publications/ 301
 /archives/publications-cat/:type /publications/type/:type/ 301
-/archives/publications/:id /publications/:id/ 301
 /archives/news   /news/              301
-/archives/news/:id /news/:id/        301
+# 投稿 ID ごとの行き先は _redirects.legacy-ids にある。使うときはこのファイルの末尾に連結する。
 /publications/page/:n /publications/page/:n/ 301

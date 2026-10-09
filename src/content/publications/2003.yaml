@@ -1,15 +1,12 @@
-- id: 403
-  type: poster
+- type: poster
   date: "2003-12-11"
   title: Analysis of domain combinations in eukaryotic genomes.
   citation: "Itoh, M., Yoshizawa, A.C., Okuda, S., Goto, S., Kanehisa, M. Analysis of domain combinations in eukaryotic genomes. Genome Informatics 14, 434-435 (2003/12)."
-- id: 402
-  type: poster
+- type: poster
   date: "2003-12-11"
   title: Comprehensive survey of intracellular transport system-related proteins in complete genomes and draft genomes.
   citation: "Yoshizawa, A.C., Itoh, M., Okuda, S., Limviphuvadh, V., Sakiyama, T., Kawashima, S., Kanehisa, M. Comprehensive survey of intracellular transport system-related proteins in complete genomes and draft genomes. Genome Informatics 14, 436-437 (2003/12)."
-- id: 201
-  type: paper
+- type: paper
   date: "2003-07-20"
   title: Electrophoretic mobility of Bacillus subtilis knockout mutants with and without flagella.
   citation: "Okuda, S., Igarashi R., Kusui, Y., Kasahara, Y., Morisaki, H. Electrophoretic mobility of Bacillus subtilis knockout mutants with and without flagella. J. Bacteriol. 185(13): 3711-7 (2003)."

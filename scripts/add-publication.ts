@@ -17,7 +17,6 @@ const PUB_DIR = join(process.cwd(), 'src/content/publications');
 const EUTILS = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils';
 
 interface Entry {
-  id: number;
   type: string;
   date: string;
   title: string;
@@ -133,6 +132,7 @@ async function fromCrossref(doi: string): Promise<Omit<Entry, 'id' | 'type'>> {
 }
 
 function loadAll(): { file: string; entries: Entry[] }[] {
+  // 既存エントリの重複判定 (pmid / doi) のためだけに読む
   return readdirSync(PUB_DIR)
     .filter((f) => f.endsWith('.yaml'))
     .map((f) => ({ file: join(PUB_DIR, f), entries: (parse(readFileSync(join(PUB_DIR, f), 'utf8')) ?? []) as Entry[] }));
@@ -150,7 +150,7 @@ async function main() {
   const existing = all.flatMap((f) => f.entries);
   const dup = existing.find((e) => (pmidArg && e.pmid === pmidArg) || (doiArg && e.doi?.toLowerCase() === doiArg.toLowerCase()));
   if (dup) {
-    console.error(`既に登録されています: id=${dup.id} ${dup.title}`);
+    console.error(`既に登録されています: ${dup.title}`);
     process.exit(1);
   }
 
@@ -159,8 +159,7 @@ async function main() {
   const base = pmid ? await fromPubmed(pmid) : await fromCrossref(doiArg!);
   if (doiArg && !base.doi) base.doi = doiArg;
 
-  const nextId = Math.max(0, ...existing.map((e) => e.id)) + 1;
-  const entry: Entry = { id: nextId, type: typeof opts.type === 'string' ? opts.type : 'paper', ...base };
+  const entry: Entry = { type: typeof opts.type === 'string' ? opts.type : 'paper', ...base };
   if (typeof opts.tags === 'string') entry.tags = opts.tags.split(',').map((t) => t.trim()).filter(Boolean);
   if (typeof opts.lang === 'string') entry.lang = opts.lang;
 
@@ -172,7 +171,7 @@ async function main() {
   const file = join(PUB_DIR, `${year}.yaml`);
   const current = existsSync(file) ? readFileSync(file, 'utf8') : '';
   writeFileSync(file, snippet + current);
-  console.log(`追記しました: src/content/publications/${year}.yaml (id=${entry.id})`);
+  console.log(`追記しました: src/content/publications/${year}.yaml`);
 }
 
 main().catch((e) => {

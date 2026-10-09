@@ -1,71 +1,60 @@
-- id: 2888
-  type: others
+- type: others
   date: "2007-12-31"
   title: 医薬品の統合データベース
   citation: 金久實、伊藤真純、奥田修二郎、五斗進、太田福子、「医薬品の統合データベース」、蛋白質 核酸 酵素 Vol. 52 No. 12 1486-1491 (2007).
   tags:
     - db
   lang: ja
-- id: 416
-  type: poster
+- type: poster
   date: "2007-12-11"
   title: Pseudo-clique extraction method towards comprehensive clustering of orthologous genes in KEGG.
   citation: "Nakaya, A., Katayama, T., Kawashima, S., Itoh, M., Yamanishi, Y., Okuda, S., Moriya, Y., Yoshizawa, A. C., Kanehisa, M. Pseudo-clique extraction method towards comprehensive clustering of orthologous genes in KEGG. JSBI 2007 Poster Abstracts, P060 (2007/12)."
-- id: 377
-  type: poster
+- type: poster
   date: "2007-12-11"
   title: 医薬品情報統合データベースの開発
   citation: 伊藤真純、奥田修二郎、太田福子、金久實、「医薬品情報統合データベースの開発」、第30回日本分子生物学会、横浜 (2007/12).
   lang: ja
-- id: 376
-  type: poster
+- type: poster
   date: "2007-12-11"
   title: KEGG Drug structure mapから化学変換パターンの抽出
   citation: 重水大智、荒木通啓、奥田修二郎、五斗進、金久實、「KEGG Drug structure mapから化学変換パターンの抽出」、 第30回日本分子生物学会、横浜 (2007/12).
   lang: ja
-- id: 375
-  type: poster
+- type: poster
   date: "2007-12-11"
   title: パラログ遺伝子による代謝反応の基質多様性の解析
   citation: 田中道廣、伊藤真純、奥田修二郎、五斗進、金久實、「パラログ遺伝子による代謝反応の基質多様性の解析」、 第30回日本分子生物学会、横浜 (2007/12).
   lang: ja
-- id: 374
-  type: poster
+- type: poster
   date: "2007-12-11"
   title: DesaturaseとElongaseの網羅的探索及びその組合せによる脂肪酸予測
   citation: 橋本浩介、吉沢明康、奥田修二郎、隈啓一、五斗進、金久實、「DesaturaseとElongaseの網羅的探索及びその組合せによる脂肪酸予測」、 第30回日本分子生物学会、横浜 (2007/12).
   lang: ja
-- id: 285
-  type: lecture
+- type: lecture
   date: "2007-11-15"
   title: 配列データ、パスウェイデータ
   citation: 第２回KEGGデータベース利用講習会、「配列データ、パスウェイデータ」、東大医科研 (2007/11/15).
   tags:
     - db
   lang: ja
-- id: 284
-  type: lecture
+- type: lecture
   date: "2007-10-17"
   title: KEGGグローバルマップと着せ替えラベル
   citation: 第７回オープンバイオ研究会（片山俊明、奥田修二郎）、「KEGGグローバルマップと着せ替えラベル」、アップルストア銀座 (2007/10/17).
   tags:
     - server
   lang: ja
-- id: 286
-  type: lecture
+- type: lecture
   date: "2007-08-30"
   title: 配列データ、パスウェイデータ
   citation: 第１回KEGGデータベース利用講習会、「配列データ、パスウェイデータ」、京大化研 (2007/8/30).
   tags:
     - db
   lang: ja
-- id: 415
-  type: poster
+- type: poster
   date: "2007-08-11"
   title: Analysis of Tissue Specific Expression Patterns of Metabolic Pathway.
   citation: "Takarabe, M., Okuda, S., Itoh, M., Kanehisa, M. Analysis of Tissue Specific Expression Patterns of Metabolic Pathway. IBSB 2007 Poster Abstracts, P007 (2007/8)."
-- id: 208
-  type: paper
+- type: paper
   date: "2007-07-01"
   title: "KAAS: an automatic genome annotation and pathway reconstruction server."
   citation: "Moriya, Y., Itoh, M., Okuda, S., Yoshizawa, A. C., Kanehisa, M. KAAS: an automatic genome annotation and pathway reconstruction server. Nucleic Acids Res. 35:W182-5 (2007)."
@@ -76,8 +65,7 @@
   tags:
     - server
     - genome
-- id: 207
-  type: paper
+- type: paper
   date: "2007-02-20"
   title: Characterization of relationships between transcriptional units and operon structures in Bacillus subtilis and Escherichia coli.
   citation: "Okuda, S., Kawashima, S., Kobayashi, K., Ogasawara, N., Kanehisa, M., Goto, S. Characterization of relationships between transcriptional units and operon structures in Bacillus subtilis and Escherichia coli. BMC Genomics 8:48 (2007)."

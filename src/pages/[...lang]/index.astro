@@ -5,7 +5,7 @@ import PubBadge from '../../components/PubBadge.astro';
 import PubLinks from '../../components/PubLinks.astro';
 import { t, localePath, formatDate, withBase, type Lang } from '../../lib/i18n';
 import { langPaths } from '../../lib/paths';
-import { publicationsFor } from '../../lib/publications';
+import { publicationsFor, publicationUrl } from '../../lib/publications';
 import { newsFor, newsTitle, newsSlug } from '../../lib/news';
 import { site } from '../../data/site';
 
@@ -44,7 +44,7 @@ function excerpt(text: string): { text: string; truncated: boolean } {
       {pubs.map((p) => { const ex = excerpt(p.citation); return (
         <li class="pub-card">
           <div class="pub-card__inner">
-            <a class="pub-card__link" href={localePath(lang, `/publications/${p.id}/`)}>
+            <a class="pub-card__link" href={publicationUrl(lang, p)}>
               <div class="pub-card__text">
                 <p>{ex.text}</p>
                 {!ex.truncated && <PubLinks pub={p} class="pub-card__links" plain />}

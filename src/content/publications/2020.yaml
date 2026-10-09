@@ -1,5 +1,4 @@
-- id: 2297
-  type: paper
+- type: paper
   date: "2020-12-31"
   title: Sphingosine Kinase 1 is Associated With Immune Cell-Related Gene Expressions in Human Breast Cancer.
   citation: "Tsuchida, J., Nagahashi, M., Nakajima, M., Katsuta, E., Rashid, O. M., Qi, Q., Yan, L., Okuda, S., Takabe, K., Wakai, T. Sphingosine Kinase 1 is Associated With Immune Cell-Related Gene Expressions in Human Breast Cancer. J. Surg. Res. 256:645-656(2020)."
@@ -9,8 +8,7 @@
       url: "https://www.sciencedirect.com/science/article/pii/S0022480420304509?via%3Dihub"
   tags:
     - cancer-genome
-- id: 2320
-  type: paper
+- type: paper
   date: "2020-12-15"
   title: Gallincin ameliorates colitis-associated inflammation and barrier function in mice based on network pharmacology prediction.
   citation: "Cui, D-J., Yang, X-L., Okuda, S., Ling, Y-W., Zhang, Z-X., Qi, L., Yuan, W-Q., Yan, F. Gallincin ameliorates colitis-associated inflammation and barrier function in mice based on network pharmacology prediction. J. Int. Med. Res. 48(12):300060520951023(2020)."
@@ -19,24 +17,21 @@
   links:
     - label: Journal of International Medical Research
       url: "https://journals.sagepub.com/doi/10.1177/0300060520951023"
-- id: 2329
-  type: talk
+- type: talk
   date: "2020-12-12"
   title: 日本人肺腺癌患者におけるリボソームRNA遺伝子プロモーター領域の生殖細胞系列変異と予後との相関
   citation: 大橋瑠子、梅津哉、佐藤彩子、阿部達也、近藤修平、太期健二、原範和、本山悌一、堀内恵子、奥田修二郎、渡部聡、Peter Schraml、浜窪隆雄、土田正則、味岡洋一、「日本人肺腺癌患者におけるリボソームRNA遺伝子プロモーター領域の生殖細胞系列変異と予後との相関」、第16回日本臨床プロテオゲノミクス研究会、オンライン (2020/12/12).
   tags:
     - cancer-genome
   lang: ja
-- id: 2798
-  type: lecture
+- type: lecture
   date: "2020-12-05"
   title: 人工知能技術により変わる医療
   citation: 第6回NEXT Cardiology、「人工知能技術により変わる医療」、ANAクラウンプラザ新潟 (2020/12/5).
   tags:
     - ai
   lang: ja
-- id: 2261
-  type: paper
+- type: paper
   date: "2020-11-30"
   title: "Verification of the Japanese staging system for rectal cancer, focusing on differences with the TNM classification."
   citation: "Arabiki, M., Shimada, Y., Nakano, M., Tanaka, K., Oyanagi, H., Nakano, M., Ling, Y., Okuda, S., Takii, Y., Wakai, T. Verification of the Japanese staging system for rectal cancer, focusing on differences with the TNM classification. Surgery Today 50(11):1443-1451(2020)."
@@ -46,24 +41,21 @@
       url: "https://link.springer.com/article/10.1007/s00595-020-02024-4"
   tags:
     - cancer-genome
-- id: 2328
-  type: talk
+- type: talk
   date: "2020-11-22"
   title: がんゲノムデータのバイオインフォマティクス
   citation: 奥田修二郎、「がんゲノムデータのバイオインフォマティクス」、中部乳酸菌研究会、オンライン (2020/11/12).
   tags:
     - cancer-genome
   lang: ja
-- id: 2330
-  type: poster
+- type: poster
   date: "2020-11-10"
   title: The GlyCosmos portal as a partner in the GlySpace Alliance to provide access to integrated glycan-related data resources.
   citation: "Yamada, I., Shiota, M., Shinmachi, D., Ono, T., Tsuchiya, S., Matsubara, M., Hosoda, M., Fujita, A., Aoki, N. P., Watanabe, Y., Fujita, N., Angata, K., Kaji, H., Narimatsu, H., Okuda, S., Aoki-Kinoshita, K. F. The GlyCosmos portal as a partner in the GlySpace Alliance to provide access to integrated glycan-related data resources. SFG2020, Virtual (2020/11/10)."
   tags:
     - db
     - glycan
-- id: 2306
-  type: paper
+- type: paper
   date: "2020-11-03"
   title: Frequent Germline and Somatic Single Nucleotide Variants in the Promoter Region of the Ribosomal RNA Gene in Japanese Lung Adenocarcinoma Patients.
   citation: "Ohashi, R., Umezu, H., Sato, A., Abé, T., Kondo, S., Daigo, K., Sato, S., Hara, N., Miyashita, A., Ikeuchi, T., Motoyama, T., Kishi, M., Nagaoka, T., Horiuchi, K., Shiga, A., Okuda, S., Sekiya, T., Ohtsubo, A., Ichikawa, K., Kagamu, H., Kikuchi, T., Watanabe, S., Tanuma, J-I., Schraml, P., Hamakubo, T., Tsuchida, M., Ajioka, Y. Frequent Germline and Somatic Single Nucleotide Variants in the Promoter Region of the Ribosomal RNA Gene in Japanese Lung Adenocarcinoma Patients. Cells 9(11):2409(2020)."
@@ -73,8 +65,7 @@
       url: "https://www.mdpi.com/2073-4409/9/11/2409"
   tags:
     - cancer-genome
-- id: 2311
-  type: paper
+- type: paper
   date: "2020-10-29"
   title: Genetic profiling for diffuse type and genomically stable subtypes in gastric cancer.
   citation: "Ling, Y., Watanabe, Y., Nagahashi, M., Shimada, Y., Ichikawa, H., Wakai, T., Okuda, S. Genetic profiling for diffuse type and genomically stable subtypes in gastric cancer. Comput. Struct. Biotechnol. J. 18:3301-3308(2020)."
@@ -84,8 +75,7 @@
       url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7666323/"
   tags:
     - cancer-genome
-- id: 2300
-  type: paper
+- type: paper
   date: "2020-10-22"
   title: Higher genome mutation rates of Beijing lineage of Mycobacterium tuberculosis during human infection.
   citation: "Hakamata, M., Takihara, H., Iwamoto, T., Tamaru, A., Hashimoto, A., Tanaka, T., Kaboso, S. A., Gebretsadik, G., Ilinov, A., Yokoyama, A., Ozeki, Y., Nishiyama, A., Tateishi, Y., Moro, H., Kikuchi, T., Okuda, S., Matsumoto, S. Higher genome mutation rates of Beijing lineage of Mycobacterium tuberculosis during human infection. Sci. rep. 10(1):17997(2020)."
@@ -93,8 +83,7 @@
   links:
     - label: Scientific Reports
       url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7582865/"
-- id: 2287
-  type: poster
+- type: poster
   date: "2020-10-05"
   title: "GlyCosmos Portal: 糖鎖科学のためのウェブリソース"
   citation: "山田一作、塩田正明、新町大輔、小野多美子、土屋伸一郎、松原正陽、細田正恵、藤田晶大、青木ポール信行、渡辺由、藤田典昭、安形清彦、梶裕之、成松久、奥田修二郎、木下聖子、「GlyCosmos Portal: 糖鎖科学のためのウェブリソース」、トーゴーの日シンポジウム2020、オンライン (2020/10/5)."
@@ -102,8 +91,7 @@
     - db
     - glycan
   lang: ja
-- id: 2286
-  type: poster
+- type: poster
   date: "2020-10-05"
   title: GlyCosmosにおけるPubAnnotationシステムを用いたキュレーションシステムの開発
   citation: 金進東、奥田修二郎、渡辺由、安形清彦、藤田典昭、山田一作、木下聖子、「GlyCosmosにおけるPubAnnotationシステムを用いたキュレーションシステムの開発」、トーゴーの日シンポジウム2020、オンライン (2020/10/5).
@@ -111,8 +99,7 @@
     - db
     - glycan
   lang: ja
-- id: 2288
-  type: poster
+- type: poster
   date: "2020-10-05"
   title: jPOSTリポジトリの機能強化
   citation: 渡辺由、奥田修二郎、守屋勇樹、河野信、松本雅記、高見知代、小林大樹、幡野敦、山ノ内祥訓、荒木令江、吉沢明康、田畑剛、岩崎未央、杉山直幸、田中聡、石濱泰、「jPOSTリポジトリの機能強化」、トーゴーの日シンポジウム2020、オンライン (2020/10/5).
@@ -120,16 +107,14 @@
     - db
     - proteome
   lang: ja
-- id: 2289
-  type: lecture
+- type: lecture
   date: "2020-09-02"
   title: 病理画像から遺伝子変異を予測する
   citation: IIBMP2020ワークショップ【臨床検体を用いたヘルスケア研究の最前線】、「病理画像から遺伝子変異を予測する」、オンライン (2020/9/2).
   tags:
     - ai
   lang: ja
-- id: 2283
-  type: paper
+- type: paper
   date: "2020-08-26"
   title: Community Assessment of the Predictability of Cancer Protein and Phosphoprotein Levels from Genomics and Transcriptomics.
   citation: "Yang, M., Petralia, F., Li, Z., Li, H., Ma, W., Song, X., Kim, S., Lee, H., Yu, H., Lee, B., Bae, S., Heo, E., Kaczmarczyk, J., Stępniak, P., Warchoł, M., Yu, T., Calinawan, A. P., Boutros, P. C., Payne, S. H., Reva, B.; NCI-CPTAC-DREAM Consortium, Boja, E., Rodriguez, H., Stolovitzky, G., Guan, Y., Kang, J., Wang, P., Fenyö, D., Saez-Rodriguez, J. Community Assessment of the Predictability of Cancer Protein and Phosphoprotein Levels from Genomics and Transcriptomics. Cell Systems 11(2):186-195.e9 (2020)."
@@ -139,8 +124,7 @@
       url: "https://www.sciencedirect.com/science/article/pii/S2405471220302428?via%3Dihub"
   tags:
     - cancer-genome
-- id: 2262
-  type: paper
+- type: paper
   date: "2020-07-31"
   title: "The GlyCosmos Portal: a unified and comprehensive web resource for the glycosciences."
   citation: "Yamada, I., Shiota, M., Shinmachi, D., Ono, T., Tsuchiya, S., Hosoda, M., Fujita, A., Aoki, N. P., Watanabe, Y., Fujita, N., Angata, K., Kaji, H., Narimatsu, H., Okuda, S., Aoki-Kinoshita, K. F. The GlyCosmos Portal: a unified and comprehensive web resource for the glycosciences. Nat. Methods 17(7):649-650(2020)."
@@ -151,14 +135,12 @@
   tags:
     - db
     - glycan
-- id: 2285
-  type: poster
+- type: poster
   date: "2020-07-30"
   title: 臨界期におけるホメオ蛋白質Otx2－翻訳因子複合体翻訳制御の解析
   citation: 侯旭濱、凌一葦、酒井晶子、奥田修二郎、杉山清佳、「臨界期におけるホメオ蛋白質Otx2－翻訳因子複合体翻訳制御の解析」、第43回日本神経科学大会、オンライン (2020/7/30).
   lang: ja
-- id: 2265
-  type: paper
+- type: paper
   date: "2020-07-23"
   title: Innate Immune Responses in Serum and Cerebrospinal Fluid From Neonates and Infants Infected With Parechovirus-A3 or Enteroviruses.
   citation: "Habuka, R., Aizawa, Y., Izumita, R., Domon, H., Terao, Y., Takihara, H., Okuda, S., Saitoh, A. Innate Immune Responses in Serum and Cerebrospinal Fluid From Neonates and Infants Infected With Parechovirus-A3 or Enteroviruses. J. Infect. Dis. 222(4):681-689(2020)."
@@ -166,8 +148,7 @@
   links:
     - label: The Journal of Infectious Diseases
       url: "https://academic.oup.com/jid/article/222/4/681/5810901"
-- id: 2264
-  type: paper
+- type: paper
   date: "2020-06-30"
   title: RNF43 mutation is associated with aggressive tumor biology along with BRAF V600E mutation in right-sided colorectal cancer.
   citation: "Matsumoto, A., Shimada, Y., Nakano, M., Oyanagi, H., Tajima, Y., Nakano, M., Kameyama, H., Hirose, Y., Ichikawa, H., Nagahashi, M., Nogami, H., Maruyama, S., Takii, Y., Ling, Y., Okuda, S., Wakai, T. RNF43 mutation is associated with aggressive tumor biology along with BRAF V600E mutation in right-sided colorectal cancer. Oncol. Rep. 43(6):1853-1862(2020)."
@@ -177,8 +158,7 @@
       url: "https://www.spandidos-publications.com/or/43/6/1853"
   tags:
     - cancer-genome
-- id: 2255
-  type: paper
+- type: paper
   date: "2020-06-01"
   title: Phosphoproteomic and bioinformatic methods for analyzing signaling in vertebrate axon growth and regeneration.
   citation: "Igarashi, M., Kawasaki, A., Ishikawa, Y., Honda, A., Okada, M., Okuda, S. Phosphoproteomic and bioinformatic methods for analyzing signaling in vertebrate axon growth and regeneration. J. Neurosci. Methods 339:108723(2020)."
@@ -186,16 +166,14 @@
   links:
     - label: Journal of Neuroscience Methods
       url: "https://www.sciencedirect.com/science/article/pii/S0165027020301461?via%3Dihub"
-- id: 2324
-  type: paper
+- type: paper
   date: "2020-05-28"
   title: "Phenological shifts and genetic differentiation between sympatric populations of Sargassum horneri (Fucales, Phaeophyceae) in Japan."
   citation: "Homma, Y., Okuda, S., Kasahara, M., Takahashi, F., Yoshikawa, S., Uwai, S. Phenological shifts and genetic differentiation between sympatric populations of Sargassum horneri (Fucales, Phaeophyceae) in Japan. Mar. Ecol. Prog. Ser. 642:103-116 (2020)"
   links:
     - label: Marine Ecology Progress Series
       url: "https://www.int-res.com/abstracts/meps/v642/p103-116/"
-- id: 2244
-  type: paper
+- type: paper
   date: "2020-04-23"
   title: XCL1 expression correlates with CD8-positive T cells infiltration and PD-L1 expression in squamous cell carcinoma arising from mature cystic teratoma of the ovary.
   citation: "Tamura, R., Yoshihara, K., Nakaoka, H., Yachida, N., Yamaguchi, M., Suda, K., Ishiguro, T., Nishino, K., Ichikawa, H., Homma, K., Kikuchi, A., Ueda, Y., Takei, Y., Fujiwara, H., Motoyama, T., Okuda, S., Wakai, T., Inoue, I., Enomoto, T. XCL1 expression correlates with CD8-positive T cells infiltration and PD-L1 expression in squamous cell carcinoma arising from mature cystic teratoma of the ovary. Oncogene 39(17):3541-3554(2020)."
@@ -206,8 +184,7 @@
       url: "https://www.nature.com/articles/s41388-020-1237-0"
   tags:
     - cancer-genome
-- id: 2242
-  type: paper
+- type: paper
   date: "2020-02-24"
   title: "BioHackathon 2015: Semantics of data for life sciences and reproducible research."
   citation: "Vos, R. A., Katayama, T., Mishima, H., Kawano, S., Kawashima, S., Kim, J-D., Moriya, Y., Tokimatsu, T., Yamaguchi, A., Yamamoto, Y., Wu, H., Amstutz, P., Antezana, E., Aoki, N. P., Arakawa, K., Bolleman, J. T., Bolton, E., Bonnal, R. J. P., Bono, H., Burger, K., Chiba, H., Cohen, K. B., Deutsch, E. W., Fernández-Breis, J. T., Fu, G., Fujisawa, T., Fukushima, A., García, A., Goto, N., Groza, T., Hercus, C., Hoehndorf, R., Itaya, K., Juty, N., Kawashima, T., Kim, J-H., Kinjo, A. R., Kotera, M., Kozaki, K., Kumagai, S., Kushida, T., Lütteke, T., Matsubara, M., Miyamoto, J., Mohsen, A., Mori, H., Naito, Y., Nakazato, T., Nguyen-Xuan, J., Nishida, K., Nishida, N., Nishide, H., Ogishima, S., Ohta, T., Okuda, S., Paten, B., Perret, J-L., Prathipati, P., Prins, P., Queralt-Rosinach, N., Shinmachi, D., Suzuki, S., Tabata, T., Takatsuki, T., Taylor, K., Thompson, M., Uchiyama, I., Vieira, B., Wei, C-H., Wilkinson, M., Yamada, I., Yamanaka, R., Yoshitake, K., Yoshizawa, A. C., Dumontier, M., Kosaki, K., Takagi, T. BioHackathon 2015: Semantics of data for life sciences and reproducible research. F1000Research 9:136 (2020)."
@@ -217,26 +194,22 @@
       url: "https://f1000research.com/articles/9-136"
   tags:
     - db
-- id: 2217
-  type: poster
+- type: poster
   date: "2020-02-20"
   title: 早期発症者と長期潜伏後発症者より分離した結核菌北京株のゲノム変異についての解析
   citation: 袴田真理子、瀧原速仁、岩本朋忠、田丸亜貴、尾関百合子、西山晃史、立石善隆、菊地利明、奥田修二郎、松本壮吉、「早期発症者と長期潜伏後発症者より分離した結核菌北京株のゲノム変異についての解析」、第93回日本細菌学会総会、名古屋 (2020/2/20).
   lang: ja
-- id: 2218
-  type: poster
+- type: poster
   date: "2020-02-19"
   title: 抗酸菌症治療薬を目指した標的蛋白質の発現と精製
   citation: 大原由貴子、小林悠、尾関百合子、西山晃史、立石善隆、奥田修二郎、神谷重樹、北所健悟、松本壮吉、「抗酸菌症治療薬を目指した標的蛋白質の発現と精製」、第93回日本細菌学会総会、名古屋 (2020/2/19).
   lang: ja
-- id: 2219
-  type: poster
+- type: poster
   date: "2020-02-19"
   title: MDP1 regulates metabolism and replication ensuring the survival of M. tuberculosis var BCG
   citation: シャバンアミナ、西山晃史、立石善隆、山口雄大、西内由紀子、瀧原速仁、奥田修二郎、松本壮吉、「MDP1 regulates metabolism and replication ensuring the survival of M. tuberculosis var BCG」、第93回日本細菌学会総会、名古屋 (2020/2/19).
   lang: ja
-- id: 2238
-  type: paper
+- type: paper
   date: "2020-01-08"
   title: "The ProteomeXchange consortium in 2020: enabling 'big data' approaches in proteomics."
   citation: "Deutsch, E. W., Bandeira, N., Sharma, V., Perez-Riverol, Y., Carver, J. J., Kundu, D. J., García-Seisdedos, D., Jarnuczak, A. F., Hewapathirana, S., Pullman, B. S., Wertz, J., Sun, Z., Kawano, S., Okuda, S., Watanabe, Y., Hermjakob, H., MacLean, B., MacCoss, M. J., Zhu, Y., Ishihama, Y., Vizcaíno, J. A. The ProteomeXchange consortium in 2020: enabling 'big data' approaches in proteomics. Nucleic Acids Res. 48(D1):D1145-D1152 (2020)."

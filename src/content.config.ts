@@ -9,10 +9,11 @@ const tagSlug = z
   .string()
   .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'tags は小文字英数字とハイフンのみ (例: gut-microbiome)');
 
-/** 1 件の研究業績。 */
+/**
+ * 1 件の研究業績。識別子は書かない。ページ内アンカーと重複チェックに使うキーは
+ * 日付・種別・タイトルからビルド時に導出する (src/lib/pubkey.ts)。
+ */
 export const publicationSchema = z.object({
-  /** 業績の通し番号。個別ページの URL (/publications/<id>/) になる。既存分は旧 WordPress の投稿 ID。新規は `npm run pub:add` が最大値+1 を採番する。 */
-  id: z.number().int().positive(),
   type: z.enum(publicationTypes),
   /** 並び順に使う日付。年ファイルの年と一致していること。 */
   date: z.coerce.date(),
@@ -26,7 +27,7 @@ export const publicationSchema = z.object({
   tags: z.array(tagSlug).default([]),
   /** 省略時は日英両方に表示。`ja` なら英語ページから除外する。 */
   lang: z.enum(['ja', 'en']).optional(),
-});
+}).strict();
 
 /** 年ごとの YAML ファイル (src/content/publications/2024.yaml) が 1 エントリ。中身は業績の配列。 */
 const publications = defineCollection({
@@ -36,14 +37,13 @@ const publications = defineCollection({
 
 const news = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/news' }),
+  /** URL はファイル名から決まる: src/content/news/2026-10-10-hupo-symposium.md → /news/2026-10-10-hupo-symposium/ */
   schema: z.object({
-    /** 旧 WordPress の投稿 ID。省略可。 */
-    id: z.number().int().positive().optional(),
     title: z.string().min(1),
     date: z.coerce.date(),
     /** 英語版サイトにも載せる場合は en のタイトルを書く。本文は共通。 */
     titleEn: z.string().optional(),
-  }),
+  }).strict(),
 });
 
 /** 固定ページ。src/content/pages/<lang>/<slug>.md */

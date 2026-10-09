@@ -14,7 +14,7 @@ export function newsTitle(n: NewsEntry, lang: Lang): string {
   return (lang === 'en' && n.data.titleEn) || n.data.title;
 }
 
-/** URL に使う識別子。旧 WordPress の ID があればそれ、無ければファイル名。 */
+/** URL に使う識別子 = ファイル名 (拡張子なし)。 */
 export function newsSlug(n: NewsEntry): string {
-  return n.data.id ? String(n.data.id) : n.id;
+  return n.id;
 }

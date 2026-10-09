@@ -1,5 +1,4 @@
-- id: 2124
-  type: paper
+- type: paper
   date: "2018-12-31"
   title: Novel gene fusions found in cervical cancer.
   citation: "Ling, Y., Okuda, S. Novel gene fusions found in cervical cancer. EBioMedicine 38:13-14 (2018)."
@@ -10,8 +9,7 @@
       url: "https://www.sciencedirect.com/science/article/pii/S2352396418305061?via%3Dihub"
   tags:
     - cancer-genome
-- id: 2123
-  type: paper
+- type: paper
   date: "2018-12-31"
   title: "Clinical Significance of BRAF Non-V600E Mutations in Colorectal Cancer: A Retrospective Study of Two Institutions."
   citation: "Shimada, Y., Tajima, Y., Nagahashi, M., Ichikawa, H., Oyanagi, H., Okuda, S., Takabe, K., Wakai, T. Clinical Significance of BRAF Non-V600E Mutations in Colorectal Cancer: A Retrospective Study of Two Institutions. J. Surg. Res. 232:72-81 (2018)."
@@ -22,16 +20,14 @@
       url: "https://www.sciencedirect.com/science/article/pii/S0022480418304311?via%3Dihub"
   tags:
     - cancer-genome
-- id: 2833
-  type: lecture
+- type: lecture
   date: "2018-12-17"
   title: がんゲノム変異の解析−得られたVCFと臨床情報をどのように活用するか−
   citation: ゲノム医療勉強会「がんゲノム変異の解析−得られたVCFと臨床情報をどのように活用するか−」、慶応大学病院 (2018/12/17).
   tags:
     - cancer-genome
   lang: ja
-- id: 2128
-  type: paper
+- type: paper
   date: "2018-11-30"
   title: Novel MXD4-NUTM1 fusion transcript identified in primary ovarian undifferentiated small round cell sarcoma.
   citation: "Tamura, R., Nakaoka, H., Yoshihara, K., Mori, Y., Yachida, N., Nishikawa, N., Motoyama, T., Okuda, S., Inoue, I., Enomoto, T. Novel MXD4-NUTM1 fusion transcript identified in primary ovarian undifferentiated small round cell sarcoma. Genes Chromosomes Cancer 57(11):557-563 (2018)."
@@ -43,22 +39,19 @@
       url: "https://onlinelibrary.wiley.com/doi/full/10.1002/gcc.22668"
   tags:
     - cancer-genome
-- id: 2056
-  type: talk
+- type: talk
   date: "2018-11-29"
   title: ヒト腸内マイクロバイオームのバイオインフォマティクス研究
   citation: 奥田修二郎、「ヒト腸内マイクロバイオームのバイオインフォマティクス研究」、中部乳酸菌研究会、ホテルセンチュリー静岡 (2018/11/29).
   tags:
     - gut-microbiome
   lang: ja
-- id: 2078
-  type: poster
+- type: poster
   date: "2018-11-28"
   title: ヒトゲノム上にコードされたリン酸化モチーフ上に分布するがん特異的SNVの解析
   citation: 吉崎尚良、奥田修二郎、河野美幸、「ヒトゲノム上にコードされたリン酸化モチーフ上に分布するがん特異的SNVの解析」、第41回日本分子生物学会年会、横浜 (2018/11/28).
   lang: ja
-- id: 2055
-  type: talk
+- type: talk
   date: "2018-11-28"
   title: jPOSTプロジェクトが提供するプロテオミクスデータとその解析ツール
   citation: 五斗進、守屋勇樹、河野信、奥田修二郎、渡邉由、松本雅記、高見知代、小林大樹、山ノ内祥訓、荒木令江、吉沢明康、田畑剛、岩崎未央、杉山直幸、田中聡、石濱 泰、「jPOSTプロジェクトが提供するプロテオミクスデータとその解析ツール」、第41回日本分子生物学会年会、パシフィコ横浜 (2018/11/28).
@@ -66,8 +59,7 @@
     - db
     - proteome
   lang: ja
-- id: 2081
-  type: poster
+- type: poster
   date: "2018-11-28"
   title: プロテオーム統合データベースの機能深化
   citation: 守屋勇樹、河野信、奥田修二郎、渡邉由、松本雅記、高見知代、小林大樹、山ノ内祥訓、荒木令江、吉沢明康、田畑剛、岩崎未央、杉山直幸、田中聡、五斗進、石濱 泰、「プロテオーム統合データベースの機能深化」、第41回日本分子生物学会年会、横浜 (2018/11/28).
@@ -75,22 +67,19 @@
     - db
     - proteome
   lang: ja
-- id: 2080
-  type: poster
+- type: poster
   date: "2018-11-28"
   title: 経験による脳の発達に必須な抑制性介在ニューロンにおける転写制御
   citation: 酒井晶子、中戸隆一郎、凌一葦、侯旭濱、原範和、柳川右千夫、桑野良三、奥田修二郎、白髭克彦、杉山清佳、「経験による脳の発達に必須な抑制性介在ニューロンにおける転写制御」、第41回日本分子生物学会年会、横浜 (2018/11/28).
   lang: ja
-- id: 2079
-  type: poster
+- type: poster
   date: "2018-11-28"
   title: がんプレシジョンメディシン実現に向けたバイオインフォマティクス：遺伝子変異と治療薬の知識ベース
   citation: 竹内志穂、凌一葦、渡邉由、若井俊文、奥田修二郎、「がんプレシジョンメディシン実現に向けたバイオインフォマティクス：遺伝子変異と治療薬の知識ベース」、第41回日本分子生物学会年会、横浜(2018/11/28).
   tags:
     - cancer-genome
   lang: ja
-- id: 2054
-  type: talk
+- type: talk
   date: "2018-11-28"
   title: 糖鎖関連生命情報を統合化するGlyCosmos Portalの構築
   citation: 塩田正明、土屋伸一郎、小野多美子、李宣明、Thukaa Kuoka、三浦信明、平木愛子、山田一作、新町大輔、青木ポール信行、金進東、渡邉由、奥田修二郎、鈴木芳典、藤田典昭、安形清彦、成松久、木下聖子、「糖鎖関連生命情報を統合化するGlyCosmos Portalの構築」、第41回日本分子生物学会年会、パシフィコ横浜 (2018/11/28).
@@ -98,8 +87,7 @@
     - db
     - glycan
   lang: ja
-- id: 2129
-  type: paper
+- type: paper
   date: "2018-10-31"
   title: Common driver mutations and smoking history affect tumor mutation burden in lung adenocarcinoma.
   citation: "Nagahashi, M., Sato, S., Yuza, K., Shimada, Y., Ichikawa, H., Watanabe, S., Takada, K., Okamoto, T., Okuda, S., Lyle, S., Takabe, K., Tsuchida, M., Wakai, T. Common driver mutations and smoking history affect tumor mutation burden in lung adenocarcinoma. J. Surg. Res. 230:181-185 (2018)."
@@ -110,32 +98,28 @@
       url: "https://www.sciencedirect.com/science/article/pii/S002248041830492X?via%3Dihub"
   tags:
     - cancer-genome
-- id: 2053
-  type: talk
+- type: talk
   date: "2018-10-28"
   title: ヒト腸内常在菌叢最優勢種のハイスループット培養系を用いた腸内常在菌のポリアミン合成・輸送のin vitro解析
   citation: 杉山友太、奈良未沙希、阪中幹祥、北方彩、奥田修二郎、栗原新、「ヒト腸内常在菌叢最優勢種のハイスループット培養系を用いた腸内常在菌のポリアミン合成・輸送のin vitro解析」、第53回日本細菌学会中部支部総会、日本歯科大学新潟生命歯学部 (2018/10/28).
   tags:
     - gut-microbiome
   lang: ja
-- id: 2875
-  type: others
+- type: others
   date: "2018-10-25"
   title: がんゲノム医療実現に向けた情報基盤
   citation: "奥田修二郎、「がんゲノム医療実現に向けた情報基盤」、Precision Medicine、1(1):88-92 (2018). ISBN:17791-10"
   tags:
     - cancer-genome
   lang: ja
-- id: 2879
-  type: others
+- type: others
   date: "2018-10-15"
   title: 変異頻度に基づくがんゲノムデータの新規クラスタリング手法とその臨床応用
   citation: "凌一葦、渡辺由、永橋昌幸、島田能史、市川寛、若井 俊文、奥田修二郎、「変異頻度に基づくがんゲノムデータの新規クラスタリング手法とその臨床応用」、医療情報学-春季学術大会論文、38(5):305-312 (2018)."
   tags:
     - cancer-genome
   lang: ja
-- id: 2520
-  type: poster
+- type: poster
   date: "2018-10-05"
   title: jPOST統合環境の開発
   citation: 奥田修二郎、渡辺由、守屋勇樹、河野信、松本雅記、高見知代、小林大樹、山ノ内祥訓、 荒木令江、吉沢明康、田畑剛、岩崎未央、杉山直幸、田中聡、五斗進、石濱泰、「jPOST統合環境の開発」、トーゴーの日シンポジウム2018、東京 (2018/10/5).
@@ -143,8 +127,7 @@
     - db
     - proteome
   lang: ja
-- id: 2521
-  type: poster
+- type: poster
   date: "2018-10-05"
   title: 糖鎖科学ポータルGlyCosmos Portalの開発
   citation: 塩田正明、小野多美子、細田正恵、土屋伸一郎、クオカ・ズカ、李宣明、 三浦信明、 平木愛子、渡辺由、安形清彦、藤田典昭、鈴木芳典、新町大輔、青木ポール信行、金進東、 奥田修二郎、成松久、山田一作、木下聖子、「糖鎖科学ポータルGlyCosmos Portalの開発」、トーゴーの日シンポジウム2018、東京 (2018/10/5).
@@ -152,8 +135,7 @@
     - db
     - glycan
   lang: ja
-- id: 2522
-  type: poster
+- type: poster
   date: "2018-10-05"
   title: GlyComb：複合糖質リポジトリの開発
   citation: 新町大輔、青木ポール信行、塩田正明、渡辺由、奥田修二郎、山田一作、木下聖子、「GlyComb：複合糖質リポジトリの開発」、トーゴーの日シンポジウム2018、東京 (2018/10/5).
@@ -161,8 +143,7 @@
     - db
     - glycan
   lang: ja
-- id: 2134
-  type: paper
+- type: paper
   date: "2018-09-30"
   title: Analysis of polyamine biosynthetic- and transport ability of human indigenous Bifidobacterium.
   citation: "Sugiyama, Y., Nara, M., Sakanaka, M., Kitakata, A., Okuda, S., Kurihara, S. Analysis of polyamine biosynthetic- and transport ability of human indigenous Bifidobacterium. Biosci. Biotechnol. Biochem. 82(9):1606-1614 (2018)."
@@ -172,14 +153,12 @@
       url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=29847302"
     - label: "Bioscience, Biotechnology, and Biochemistry"
       url: "https://www.tandfonline.com/doi/abs/10.1080/09168451.2018.1475211?journalCode=tbbb20"
-- id: 2082
-  type: poster
+- type: poster
   date: "2018-09-26"
   title: 成長円錐リン酸化プロテオミクスによる神経成長のシグナル伝達解析
   citation: 河嵜麻実、玉田篤史、奥田修二郎、崎村建司、仁科博史、五十嵐道弘、「成長円錐リン酸化プロテオミクスによる神経成長のシグナル伝達解析」、第91回日本生化学会大会、京都 (2018/9/26).
   lang: ja
-- id: 2130
-  type: paper
+- type: paper
   date: "2018-09-18"
   title: Sharing of human milk oligosaccharides degradants within bifidobacterial communities in faecal cultures supplemented with Bifidobacterium bifidum.
   citation: "Gotoh, A., Katoh, T., Ling, Y., Sakanaka, M., Yamada, C., Asakuma, S., Urashima, T., Tomabechi, Y., Katayama-Ikegami, A., Kurihara, S., Yamamoto, K., Harata, G., He, F., Hirose, J., Kitaoka, M., Okuda, S., Katayama, T. Sharing of human milk oligosaccharides degradants within bifidobacterial communities in faecal cultures supplemented with Bifidobacterium bifidum. Sci. Rep. 8(1): 13958 (2018)."
@@ -188,53 +167,46 @@
       url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=30228375"
     - label: Scientific Reports
       url: "https://www.nature.com/articles/s41598-018-32080-3"
-- id: 2067
-  type: lecture
+- type: lecture
   date: "2018-08-31"
   title: "Computational approaches towards understanding human genome, proteome, and proteogenome data"
   citation: "2018 Taiwan-Japan Joint Conference for Genomics and Proteogenomics and Annual Retreat of Taiwan Genomics and Genetics Society, “Computational approaches towards understanding human genome, proteome, and proteogenome data”, DoubleTree by Hilton Hotel Naha Shuri Castle, Japan (2018/8/31)."
   tags:
     - proteome
-- id: 2050
-  type: talk
+- type: talk
   date: "2018-08-31"
   title: カブトムシ幼虫の腸内環境と微生物叢
   citation: 和田典子、瀧原速仁、奥田修二郎、砂入道夫、中嶋睦安、岩淵範之、安齋寛、「カブトムシ幼虫の腸内環境と微生物叢」 、日本土壌肥料学会 2018 年度神奈川大会 、日本大学生物資源科学部 (2018/8/31).
   lang: ja
-- id: 2062
-  type: lecture
+- type: lecture
   date: "2018-08-06"
   title: コンピュータで読み解く腸内細菌叢の世界-培養できない微生物の生態が大規模DNAデータから見える-
   citation: 健康医学産学研究会、「コンピュータで読み解く腸内細菌叢の世界-培養できない微生物の生態が大規模DNAデータから見える- 」、イタリア軒 (2018/8/6).
   tags:
     - gut-microbiome
   lang: ja
-- id: 2051
-  type: talk
+- type: talk
   date: "2018-07-28"
   title: がんゲノム医療を加速するデータ解析システム
   citation: 奥田修二郎、渡辺由、凌一葦、竹内志穂、「がんゲノム医療を加速するデータ解析システム」、第78回新潟癌治療研究会、アートホテル新潟駅前 (2018/7/28).
   tags:
     - cancer-genome
   lang: ja
-- id: 2093
-  type: poster
+- type: poster
   date: "2018-07-06"
   title: Semantic Web Technologies to Integrate Life Science Data through GlyTouCan.
   citation: "Yamada, I, Shinmachi, D., Aoki, N., Watanabe, Y., Okuda S., Aoki-Kinoshita, K. Semantic Web Technologies to Integrate Life Science Data through GlyTouCan. ISMB2018, Chicago (2018/7/6)."
   tags:
     - db
     - glycan
-- id: 2257
-  type: paper
+- type: paper
   date: "2018-07-05"
   title: Pathogenic germline BRCA1/2 mutations and familial predisposition to gastric cancer.
   citation: "Ichikawa, H., Wakai, T., Nagahashi, M., Shimada, Y., Hanyu, T., Kano, Y., Muneoka, Y., Ishikawa, T., Takizawa, K., Tajima, Y., Sakata, J., Kobayashi, T., Kameyama, H., Yabusaki, H., Nakagawa, S., Sato, N., Kawasaki, T., Homma, K., Okuda, S., Lyle, S., Takabe, K. Pathogenic germline BRCA1/2 mutations and familial predisposition to gastric cancer. JCO Precis. Oncol. 2:PO.18.00097 (2018)."
   pmid: 31608315
   tags:
     - cancer-genome
-- id: 2139
-  type: paper
+- type: paper
   date: "2018-06-30"
   title: Clinical and Genetic Implications of Mutation Burden in Squamous Cell Carcinoma of the Lung.
   citation: "Okamoto, T., Takada, K., Sato, S., Toyokawa, G., Tagawa, T., Shoji, F., Nakanishi, R., Oki, E., Koike, T., Nagahashi, M., Ichikawa, H., Shimada, Y., Watanabe, S., Kikuchi, T., Akazawa, K., Lyle, S., Takabe, K., Okuda, S., Sugio, K., Wakai, T., Tsuchida, M., Maehara, Y. Clinical and Genetic Implications of Mutation Burden in Squamous Cell Carcinoma of the Lung. Ann. Surg. Oncol. 25(6):1564-1571 (2018)."
@@ -245,8 +217,7 @@
       url: "https://link.springer.com/article/10.1245%2Fs10434-018-6401-1"
   tags:
     - cancer-genome
-- id: 2131
-  type: paper
+- type: paper
   date: "2018-06-29"
   title: Growth Cone Phosphoproteomics Reveals that GAP-43 Phosphorylated by JNK Is a Marker of Axon Growth and Regeneration.
   citation: "Kawasaki, A., Okada, M., Tamada, A., Okuda, S., Nozumi, M., Ito, Y., Kobayashi, D., Yamasaki, T., Yokoyama, R., Shibata, T., Nishina, H., Yoshida, Y., Fujii, Y., Takeuchi, K., Igarashi, M. Growth Cone Phosphoproteomics Reveals that GAP-43 Phosphorylated by JNK Is a Marker of Axon Growth and Regeneration. iScience 4:190-203 (2018)."
@@ -255,31 +226,27 @@
       url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=30240740"
     - label: iScience
       url: "https://www.sciencedirect.com/science/article/pii/S2589004218300749?via%3Dihub"
-- id: 2063
-  type: lecture
+- type: lecture
   date: "2018-06-27"
   title: パスウェイデータベース
   citation: AJACS越後、「パスウェイデータベース」、新潟大学理学部マルチメディア教室 (2018/6/27).
   tags:
     - db
   lang: ja
-- id: 2066
-  type: lecture
+- type: lecture
   date: "2018-06-22"
   title: 新潟大学におけるがんゲノムプロジェクト
   citation: 第22回医療情報学会春季学術大会企画セッション【医療におけるビッグデータ－医療情報学はどう関わってゆくのか何をなすべきか－】、「新潟大学におけるがんゲノムプロジェクト」、朱鷺メッセ(2018/6/22).
   tags:
     - cancer-genome
   lang: ja
-- id: 2092
-  type: poster
+- type: poster
   date: "2018-06-05"
   title: "Lactobacillus rhamnosus GG consumption characteristically modulate gut microbial composition of healthy Japanese subjects. -a randomized, double-blind, placebo-controlled study."
   citation: "Harata, G., Miyazawa, K., Yoda, K., Yamazaki, K., He, F., Hiramatsu, M., Okuda, S. Lactobacillus rhamnosus GG consumption characteristically modulate gut microbial composition of healthy Japanese subjects. -a randomized, double-blind, placebo-controlled study. ISAPP2018, Singapore (2018/6/5)."
   tags:
     - gut-microbiome
-- id: 2136
-  type: paper
+- type: paper
   date: "2018-05-31"
   title: AldB controls persister formation in Escherichia coli depending on environmental stress.
   citation: "Kawai, Y., Matsumoto, S., Ling, Y., Okuda, S., Tsuneda, S. AldB controls persister formation in Escherichia coli depending on environmental stress. Microbiol. Immunol. 62(5):299-309 (2018)."
@@ -289,16 +256,14 @@
       url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=29577369"
     - label: Microbiology and Immunology
       url: "https://onlinelibrary.wiley.com/doi/full/10.1111/1348-0421.12587"
-- id: 2065
-  type: lecture
+- type: lecture
   date: "2018-05-25"
   title: 環境化学を加速する質量分析インフォマティクス・質量分析データベースの世界
   citation: 第 27 回環境化学討論会共催イベント､「環境化学を加速する質量分析インフォマティクス」、「質量分析データベースの世界 」、沖縄県市町村自治会館 (2018/5/25).
   tags:
     - db
   lang: ja
-- id: 2083
-  type: poster
+- type: poster
   date: "2018-05-18"
   title: "jPOST: 質量分析生データを最大限に活用するためのメタデータキュレーション"
   citation: "小林大樹、荒木令江、奥田修二郎、渡辺由、守屋勇樹、河野信、山本格、松本雅記、高見知代、吉沢明康、田畑剛、岩崎未央、杉山直幸、田中聡、五斗進、石濱泰、「jPOST: 質量分析生データを最大限に活用するためのメタデータキュレーション」、日本質量分析学会・日本プロテオーム学会2018合同大会、大阪 (2018/5/18)."
@@ -306,13 +271,11 @@
     - db
     - proteome
   lang: ja
-- id: 2094
-  type: poster
+- type: poster
   date: "2018-04-25"
   title: Genome-wide analysis of single nucleotide variants on phosphorylation motifs.
   citation: "Yoshizaki, H., Ling Y., Kohno, M., Okuda, S. Genome-wide analysis of single nucleotide variants on phosphorylation motifs. ASBMB2018, San Diego (2018/4/25)."
-- id: 2135
-  type: paper
+- type: paper
   date: "2018-04-04"
   title: "IMSindel: An accurate intermediate-size indel detection tool incorporating de novo assembly and gapped global-local alignment with split read analysis."
   citation: "Shigemizu, D., Miya, F., Akiyama, S., Okuda, S., Boroevich, K. A., Fujimoto, A., Nakagawa, H., Ozaki, K., Niida, S., Kanemura, Y., Okamoto, N., Saitoh, S., Kato, M., Yamasaki, M., Matsunaga, T., Mutai, H., Kosaki, K., Tsunoda, T. IMSindel: An accurate intermediate-size indel detection tool incorporating de novo assembly and gapped global-local alignment with split read analysis. Sci. Rep. 8(1):10367 (2018)."
@@ -321,16 +284,14 @@
       url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=29618752"
     - label: Scientific Reports
       url: "https://www.nature.com/articles/s41598-018-23978-z"
-- id: 2837
-  type: lecture
+- type: lecture
   date: "2018-03-03"
   title: 人を中心としたゲノミクス：腸内細菌からがんゲノムまで
   citation: BKCバイオインフォマティクス研究会-システムバイオロジーの新潮流-、「人を中心としたゲノミクス：腸内細菌からがんゲノムまで」、立命館大学びわこ・くさつキャンパス (2018/3/3).
   tags:
     - gut-microbiome
   lang: ja
-- id: 1660
-  type: paper
+- type: paper
   date: "2018-01-31"
   title: Unique transcriptional profile of native persisters in Escherichia coli.
   citation: "Matsumoto, S., Kawai, Y., Miyagawa, S., Iwamoto, Y., Okuda, S., Sanchez-Gorostiaga, A., Vicente, M., Tsuneda, S. Unique transcriptional profile of native persisters in Escherichia coli. J. Biosci. Bioeng. 125(1):15-22 (2018)."
@@ -338,8 +299,7 @@
   links:
     - label: Journal of Bioscience and Bioengineering
       url: "http://www.sciencedirect.com/science/article/pii/S1389172317304619?via%3Dihub"
-- id: 1753
-  type: paper
+- type: paper
   date: "2018-01-23"
   title: Novel therapeutic strategy for cervical cancer harboring FGFR3-TACC3 fusions.
   citation: "Tamura, R., Yoshihara, K., Saito, T., Ishimura, R., Martínez- Ledesma, J. E., Xin, H., Ishiguro, T., Mori, Y., Yamawaki, K., Suda, K., Sato, S., Itamochi, H., Motoyama, T., Aoki, Y., Okuda, S., Casingal, C. R., Nakaoka, H., Inoue, I., Verhaak, R. G. W., Komatsu, M., Enomoto, T. Novel therapeutic strategy for cervical cancer harboring FGFR3-TACC3 fusions. Oncogenesis 7(1):4 (2018)."
@@ -349,8 +309,7 @@
       url: "https://www.nature.com/articles/s41389-017-0018-2"
   tags:
     - cancer-genome
-- id: 1752
-  type: paper
+- type: paper
   date: "2018-01-19"
   title: Impact of Concurrent Genomic Alterations Detected by Comprehensive Genomic Sequencing on Clinical Outcomes in East-Asian Patients with EGFR-Mutated Lung Adenocarcinoma.
   citation: "Sato, S., Nagahashi, M., Koike, T., Ichikawa, H., Shimada, Y., Watanabe, S., Kikuchi, T., Takada, K., Nakanishi, R., Oki, E., Okamoto, T., Akazawa, K., Lyle, S., Ling, Y., Takabe, K., Okuda, S., Wakai, T., Tsuchida, M. Impact of Concurrent Genomic Alterations Detected by Comprehensive Genomic Sequencing on Clinical Outcomes in East-Asian Patients with EGFR-Mutated Lung Adenocarcinoma. Sci. Rep. 8(1):1005 (2018)."
@@ -360,8 +319,7 @@
       url: "https://www.nature.com/articles/s41598-017-18560-y"
   tags:
     - cancer-genome
-- id: 2064
-  type: lecture
+- type: lecture
   date: "2018-01-16"
   title: パスウェイデータベースおよびプロテオームデータベースの紹介
   citation: AJACS浜松、「パスウェイデータベースおよびプロテオームデータベースの紹介 」、浜松医科大学臨床講義棟大講義室 (2018/1/16).

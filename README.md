@@ -21,7 +21,7 @@ npm run check   # 型とコンテンツスキーマの検査
 
 | 内容 | ファイル | 形式 |
 |---|---|---|
-| お知らせ | `src/content/news/YYYY-MM-DD-<slug>.md` | Markdown + frontmatter (`title`, `date`, 任意で `titleEn`) |
+| お知らせ | `src/content/news/YYYY-MM-DD-<slug>.md` | Markdown + frontmatter (`title`, `date`, 任意で `titleEn`)。ファイル名がそのまま URL になる |
 | 研究業績 | `src/content/publications/<年>.yaml` | YAML。1 ファイルに 1 年分の配列。新しいものを上に書く |
 | メンバー | `src/content/members.yaml` | YAML。`faculty` / `staff` / `students` / `collaborators` / `alumni` の 5 グループ |
 | 研究内容・リンク・人材募集・トップの紹介文 | `src/content/pages/{ja,en}/*.md` | Markdown |
@@ -40,8 +40,7 @@ npm run pub:add -- --pmid 39160276 --dry-run   # 追記せず内容の確認だ�
 ポスター・口頭発表・講演など PubMed に無いものは、同じ形式で手書きします。
 
 ```yaml
-- id: 2923                 # 通し番号。既存の最大値 + 1
-  type: poster             # paper | poster | talk | lecture | others
+- type: poster             # paper | poster | talk | lecture | others
   date: 2025-03-21         # 並び順に使う。ファイルの年と一致させる
   title: 発表タイトル
   citation: 著者、「発表タイトル」、第NN回○○学会、開催地 (2025/3/21).
@@ -49,6 +48,9 @@ npm run pub:add -- --pmid 39160276 --dry-run   # 追記せず内容の確認だ�
   lang: ja                 # 日本語ページだけに出すとき
 ```
 
+識別子は書きません。各業績は年別ページ (`/publications/year/2025/`) に並び、1 件を指すリンクは
+日付・種別・タイトル・引用文字列から自動生成されるアンカー (`#p-xxxxxxxx`) です。まったく同じ業績を
+二重に書くとビルドが失敗します。
 `pmid` があれば PubMed へのリンク、`links` に書いたものはそのラベルでリンクになります。
 タグは全業績から自動で集計され、一覧ページに件数付きで並びます。
 表示名を変えたいときは `src/i18n/ja.json` / `en.json` の `tags` に追記します (無ければスラッグがそのまま出ます)。
@@ -143,8 +145,10 @@ SITE_URL=https://annpin.github.io BASE_PATH=/niigata-bioinfo npm run build
 (`DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_PATH`, `DEPLOY_SSH_KEY`、任意で `DEPLOY_PORT`, `DEPLOY_KNOWN_HOSTS`) を設定します。
 その際 `pages.yml` は止めるか、テスト用ブランチに限定してください。
 
-旧 URL のリダイレクトは `redirects/nginx-redirects.conf` を nginx の `server` ブロックで include します。
-Cloudflare Pages / Netlify に置く場合は `redirects/_redirects` を `public/` にコピーしてください。
+旧 URL のリダイレクトは `redirects/nginx-redirects.conf` を nginx の `server` ブロックで、
+`redirects/legacy-ids.map` (旧 WordPress の投稿 ID → 新 URL の対応表) を `http` ブロックで include します。
+Cloudflare Pages / Netlify に置く場合は `redirects/_redirects` と `_redirects.legacy-ids` を連結して `public/_redirects` に置いてください。
+対応表は ID を廃止した時点で 1 回だけ生成したもので、以後の保守は不要です。
 
 ## 移行について
 

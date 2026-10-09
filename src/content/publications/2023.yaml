@@ -1,13 +1,11 @@
-- id: 2770
-  type: poster
+- type: poster
   date: "2023-12-22"
   title: アグマチンおよびオルニチンを添加した培地でプトレッシンを産生するヒト腸内常在菌の探索
   citation: 網優太、瀧原速仁、奥田修二郎、栗原新、「アグマチンおよびオルニチンを添加した培地でプトレッシンを産生するヒト腸内常在菌の探索」、日本ポリアミン学会第14回年会、東京 (2023/12/22).
   tags:
     - gut-microbiome
   lang: ja
-- id: 2768
-  type: poster
+- type: poster
   date: "2023-12-06"
   title: "jPOST & JPDM:プロテオームデータベースとデータ論文ジャーナル"
   citation: "吉沢明康、小林大樹、守屋勇樹、幡野敦、高見知代、松本雅記、荒木令江、田畑剛、 岩崎未央、 杉山 直幸、小寺義男、 田中聡、五斗進、河野信、奥田修二郎、石濱泰、「jPOST & JPDM:プロテオームデータベースとデータ論文ジャーナル」、第46回日本分子生物学会年会、神戸 (2023/12/6)."
@@ -15,28 +13,24 @@
     - db
     - proteome
   lang: ja
-- id: 2767
-  type: poster
+- type: poster
   date: "2023-12-06"
   title: プロテオゲノミクスにおける精密医療実現のため、変異タンパク質シーケンス作成アプローチの構築
   citation: 凌 一葦、 姜瀚、奥田修二郎、「プロテオゲノミクスにおける精密医療実現のため、変異タンパク質シーケンス作成アプローチの構築」、第46回日本分子生物学会年会、神戸 (2023/12/6).
   lang: ja
-- id: 2769
-  type: poster
+- type: poster
   date: "2023-12-06"
   title: 近縁種のゲノム情報活用による未知生物のタンパク質アミノ酸配列予測とメタプロテオミクス加速への挑戦
   citation: 三浦信明、田畑剛、石濱泰、奥田修二郎 、「近縁種のゲノム情報活用による未知生物のタンパク質アミノ酸配列予測とメタプロテオミクス加速への挑戦」、第46回日本分子生物学会年会、神戸 (2023/12/6).
   lang: ja
-- id: 2766
-  type: poster
+- type: poster
   date: "2023-12-06"
   title: 多様な生物種にわたる四重螺旋構造オンラインデータベースの開発
   citation: 王澤坤、 奥田修ニ郎、凌一葦、「多様な生物種にわたる四重螺旋構造オンラインデータベースの開発」、第46回日本分子生物学会年会、神戸 (2023/12/6).
   tags:
     - db
   lang: ja
-- id: 2744
-  type: talk
+- type: talk
   date: "2023-11-17"
   title: がんと細菌叢のバイオインフォマティクス解析
   citation: 奥田修二郎、「がんと細菌叢のバイオインフォマティクス解析」、2023年度中部乳酸菌研究会、シャトレーゼホテル談露館 (2023/11/17).
@@ -44,22 +38,19 @@
     - cancer-genome
     - gut-microbiome
   lang: ja
-- id: 2745
-  type: talk
+- type: talk
   date: "2023-11-03"
   title: "PBMCを用いたアテゾリズマブ+カルボプラチン+パクリタキセル+ベバシズマブの効果予測因子の検討:NEJ043試験"
   citation: "仲地一郎、渡部聡、古屋直樹、中村敦、椎原淳、田中寿志、中尾美香、増渕健、清家正博、佐々木信一、木曽原朗、武内進、本田亮一、菊地創、凌一葦、奥田修二郎、各務博、吉村健一、菊地利明、小林国彦、「PBMCを用いたアテゾリズマブ+カルボプラチン+パクリタキセル+ベバシズマブの効果予測因子の検討:NEJ043試験」、第64回日本肺癌学会学術集会、幕張メッセ (2023/11/3)."
   lang: ja
-- id: 2753
-  type: talk
+- type: talk
   date: "2023-11-01"
   title: 腸内細菌由来のポリアミンによる宿主の寿命延伸効果の解析
   citation: 下川ひろみ、堀亜紀、瀧原速仁、門口響、紺谷優季、平野里佳、松本光晴、奥田修二郎、倉石貴透、栗原新、「腸内細菌由来のポリアミンによる宿主の寿命延伸効果の解析」、第96回日本生化学会大会、福岡国際会議場他 (2023/11/1).
   tags:
     - gut-microbiome
   lang: ja
-- id: 2687
-  type: paper
+- type: paper
   date: "2023-10-31"
   title: Clinical significance of metastatic tumor deposit foci in rectal cancer in the lateral pelvic lymph node area.
   citation: "Yamai, D., Shimada, Y., Nakano, M., Ozeki, H., Matsumoto, A., Abe, K., Tajima, Y., Nakano, M., Ichikawa, H., Sakata, J., Nagai, T., Ling, Y., Okuda, S., Watanabe, G., Nogami, H., Maruyama, S., Takii, Y., Wakai, T. Clinical significance of metastatic tumor deposit foci in rectal cancer in the lateral pelvic lymph node area. Int. J. Clin. Oncol. 28(10):1388-1397(2023)."
@@ -67,8 +58,7 @@
   links:
     - label: International Journal of Clinical Oncology
       url: "https://link.springer.com/article/10.1007/s10147-023-02391-1"
-- id: 2668
-  type: paper
+- type: paper
   date: "2023-10-31"
   title: Development of a lip vermilion epithelium reconstruction model using keratinocytes from skin and oral mucosa. Histochem.
   citation: "Kobayashi, E., Ling, Y., Kobayashi, R., Hoshikawa, E., Itai, E., Sakata, O., Okuda, S., Naru, E., Isumi, K. Development of a lip vermilion epithelium reconstruction model using keratinocytes from skin and oral mucosa. Histochem. Cell Biol. 160(4):349‐359(2023)."
@@ -76,49 +66,42 @@
   links:
     - label: Histochemistry cell biology
       url: "https://link.springer.com/article/10.1007/s00418-023-02206-4"
-- id: 2741
-  type: lecture
+- type: lecture
   date: "2023-09-29"
   title: がん医生物学におけるバイオインフォマティクスシステム（網羅的遺伝子解析情報からのkey遺伝子群の抽出技術）の展開
   citation: 枚方先端がんセミナー、「がん医生物学におけるバイオインフォマティクスシステム（網羅的遺伝子解析情報からのkey遺伝子群の抽出技術）の展開」、関西医科大学 (2023/9/29).
   tags:
     - cancer-genome
   lang: ja
-- id: 2763
-  type: poster
+- type: poster
   date: "2023-09-23"
   title: アジアゾウにおける血清学的マーカーを用いた結核の発病検知法の検討
   citation: 石川智史 、尾関百合子 、菅里美 、向井康彦 、小林悠 、井内絵梨奈 、Shaban A. Kaboso、 Gebremichal Gebretsadik、Desak Nyoman Surya Suameitria Dewi、西山晃史 、立石善隆 、瀧原速仁 、奥田修二郎 、吉田志緒美 、三澤尚明 、松本壮吉、 「アジアゾウにおける血清学的マーカーを用いた結核の発病検知法の検討」、第29回日本野生動物医学会大会、鹿児島 (2023/9/23).
   lang: ja
-- id: 2762
-  type: poster
+- type: poster
   date: "2023-09-23"
   title: 大腸癌患者の全ゲノム解析と遺伝子パネル検査における変異シグネチャーの相関性
   citation: 廣瀬雄己、島田能史、田島陽介、安部馨、松本瑛生、大関瑛、土田純子、諸和樹、宗岡悠介、市川寛、竹内志穂、永橋昌幸、坂田純、奥田修二郎、若井俊文、「大腸癌患者の全ゲノム解析と遺伝子パネル検査における変異シグネチャーの相関性」、第82回日本癌学会学術総会、横浜 (2023/9/23).
   tags:
     - cancer-genome
   lang: ja
-- id: 2761
-  type: poster
+- type: poster
   date: "2023-09-22"
   title: "頭頚部扁平上皮癌における特異的選択的スプライシングの探索:データベース解析とロングリードーケンシング"
   citation: "阿部達也、凌一葦、奥田修二郎、山崎学、丸山智、田沼順一、「頭頚部扁平上皮癌における特異的選択的スプライシングの探索:データベース解析とロングリードーケンシング」、第82回日本癌学会学術総会、横浜 (2023/9/22)."
   tags:
     - db
   lang: ja
-- id: 2775
-  type: poster
+- type: poster
   date: "2023-09-19"
   title: Generation of Amino Acid Sequences of Unknown Species for Metaproteomics Using Phylogenetic Relationships of Known Species.
   citation: "Miura, N., Tabata, T., Ishihama, Y., Okuda, S. Generation of Amino Acid Sequences of Unknown Species for Metaproteomics Using Phylogenetic Relationships of Known Species. HUPO2023, Busan (2023/9/19)."
-- id: 2760
-  type: poster
+- type: poster
   date: "2023-09-08"
   title: シロイヌナズナの細胞内環境が DNA 四重らせん構造の形成に及ぼす影響
   citation: 建石寿枝 、安喜史織 、凌一葦 、奥田修二郎 、杉本直己 、「シロイヌナズナの細胞内環境が DNA 四重らせん構造の形成に及ぼす影響」、第17回バイオ関連化学シンポジウム、東京 (2023/9/8).
   lang: ja
-- id: 2685
-  type: paper
+- type: paper
   date: "2023-08-31"
   title: "Impact of Heavy Snowfall on Emergency Transport and Prognosis of Out-of-Hospital Cardiac Arrest Patients: A Nation-Wide Cohort Study."
   citation: "Omatsu, K., Uchiyama, M., Shimizu, U., Ling, Y., Okuda, S., Koyama, Y. Impact of Heavy Snowfall on Emergency Transport and Prognosis of Out-of-Hospital Cardiac Arrest Patients: A Nation-Wide Cohort Study. Prehosp. Disaster Med. 38(4):436-443(2023)."
@@ -126,8 +109,7 @@
   links:
     - label: Prehospital and Disaster Medicine
       url: "https://www.cambridge.org/core/journals/prehospital-and-disaster-medicine/article/impact-of-heavy-snowfall-on-emergency-transport-and-prognosis-of-outofhospital-cardiac-arrest-patients-a-nationwide-cohort-study/70D401DA2C197C63F5EAE0BB81B2A256"
-- id: 2686
-  type: paper
+- type: paper
   date: "2023-08-29"
   title: Mycobacterial DNA-binding protein 1 is critical for BCG survival in stressful environments and simultaneously regulates gene expression.
   citation: "Shaban, A.K., Gebretsadik, G., Hakamata, M., Takihara, H., Inouchi, E., Nishiyama, A., Ozeki, Y., Tateishi, Y., Nishiuchi, Y., Yamaguchi, T., Ohara, N., Okuda, S., Matsumoto, S. Mycobacterial DNA-binding protein 1 is critical for BCG survival in stressful environments and simultaneously regulates gene expression. Sci Rep.13(1):14157(2023)."
@@ -135,8 +117,7 @@
   links:
     - label: scientific reports
       url: "https://www.nature.com/articles/s41598-023-40941-9"
-- id: 2669
-  type: paper
+- type: paper
   date: "2023-07-31"
   title: BCL11B expression in hepatocellular carcinoma relates to chemosensitivity and clinical prognosis.
   citation: "Abe, H., Kamimura, K., Okuda, S., Watanabe, Y., Inoue, J., Aoyagi, Y., Wakai, T., Kominami, R., Terai, S. BCL11B expression in hepatocellular carcinoma relates to chemosensitivity and clinical prognosis. Cancer Med. 12(14):15650‐15663 (2023)."
@@ -147,8 +128,7 @@
       url: "https://onlinelibrary.wiley.com/doi/10.1002/cam4.6167"
   tags:
     - cancer-genome
-- id: 2667
-  type: paper
+- type: paper
   date: "2023-07-31"
   title: Copy number alteration is an independent prognostic biomarker in triple-negative breast cancer patients.
   citation: "Nagahashi, M., Ling, Y., Toshikawa, C., Hayashida, T., Kitagawa, Y., Futamura, M., Kuwayama, T., Nakamura, S., Yamauchi, H., Yamauchi, T., Kaneko, K., Kanbayashi, C., Sato, N., Tsuchida, J., Moro, K., Nakajima, M., Shimada, Y., Ichikawa, H., Lyle, S., Miyoshi, Y., Takabe, K., Okuda, S., Wakai, T. Copy number alteration is an independent prognostic biomarker in triple-negative breast cancer patients. Breast Cancer 30(4):584-595(2023)."
@@ -158,48 +138,42 @@
       url: "https://link.springer.com/article/10.1007/s12282-023-01449-2"
   tags:
     - cancer-genome
-- id: 2754
-  type: lecture
+- type: lecture
   date: "2023-07-26"
   title: メタプロテオミクスを指向した大規模データベース検索の眺望～配列デー タベースと デコイフリー検索
   citation: 日本プロテオーム学会2023年大会、「メタプロテオミクスを指向した大規模データベース検索の眺望～配列デー タベースと デコイフリー検索」、朱鷺メッセ新潟コンベンションセンター (2023/7/26).
   tags:
     - db
   lang: ja
-- id: 2759
-  type: poster
+- type: poster
   date: "2023-07-26"
   title: タンパク質末端ペプチド濃縮法を用いた非小細胞肺がん細胞株のプロテオ フォーム解析
   citation: 谷口優斗、⻄田紘士、奥田修二郎、石濱泰、「タンパク質末端ペプチド濃縮法を用いた非小細胞肺がん細胞株のプロテオ フォーム解析」、日本プロテオーム学会2023年大会、新潟 (2023/7/26).
   tags:
     - proteome
   lang: ja
-- id: 2746
-  type: talk
+- type: talk
   date: "2023-07-25"
   title: タンパク質末端ペプチド濃縮法を用いた非小細胞肺がん細胞株のプロテオフォーム解析
   citation: 谷口優斗、⻄田紘士、奥田修二郎 、石濱泰、「タンパク質末端ペプチド濃縮法を用いた非小細胞肺がん細胞株のプロテオフォーム解析」、日本プロテオーム学会2023年大会、朱鷺メッセ新潟コンベンションセンター (2023/7/25).
   tags:
     - proteome
   lang: ja
-- id: 2755
-  type: lecture
+- type: lecture
   date: "2023-07-25"
   title: データベースからアプローチするトランスオミクス
   citation: 日本プロテオーム学会2023年大会、「データベースからアプローチするトランスオミクス」、朱鷺メッセ新潟コンベンションセンター (2023/7/25).
   tags:
     - db
   lang: ja
-- id: 2824
-  type: others
+- type: others
   date: "2023-07-11"
   title: プロテオームデータリポジトリ
   citation: 奥田修二郎、「プロテオームデータリポジトリ」、実験医学別冊-決定版 質量分析活用スタンダード-、328-331 (2023). ISBN 978-4-7581-2264-1
   tags:
     - proteome
   lang: ja
-- id: 2671
-  type: paper
+- type: paper
   date: "2023-06-23"
   title: Isolation of the high polyamine-producing bacterium Staphylococcus epidermidis FB146 from fermented foods and identification of polyamine-related genes.
   citation: "Shirasawa, H., Nishiyama, C., Hirano, R., Koyanagi, T., Okuda, S., Takagi, H., Kurihara, S. Isolation of the high polyamine-producing bacterium Staphylococcus epidermidis FB146 from fermented foods and identification of polyamine-related genes. Biosci. Microbiota Food Health 42(1):24-33(2023)."
@@ -207,8 +181,7 @@
   links:
     - label: "Bioscience of Microbiota, Food and Health"
       url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9816048/"
-- id: 2688
-  type: paper
+- type: paper
   date: "2023-06-15"
   title: Glycan-related genes in human gut microbiota exhibit differential distribution and diversity in carbohydrate degradation and glycan synthesis.
   citation: "Takihara, H., Okuda, S. Glycan-related genes in human gut microbiota exhibit differential distribution and diversity in carbohydrate degradation and glycan synthesis. Front Mol Biosci. 10:1137303(2023)."
@@ -218,21 +191,18 @@
       url: "https://www.frontiersin.org/articles/10.3389/fmolb.2023.1137303/full"
   tags:
     - gut-microbiome
-- id: 2906
-  type: poster
+- type: poster
   date: "2023-06-04"
   title: "A biomarker study of atezolizumab (atezo) + bevacizumab (bev) + carboplatin (carbo) + paclitaxel (pac) (ABCP) for patients with NSCLC harboring EGFR mutations (EGFRm) after  failure of TKI therapy: NEJ043."
   citation: "Watanabe, S., Furuya, N., Nakamura, A., Shiihara, J., Nakachi, I., Tanaka, H., Nakao, M., Minato, K., Seike, M., Sasaki, S., Kisohara, A., Takeuchi, S., Honda, R., Takamura, K., Ling, Y., Okuda, S., Kagamu, H., Yoshimura, K., Kikuchi, T., Kobayashi, K. A biomarker study of atezolizumab (atezo) + bevacizumab (bev) + carboplatin (carbo) + paclitaxel (pac) (ABCP) for patients with NSCLC harboring EGFR mutations (EGFRm) after failure of TKI therapy: NEJ043. ASCO annual meeting 2023, Chicago (2023/6/4)."
-- id: 2758
-  type: poster
+- type: poster
   date: "2023-06-03"
   title: 深層学習によるデジタル病理画像からのタウ陽性細胞の自動検出
   citation: 永井貴大、田中英智、柿田明美、奥田修二郎、小野寺理、 「深層学習によるデジタル病理画像からのタウ陽性細胞の自動検出」、第64回日本神経学会学術大会、千葉 (2023/6/3).
   tags:
     - ai
   lang: ja
-- id: 2626
-  type: paper
+- type: paper
   date: "2023-05-30"
   title: Escherichia coli-derived outer-membrane vesicles induce immune activation and progression of cirrhosis in mice and humans.
   citation: "Natsui, K., Tsuchiya, A., Imamiya, R., Osada-Oka, M., Ishii, Y., Koseki,Y., Takeda, N., Tomiyoshi, K., Yamazaki, F., Yoshida, Y., Ohashi, R., Ling, Y., Ueda, K., Moritoki, N., Sato, K., Nakajima, T., Hasegawa, Y., Okuda, S., Shibata, S., Terai, S. Escherichia coli-derived outer-membrane vesicles induce immune activation and progression of cirrhosis in mice and humans. Liver Int. 43(5):1126-1140(2023)."
@@ -241,60 +211,52 @@
   links:
     - label: Liver International
       url: "https://onlinelibrary.wiley.com/doi/10.1111/liv.15539"
-- id: 2747
-  type: talk
+- type: talk
   date: "2023-05-20"
   title: 緑内障患者のquality of vision(QOV)に影響を与える視野領域の検討
   citation: 飯川龍、凌一葦、奥田修二郎、赤木忠道、坂上悠太、五十嵐遼子、有松真央、福地健郎、「緑内障患者のquality of vision(QOV)に影響を与える視野領域の検討」、第12回日本視野画像学会学術集会、ウインクあいち (2023/5/20).
   lang: ja
-- id: 2757
-  type: poster
+- type: poster
   date: "2023-04-29"
   title: 下部直腸癌の側方領域転移症例における壁外非連続性癌進展病巣の臨床的意義
   citation: 山井大介、島田能史、松本瑛生、阿部馨、田島陽介、中野麻恵、中野雅人、宗岡悠介、臼井賢司、石川博補、加納陽介、市川寛、滝沢一泰、坂田純、小林隆、野上仁、丸山聡、瀧井康公、奥田修二郎、若井俊文、「下部直腸癌の側方領域転移症例における壁外非連続性癌進展病巣の臨床的意義」、第123回日本外科学会定期学術集会、東京 (2023/4/29).
   tags:
     - cancer-genome
   lang: ja
-- id: 2748
-  type: talk
+- type: talk
   date: "2023-04-27"
   title: 基礎研究と臨床からみた大腸癌のがんゲノム解析
   citation: 島田能史、中野麻恵、松本瑛生、山井大介、田島陽介、中野雅人、宗岡悠介、加納陽介、市川寛、石川博補、滝沢一泰、坂田純、小林隆、谷達夫、横山直行、山崎俊幸、中川悟、瀧井康公、奥田修二郎、若井俊文、「基礎研究と臨床からみた大腸癌のがんゲノム解析」、第123回日本外科学会定期学術集会、グランドプリンスホテル新高輪 (2023/4/27).
   tags:
     - cancer-genome
   lang: ja
-- id: 2749
-  type: talk
+- type: talk
   date: "2023-04-27"
   title: 大腸癌における細菌叢と臨床病理学的因子および予後との関連
   citation: 田島陽介、島田能史、中野麻恵、中野雅人、山井大介、阿部馨、松本瑛生、大関瑛、宗岡悠介、廣瀬雄己、臼井賢司、石川博補、加藤陽介、三浦宏平、市川寛、滝沢一泰、小林隆、坂田純、奥田修二郎、若井俊文、「大腸癌における細菌叢と臨床病理学的因子および予後との関連」、第123回日本外科学会定期学術集会、グランドプリンスホテル新高輪 (2023/4/27).
   tags:
     - cancer-genome
   lang: ja
-- id: 2750
-  type: talk
+- type: talk
   date: "2023-04-07"
   title: AIを用いた緑内障患者のQOV推定モデルの構築
   citation: 飯川龍、凌一葦、奥田修二郎、赤木忠道、坂上悠太、五十嵐遼子、有松真央、宮島誠、福地健郎、「AIを用いた緑内障患者のQOV推定モデルの構築」、第127回日本眼科学会総会、東京国際フォーラム (2023/4/7).
   tags:
     - ai
   lang: ja
-- id: 2794
-  type: lecture
+- type: lecture
   date: "2023-02-25"
   title: バイオインフォマティクス：コンピュータで医学データを読み解く
   citation: 第9回新潟連携セミナー、「バイオインフォマティクス：コンピュータで医学データを読み解く」、オンライン (2023/2/25).
   lang: ja
-- id: 2825
-  type: others
+- type: others
   date: "2023-02-10"
   title: 人工知能：深層学習による画像処理技術の医療への応用
   citation: "永井貴大、奥田修二郎「人工知能：深層学習による画像処理技術の医療への応用」、新潟医学会雑誌、137(2):39-45 (2023)."
   tags:
     - ai
   lang: ja
-- id: 2670
-  type: paper
+- type: paper
   date: "2023-01-16"
   title: Current progress and critical challenges to overcome in the bioinformatics of mass spectrometry-based metaproteomics.
   citation: "Miura, N., Okuda, S. Current progress and critical challenges to overcome in the bioinformatics of mass spectrometry-based metaproteomics. Comput. Struct. Biotechnol. J. 21:1140-1150 (2023)."
@@ -304,8 +266,7 @@
       url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9925844/"
   tags:
     - db
-- id: 2616
-  type: paper
+- type: paper
   date: "2023-01-06"
   title: "The ProteomeXchange consortium at 10 years: 2023 update."
   citation: "Deutsch, E. W., Bandeira, N., Perez-Riverol, Y., Sharma, V., Carver, J. J., Mendoza, L., Kundu, D. J., Wang, S., Bandla, C., Kamatchinathan, S., Hewapathirana, S., Pullman, B. S., Wertz, J., Sun, Z., Kawano, S., Okuda, S., Watanabe, Y., MacLearn B., MacCoss, M. J., Zhu, Y., Ishihama, Y.,Vizcaíno, J. A. The ProteomeXchange consortium at 10 years: 2023 update. Nucleic Acids Res. 51(D1):D1539-D1548(2022)."

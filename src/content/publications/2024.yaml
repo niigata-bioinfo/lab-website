@@ -1,5 +1,4 @@
-- id: 2911
-  type: paper
+- type: paper
   date: "2024-11-30"
   title: "PCPE-1, a brown adipose tissue-derived cytokine, promotes obesity-induced liver fibrosis."
   citation: "Hsiao, Y.T., Yoshida, Y., Okuda, S., Abe, M., Mizuno, S., Takahashi, S., Nakagami, H., Morishita, R., Kamimura, K., Terai, S., Aung, T.M., Li, J., Furihata, T., Tang, J.Y., Walsh, K., Ishigami, A., Minamino, T., Shimizu, I. PCPE-1, a brown adipose tissue-derived cytokine, promotes obesity-induced liver fibrosis. EMBO J. 43(21):4846-4869(2024)."
@@ -8,8 +7,7 @@
   links:
     - label: The EMBO Journal
       url: "https://www.embopress.org/doi/full/10.1038/s44318-024-00196-0"
-- id: 2912
-  type: paper
+- type: paper
   date: "2024-11-30"
   title: Landscape of homologous recombination deficiency in gastric cancer and clinical implications for first-line chemotherapy.
   citation: "Ichikawa, H., Aizawa, M., Kano, Y., Hanyu, T., Muneoka, Y., Hiroi, S., Ueki, H., Moro, K., Hirose, Y., Miura, K., Shimada, Y., Sakata, J., Yabusaki, H., Nakagawa, S., Kawasaki, T., Okuda, S., Wakai, T. Landscape of homologous recombination deficiency in gastric cancer and clinical implications for first-line chemotherapy. Gastric Cancer 27(6):1273-1286(2024)."
@@ -19,8 +17,7 @@
       url: "https://link.springer.com/article/10.1007/s10120-024-01542-1"
   tags:
     - cancer-genome
-- id: 2921
-  type: paper
+- type: paper
   date: "2024-11-30"
   title: "Reevaluating hybrid neurofibroma/schwannoma: Predominance of schwannoma features despite CD34 positivity and initial neurofibroma diagnosis."
   citation: "Katsumi, T., Hayashi, R., Takei, S., Ansai, O., Takatsuka,S., Takenouchi, T., Saito, K., Suda, K., Yoshihara, K., Nagai, T., Okuda, S., Fukumoto, T., Ansai, S. I., Nakamura, A., Katsuumi, K., Ariizumi, T., Ogose, A., Kawashima, H., Abe, R. Reevaluating hybrid neurofibroma/schwannoma: Predominance of schwannoma features despite CD34 positivity and initial neurofibroma diagnosis. J. Dermatol. 51(11):1461-1469(2024)."
@@ -29,8 +26,7 @@
   links:
     - label: THE JOURNAL OF DERMATOLOGY
       url: "https://onlinelibrary.wiley.com/doi/10.1111/1346-8138.17343"
-- id: 2919
-  type: paper
+- type: paper
   date: "2024-10-07"
   title: Insights into predicting small molecule retention times in liquid chromatography using deep learning.
   citation: "Liu, Y., Yoshizawa, A.C., Ling, Y., Okuda, S. Insights into predicting small molecule retention times in liquid chromatography using deep learning. J. Cheminform. 16(1):113(2024)"
@@ -40,8 +36,7 @@
       url: "https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00905-1"
   tags:
     - ai
-- id: 2895
-  type: paper
+- type: paper
   date: "2024-07-31"
   title: "Pathological and Biological Significance of the Specific Glycan, TRA-1-60, on Aggressive Gastric Adenocarcinoma."
   citation: "Mitsui, A., Iioka, H., Ling, Y., Okuda, S., Kurose, A., Schopperle, M., Kondo, T., Sakaguchi, M., Saito, K., Kondo, E. Pathological and Biological Significance of the Specific Glycan, TRA-1-60, on Aggressive Gastric Adenocarcinoma. Lab Invest. 104(7):102073(2024)."
@@ -49,8 +44,7 @@
   links:
     - label: Laboratory Investigation
       url: "https://www.sciencedirect.com/science/article/pii/S0023683724017513?via%3Dihub"
-- id: 2920
-  type: paper
+- type: paper
   date: "2024-07-25"
   title: "Enteropathway: the metabolic pathway database for the human gut microbiota."
   citation: "Shiroma, H., Darzi, Y., Terajima, E., Nakagawa, Z., Tsuchikura, H., Tsukuda, N., Moriya, Y., Okuda, S., Goto, S., Yamada, T. Enteropathway: the metabolic pathway database for the human gut microbiota. Brief. Bioinform. 25(5):bbae419(2024)."
@@ -61,8 +55,7 @@
   tags:
     - db
     - gut-microbiome
-- id: 2894
-  type: paper
+- type: paper
   date: "2024-06-11"
   title: Clinical application of targeted tumour sequencing tests for detecting ERBB2 amplification and optimizing anti-HER2 therapy in gastric cancer.
   citation: "Ichikawa, H., Usui, K., Aizawa, M., Shimada, Y., Muneoka, Y., Kano, Y., Sugai, M., Moro, K., Hirose, Y., Miura, K., Sakata, J., Yabusaki, H., Nakagawa, S., Kawasaki, T., Umezu, H., Okuda, S., Wakai, T. Clinical application of targeted tumour sequencing tests for detecting ERBB2 amplification and optimizing anti-HER2 therapy in gastric cancer. BMC Cancer 24(1):719(2024)."
@@ -72,8 +65,7 @@
       url: "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-024-12482-5"
   tags:
     - cancer-genome
-- id: 2729
-  type: paper
+- type: paper
   date: "2024-04-30"
   title: Genetic engineering employing MPB70 and its promoter enables efficient secretion and expression of foreign antigen in bacillus Calmette Guérin (BCG) Tokyo.
   citation: "Takeishi, A., Shaban, A. K., Kakihana, T., Takihara, H., Okuda, S., Osada, H., Suameitria Dewi, D. N. S., Ozeki, Y., Yoshida, Y., Nishiyama, A., Tateishi, Y., Aizu, Y., Chuma, Y., Onishi, K., Hayashi, D., Yamamoto, S., Mukai,T., Ato, M., Thai, D. H., Nhi, H. T. T., Shirai, T., Shibata, S., Obata, F., Fujii, J., Yamayoshi, S., Kiso, M., Matsumoto, S. Genetic engineering employing MPB70 and its promoter enables efficient secretion and expression of foreign antigen in bacillus Calmette Guérin (BCG) Tokyo. Microbiol. Immunol. 68(4):130-147(2024)."
@@ -82,8 +74,7 @@
   links:
     - label: Microbiology and Immunology
       url: "https://onlinelibrary.wiley.com/doi/10.1111/1348-0421.13116"
-- id: 2713
-  type: paper
+- type: paper
   date: "2024-03-31"
   title: Mucin phenotype and genetic alterations in non-V600E BRAF-mutated colorectal cancer.
   citation: "Ozeki, H., Shimada, Y., Nakano, M., Kondo, S., Ohashi, R., Miwa, Y., Yamai, D., Matsumoto, A., Abe, K., Tajima, Y., Ichikawa, H., Sakata, J., Takii, Y., Sugai, M., Nagai, T., Ling, Y., Okuda, S., Wakai, T. Mucin phenotype and genetic alterations in non-V600E BRAF-mutated colorectal cancer. Hum. Pathol. 145:71-79(2024)."
@@ -93,31 +84,26 @@
       url: "https://www.sciencedirect.com/science/article/pii/S0046817724000327?via%3Dihub"
   tags:
     - cancer-genome
-- id: 2742
-  type: talk
+- type: talk
   date: "2024-03-28"
   title: 頭頸部扁平上皮癌における選択的スプライシングシグネチャーによる予後予測
   citation: 阿部達也、凌一葦、奥田修二郎、山崎学、丸山智、田沼順一、「頭頸部扁平上皮癌における選択的スプライシングシグネチャーによる予後予測 」、第113回日本病理学会総会、名古屋国際会議場（2024/3/28）
   lang: ja
-- id: 2771
-  type: poster
+- type: poster
   date: "2024-03-21"
   title: 培養基盤の物性の違いによる培養口腔粘膜上皮細胞シートの遺伝子発現の比較解析
   citation: 相澤有香、凌一葦、髙田翔、Yortchan Witsanu、田中凛太郎、鈴木絢子、奥田修二郎、冨原圭、泉健次、「培養基盤の物性の違いによる培養口腔粘膜上皮細胞シートの遺伝子発現の比較解析」、第23回日本再生医療学会総会、新潟 (2024/3/21).
   lang: ja
-- id: 2751
-  type: lecture
+- type: lecture
   date: "2024-03-21"
   title: Current status of the jPOST and JPDM projects and future approaches to multi-omics data integration.
   citation: "HUPO-PSI Kyoto Symposium 2024, “Current status of the jPOST and JPDM projects and future approaches to multi-omics data integration.”, Fujita Commemorative Lecture Hall Kyoto University (2024/3/21)."
-- id: 2743
-  type: talk
+- type: talk
   date: "2024-03-19"
   title: "核酸化学のNew Data Science (11): G-四重らせんとi-モチーフ構造の形成を介したがん細胞内における転写制御機構の解明"
   citation: "建石寿枝、川内敬子、凌一葦、奥田修二郎、杉本直己、「核酸化学のNew Data Science (11): G-四重らせんとi-モチーフ構造の形成を介したがん細胞内における転写制御機構の解明」、日本化学会第104春季年会(2024)、日本大学理工学部船橋キャンパス（2024/3/19）"
   lang: ja
-- id: 2896
-  type: paper
+- type: paper
   date: "2024-03-18"
   title: Reduced chondroitin sulfate content prevents diabetic neuropathy through transforming growth factor-β signaling suppression.
   citation: "Ishiguro, H., Ushiki, T., Honda, A., Yoshimatsu, Y., Ohashi, R., Okuda, S., Kawasaki, A., Cho, K., Tamura, S., Suwabe, T., Katagiri, T., Ling, Y., Iijima, A., Mikami, T., Kitgawa, H,, Uemura, A., Sango, K., Masuko, M., Igarashi, M., Sone, H. Reduced chondroitin sulfate content prevents diabetic neuropathy through transforming growth factor-β signaling suppression. iScience 27(4):109528."
@@ -125,8 +111,7 @@
   links:
     - label: iScience
       url: "https://www.sciencedirect.com/science/article/pii/S2589004224007508?via%3Dihub"
-- id: 2715
-  type: paper
+- type: paper
   date: "2024-03-09"
   title: "Clonal origin and genomic diversity in Lynch syndrome-associated endometrial cancer with multiple synchronous tumors: Identification of the pathogenicity of MLH1 p.L582H."
   citation: "Takahashi, K., Yachida, N., Tamura, R., Adachi, S., Kondo, S., Abé, T., Umezu, H., Nyuzuki, H., Okuda, S., Nakaoka, H., Yoshihara, K. Clonal origin and genomic diversity in Lynch syndrome-associated endometrial cancer with multiple synchronous tumors: Identification of the pathogenicity of MLH1 p.L582H. Genes Chromosomes Cancer 63(3):e23231(2024)."
@@ -137,21 +122,18 @@
       url: "https://onlinelibrary.wiley.com/doi/10.1002/gcc.23231"
   tags:
     - cancer-genome
-- id: 2739
-  type: lecture
+- type: lecture
   date: "2024-03-06"
   title: 腫瘍内細菌叢研究から腸活へ
   citation: 新潟県腸活セミナー、「腫瘍内細菌叢研究から腸活へ」、オンライン (2024/3/6).
   tags:
     - gut-microbiome
   lang: ja
-- id: 2776
-  type: poster
+- type: poster
   date: "2024-03-01"
   title: Genome wide screening of G-quadruplex forming sequences under molecular crowding environment.
   citation: "Endoh, T., Okuda, S., Ling, Y., Tateishi, H., Sugimoto, N. Genome wide screening of G-quadruplex forming sequences under molecular crowding environment. S−FISNA2024, Japan (2024/3/1)."
-- id: 2728
-  type: paper
+- type: paper
   date: "2024-02-09"
   title: Sperm-specific histone H1 in highly condensed sperm nucleus of Sargassum horneri.
   citation: "Takeuchi, Y., Sato, S., Nagasato, C., Motomura, T., Okuda, S., Kasahara, M., Takahashi, F., Yoshikawa, S. Sperm-specific histone H1 in highly condensed sperm nucleus of Sargassum horneri. Sci. Rep. 14(1):3387(2024)."
@@ -159,16 +141,14 @@
   links:
     - label: scientific reports
       url: "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/38336896/"
-- id: 2740
-  type: lecture
+- type: lecture
   date: "2024-02-05"
   title: メディカルAIが拓く新しい医療 −健康医学における人口知能の活用−
   citation: 健康医学産学研究会、「メディカルAIが拓く新しい医療 −健康医学における人口知能の活用− 」、イタリア軒 (2024/2/5).
   tags:
     - ai
   lang: ja
-- id: 2714
-  type: paper
+- type: paper
   date: "2024-01-31"
   title: Multi-omics analyses of choroid plexus carcinoma cell lines reveal potential targetable pathways and alterations.
   citation: "Hesham, D., On, J., Alshahaby, N., Amer, N., Magdeldin, S., Okada, M., Tsukamoto, Y., Hiraishi, T., Imai, C., Okuda, S., Wakai, T., Kakita, A., Oishi, M., El-Naggar, S., Natsumeda, M. Multi-omics analyses of choroid plexus carcinoma cell lines reveal potential targetable pathways and alterations. J. Neurooncol. 166(1):27-38(2024)."

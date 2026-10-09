@@ -1,13 +1,11 @@
-- id: 2889
-  type: others
+- type: others
   date: "2015-12-31"
   title: 生活習慣病に関わるヒト腸内細菌マイクロバイオームの遺伝子間相互作用ネットワークの解明
   citation: 奥田修二郎、「生活習慣病に関わるヒト腸内細菌マイクロバイオームの遺伝子間相互作用ネットワークの解明」、ヤクルト・バイオサイエンス研究財団年報 (2015).
   tags:
     - gut-microbiome
   lang: ja
-- id: 1127
-  type: paper
+- type: paper
   date: "2015-12-22"
   title: Novel kinase fusion transcripts found in endometrial cancer.
   citation: "Tamura, R., Yoshihara, K., Yamawaki, K., Suda, K., Ishiguro, T., Adachi, S., Okuda, S., Inoue, I., Verhaak, R. G., Enomoto, T. Novel kinase fusion transcripts found in endometrial cancer. Sci. Rep. 5:18657 (2015)."
@@ -16,8 +14,7 @@
       url: "http://www.ncbi.nlm.nih.gov/pubmed/?term=26689674"
     - label: Scientific Reports
       url: "http://www.nature.com/articles/srep18657"
-- id: 1141
-  type: poster
+- type: poster
   date: "2015-12-02"
   title: "jPOST: プロテオーム解析ワークフローの標準化"
   citation: "守屋勇樹、河野信、奥田修二郎、山本格、松本雅記、小林大樹、荒木令江、吉沢明康、五斗進、田畑剛、杉山直幸、石濱泰、「jPOST: プロテオーム解析ワークフローの標準化」、第38回日本分子生物学会年会、神戸 (2015/12/1)."
@@ -25,16 +22,14 @@
     - db
     - proteome
   lang: ja
-- id: 1140
-  type: poster
+- type: poster
   date: "2015-12-02"
   title: ヒトゲノム上のリン酸化モチーフ解析
   citation: 吉崎尚良、奥田修二郎、河野美幸、「ヒトゲノム上のリン酸化モチーフ解析」、第38回日本分子生物学会年会、神戸 (2015/12/1).
   tags:
     - proteome
   lang: ja
-- id: 1126
-  type: paper
+- type: paper
   date: "2015-12-01"
   title: Resequencing and Association Analysis of CLN8 with Autism Spectrum Disorder in a Japanese Population.
   citation: "Inoue, E., Watanabe, Y., Xing, J., Kushima, I., Egawa, J., Okuda, S., Hoya, S., Okada, T., Uno, Y., Ishizuka, K., Sugimoto, A., Igeta, H., Nunokawa, A., Sugiyama, T., Ozaki, N., Someya, T. Resequencing and Association Analysis of CLN8 with Autism Spectrum Disorder in a Japanese Population. PLoS One 10(12):e0144624 (2015)."
@@ -42,8 +37,7 @@
   links:
     - label: PLOS ONE
       url: "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0144624"
-- id: 1128
-  type: paper
+- type: paper
   date: "2015-11-25"
   title: Cytotoxic Glycosylated Fatty Acid Amides from a Stelletta sp. Marine Sponge.
   citation: "Peddie, V., Takada, K., Okuda, S., Ise, Y., Morii, Y., Yamawaki, N., Takatani, T., Arakawa, O., Okada, S., Matsunaga, S. Cytotoxic Glycosylated Fatty Acid Amides from a Stelletta sp. Marine Sponge. J. Nat. Prod. 78(11):2808–13 (2015)."
@@ -53,14 +47,12 @@
       url: "http://www.ncbi.nlm.nih.gov/pubmed/?term=26558480"
     - label: Journal of Natural Products
       url: "http://pubs.acs.org/doi/full/10.1021/acs.jnatprod.5b00795"
-- id: 1148
-  type: lecture
+- type: lecture
   date: "2015-11-20"
   title: バイオインフォマティクス研究について
   citation: 第3回テニュア・トラック教員による創発型シンポジウム-分野融合研究への展望-、「バイオインフォマティクス研究について」、名古屋工業大学 (2015/11/20).
   lang: ja
-- id: 1130
-  type: paper
+- type: paper
   date: "2015-11-11"
   title: RNA Sequencing Revealed Numerous Polyketide Synthase Genes in the Harmful Dinoflagellate Karenia mikimotoi.
   citation: "Kimura, K., Okuda, S., Nakayama, K., Shikata, T., Takahashi, F., Yamaguchi, H., Skamoto, S., Yamaguchi, M., Tomaru, Y. RNA Sequencing Revealed Numerous Polyketide Synthase Genes in the Harmful Dinoflagellate Karenia mikimotoi. PLoS One 10(11):e0142731 (2015)."
@@ -68,14 +60,12 @@
   links:
     - label: PLOS ONE
       url: "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0142731"
-- id: 1147
-  type: lecture
+- type: lecture
   date: "2015-10-30"
   title: 新しい微生物生態像の解明に向けたバイオインフォマティクス・バイオインフォマティクスから微生物生態学へ
   citation: 生命医薬情報学連合大会2015年大会企画セッション､「新しい微生物生態像の解明に向けたバイオインフォマティクス」、「バイオインフォマティクスから微生物生態学へ」、京都大学化学研究所 (2015/10/30).
   lang: ja
-- id: 2540
-  type: poster
+- type: poster
   date: "2015-10-05"
   title: "GlyTouCan:国際糖鎖構造リポジトリの開発"
   citation: "新町大輔、木下聖子、青木 ポール信行、藤田晶大、土屋伸一郎、山田一作、松原正陽、藤田典昭、鈴木芳典、ソロビヨワ・イェレナ、鹿内俊秀、奥田修二郎、川嵜敏祐、成松久、「GlyTouCan:国際糖鎖構造リポジトリの開発」、トーゴーの日シンポジウム2015、東京大学 (2015/10/5)."
@@ -83,8 +73,7 @@
     - db
     - glycan
   lang: ja
-- id: 2541
-  type: poster
+- type: poster
   date: "2015-10-05"
   title: jPOST (Japan Proteome Standard Repository/Database)：プロテオーム・データの標準化と統合
   citation: 守屋勇樹、河野信、奥田修二郎、山本格、松本雅記、小林大樹、荒木令江、吉沢明康、五斗進、田畑剛、杉山直幸、石濱泰、「jPOST (Japan Proteome Standard Repository/Database)：プロテオーム・データの標準化と統合」、トーゴーの日シンポジウム2015、東京大学 (2015/10/5).
@@ -92,40 +81,35 @@
     - db
     - proteome
   lang: ja
-- id: 1136
-  type: poster
+- type: poster
   date: "2015-09-30"
   title: Proteomics data analysis workflow for accumulated LCMS files in public database.
   citation: "Ishihama, Y., Tabata, T., Sugiyama, N., Goto, S., Araki, N., Matsumoto, M., Okuda, S., Kawano, S. Proteomics data analysis workflow for accumulated LCMS files in public database. HUPO2015, Vancouver (2015/9)."
   tags:
     - db
     - proteome
-- id: 1139
-  type: poster
+- type: poster
   date: "2015-09-30"
   title: "jPOST: Development of Japan ProteOme STandard repository/database."
   citation: "Kawano, S., Moriya, Y., Okuda, S., Yamamoto, T., Matsumoto, M., Kobayashi, D., Araki, N., Yoshizawa, A. C., Tabata, T., Sugiyama, N., Goto, S., Ishihama, Y. jPOST: Development of Japan ProteOme STandard repository/database. HUPO2015, Vancouver (2015/9)."
   tags:
     - db
     - proteome
-- id: 1265
-  type: talk
+- type: talk
   date: "2015-09-29"
   title: Species-function relationships shape ecological properties of the human gut microbiome.
   citation: "Vieira-Silva, S., Falony, G., Lima-Mendez, G., Darzi, Y., Garcia Yunta, R., Okuda, S., Vandeputte, D., Hildebrand, F., Chaffron, S., and Raes, J. Species-function relationships shape ecological properties of the human gut microbiome. Cell Symposia: Human Immunity and the Microbiome in Health and Disease, Montreal (2015/9/29)."
   tags:
     - metagenome
     - gut-microbiome
-- id: 1131
-  type: talk
+- type: talk
   date: "2015-09-17"
   title: Utilizing the Semantic Web in GlyTouCan.
   citation: "Aoki-Kinoshita, K., Aoki, P. N., Shinmachi, D., Fujita, A., Tsuchiya, S., Matsubara, M., Okuda, S., Fujita, N., Yamada, I., and Narimatsu, H. Utilizing the Semantic Web in GlyTouCan. Glyco23, Croatia (2015/9/17)."
   tags:
     - db
     - glycan
-- id: 1135
-  type: poster
+- type: poster
   date: "2015-08-02"
   title: "GlyTouCan: 国際糖鎖構造リポジトリの開発"
   citation: "新町大輔、青木ポール信行、藤田昌大、土屋伸一郎、松原正陽、藤田典昭、鈴木芳典、イェレナソロビヨワ、鹿内俊秀、奥田修二郎、川嵜敏祐、山田 一作、木下聖子、成松久、「GlyTouCan: 国際糖鎖構造リポジトリの開発」、第34回日本糖質学会年会、東京 (2015/8/1)."
@@ -133,15 +117,13 @@
     - db
     - glycan
   lang: ja
-- id: 1138
-  type: poster
+- type: poster
   date: "2015-07-31"
   title: Evolutionary histories of phospho-motifs in the human genome.
   citation: "Okuda, S., Yoshizaki, H. Evolutionary histories of phospho-motifs in the human genome. ISMB2015, Dublin (2015/7)."
   tags:
     - proteome
-- id: 1134
-  type: poster
+- type: poster
   date: "2015-07-24"
   title: 日本発の高品質プロテオームデータベース：jPOST
   citation: 守屋勇樹、河野信、奥田修二郎、山本格、松本雅記、小林大樹、荒木令江、吉沢明康、五斗進、田畑剛、杉山直幸、石濱泰、「日本発の高品質プロテオームデータベース：jPOST」、日本プロテオーム学会2015年会、熊本 (2015/7/23).
@@ -149,24 +131,21 @@
     - db
     - proteome
   lang: ja
-- id: 1146
-  type: lecture
+- type: lecture
   date: "2015-07-09"
   title: バーチャルメタゲノム構築法
   citation: 第1回バイオインフォマティクスアゴラ、「バーチャルメタゲノム構築法」、東京工業大学 (2015/7/8).
   tags:
     - metagenome
   lang: ja
-- id: 1132
-  type: talk
+- type: talk
   date: "2015-07-01"
   title: 比較ゲノム解析による、リン酸化シグナルネットワークの同定と意義の解明 ~発がんシグナル探索へむけて~
   citation: 吉崎尚良、奥田修二郎、早野俊哉、「比較ゲノム解析による、リン酸化シグナルネットワークの同定と意義の解明 ~発がんシグナル探索へむけて~」、第42回日本毒性学会学術年会、金沢 (2015/7/1).
   tags:
     - genome
   lang: ja
-- id: 883
-  type: paper
+- type: paper
   date: "2015-03-27"
   title: Large-scale analysis of the evolutionary histories of phosphorylation motifs in the human genome.
   citation: "Yoshizaki, H., Okuda, S. Large-scale analysis of the evolutionary histories of phosphorylation motifs in the human genome. Gigascience 4:21 (2015)."
@@ -177,8 +156,7 @@
   tags:
     - proteome
     - genome
-- id: 882
-  type: paper
+- type: paper
   date: "2015-03-27"
   title: Human T-cell leukemia virus type 1 Tax oncoprotein represses the expression of the BCL11B tumor suppressor in T-cells.
   citation: "Takachi, T., Takahashi, M., Takahashi-Yoshita, M., Higuchi, M., Obata, M., Mishima, Y., Okuda, S., Tanaka, Y., Matsuoka, M., Saitoh, A., Green, P. L., Fujii, M. Human T-cell leukemia virus type 1 Tax oncoprotein represses the expression of the BCL11B tumor suppressor in T-cells. Cancer Sci. 106(4):461-5 (2015)."
@@ -188,8 +166,7 @@
       url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=25613934"
     - label: Cancer Science
       url: "http://onlinelibrary.wiley.com/doi/10.1111/cas.12618/abstract"
-- id: 879
-  type: paper
+- type: paper
   date: "2015-03-27"
   title: "GlycoRDF: an ontology to standardize glycomics data in RDF."
   citation: "Ranzinger, R., Aoki-Kinoshita, K. F., Campbell, M., P., Kawano, S., Lütteke, T., Okuda, S., Shinmachi, D., Shikanai, T., Sawaki, H., Toukach, P., Matsubara, M., Yamada, I., Narimatsu, H. GlycoRDF: an ontology to standardize glycomics data in RDF. Bioinformatics 31(6) 919-25 (2015)."

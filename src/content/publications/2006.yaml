@@ -1,16 +1,13 @@
-- id: 414
-  type: poster
+- type: poster
   date: "2006-12-11"
   title: Analysis of Tissue Specific Expression Patterns of Isozymes.
   citation: "Takarabe, M., Tsuchida, A., Fujita, M., Okuda, S., Yoshizawa, A.C., Yamada, T., Itoh, M., Goto, S., Kanehisa, M. Analysis of Tissue Specific Expression Patterns of Isozymes. GIW 2006 Poster Abstracts, P042 (2006/12)."
-- id: 373
-  type: poster
+- type: poster
   date: "2006-12-11"
   title: KEGG Pathwayを用いた組織特異的な代謝経路の解析
   citation: 土田啓、奥田修二郎、伊藤真純、五斗進、金久實、「KEGG Pathwayを用いた組織特異的な代謝経路の解析」第29回日本分子生物学会、名古屋 (2006/12).
   lang: ja
-- id: 287
-  type: lecture
+- type: lecture
   date: "2006-10-31"
   title: "ODB: Operon DataBase"
   citation: "第３回オントロジー研究会、「ODB: Operon DataBase」、東大医科研 (2006/10/31)."
@@ -18,8 +15,7 @@
     - operon
     - db
   lang: ja
-- id: 206
-  type: paper
+- type: paper
   date: "2006-08-20"
   title: Analysis of the differences in metabolic network expansion between prokaryotes and eukaryotes.
   citation: "Tanaka, M., Yamada, T., Itoh, M., Okuda, S., Goto S., Kanehisa, M. Analysis of the differences in metabolic network expansion between prokaryotes and eukaryotes. Genome Inform. 17(1):230-9 (2006)."
@@ -29,8 +25,7 @@
       url: "https://www.jstage.jst.go.jp/article/gi1990/17/1/17_1_230/_article"
   tags:
     - genome
-- id: 205
-  type: paper
+- type: paper
   date: "2006-08-20"
   title: Extracting sequence motifs and the phylogenetic features of SNARE-dependent membrane traffic.
   citation: "Yoshizawa, A.C., Kawashima, S., Okuda, S., Fujita, M., Itoh, M., Moriya, Y., Hattori, M., Kanehisa, M. Extracting sequence motifs and the phylogenetic features of SNARE-dependent membrane traffic. Traffic 7(8): 1104-18 (2006)."
@@ -41,20 +36,17 @@
       url: "http://onlinelibrary.wiley.com/doi/10.1111/j.1600-0854.2006.00451.x/abstract;jsessionid=A566BF40B2B7649A8C17A13ACCA6DBD5.f04t03"
   tags:
     - genome
-- id: 413
-  type: poster
+- type: poster
   date: "2006-07-11"
   title: Construction of the drug substructure library from the KEGG DRUG database.
   citation: "Shigemizu, D., Okuda, S., Araki , M., Goto, S., Kanehisa, M. Construction of the drug substructure library from the KEGG DRUG database. IBSB 2006, Boston (2006/7)."
-- id: 292
-  type: talk
+- type: talk
   date: "2006-07-02"
   title: Analysis of the differences in metabolic network expansion between prokaryotes and eukaryotes.
   citation: "Tanaka, M., Yamada, T., Itoh, M., Okuda, S., Goto S., and Kanehisa, M.; Analysis of the differences in metabolic network expansion between prokaryotes and eukaryotes. IBSB 2006, Boston (2006/7)."
   tags:
     - genome
-- id: 204
-  type: paper
+- type: paper
   date: "2006-01-01"
   title: "ODB: a database of operons accumulating known operons across multiple genomes."
   citation: "Okuda, S., Katayama, T., Kawashima, S., Goto, S., Kanehisa, M. ODB: a database of operons accumulating known operons across multiple genomes. Nucleic Acids Res. 34: D358-62 (2006)."
