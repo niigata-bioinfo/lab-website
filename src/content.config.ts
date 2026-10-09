@@ -21,6 +21,8 @@ export const publicationSchema = z.object({
   /** 整形済みの引用文字列。1 行で書く。 */
   citation: z.string().min(1),
   pmid: z.number().int().positive().optional(),
+  /** PubMed Central の ID。"PMC" 付きで書く。 */
+  pmcid: z.string().regex(/^PMC\d+$/, 'pmcid は PMC1234567 の形式').optional(),
   doi: z.string().regex(/^10\.\d{4,9}\/\S+$/, 'doi は 10. で始まる識別子のみ (URL ではない)').optional(),
   /** PubMed / DOI 以外の外部リンク。label がそのままリンク文字列になる。 */
   links: z.array(z.object({ label: z.string().min(1), url: z.url() })).default([]),

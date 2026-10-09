@@ -32,9 +32,13 @@ npm run check   # 型とコンテンツスキーマの検査
 
 ```bash
 npm run pub:add -- --pmid 39160276
+npm run pub:add -- --pmcid PMC11535236
 npm run pub:add -- --doi 10.1038/s44318-024-00196-0 --tags glycan,db
 npm run pub:add -- --pmid 39160276 --dry-run   # 追記せず内容の確認だけ
 ```
+
+PMID・PMCID・DOI のどれか 1 つあれば、残りは NCBI の ID 変換 API と PubMed から自動で補完されます
+(PMC に収載されていない論文は PMCID が付きません)。環境変数 `NCBI_EMAIL` に連絡先を入れておくと NCBI API に渡されます (任意)。
 
 該当年の YAML の先頭にエントリが追記されるので、内容を確認して commit します。
 ポスター・口頭発表・講演など PubMed に無いものは、同じ形式で手書きします。
@@ -51,7 +55,7 @@ npm run pub:add -- --pmid 39160276 --dry-run   # 追記せず内容の確認だ�
 識別子は書きません。各業績は年別ページ (`/publications/year/2025/`) に並び、1 件を指すリンクは
 日付・種別・タイトル・引用文字列から自動生成されるアンカー (`#p-xxxxxxxx`) です。まったく同じ業績を
 二重に書くとビルドが失敗します。
-`pmid` があれば PubMed へのリンク、`links` に書いたものはそのラベルでリンクになります。
+`pmid` があれば PubMed、`pmcid` があれば PMC へのリンクになり、`links` に書いたものはそのラベルでリンクになります。
 タグは全業績から自動で集計され、一覧ページに件数付きで並びます。
 表示名を変えたいときは `src/i18n/ja.json` / `en.json` の `tags` に追記します (無ければスラッグがそのまま出ます)。
 

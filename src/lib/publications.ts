@@ -76,6 +76,10 @@ export function pubmedUrl(pmid: number): string {
   return `https://pubmed.ncbi.nlm.nih.gov/${pmid}/`;
 }
 
+export function pmcUrl(pmcid: string): string {
+  return `https://pmc.ncbi.nlm.nih.gov/articles/${pmcid}/`;
+}
+
 export function doiUrl(doi: string): string {
   return `https://doi.org/${doi}`;
 }

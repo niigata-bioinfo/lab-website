@@ -1,13 +1,17 @@
 #!/usr/bin/env node
 /**
- * PubMed ID または DOI から業績エントリを生成し、該当年の YAML の先頭に追記する。
+ * Generate a publication entry from a PubMed ID, a PMCID or a DOI and prepend it to the YAML file for its year.
+ * Whichever identifiers were not given are filled in from the NCBI ID converter API and PubMed
+ * (PMID -> DOI + PMCID, PMCID -> PMID + DOI, DOI -> PMID + PMCID).
  *
  *   npm run pub:add -- --pmid 39160276
+ *   npm run pub:add -- --pmcid PMC11535236
  *   npm run pub:add -- --doi 10.1038/s44318-024-00196-0 --tags glycan,db
- *   npm run pub:add -- --pmid 39160276 --dry-run     # 追記せずに表示だけ
+ *   npm run pub:add -- --pmid 39160276 --dry-run     # print the entry without writing it
  *
- * オプション: --type paper (既定) | --tags a,b | --lang ja | --dry-run
- * 依存: Node.js 22 以降 (組み込み fetch と型ストリップ) と yaml パッケージのみ。
+ * Options: --type paper (default) | --tags a,b | --lang ja | --dry-run
+ * Set the NCBI_EMAIL environment variable to pass a contact address to the NCBI APIs (optional, recommended).
+ * Dependencies: Node.js 22+ (built-in fetch and type stripping) and the yaml package only.
  */
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
@@ -15,6 +19,8 @@ import { parse, stringify } from 'yaml';
 
 const PUB_DIR = join(process.cwd(), 'src/content/publications');
 const EUTILS = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils';
+const IDCONV = 'https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/';
+const TOOL = 'niigata-bioinfo-site';
 
 interface Entry {
   type: string;
@@ -22,6 +28,7 @@ interface Entry {
   title: string;
   citation: string;
   pmid?: number;
+  pmcid?: string;
   doi?: string;
   links?: { label: string; url: string }[];
   tags?: string[];
@@ -78,26 +85,54 @@ function titleCase(s: string): string {
 async function fromPubmed(pmid: number): Promise<Omit<Entry, 'id' | 'type'>> {
   const data = await getJson(`${EUTILS}/esummary.fcgi?db=pubmed&id=${pmid}&retmode=json`);
   const r = data.result?.[String(pmid)];
-  if (!r || r.error) throw new Error(`PubMed に PMID ${pmid} が見つかりません`);
+  if (!r || r.error) throw new Error(`PMID ${pmid} was not found in PubMed`);
   const authors = (r.authors as { name: string }[]).map((a) => formatPubmedAuthor(a.name)).join(', ');
   const journal = formatJournalAbbrev(r.source, r.fulljournalname ?? r.source);
   const year = (r.pubdate as string).slice(0, 4);
   const volIssue = r.volume ? `${r.volume}${r.issue ? `(${r.issue})` : ''}` : '';
-  // ページが無い電子ジャーナルは elocationid ("pii: bbae419" など) を使う
+  // Online-only journals have no page numbers; fall back to elocationid (e.g. "pii: bbae419")
   const eloc = ((r.elocationid as string | undefined) ?? '').replace(/^pii:\s*/i, '');
   const pageStr = r.pages || (eloc && !/^doi:/i.test(eloc) ? eloc : '');
   const pages = pageStr ? `:${pageStr}` : '';
   const title = (r.title as string).trim();
   const citation = `${authors} ${title.endsWith('.') ? title : `${title}.`} ${journal} ${volIssue}${pages}(${year}).`.replace(/\s+/g, ' ');
-  const doi = (r.articleids as { idtype: string; value: string }[]).find((a) => a.idtype === 'doi')?.value;
+  const articleIds = r.articleids as { idtype: string; value: string }[];
+  const doi = articleIds.find((a) => a.idtype === 'doi')?.value;
+  const pmcid = articleIds.find((a) => a.idtype === 'pmc')?.value;
   const sortDate = (r.sortpubdate as string | undefined)?.slice(0, 10).replace(/\//g, '-');
   const date = sortDate ?? `${year}-01-01`;
   const entry: Omit<Entry, 'id' | 'type'> = { date, title, citation, pmid };
+  if (pmcid && /^PMC\d+$/.test(pmcid)) entry.pmcid = pmcid;
   if (doi) {
     entry.doi = doi;
     entry.links = [{ label: titleCase(r.fulljournalname ?? r.source), url: `https://doi.org/${doi}` }];
   }
   return entry;
+}
+
+interface Ids { pmid?: number; pmcid?: string; doi?: string }
+
+/**
+ * Fill in missing PMID / PMCID / DOI via the NCBI ID converter API (covers articles deposited in PMC only).
+ * Returns the input unchanged when nothing is found.
+ */
+async function convertIds(ids: Ids): Promise<Ids> {
+  const query = ids.pmcid ? { ids: ids.pmcid, idtype: 'pmcid' } : ids.pmid ? { ids: String(ids.pmid), idtype: 'pmid' } : ids.doi ? { ids: ids.doi, idtype: 'doi' } : null;
+  if (!query) return ids;
+  const params = new URLSearchParams({ ...query, format: 'json', tool: TOOL });
+  if (process.env.NCBI_EMAIL) params.set('email', process.env.NCBI_EMAIL);
+  try {
+    const data = await getJson(`${IDCONV}?${params}`);
+    const rec = data.records?.[0];
+    if (!rec || rec.status === 'error') return ids;
+    return {
+      pmid: ids.pmid ?? (rec.pmid ? Number(rec.pmid) : undefined),
+      pmcid: ids.pmcid ?? rec.pmcid,
+      doi: ids.doi ?? rec.doi,
+    };
+  } catch {
+    return ids; // if the converter is down we can still proceed with PubMed / Crossref alone
+  }
 }
 
 async function pmidFromDoi(doi: string): Promise<number | undefined> {
@@ -132,7 +167,7 @@ async function fromCrossref(doi: string): Promise<Omit<Entry, 'id' | 'type'>> {
 }
 
 function loadAll(): { file: string; entries: Entry[] }[] {
-  // 既存エントリの重複判定 (pmid / doi) のためだけに読む
+  // Read only to detect duplicates (pmid / pmcid / doi)
   return readdirSync(PUB_DIR)
     .filter((f) => f.endsWith('.yaml'))
     .map((f) => ({ file: join(PUB_DIR, f), entries: (parse(readFileSync(join(PUB_DIR, f), 'utf8')) ?? []) as Entry[] }));
@@ -140,26 +175,50 @@ function loadAll(): { file: string; entries: Entry[] }[] {
 
 async function main() {
   const opts = parseArgs(process.argv.slice(2));
-  const pmidArg = opts.pmid ? Number(opts.pmid) : undefined;
+  // Treat --pmid "PMC..." as a PMCID; --pmcid may be given with or without the "PMC" prefix.
+  let pmidArg: number | undefined;
+  let pmcidArg: string | undefined;
+  const pmidRaw = typeof opts.pmid === 'string' ? opts.pmid.trim() : undefined;
+  const pmcidRaw = typeof opts.pmcid === 'string' ? opts.pmcid.trim() : undefined;
+  if (pmidRaw && /^PMC\d+$/i.test(pmidRaw)) pmcidArg = pmidRaw.toUpperCase();
+  else if (pmidRaw) pmidArg = Number(pmidRaw);
+  if (pmcidRaw) pmcidArg = /^\d+$/.test(pmcidRaw) ? `PMC${pmcidRaw}` : pmcidRaw.toUpperCase();
   const doiArg = typeof opts.doi === 'string' ? opts.doi.replace(/^https?:\/\/(dx\.)?doi\.org\//, '') : undefined;
-  if (!pmidArg && !doiArg) {
-    console.error('使い方: npm run pub:add -- --pmid <PMID> | --doi <DOI> [--type paper] [--tags a,b] [--lang ja] [--dry-run]');
+  if ((pmidArg !== undefined && !Number.isInteger(pmidArg)) || (pmcidArg && !/^PMC\d+$/.test(pmcidArg))) {
+    console.error('PMID must be an integer and PMCID must look like PMC1234567');
     process.exit(1);
   }
+  if (!pmidArg && !pmcidArg && !doiArg) {
+    console.error('Usage: npm run pub:add -- --pmid <PMID> | --pmcid <PMCID> | --doi <DOI> [--type paper] [--tags a,b] [--lang ja] [--dry-run]');
+    process.exit(1);
+  }
+
+  // Fill in the identifiers that were not given
+  const ids = await convertIds({ pmid: pmidArg, pmcid: pmcidArg, doi: doiArg });
+  if (!ids.pmid && ids.doi) ids.pmid = await pmidFromDoi(ids.doi);
+
   const all = loadAll();
   const existing = all.flatMap((f) => f.entries);
-  const dup = existing.find((e) => (pmidArg && e.pmid === pmidArg) || (doiArg && e.doi?.toLowerCase() === doiArg.toLowerCase()));
+  const dup = existing.find((e) =>
+    (ids.pmid && e.pmid === ids.pmid) || (ids.pmcid && e.pmcid === ids.pmcid) || (ids.doi && e.doi?.toLowerCase() === ids.doi.toLowerCase()));
   if (dup) {
-    console.error(`既に登録されています: ${dup.title}`);
+    console.error(`Already registered: ${dup.title}`);
+    process.exit(1);
+  }
+  if (!ids.pmid && !ids.doi) {
+    console.error(`No PMID / DOI found for ${ids.pmcid}`);
     process.exit(1);
   }
 
-  let pmid = pmidArg;
-  if (!pmid && doiArg) pmid = await pmidFromDoi(doiArg);
-  const base = pmid ? await fromPubmed(pmid) : await fromCrossref(doiArg!);
-  if (doiArg && !base.doi) base.doi = doiArg;
+  const base = ids.pmid ? await fromPubmed(ids.pmid) : await fromCrossref(ids.doi!);
+  if (ids.doi && !base.doi) base.doi = ids.doi;
+  if (ids.pmcid && !base.pmcid) base.pmcid = ids.pmcid;
 
-  const entry: Entry = { type: typeof opts.type === 'string' ? opts.type : 'paper', ...base };
+  const entry: Entry = { type: typeof opts.type === 'string' ? opts.type : 'paper', date: base.date, title: base.title, citation: base.citation };
+  if (base.pmid) entry.pmid = base.pmid;
+  if (base.pmcid) entry.pmcid = base.pmcid;
+  if (base.doi) entry.doi = base.doi;
+  if (base.links) entry.links = base.links;
   if (typeof opts.tags === 'string') entry.tags = opts.tags.split(',').map((t) => t.trim()).filter(Boolean);
   if (typeof opts.lang === 'string') entry.lang = opts.lang;
 
@@ -171,7 +230,7 @@ async function main() {
   const file = join(PUB_DIR, `${year}.yaml`);
   const current = existsSync(file) ? readFileSync(file, 'utf8') : '';
   writeFileSync(file, snippet + current);
-  console.log(`追記しました: src/content/publications/${year}.yaml`);
+  console.log(`Added to src/content/publications/${year}.yaml`);
 }
 
 main().catch((e) => {

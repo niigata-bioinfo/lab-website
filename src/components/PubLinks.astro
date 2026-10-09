@@ -1,6 +1,6 @@
 ---
 import type { Publication } from '../lib/publications';
-import { pubmedUrl, doiUrl } from '../lib/publications';
+import { pubmedUrl, pmcUrl, doiUrl } from '../lib/publications';
 interface Props {
   pub: Publication;
   class?: string;
@@ -10,6 +10,7 @@ interface Props {
 const { pub, class: extra = '', plain = false } = Astro.props;
 const links: { label: string; url: string }[] = [];
 if (pub.pmid) links.push({ label: 'PubMed', url: pubmedUrl(pub.pmid) });
+if (pub.pmcid) links.push({ label: 'PMC', url: pmcUrl(pub.pmcid) });
 links.push(...pub.links);
 if (pub.doi && pub.links.length === 0) links.push({ label: 'DOI', url: doiUrl(pub.doi) });
 ---
