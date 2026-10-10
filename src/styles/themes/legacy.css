@@ -151,7 +151,7 @@
     .campus-map__img { @apply block mt-[10px] max-w-full h-auto; }
 
     /* ---- テーマ切替 ---- */
-    .theme-switcher { @apply text-ink; }
+    .theme-switcher { @apply text-frost-dim; } /* 白背景とフッターの濃緑の両方で読めるよう、helix と同じ中間色にする */
     .theme-switcher select { @apply border border-line bg-white; }
   }
 }
