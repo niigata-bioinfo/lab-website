@@ -1,7 +1,7 @@
 ---
-import { t, localePath, type Lang } from '../lib/i18n';
-import { newsFor, newsTitle, newsSlug } from '../lib/news';
-import { site } from '../data/site';
+import { t, localePath, type Lang } from '@/lib/i18n';
+import { newsFor, newsTitle, newsSlug } from '@/lib/news';
+import { site } from '@/data/site';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const d = t(lang);

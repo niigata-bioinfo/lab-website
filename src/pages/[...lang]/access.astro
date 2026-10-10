@@ -1,9 +1,9 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import PageTitle from '../../components/PageTitle.astro';
-import { t, withBase, type Lang } from '../../lib/i18n';
-import { langPaths } from '../../lib/paths';
-import { site } from '../../data/site';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageTitle from '@/components/PageTitle.astro';
+import { t, withBase, type Lang } from '@/lib/i18n';
+import { langPaths } from '@/lib/paths';
+import { site } from '@/data/site';
 
 export const getStaticPaths = langPaths;
 const { lang } = Astro.props as { lang: Lang };

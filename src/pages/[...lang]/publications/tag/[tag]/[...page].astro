@@ -1,7 +1,7 @@
 ---
-import PublicationArchive from '../../../../../components/PublicationArchive.astro';
-import { t, fill, tagLabel, langs, langParam } from '../../../../../lib/i18n';
-import { publicationsFor, paginate, collectTags } from '../../../../../lib/publications';
+import PublicationArchive from '@/components/PublicationArchive.astro';
+import { t, fill, tagLabel, langs, langParam } from '@/lib/i18n';
+import { publicationsFor, paginate, collectTags } from '@/lib/publications';
 
 export async function getStaticPaths() {
   const paths = [];

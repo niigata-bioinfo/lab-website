@@ -1,9 +1,9 @@
 import { getCollection } from 'astro:content';
 import type { z } from 'astro/zod';
-import type { publicationSchema } from '../content.config';
-import { localePath, type Lang } from './i18n';
-import { site } from '../data/site';
-import { publicationKey } from './pubkey';
+import type { publicationSchema } from '@/content.config';
+import { localePath, type Lang } from '@/lib/i18n';
+import { site } from '@/data/site';
+import { publicationKey } from '@/lib/pubkey';
 
 export type Publication = z.infer<typeof publicationSchema> & {
   year: number;

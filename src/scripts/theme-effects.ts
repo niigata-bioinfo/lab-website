@@ -5,7 +5,7 @@
 type Effect = () => Promise<{ start: () => () => void }>;
 
 const effects: Record<string, Effect> = {
-  helix: () => import('./helix-bg'),
+  helix: () => import('@/scripts/helix-bg'),
 };
 
 let dispose: (() => void) | null = null;

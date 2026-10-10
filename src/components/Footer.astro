@@ -1,6 +1,6 @@
 ---
-import { t, type Lang } from '../lib/i18n';
-import { site } from '../data/site';
+import { t, type Lang } from '@/lib/i18n';
+import { site } from '@/data/site';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const d = t(lang);

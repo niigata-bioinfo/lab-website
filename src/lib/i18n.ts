@@ -1,5 +1,5 @@
-import ja from '../i18n/ja.json';
-import en from '../i18n/en.json';
+import ja from '@/i18n/ja.json';
+import en from '@/i18n/en.json';
 
 export type Lang = 'ja' | 'en';
 export const langs: Lang[] = ['ja', 'en'];

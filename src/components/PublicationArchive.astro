@@ -1,11 +1,11 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import PageTitle from './PageTitle.astro';
-import PublicationFilter from './PublicationFilter.astro';
-import PublicationItem from './PublicationItem.astro';
-import Pager from './Pager.astro';
-import { t, localePath, type Lang } from '../lib/i18n';
-import { publicationsFor, collectTags, collectYears, type Page, type Publication } from '../lib/publications';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageTitle from '@/components/PageTitle.astro';
+import PublicationFilter from '@/components/PublicationFilter.astro';
+import PublicationItem from '@/components/PublicationItem.astro';
+import Pager from '@/components/Pager.astro';
+import { t, localePath, type Lang } from '@/lib/i18n';
+import { publicationsFor, collectTags, collectYears, type Page, type Publication } from '@/lib/publications';
 
 interface Props {
   lang: Lang;

@@ -1,6 +1,6 @@
 ---
-import { themes, defaultTheme, THEME_STORAGE_KEY } from '../data/themes';
-import { t, type Lang } from '../lib/i18n';
+import { themes, defaultTheme, THEME_STORAGE_KEY } from '@/data/themes';
+import { t, type Lang } from '@/lib/i18n';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const d = t(lang);

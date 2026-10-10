@@ -1,9 +1,9 @@
 ---
 import { render } from 'astro:content';
-import BaseLayout from '../../../layouts/BaseLayout.astro';
-import PageTitle from '../../../components/PageTitle.astro';
-import { t, localePath, formatDate, langs, langParam, type Lang } from '../../../lib/i18n';
-import { newsFor, newsTitle, newsSlug, type NewsEntry } from '../../../lib/news';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageTitle from '@/components/PageTitle.astro';
+import { t, localePath, formatDate, langs, langParam, type Lang } from '@/lib/i18n';
+import { newsFor, newsTitle, newsSlug, type NewsEntry } from '@/lib/news';
 
 export async function getStaticPaths() {
   const paths = [];

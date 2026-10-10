@@ -1,5 +1,5 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
-import type { Lang } from './i18n';
+import type { Lang } from '@/lib/i18n';
 
 export type NewsEntry = CollectionEntry<'news'>;
 

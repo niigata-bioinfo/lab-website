@@ -1,8 +1,8 @@
 ---
-import { localePath, tagLabel, type Lang } from '../lib/i18n';
-import { publicationUrl, type Publication } from '../lib/publications';
-import PubBadge from './PubBadge.astro';
-import PubLinks from './PubLinks.astro';
+import { localePath, tagLabel, type Lang } from '@/lib/i18n';
+import { publicationUrl, type Publication } from '@/lib/publications';
+import PubBadge from '@/components/PubBadge.astro';
+import PubLinks from '@/components/PubLinks.astro';
 interface Props { lang: Lang; pub: Publication }
 const { lang, pub } = Astro.props;
 ---

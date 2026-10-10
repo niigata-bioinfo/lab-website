@@ -1,4 +1,4 @@
-import { langs, langParam, type Lang } from './i18n';
+import { langs, langParam, type Lang } from '@/lib/i18n';
 
 /** `[...lang]` ルートで日英 2 つのパスを生成する。 */
 export function langPaths() {
