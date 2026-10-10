@@ -1,21 +1,27 @@
-#!/usr/bin/env node
 /**
- * Generate a publication entry from a PubMed ID, a PMCID or a DOI and prepend it to the YAML file for its year.
- * Whichever identifiers were not given are filled in from the NCBI ID converter API and PubMed
- * (PMID -> DOI + PMCID, PMCID -> PMID + DOI, DOI -> PMID + PMCID).
+ * Add a publication entry to the YAML file for its year.
  *
- *   npm run pub:add -- --pmid 39160276
- *   npm run pub:add -- --pmcid PMC11535236
- *   npm run pub:add -- --doi 10.1038/s44318-024-00196-0 --tags glycan,db
- *   npm run pub:add -- --pmid 39160276 --dry-run     # print the entry without writing it
+ * Interactive (default):
+ *   npm run pub:add
+ *   A wizard asks for the type, the identifier (papers) or the bibliographic fields (posters, talks, ...),
+ *   the tags, shows a preview and asks before writing anything.
  *
- * Options: --type paper (default) | --tags a,b | --lang ja | --dry-run
+ * Non-interactive (for scripts; only when --no-interactive is given):
+ *   node scripts/add-publication.ts --no-interactive --pmid 39160276
+ *   node scripts/add-publication.ts --no-interactive --pmcid PMC11535236
+ *   node scripts/add-publication.ts --no-interactive --doi 10.1038/s44318-024-00196-0 --tags glycan,db
+ *   node scripts/add-publication.ts --no-interactive --pmid 39160276 --dry-run   # print only
+ *   Options: --type paper (default) | --tags a,b | --lang ja | --dry-run
+ *
+ * For papers, whichever of PMID / PMCID / DOI were not given are filled in from the NCBI ID converter
+ * API and PubMed (PMID -> DOI + PMCID, PMCID -> PMID + DOI, DOI -> PMID + PMCID).
  * Set the NCBI_EMAIL environment variable to pass a contact address to the NCBI APIs (optional, recommended).
- * Dependencies: Node.js 22+ (built-in fetch and type stripping) and the yaml package only.
+ * Dependencies: Node.js 22+ (built-in fetch and type stripping), the yaml package and @clack/prompts.
  */
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { parse, stringify } from 'yaml';
+import * as p from '@clack/prompts';
 
 const PUB_DIR = join(process.cwd(), 'src/content/publications');
 const EUTILS = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils';
@@ -48,8 +54,11 @@ function parseArgs(argv: string[]) {
   return opts;
 }
 
+/** Sent with every API request. A regular browser UA; some endpoints reject unfamiliar clients. */
+const USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36';
+
 async function getJson(url: string): Promise<any> {
-  const res = await fetch(url, { headers: { 'User-Agent': 'niigata-bioinfo-site (add-publication.ts)' } });
+  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT, Accept: 'application/json' } });
   if (!res.ok) throw new Error(`${res.status} ${res.statusText}: ${url}`);
   return res.json();
 }
@@ -166,6 +175,85 @@ async function fromCrossref(doi: string): Promise<Omit<Entry, 'id' | 'type'>> {
   return { date, title, citation, doi, links: [{ label: titleCase(full), url: `https://doi.org/${doi}` }] };
 }
 
+const TYPES = [
+  { value: 'paper', label: 'Paper', hint: 'journal article; fetched from PubMed / Crossref' },
+  { value: 'poster', label: 'Poster' },
+  { value: 'talk', label: 'Talk', hint: 'oral presentation at a conference' },
+  { value: 'lecture', label: 'Lecture', hint: 'invited lecture, seminar, tutorial' },
+  { value: 'others', label: 'Others', hint: 'book chapter, article, etc.' },
+] as const;
+type PubType = (typeof TYPES)[number]['value'];
+
+const TAG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const hasJapanese = (s: string) => /[\u3040-\u30ff\u3400-\u9fff]/.test(s);
+
+/** Classify a free-form identifier as PMID, PMCID or DOI. */
+function detectIdentifier(raw: string): Ids | null {
+  const v = raw.trim().replace(/^https?:\/\/(dx\.)?doi\.org\//i, '');
+  if (/^\d+$/.test(v)) return { pmid: Number(v) };
+  if (/^PMC\d+$/i.test(v)) return { pmcid: v.toUpperCase() };
+  if (/^10\.\d{4,9}\/\S+$/.test(v)) return { doi: v };
+  return null;
+}
+
+/** Tags already used in the YAML files, most frequent first. */
+function collectTags(entries: Entry[]): { slug: string; count: number }[] {
+  const counts = new Map<string, number>();
+  for (const e of entries) for (const t of e.tags ?? []) counts.set(t, (counts.get(t) ?? 0) + 1);
+  return [...counts].map(([slug, count]) => ({ slug, count })).sort((a, b) => b.count - a.count || a.slug.localeCompare(b.slug));
+}
+
+interface ManualFields { title: string; authors: string; venue: string; place: string; date: string }
+
+/** Compose a citation in the lab's house style for presentations and other non-journal items. */
+function buildManualCitation(f: ManualFields): string {
+  const [y, m, d] = f.date.split('-').map(Number);
+  const when = `${y}/${m}${d ? `/${d}` : ''}`;
+  const ja = hasJapanese(f.title) || hasJapanese(f.authors);
+  if (ja) {
+    const authors = f.authors.split(/[、,，]/).map((a) => a.trim()).filter(Boolean).join('、');
+    const tail = [f.venue, f.place].filter(Boolean).join('、');
+    return `${authors ? `${authors}、` : ''}「${f.title}」、${tail} (${when}).`;
+  }
+  const authors = f.authors.trim().replace(/\.?$/, '');
+  const title = f.title.trim().replace(/\.$/, '');
+  const tail = [f.venue, f.place].filter(Boolean).join(', ');
+  return `${authors ? `${authors}. ` : ''}${title}. ${tail} (${when}).`;
+}
+
+function makeEntry(type: string, base: Omit<Entry, 'type'>, tags: string[] | undefined, lang: string | undefined): Entry {
+  const entry: Entry = { type, date: base.date, title: base.title, citation: base.citation };
+  if (base.pmid) entry.pmid = base.pmid;
+  if (base.pmcid) entry.pmcid = base.pmcid;
+  if (base.doi) entry.doi = base.doi;
+  if (base.links) entry.links = base.links;
+  if (tags && tags.length) entry.tags = tags;
+  if (lang) entry.lang = lang;
+  return entry;
+}
+
+function writeEntry(entry: Entry): string {
+  const year = entry.date.slice(0, 4);
+  const file = join(PUB_DIR, `${year}.yaml`);
+  const current = existsSync(file) ? readFileSync(file, 'utf8') : '';
+  writeFileSync(file, stringify([entry], { lineWidth: 0 }) + current);
+  return `src/content/publications/${year}.yaml`;
+}
+
+/** Resolve a paper from any identifier: complete the ids, then fetch from PubMed or Crossref. */
+async function resolvePaper(input: Ids, existing: Entry[]): Promise<{ base: Omit<Entry, 'type'>; ids: Ids; dup?: Entry }> {
+  const ids = await convertIds(input);
+  if (!ids.pmid && ids.doi) ids.pmid = await pmidFromDoi(ids.doi);
+  const dup = existing.find((e) =>
+    (ids.pmid && e.pmid === ids.pmid) || (ids.pmcid && e.pmcid === ids.pmcid) || (ids.doi && e.doi?.toLowerCase() === ids.doi.toLowerCase()));
+  if (dup) return { base: { date: '', title: '', citation: '' }, ids, dup };
+  if (!ids.pmid && !ids.doi) throw new Error(`No PMID / DOI found for ${ids.pmcid}`);
+  const base = ids.pmid ? await fromPubmed(ids.pmid) : await fromCrossref(ids.doi!);
+  if (ids.doi && !base.doi) base.doi = ids.doi;
+  if (ids.pmcid && !base.pmcid) base.pmcid = ids.pmcid;
+  return { base, ids };
+}
+
 function loadAll(): { file: string; entries: Entry[] }[] {
   // Read only to detect duplicates (pmid / pmcid / doi)
   return readdirSync(PUB_DIR)
@@ -173,8 +261,7 @@ function loadAll(): { file: string; entries: Entry[] }[] {
     .map((f) => ({ file: join(PUB_DIR, f), entries: (parse(readFileSync(join(PUB_DIR, f), 'utf8')) ?? []) as Entry[] }));
 }
 
-async function main() {
-  const opts = parseArgs(process.argv.slice(2));
+async function runNonInteractive(opts: Record<string, string | boolean>) {
   // Treat --pmid "PMC..." as a PMCID; --pmcid may be given with or without the "PMC" prefix.
   let pmidArg: number | undefined;
   let pmcidArg: string | undefined;
@@ -189,48 +276,135 @@ async function main() {
     process.exit(1);
   }
   if (!pmidArg && !pmcidArg && !doiArg) {
-    console.error('Usage: npm run pub:add -- --pmid <PMID> | --pmcid <PMCID> | --doi <DOI> [--type paper] [--tags a,b] [--lang ja] [--dry-run]');
+    console.error('Usage: node scripts/add-publication.ts --no-interactive --pmid <PMID> | --pmcid <PMCID> | --doi <DOI> [--type paper] [--tags a,b] [--lang ja] [--dry-run]');
     process.exit(1);
   }
 
-  // Fill in the identifiers that were not given
-  const ids = await convertIds({ pmid: pmidArg, pmcid: pmcidArg, doi: doiArg });
-  if (!ids.pmid && ids.doi) ids.pmid = await pmidFromDoi(ids.doi);
-
-  const all = loadAll();
-  const existing = all.flatMap((f) => f.entries);
-  const dup = existing.find((e) =>
-    (ids.pmid && e.pmid === ids.pmid) || (ids.pmcid && e.pmcid === ids.pmcid) || (ids.doi && e.doi?.toLowerCase() === ids.doi.toLowerCase()));
+  const existing = loadAll().flatMap((f) => f.entries);
+  const { base, dup } = await resolvePaper({ pmid: pmidArg, pmcid: pmcidArg, doi: doiArg }, existing);
   if (dup) {
     console.error(`Already registered: ${dup.title}`);
     process.exit(1);
   }
-  if (!ids.pmid && !ids.doi) {
-    console.error(`No PMID / DOI found for ${ids.pmcid}`);
-    process.exit(1);
+  const tags = typeof opts.tags === 'string' ? opts.tags.split(',').map((t) => t.trim()).filter(Boolean) : undefined;
+  const entry = makeEntry(typeof opts.type === 'string' ? opts.type : 'paper', base, tags, typeof opts.lang === 'string' ? opts.lang : undefined);
+  console.log(stringify([entry], { lineWidth: 0 }));
+  if (opts['dry-run']) return;
+  console.log(`Added to ${writeEntry(entry)}`);
+}
+
+/** Abort the wizard cleanly when the user presses Ctrl+C / Esc. */
+function guard<T>(value: T): Exclude<T, symbol> {
+  if (p.isCancel(value)) {
+    p.cancel('Cancelled. Nothing was written.');
+    process.exit(0);
+  }
+  return value as Exclude<T, symbol>;
+}
+
+async function runWizard() {
+  p.intro('Add a publication');
+  const existing = loadAll().flatMap((f) => f.entries);
+
+  const type = guard(await p.select<PubType>({ message: 'Type of publication', options: [...TYPES] }));
+
+  let base: Omit<Entry, 'type'>;
+  if (type === 'paper') {
+    const raw = guard(await p.text({
+      message: 'PMID, PMCID or DOI  (e.g. 39160276, PMC11535236, 10.1038/s44318-024-00196-0)',
+      validate: (v) => (detectIdentifier(v ?? '') ? undefined : 'Enter a PMID (digits), a PMCID (PMC...) or a DOI (10.xxxx/...)'),
+    }));
+    const input = detectIdentifier(raw)!;
+    const kind = input.pmid ? `PMID ${input.pmid}` : input.pmcid ? `PMCID ${input.pmcid}` : `DOI ${input.doi}`;
+    const sp = p.spinner();
+    sp.start(`Looking up ${kind}`);
+    let resolved: Awaited<ReturnType<typeof resolvePaper>>;
+    try {
+      resolved = await resolvePaper(input, existing);
+    } catch (e) {
+      sp.stop('Lookup failed');
+      p.cancel((e as Error).message);
+      process.exit(1);
+    }
+    if (resolved.dup) {
+      sp.stop('Already registered');
+      p.cancel(`This paper is already in the list: ${resolved.dup.title}`);
+      process.exit(1);
+    }
+    const ids = [resolved.ids.pmid && `PMID ${resolved.ids.pmid}`, resolved.ids.pmcid && resolved.ids.pmcid, resolved.ids.doi && `DOI ${resolved.ids.doi}`].filter(Boolean).join(', ');
+    sp.stop(`Found: ${resolved.base.title}  (${ids})`);
+    base = resolved.base;
+  } else {
+    const isOther = type === 'others';
+    // Examples are part of the message so they stay visible while typing (a hint inside the field disappears on the first key).
+    const title = guard(await p.text({ message: 'Title, in Japanese or English  (e.g. 腸内細菌叢の比較メタゲノム解析  or  Comparative metagenomics of the gut microbiota)', validate: (v) => (v?.trim() ? undefined : 'Required') }));
+    const authors = guard(await p.text({ message: 'Authors in the order they appear, comma separated  (e.g. 奥田修二郎、山田拓司  or  Okuda, S., Yamada, T.)', defaultValue: '' }));
+    const venue = guard(await p.text({
+      message: isOther ? 'Published in  (e.g. 実験医学別冊 質量分析活用スタンダード  or  Methods Mol. Biol.)' : 'Conference or event name  (e.g. 第99回日本細菌学会総会  or  ISMB 2026)',
+      validate: (v) => (v?.trim() ? undefined : 'Required'),
+    }));
+    const place = guard(await p.text({
+      message: isOther ? 'Pages, ISBN or other details, optional  (e.g. 328-331, ISBN 978-4-7581-2264-1)' : 'Venue or city, optional  (e.g. 朱鷺メッセ新潟  or  Montreal)',
+      defaultValue: '',
+    }));
+    const today = new Date().toISOString().slice(0, 10);
+    const date = guard(await p.text({
+      message: 'Date  (YYYY-MM-DD; for an event, the day of the presentation)',
+      initialValue: today,
+      validate: (v) => (/^\d{4}-\d{2}-\d{2}$/.test(v ?? '') && !Number.isNaN(Date.parse(v!)) ? undefined : 'Use the form 2025-03-21'),
+    }));
+    const fields: ManualFields = { title: title.trim(), authors: authors.trim(), venue: venue.trim(), place: place.trim(), date };
+    base = { date, title: fields.title, citation: buildManualCitation(fields) };
   }
 
-  const base = ids.pmid ? await fromPubmed(ids.pmid) : await fromCrossref(ids.doi!);
-  if (ids.doi && !base.doi) base.doi = ids.doi;
-  if (ids.pmcid && !base.pmcid) base.pmcid = ids.pmcid;
+  // Tags: existing ones as a checklist, plus free input for new ones
+  const known = collectTags(existing);
+  let tags: string[] = [];
+  if (known.length) {
+    tags = guard(await p.multiselect<string>({
+      message: 'Tags (space to toggle, enter to continue)',
+      options: known.map((t) => ({ value: t.slug, label: t.slug, hint: `${t.count}` })),
+      required: false,
+    }));
+  }
+  const extra = guard(await p.text({ message: 'New tags, comma separated, optional  (e.g. single-cell, long-read)', defaultValue: '',
+    validate: (v) => { const bad = (v ?? '').split(',').map((t) => t.trim()).filter(Boolean).find((t) => !TAG_RE.test(t)); return bad ? `"${bad}": use lowercase letters, digits and hyphens` : undefined; } }));
+  tags = [...new Set([...tags, ...extra.split(',').map((t) => t.trim()).filter(Boolean)])];
 
-  const entry: Entry = { type: typeof opts.type === 'string' ? opts.type : 'paper', date: base.date, title: base.title, citation: base.citation };
-  if (base.pmid) entry.pmid = base.pmid;
-  if (base.pmcid) entry.pmcid = base.pmcid;
-  if (base.doi) entry.doi = base.doi;
-  if (base.links) entry.links = base.links;
-  if (typeof opts.tags === 'string') entry.tags = opts.tags.split(',').map((t) => t.trim()).filter(Boolean);
-  if (typeof opts.lang === 'string') entry.lang = opts.lang;
+  const jaOnlyDefault = hasJapanese(base.title) || hasJapanese(base.citation);
+  const showInEnglish = guard(await p.confirm({ message: 'Show on the English site too?', initialValue: !jaOnlyDefault }));
+  let entry = makeEntry(type, base, tags, showInEnglish ? undefined : 'ja');
 
-  const snippet = stringify([entry], { lineWidth: 0 });
-  console.log(snippet);
-  if (opts['dry-run']) return;
+  // Preview, optionally edit the citation, then write
+  for (;;) {
+    p.note(stringify([entry], { lineWidth: 0 }).trimEnd(), `Preview (src/content/publications/${entry.date.slice(0, 4)}.yaml)`);
+    const action = guard(await p.select<'write' | 'edit' | 'quit'>({
+      message: 'What next?',
+      options: [
+        { value: 'write', label: 'Write it to the file' },
+        { value: 'edit', label: 'Edit the citation text first' },
+        { value: 'quit', label: 'Discard' },
+      ],
+    }));
+    if (action === 'edit') {
+      const citation = guard(await p.text({ message: 'Citation', initialValue: entry.citation, validate: (v) => (v?.trim() ? undefined : 'Required') }));
+      entry = { ...entry, citation: citation.trim() };
+      continue;
+    }
+    if (action === 'quit') {
+      p.cancel('Discarded. Nothing was written.');
+      return;
+    }
+    const file = writeEntry(entry);
+    p.outro(`Added to ${file}. Review the diff and commit.`);
+    return;
+  }
+}
 
-  const year = entry.date.slice(0, 4);
-  const file = join(PUB_DIR, `${year}.yaml`);
-  const current = existsSync(file) ? readFileSync(file, 'utf8') : '';
-  writeFileSync(file, snippet + current);
-  console.log(`Added to src/content/publications/${year}.yaml`);
+async function main() {
+  const opts = parseArgs(process.argv.slice(2));
+  if (opts['no-interactive']) await runNonInteractive(opts);
+  else await runWizard();
 }
 
 main().catch((e) => {

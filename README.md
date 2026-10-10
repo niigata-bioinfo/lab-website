@@ -28,20 +28,34 @@ npm run check   # 型とコンテンツスキーマの検査
 
 ### 研究業績を追加する
 
-論文は PubMed ID か DOI から自動生成できます。
+`npm run pub:add` を実行すると、対話式のウィザードが順に質問します。
+
+1. 種別 (論文、ポスター、口頭発表、講習会・講演、その他) を選ぶ
+2. 論文なら PMID・PMCID・DOI のどれか 1 つを入力する (形式は自動判別)。書誌情報は PubMed / Crossref から取得され、
+   残りの識別子も NCBI の ID 変換 API で補完される
+3. ポスターなどは、タイトル・著者・学会名・開催地・日付を順に入力する。各項目は日本語か英語のどちらか一方で書く
+   (例: 著者は「奥田修二郎、山田拓司」または「Okuda, S., Yamada, T.」)。日本語が含まれていれば日本語の書式、
+   そうでなければ英語の書式で引用文字列が自動生成される
+4. タグを既存の一覧から選び、必要なら新しいタグを追加する
+5. 英語ページにも載せるかを答える (日本語の業績は既定で日本語ページのみ)
+6. プレビューを確認し、「書き込む」「引用文字列を直す」「やめる」のいずれかを選ぶ
+
+書き込む前に必ずプレビューが出ます。Ctrl+C でいつでも中断でき、その場合はファイルに触りません。
+重複 (PMID・PMCID・DOI が既存エントリと一致) はプレビューの前に止まります。
+
+スクリプトや CI から使う場合は `--no-interactive` を付けると、フラグで指定する従来の形になります。
 
 ```bash
-npm run pub:add -- --pmid 39160276
-npm run pub:add -- --pmcid PMC11535236
-npm run pub:add -- --doi 10.1038/s44318-024-00196-0 --tags glycan,db
-npm run pub:add -- --pmid 39160276 --dry-run   # 追記せず内容の確認だけ
+node scripts/add-publication.ts --no-interactive --pmid 39160276
+node scripts/add-publication.ts --no-interactive --pmcid PMC11535236
+node scripts/add-publication.ts --no-interactive --doi 10.1038/s44318-024-00196-0 --tags glycan,db
+node scripts/add-publication.ts --no-interactive --pmid 39160276 --dry-run   # 追記せず内容の確認だけ
 ```
 
-PMID・PMCID・DOI のどれか 1 つあれば、残りは NCBI の ID 変換 API と PubMed から自動で補完されます
-(PMC に収載されていない論文は PMCID が付きません)。環境変数 `NCBI_EMAIL` に連絡先を入れておくと NCBI API に渡されます (任意)。
+(`npm run` 経由で渡す場合は `npm run pub:add -- --no-interactive --pmid 39160276` のように `--` で区切ります。)
+環境変数 `NCBI_EMAIL` に連絡先を入れておくと NCBI API に渡されます (任意)。
 
-該当年の YAML の先頭にエントリが追記されるので、内容を確認して commit します。
-ポスター・口頭発表・講演など PubMed に無いものは、同じ形式で手書きします。
+ウィザードを使わず YAML を直接書く場合の形式は次のとおりです。
 
 ```yaml
 - type: poster             # paper | poster | talk | lecture | others
@@ -115,7 +129,7 @@ src/
 ├── components/        # ヘッダー、業績カードなど
 ├── pages/[...lang]/   # ルーティング。日本語は /、英語は /en/ 配下
 └── styles/global.css  # Tailwind CSS v4 とデザイントークン
-scripts/add-publication.ts   # PubMed / DOI から業績 YAML を生成
+scripts/add-publication.ts   # 業績を追加するウィザード (PubMed / Crossref から取得)
 redirects/                   # 旧 WordPress URL からのリダイレクト表 (nginx 用と Pages 用)
 .github/workflows/           # CI (PR でビルド確認) とデプロイ (main で rsync)
 ```
