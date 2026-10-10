@@ -82,6 +82,9 @@
 
 /* テーマに依らない骨格 */
 @layer components {
+  /* アンカー (#p-xxxx など) へ移動したとき、固定ヘッダーの下に隠れないよう上に余白を取る。
+     --header-h は Header.astro のスクリプトが実測して設定する。 */
+  [id] { scroll-margin-top: var(--scroll-offset, 16px); }
   .site-w { @apply w-full px-[10px] lg:w-[1000px] lg:px-0 lg:mx-auto; }
   .theme-switcher { @apply fixed bottom-[12px] right-[12px] z-50 flex items-center gap-[6px] text-[12px]; }
   .theme-switcher select { @apply h-[28px] px-[6px] text-[12px]; }

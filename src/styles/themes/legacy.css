@@ -102,6 +102,7 @@
     /* ---- 一覧カード ---- */
     .archive-list > li { @apply p-[15px] shadow-card lg:p-[20px]; }
     .archive-list > li + li { @apply mt-[15px] lg:mt-[30px]; }
+    .archive-list > li:target { @apply bg-cream/30; }
     .archive-meta { @apply text-muted text-[12px] font-bold tracking-[1px]; }
     .archive-date { @apply inline-block align-middle; }
     .archive-date::before { content: "\f073"; font-family: FontAwesome; @apply inline-block mr-[5px] mb-[4px] text-gold text-[16px] leading-none font-normal align-middle; }

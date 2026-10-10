@@ -68,6 +68,14 @@ const langs: Lang[] = ['ja', 'en'];
 </header>
 
 <script>
+  // ヘッダーの高さを CSS 変数に反映する (sticky ヘッダーのテーマでアンカー移動先が隠れないようにするため)
+  const header = document.querySelector<HTMLElement>('.site-header');
+  if (header) {
+    const setHeight = () => document.documentElement.style.setProperty('--header-h', `${header.offsetHeight}px`);
+    setHeight();
+    new ResizeObserver(setHeight).observe(header);
+  }
+
   const btn = document.querySelector<HTMLButtonElement>('.nav-toggle');
   const nav = document.querySelector<HTMLElement>('.site-nav');
   btn?.addEventListener('click', () => {

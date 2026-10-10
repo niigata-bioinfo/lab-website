@@ -17,6 +17,7 @@
     ::selection { background: rgb(34 211 238 / 0.35); }
 
     /* 3D 背景。本文は z-10 以上に置く */
+    --scroll-offset: calc(var(--header-h, 120px) + 16px); /* ヘッダーが sticky なので、その分だけ下にずらす */
     #helix-canvas { @apply fixed inset-0 w-full h-full pointer-events-none; z-index: 0; }
     .site-header, .hero-bg, .site-w, .site-footer { @apply relative; z-index: 1; }
 
@@ -109,6 +110,7 @@
     /* ---- 一覧カード ---- */
     .archive-list { @apply space-y-[14px]; }
     .archive-list > li { @apply p-[18px] lg:p-[22px] rounded-2xl bg-white/[0.04] border border-white/10 backdrop-blur-md transition-colors hover:border-white/20; }
+    .archive-list > li:target { @apply border-glow-cyan/60 shadow-[0_0_30px_rgb(34_211_238_/_0.2)]; }
     .archive-meta { @apply flex items-center gap-[10px] text-[11px] font-semibold tracking-wider text-frost-dim; }
     .archive-date::before { content: ""; @apply inline-block w-[6px] h-[6px] mr-[8px] rounded-full bg-glow-cyan align-middle; }
     .archive-title { @apply mt-[10px] text-[16px] lg:text-[17px] font-semibold leading-[1.45] text-white; }
